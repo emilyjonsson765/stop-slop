@@ -57,3 +57,29 @@
 > "The best teams optimize for learning, not productivity."
 
 **Changes:** Direct claim. No rhetorical scaffolding.
+
+---
+
+## Example 6: AI-Era Vocabulary Stack
+
+**Before:**
+> "Additionally, the framework meticulously delves into the intricate tapestry of security controls, bolstered by pivotal guidelines that underscore the enduring testament to best practices."
+
+**After:**
+> "The framework covers security controls in detail. The guidelines are the reference standard."
+
+**Changes:** Removed every word from the AI-era vocabulary list. "Additionally" cut entirely. "Meticulously delves into" → "covers in detail." "Intricate tapestry" → cut. "Bolstered by pivotal guidelines that underscore the enduring testament to" → "The guidelines are."
+
+---
+
+## Example 7: Hallucinated Citation Artifacts
+
+AI tools (especially retrieval-augmented ones) sometimes append source-count suffixes to inline text — patterns like "+3", "+1", "Wikipedia+1", "Microsoft Learn+3". These appear when AI output is pasted directly without cleanup.
+
+**Before (raw AI paste):**
+> "This was created conjointly by technical committee ISO/IEC JTC 1/SC 27 (Information security, cybersecurity, and protection of privacy) IT Governance+3ISO+3ISO+3. It belongs to the ISO/IEC 27000 family Wikipedia+1."
+
+**After:**
+> "ISO/IEC JTC 1/SC 27 (Information security, cybersecurity, and privacy) created this standard. It belongs to the ISO/IEC 27000 family."
+
+**Changes:** Stripped citation artifacts (+3, +1). Removed passive-voice opener. Cut redundant "ISO+3ISO+3" duplication artifacts.

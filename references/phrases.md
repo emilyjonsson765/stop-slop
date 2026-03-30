@@ -115,6 +115,30 @@ Announcing difficulty or significance rather than demonstrating it:
 - "This is what X actually looks like"
 - "actually matters"
 
+## AI-Era Vocabulary
+
+Words overrepresented in AI output from the 2023–2024 GPT-4 era, confirmed by Wikipedia's AI writing pattern documentation. Replace with concrete, specific language.
+
+**Filler intensity words** — cut or rephrase:
+- "delve" (use: examine, explore, look at)
+- "underscore" (use: show, confirm, highlight)
+- "boasts" (use: has, includes — only people boast)
+- "garner" (use: get, earn, attract)
+- "bolstered" (use: strengthened, supported)
+
+**Hollow adjectives** — replace with the specific quality:
+- "meticulous" / "meticulously" (say *what* was careful about it)
+- "intricate" / "intricacies" (say what is actually complex)
+- "pivotal" (use: key, decisive — or just show why it mattered)
+- "vibrant" (describe the actual quality)
+- "enduring" (say how long or why it lasts)
+
+**Poetic reach** — cut entirely:
+- "tapestry" (never use for non-literal contexts)
+- "testament" ("a testament to X" → cut; say X directly)
+
+**Additionally**: The connector "additionally" is a top AI tell. Cut it. If two ideas belong together, connect them with a conjunction or restructure the sentence. If they're separate, start a new sentence.
+
 ## Vague Declaratives
 
 Sentences that announce importance without naming the specific thing. Kill these.
