@@ -150,3 +150,32 @@ These phrases pretend to explain a lack of information while saying nothing.
 - "keeps personal details private"
 
 If the information is unknown, say it's unknown or omit the claim.
+
+## Knowledge-Cutoff Disclaimers
+
+These announce the model's limits instead of answering the question.
+
+- "As of my last knowledge update"
+- "based on available information"
+- "I don't have specific information about"
+- "is limited in the provided search results"
+- "aren't widely documented"
+- "are not extensively documented in readily available sources"
+
+If you don't know, say what is known, name the gap, or stop. Don't paste the model's internal disclaimer into the prose.
+
+## Review-Workflow Boilerplate
+
+These show up when AI writes for submission queues, moderators, reviewers, or admins.
+
+- "put a decline notice"
+- "meet the necessary standards for publication"
+- "ensure neutrality"
+- "ensured neutrality"
+- "ensured an encyclopedic tone"
+- "avoided promotional language"
+- "improved clarity, flow, and readability"
+- "focus on factual details"
+- "provide a neutral and informative description"
+
+These are process slogans, not content. Replace them with the exact edit made.
