@@ -132,3 +132,71 @@ Wh- openers become a crutch. "What makes this hard is..." becomes "The constrain
 |---------|---------|
 | Lazy extremes (every, always, never, everyone, everybody, nobody) | False authority. Use specifics instead of sweeping claims. |
 | All adverbs (-ly words, "really," "just," "literally," "genuinely," "honestly," "simply," "actually") | Empty emphasis. See phrases.md for full list. |
+
+## Burden-Shifting Demands for Proof
+
+AI-written defenses often ask for "concrete evidence" or "concrete examples" in a canned, procedural way. The point is not to examine the claim but to bounce the burden back to the other person.
+
+| Pattern | Problem |
+|---------|---------|
+| "Without concrete examples, this concern cannot be evaluated" | Sounds rigorous while refusing to engage with the substance |
+| "In the absence of concrete evidence, I propose removing the tag" | Procedural language used as a shield |
+
+**Instead:** Answer the actual criticism. If you need an example, ask for one specific example and say what you will do with it.
+
+## Bureaucratic Solicitation
+
+Writers using AI often tack on a closing paragraph that asks for feedback in a polished, deferential, low-information way.
+
+| Pattern | Problem |
+|---------|---------|
+| "If you have any concerns/suggestions/feedback, I would be happy to address them" | Formal placeholder instead of a concrete ask |
+| "We welcome any additional input and remain committed to..." | Compliance-signaling close with no content |
+| "Please let me know if there are specific sections you'd like me to revise" | Outsourcing the writer's judgment to the reader |
+
+**Instead:** Ask one concrete question, or state the exact change you'll make next.
+
+## Subject-Line Leakage
+
+AI-generated drafts for emails, forms, or messages sometimes leak the field label into the body.
+
+| Pattern | Problem |
+|---------|---------|
+| Opening with "Subject:" followed by a title | Suggests the text was pasted from a generated template, not written for the actual medium |
+
+**Instead:** Start with the message itself. If the subject matters, turn it into a heading or cut it.
+
+## Process-Narrating Edit Summaries
+
+AI-written summaries often narrate intent, compliance, and precautions instead of naming the actual edit.
+
+| Pattern | Problem |
+|---------|---------|
+| "I revised the content to provide a neutral and informative description..." | First-person justification instead of a summary |
+| "ensured neutrality / encyclopedic tone / reliable sources" | Echoes policy language instead of the concrete change |
+| Long paragraph summaries for small edits | Suggests the model is explaining itself rather than editing |
+| Bullet points or emoji inside an edit summary | Overformatted for a field that should be terse |
+
+**Instead:** Name the edit in a clause. "Cut unsourced claim; added cited sales figure." Short beats ceremonial.
+
+## Template-Name Transclusion
+
+AI sometimes pastes raw template names into discussion text, which turns prose into live wiki markup.
+
+| Pattern | Problem |
+|---------|---------|
+| Writing `{{TemplateName}}` when referring to a tag | Accidentally transcludes the template instead of mentioning it |
+| Listing multiple maintenance tags in braces inside prose | Turns the comment into a broken rendering dump |
+
+**Instead:** Mention the plain name, or escape the template syntax. References to markup should stay references.
+
+## Emoji-Decorated Headings and Lists
+
+AI likes to decorate structure with emoji when the medium does not call for it.
+
+| Pattern | Problem |
+|---------|---------|
+| "🧠 Analysis:" / "🚨 Problem:" / "✅ Next steps" | Template-style staging instead of natural prose |
+| Every bullet prefixed with an emoji | Makes the list feel generated and over-signaled |
+
+**Instead:** Use words, not icons, to carry structure. If the point is strong, it doesn't need a badge.

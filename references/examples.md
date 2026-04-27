@@ -57,3 +57,101 @@
 > "The best teams optimize for learning, not productivity."
 
 **Changes:** Direct claim. No rhetorical scaffolding.
+
+---
+
+## Example 6: AI-Era Vocabulary Stack
+
+**Before:**
+> "Additionally, the framework meticulously delves into the intricate tapestry of security controls, bolstered by pivotal guidelines that underscore the enduring testament to best practices."
+
+**After:**
+> "The framework covers security controls in detail. The guidelines are the reference standard."
+
+**Changes:** Removed every word from the AI-era vocabulary list. "Additionally" cut entirely. "Meticulously delves into" → "covers in detail." "Intricate tapestry" → cut. "Bolstered by pivotal guidelines that underscore the enduring testament to" → "The guidelines are."
+
+---
+
+## Example 7: Hallucinated Citation Artifacts
+
+AI tools (especially retrieval-augmented ones) sometimes append source-count suffixes to inline text — patterns like "+3", "+1", "Wikipedia+1", "Microsoft Learn+3". These appear when AI output is pasted directly without cleanup.
+
+**Before (raw AI paste):**
+> "This was created conjointly by technical committee ISO/IEC JTC 1/SC 27 (Information security, cybersecurity, and protection of privacy) IT Governance+3ISO+3ISO+3. It belongs to the ISO/IEC 27000 family Wikipedia+1."
+
+**After:**
+> "ISO/IEC JTC 1/SC 27 (Information security, cybersecurity, and privacy) created this standard. It belongs to the ISO/IEC 27000 family."
+
+**Changes:** Stripped citation artifacts (+3, +1). Removed passive-voice opener. Cut redundant "ISO+3ISO+3" duplication artifacts.
+
+---
+
+## Example 8: Compliance Theater + Feedback Boilerplate
+
+**Before:**
+> "We remain committed to creating content that aligns with the platform's mission and standards. If you have any concerns or suggestions, we would welcome additional input and be happy to address them."
+
+**After:**
+> "We cut the unsupported claim in paragraph three and replaced it with a cited example. If there's still a problem, point to the sentence."
+
+**Changes:** Removed mission-and-standards boilerplate, cut the generic invitation for feedback, and replaced both with a concrete revision plus a specific ask.
+
+---
+
+## Example 9: Subject-Line Leakage
+
+**Before:**
+> "Subject: Request for Review and Clarification Regarding Draft Article\n\nI am reaching out to request feedback on the revised draft."
+
+**After:**
+> "Please review the revised draft."
+
+**Changes:** Removed the leaked template field label and the email-formality padding. Started with the actual request.
+
+---
+
+## Example 10: Process-Narrating Edit Summary
+
+**Before:**
+> "I formalized the tone, clarified technical content, ensured neutrality, and indicated citation needs. Historical narratives were streamlined, allocation details specified with regulatory references, propagation explanations made reader-friendly, and equipment discussions focused on availability and regulatory compliance, all while adhering to encyclopedic standards."
+
+**After:**
+> "Cut unsourced claims; added citation-needed tags; tightened technical wording."
+
+**Changes:** Replaced a ceremonial self-review with a plain summary of what changed.
+
+---
+
+## Example 11: Knowledge-Cutoff Leakage
+
+**Before:**
+> "As of my last knowledge update in January 2022, I don't have specific information about the current status of Chester Mental Health Center in today's era."
+
+**After:**
+> "I couldn't verify the center's current status from the sources I found."
+
+**Changes:** Removed the model-disclaimer phrasing and stated the actual limit.
+
+---
+
+## Example 12: Template-Name Transclusion
+
+**Before:**
+> "We should discuss tags such as {{Unreliable sources}}, {{Disputed}}, and {{Cleanup rewrite}} before adding more of them."
+
+**After:**
+> "We should discuss the 'unreliable sources', 'disputed', and 'cleanup rewrite' tags before adding more of them."
+
+**Changes:** Kept the sentence as prose instead of live template markup.
+
+---
+
+## Example 13: Defensive "Concrete" Language
+
+**Before:**
+> "In the absence of concrete evidence, I propose removing the AI-generated tag immediately to maintain the article's integrity."
+
+**After:**
+> "If you think this tag is wrong, point to the sentence that triggered it. I'll rewrite or remove it."
+
+**Changes:** Cut the procedural fog. Replaced "concrete evidence" boilerplate with a direct request tied to a specific action.

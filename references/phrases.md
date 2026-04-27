@@ -71,6 +71,7 @@ Specific offenders:
 - "interestingly"
 - "importantly"
 - "crucially"
+- "robust"
 
 Also cut these filler phrases:
 
@@ -126,3 +127,65 @@ Sentences that announce importance without naming the specific thing. Kill these
 - "The consequences are real"
 
 If a sentence says something is important/deep/structural without showing the specific thing, cut it or replace it with the specific thing.
+
+## Compliance Theater
+
+These phrases show up when the writer wants to sound responsible, policy-aligned, or open to feedback instead of saying something specific.
+
+- "aligns with [the mission / the goals / the standards]"
+- "adheres to [the policies / the guidelines / the standards]"
+- "committed to [the mission / responsible editing / constructive dialogue]"
+- "open to further guidance"
+- "welcome any additional input"
+- "happy to address any concerns"
+- "if you have any concerns / suggestions / feedback"
+- "please do not hesitate to let me know"
+
+These are social lubricant, not substance. Replace them with the specific action, request, or revision.
+
+## Defensive Placeholder Language
+
+These phrases simulate rigor while dodging the substance of the dispute.
+
+- "concrete evidence"
+- "concrete examples"
+
+They often show up in AI-written defenses, especially when the model wants to shift the burden back to the critic instead of addressing the underlying point.
+
+## Privacy Placeholders
+
+These phrases pretend to explain a lack of information while saying nothing.
+
+- "maintains a low profile"
+- "keeps personal details private"
+
+If the information is unknown, say it's unknown or omit the claim.
+
+## Knowledge-Cutoff Disclaimers
+
+These announce the model's limits instead of answering the question.
+
+- "As of my last knowledge update"
+- "based on available information"
+- "I don't have specific information about"
+- "is limited in the provided search results"
+- "aren't widely documented"
+- "are not extensively documented in readily available sources"
+
+If you don't know, say what is known, name the gap, or stop. Don't paste the model's internal disclaimer into the prose.
+
+## Review-Workflow Boilerplate
+
+These show up when AI writes for submission queues, moderators, reviewers, or admins.
+
+- "put a decline notice"
+- "meet the necessary standards for publication"
+- "ensure neutrality"
+- "ensured neutrality"
+- "ensured an encyclopedic tone"
+- "avoided promotional language"
+- "improved clarity, flow, and readability"
+- "focus on factual details"
+- "provide a neutral and informative description"
+
+These are process slogans, not content. Replace them with the exact edit made.
