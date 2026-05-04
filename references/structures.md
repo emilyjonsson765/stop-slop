@@ -153,6 +153,7 @@ Writers using AI often tack on a closing paragraph that asks for feedback in a p
 | "If you have any concerns/suggestions/feedback, I would be happy to address them" | Formal placeholder instead of a concrete ask |
 | "We welcome any additional input and remain committed to..." | Compliance-signaling close with no content |
 | "Please let me know if there are specific sections you'd like me to revise" | Outsourcing the writer's judgment to the reader |
+| "I assure you that..." / "My intention is to..." | Defensive self-description instead of a substantive reply |
 
 **Instead:** Ask one concrete question, or state the exact change you'll make next.
 
@@ -174,8 +175,9 @@ AI-written summaries often narrate intent, compliance, and precautions instead o
 |---------|---------|
 | "I revised the content to provide a neutral and informative description..." | First-person justification instead of a summary |
 | "ensured neutrality / encyclopedic tone / reliable sources" | Echoes policy language instead of the concrete change |
+| Itemizing adherence to policy shorthand like "WP:NPOV" or "encyclopedic tone" | Sounds like the model is reciting the rubric rather than summarizing the edit |
 | Long paragraph summaries for small edits | Suggests the model is explaining itself rather than editing |
-| Bullet points or emoji inside an edit summary | Overformatted for a field that should be terse |
+| Bullet points, markdown, or emoji inside an edit summary | Overformatted for a field that should be terse |
 
 **Instead:** Name the edit in a clause. "Cut unsourced claim; added cited sales figure." Short beats ceremonial.
 

@@ -135,6 +135,11 @@ These phrases show up when the writer wants to sound responsible, policy-aligned
 - "aligns with [the mission / the goals / the standards]"
 - "adheres to [the policies / the guidelines / the standards]"
 - "committed to [the mission / responsible editing / constructive dialogue]"
+- "I am committed to"
+- "we are committed to"
+- "I assure you that"
+- "my intention is to"
+- "our ultimate goal is to"
 - "open to further guidance"
 - "welcome any additional input"
 - "happy to address any concerns"
@@ -158,6 +163,7 @@ These phrases pretend to explain a lack of information while saying nothing.
 
 - "maintains a low profile"
 - "keeps personal details private"
+- "maintains an active social media presence"
 
 If the information is unknown, say it's unknown or omit the claim.
 
@@ -189,3 +195,14 @@ These show up when AI writes for submission queues, moderators, reviewers, or ad
 - "provide a neutral and informative description"
 
 These are process slogans, not content. Replace them with the exact edit made.
+
+## Generic Significance Inflation
+
+These phrases gesture at importance, discourse, or philosophy without adding concrete information.
+
+- "generated debate"
+- "shaped emerging policy discussions"
+- "prompted broader reflection"
+- "raising philosophical questions"
+
+If something sparked a debate or raised a question, name the debate or question.

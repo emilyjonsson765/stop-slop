@@ -1,4 +1,4 @@
-REVID:1351247766
+REVID:1352421289
 {{redirect|Wikipedia:AI writing| other uses|WP:AI-INDEX}}
 {{WikiProject advice|wikiproject=WikiProject AI Cleanup|WP:AISIGNS|WP:AITELLS|WP:LLMSIGNS}}
 [[File:ChatGPT response screenshot 1.jpg|thumb|alt=A screenshot of ChatGPT reading: "[header] Legacy & Interpretation [body] The "Black Hole Edition" is not just a meme — it's a celebration of grassroots car culture, where ideas are limitless and fun is more important than spec sheets. Whether powered by a rotary engine, a V8 swap, or an imagined fighter jet turbine, the Miata remains the canvas for car enthusiasts worldwide."|LLMs tend to have an identifiable writing style.]]
@@ -76,34 +76,36 @@ Her insights have also been {{highlight|featured in}} *Wired*, *Refinery29*, and
 
 {{blockquote|Its significance is {{highlight|documented in archived school event programs and regional press coverage}}, including the *Mesabi Daily News*, which regularly reviewed performances held there.|From [[Special:Diff/1294930957|this June 2025 revision]] to [[Virginia High School (Minnesota)]] (also note the [[#Use_of_Markdown|use]] of [[Markdown]])}}
 
-{{blockquote|
+{{blockquote|{{fmbox|image=none|text=
 The subject has been <mark>profiled in multiple high-quality, independent, and widely-read outlets</mark>, including The Australian, SBS News, 7News, and coverage syndicated through the Associated Press—<mark>appearing in platforms</mark> like The Senior and Perth Now. These sources provide <mark>significant, substantial, secondary coverage</mark>, not trivial mentions or press releases.
 ----
 • <mark>Repeated national media coverage</mark> for both professional and advocacy work (<mark>reported by</mark> SBS, 7News, The Australian, etc.) • Leadership roles in international and national health campaigns (e.g., THINK Aorta ANZ and board member of Hearts4Heart) • National ambassador role for the National Heart Foundation of Australia, <mark>highlighted by multiple independent reports</mark> • Academic and economic contributions <mark>recognised by universities, specialist publications, and health system institutions</mark> (e.g., University of Sydney, Monash University, RANZCR) • <mark>Ongoing public presence in respected media</mark> and at speaking events over multiple years, including via <mark>independent news commentary, landmark survival stories, and national health initiatives</mark> Together, these factors clearly demonstrate <mark>significant, sustained, and verifiable coverage</mark>—meeting both WP:BIOSIGand WP:SIGCOV.
-|From [[Special:Diff/1320014555|this November 2025 revision]] to [[Wikipedia:WikiProject Articles for creation/Help desk]] (note that [[WP:BIOSIG]] is [[WP:AISHORTCUT|not a real shortcut]])}}
+}}|From [[Special:Diff/1320014555|this November 2025 revision]] to [[Wikipedia:WikiProject Articles for creation/Help desk]] (note that [[WP:BIOSIG]] is [[WP:AISHORTCUT|not a real shortcut]])}}
 
 On Wikipedia specifically, LLMs often painstakingly emphasize their sources in the body text—even for trivial coverage, uncontroversial facts, or other situations where a human Wikipedia editor would be more likely to either provide an inline citation or no source at all.
 
 '''Examples'''
-{{blockquote|text=The restaurant {{highlight|has also been mentioned in [[ABC News (Australia)|ABC News]] coverage relating to}} incidents in the surrounding precinct, underscoring its role as a well-known late-night venue in the city [of [[Adelaide]]].|title= Trivial coverage with attribution, from  [[Special:Permalink/1305163154|this August 2025 revision]] of [[The Original Pancake Kitchen]]; the reference added for this sentence did not exist.}}
+{{blockquote|text=The restaurant {{highlight|has also been mentioned in [[ABC News (Australia)|ABC News]] coverage relating to}} incidents in the surrounding precinct, underscoring its role as a well-known late-night venue in the city [of [[Adelaide]]].|title= Trivial coverage with attribution, from  [[Special:Permalink/1305163154|this August 2025 revision]] to [[The Original Pancake Kitchen]]; the reference added for this sentence did not exist.}}
 
-{{blockquote|text=In the United States, university-based incubators and accelerators have expanded alongside these centers; {{highlight|an official Library of Congress review found that}} 31.5% of SBA {{bracket|[[Small Business Administration]]}} Growth Accelerator Fund Competition winners from 2014–2016 were university-based programs.|title=Attribution of uncontroversial information, from [[Special:Permalink/1317019290|this October 2025 revision]] of [[Entrepreneurship education]]}}
+{{blockquote|text=In the United States, university-based incubators and accelerators have expanded alongside these centers; {{highlight|an official Library of Congress review found that}} 31.5% of SBA {{bracket|[[Small Business Administration]]}} Growth Accelerator Fund Competition winners from 2014–2016 were university-based programs.|title=Attribution of uncontroversial information, from [[Special:Permalink/1317019290|this October 2025 revision]] to [[Entrepreneurship education]]}}
 
-In articles about people/entities who use social media, LLMs will often note that they "maintain an active social media presence" or something similar. This wording is particularly idiosyncratic to AI text and relatively uncommon on Wikipedia before ~2024.
+In articles about people or entities that use social media, LLMs will often note that they "maintain an active social media presence" or something similar. This wording is particularly idiosyncratic to AI text and relatively uncommon on Wikipedia before ~2024.
 
+'''Examples'''
 {{blockquote|The mall {{highlight|maintains a strong digital presence}}, particularly on Instagram, where it actively shares the latest updates and events. Forum Kochi has consistently demonstrated excellence in digital promotions, with high-quality, engaging, and impactful video content playing a key role in its outreach.|From [[Special:Diff/1297291381|this June 2025 revision]] to [[Forum Mall Kochi]]}}
 
 In some cases, LLMs will create entire sections to assert notability, with a breakdown of the sources that have covered the topic in a list format. This is in contrast to how most articles are written {{--}} summarizing the content that sources publish, then citing them as footnotes.
 
 '''Examples'''
-{{blockquote|{{fake section|Media coverage}}
+{{blockquote|{{fmbox|image=none|text=
+{{fake section|Media coverage}}
 * **IRNA** – {{highlight|Coverage}} of his inter-city marathon events.
 * **ISNA** – {{highlight|Report}} on an 80 km provincial peace run.
 * **IFRC** – {{highlight|Feature}} on his humanitarian campaigns.
 * **Fars News** – {{highlight|Interview}} on his national running projects.
 * **Varzesh3** – {{highlight|Report}} on a 17-day endurance run.
 * **Borna News** – {{highlight|Profile}} on his athletic background.
-|From a December 2025 version of {{oldid2|1326136318|Draft:Mojtaba Yadegari (Iranian runner)}}}}
+}}|From a December 2025 version of {{oldid2|1326136318|Draft:Mojtaba Yadegari (Iranian runner)}}}}
 
 ===Superficial analyses===
 {{shortcut|WP:SUPERFICIAL}}
@@ -132,6 +134,7 @@ In design and structure, the McAllen Texas Temple {{highlight|honors the Spanish
 |From [[Special:Diff/1256905241|this November 2024 revision]] to [[McAllen Texas Temple]]}}
 
 {{blockquote|text=
+{{fmbox|image=none|text=
 These works are now part of the **Collections of the National Museum of Education - Réseau Canopé (France)**, {{highlight|highlighting their historical and pedagogical significance.}}
 
 His influence persists in more recent studies. In 2010, ''Les néologismes dans l'hebdomadaire L'Express'' (1980) was cited in the ''Proceedings of the 1st International Congress on Neology in Romance Languages'' [...] {{highlight|demonstrating the ongoing relevance of his research on lexical evolution.}} [...] In 2004, the ''Cahiers de lexicologie'' (issues 84-87), published by the [[French National Centre for Scientific Research|CNRS]], cited the ''Grammaire Blois'', {{highlight|confirming its relevance in modern research.}} [...]
@@ -143,8 +146,24 @@ Fridrichová analyzes the distinction made by Blois and Bar between acronyms, ab
 [...]
 
 Fridrichová highlights that Blois and Bar perceive truncations as a **distortion of the language rather than an enrichment**, {{highlight|a perspective that still fuels linguistic debates today.}} This citation {{highlight|demonstrates the **enduring relevance of Blois's work in modern linguistic studies** and its **critical reception by researchers**.}}
-
+}}
 |title=From [[Special:Diff/1279776010|this March 2025 revision]] to [[Draft:Jacques Blois (linguist)]], the top and bottom paragraphs also feature [[WP:MARKDOWN|markdown]]}}
+
+AI chatbots occasionally claim that certain things or actions have resulted in discussions about related concepts.
+
+{{blockquote|
+{{fmbox|image=none|text=
+The phenomenon has <mark>generated debate</mark> about authenticity, consent, and the psychological effects of digitally extending personhood.
+
+[...]
+
+Collectively, these works have <mark>shaped emerging policy discussions</mark> about ownership, consent, and dignity in digital resurrection technologies.
+
+[...]
+
+GriefBots have <mark>prompted broader reflection</mark> on mortality and memory in a digital age. They blur boundaries between life and data, <mark>raising philosophical questions</mark> about identity, authenticity, and what it means to “live on” through algorithms.
+}}
+|From [[Special:Diff/1317624451|this October 2025 revision]] to [[Deadbot]]; each sentence here follows the [[WP:RO3|rule of three]], and the last one uses [[WP:AICURLY|curly quotation marks]]}}
 
 ===<span class="anchor" id="Promotional language"></span>Promotional and advertisement-like language===
 {{For|non-AI-specific guidance about this|Wikipedia:Manual of Style/Words to watch#Puffery}}
@@ -207,9 +226,10 @@ Note: This sign is about the rigid formula, not simply the mention of challenges
 
 '''Examples'''
 
-{{blockquote|{{fake section|level=2|Challenges and Future Directions}}
+{{blockquote|{{fmbox|image=none|text=
+{{fake section|level=2|Challenges and Future Directions}}
 As the global economy continues to evolve, international economic law {{highlight|faces new challenges and opportunities.}} [...] The future of international economic law lies in its ability to {{highlight|adapt to these emerging trends|lightgreen}} and continue to facilitate a stable and equitable global economic order.
-|From [[Special:Diff/1189640895|this 2023 revision]] to [[International economic law]]}}
+}}|From [[Special:Diff/1189640895|this December 2023 revision]] to [[International economic law]]}}
 
 {{blockquote|text=The future of hydrocarbon economies {{highlight|faces several challenges,}} including[...] This section would speculate on {{highlight|potential developments|lightgreen}} and the changing landscape of global energy.|title=From {{diff||1201557771|label=this January 2024 revision}} to [[Hydrocarbon economy]]}}
 
@@ -245,7 +265,7 @@ In AI-generated articles about topics with a title that is not a [[proper name]]
 
 Many studies have demonstrated that LLMs overuse specific words. These words started appearing far more frequently in text produced after 2022, when LLM chatbots became widely accessible, than similar text produced beforehand.<ref name="Juzek">{{cite conference |last1=Juzek |first1=Tom S. |last2=Ward |first2=Zina B. |title=Why Does ChatGPT "Delve" So Much? Exploring the Sources of Lexical Overrepresentation in Large Language Models |conference=Findings of the Association for Computational Linguistics: ACL 2025 |publisher=[[Association for Computational Linguistics]] |date=2025 |arxiv=2412.11385 |url=https://aclanthology.org/2025.coling-main.426.pdf |access-date=October 13, 2025 |via=[[ACL Anthology]] |archive-date=January 21, 2025 |archive-url=https://web.archive.org/web/20250121111136/https://aclanthology.org/2025.coling-main.426.pdf |url-status=live }}</ref><ref name="Kobak">{{cite journal |last1=Kobak |first1=Dmitry |last2=González-Márquez |first2=Rita |last3=Horvát |first3=Emőke-Ágnes |last4=Lause |first4=Jan |title=Delving into LLM-assisted writing in biomedical publications through excess vocabulary |journal=[[Science Advances]] |volume=11 |issue=27 |date=2 July 2025 |issn=2375-2548 |pmid=40601754 |pmc=12219543 |doi=10.1126/sciadv.adt3813 |url=https://www.science.org/doi/10.1126/sciadv.adt3813 |access-date=21 November 2025}}</ref> They often co-occur in LLM output: where there is one, there are likely others.<ref name="Kousha">{{cite conference |last1=Kousha |first1=Kayvan |last2=Thelwall|first2=Mike |title=How much are LLMs changing the language of academic papers after ChatGPT? A multi-database and full text analysis|conference=ISSI 2025 Conference |date=2025 |arxiv=2509.09596 |url=https://arxiv.org/pdf/2509.09596|access-date=4 November 2025|archive-date=14 September 2025 |archive-url=https://web.archive.org/web/20250914165435/https://arxiv.org/pdf/2509.09596 |url-status=live}}</ref> While most of these studies have analyzed scientific abstracts or fiction, "AI vocabulary" words are also ubiquitous in LLM-based encyclopedias, such as [[Grokipedia]], and in AI-generated Wikipedia text. One or two of these words appearing in an edit may be coincidental, but an edit (post-2022) introducing lots of them, lots of times, is one of the strongest tells for AI use.
 
-The distribution of "AI vocabulary" is slightly different depending on which chatbot or LLM was used,<ref name="Reinhart" /> and has changed over time. For instance, the word ''delve'' was famously overused by ChatGPT in 2023 and early 2024, but became less frequent later in 2024, then dropped off sharply in 2025.<ref name="merrill">{{cite news |last1=Merrill |first1=Jeremy B. |last2=Chen |first2=Szu Yu |last3=Kumer |first3=Emma |title=What are the clues that ChatGPT wrote something? We analyzed its style. |url=https://www.washingtonpost.com/technology/interactive/2025/how-detect-chatgpt-em-dash/ |access-date=14 November 2025 |work=The Washington Post |date=13 November 2025}}</ref><ref name="geng">{{cite web |last1=Geng |first1=Mingmeng |last2=Trotta |first2=Roberto |title=Human-LLM Coevolution: Evidence from Academic Writing |url=https://aclanthology.org/2025.findings-acl.657.pdf |website=aclanthology.org |access-date=17 December 2025}}</ref> Below is a breakdown of which words frequently recur together during which LLM "era." While these are not hard cutoffs, they should give you a rough idea of how "earlier" vs "later" LLM output reads.
+The distribution of "AI vocabulary" is slightly different depending on which chatbot or LLM was used,<ref name="Reinhart" /> and has changed over time. For instance, the word ''[[wikt:delve|delve]]'' was famously overused by ChatGPT in 2023 and early 2024, but became less frequent later in 2024, then dropped off sharply in 2025.<ref name="merrill">{{cite news |last1=Merrill |first1=Jeremy B. |last2=Chen |first2=Szu Yu |last3=Kumer |first3=Emma |title=What are the clues that ChatGPT wrote something? We analyzed its style. |url=https://www.washingtonpost.com/technology/interactive/2025/how-detect-chatgpt-em-dash/ |access-date=14 November 2025 |work=The Washington Post |date=13 November 2025}}</ref><ref name="geng">{{cite web |last1=Geng |first1=Mingmeng |last2=Trotta |first2=Roberto |title=Human-LLM Coevolution: Evidence from Academic Writing |url=https://aclanthology.org/2025.findings-acl.657.pdf |website=aclanthology.org |access-date=17 December 2025}}</ref> Below is a breakdown of which words frequently recur together during which LLM "era." While these are not hard cutoffs, they should give you a rough idea of how "earlier" vs "later" LLM output reads.
 
 * '''2023 to mid-2024''' (GPT-4): ''Additionally'', ''boasts'', ''bolstered'', ''crucial'', ''delve'', ''emphasizing'', ''enduring'', ''garner'', ''intricate/intricacies'', ''interplay'', ''key'', ''landscape'', ''meticulous/meticulously'', ''pivotal'', ''underscore'', ''tapestry'', ''testament'', ''valuable'', ''vibrant''
 * '''Mid-2024 to mid-2025''' (GPT-4o): ''align with'', ''bolstered'', ''crucial'', ''emphasizing'', ''enhance'', ''enduring'', ''fostering'', ''highlighting'', ''pivotal'', ''showcasing'', ''underscore'', ''vibrant''
@@ -258,7 +278,7 @@ Please keep context in mind. For example, while the figurative use of "underscor
 The inscriptions also offer {{highlight|valuable}} insights into the construction of the mosque. They record the names of the {{highlight|key}} craftsmen involved, including Mason Ahmad b. Muhammad, known as Haddad (the smith or iron-worker), and Hjajji Muhammad, the tile-cutter from [[Tabriz]]. These names {{highlight|highlight}} the collaborative nature of mosque construction and {{highlight|emphasize}} the contributions of skilled artisans. [...] For example, the repeated invocation of the names of Muhammad and the Twelve Imams in Kufic script {{highlight|highlights}} the Shi'ite character of the mosque and links its construction to the broader context of the Ilkhanid state's official adoption of Shi'ism under [[Öljaitü|Oljeitu]]. [...] This inscription, commissioned during the reign of the Aq Qoyunlu ruler Uzun Hasan, also {{highlight|underscores}} the {{highlight|enduring}} practice of pious patronage for mosque upkeep and renovation.
 |From [[Special:Diff/1263234661|this 2024 revision]] to [[Jameh Mosque of Ashtarjan]], which contains text pasted from [[Special:Diff/1263233100|this revision]] to a user subpage}}
 
-{{blockquote|
+{{blockquote|{{fmbox|image=none|text=
 Somali cuisine is an {{highlight|intricate}} and diverse fusion of a multitude of culinary influences, drawing from the rich {{highlight|tapestry}} of [[Arab cuisine|Arab]], [[Indian cuisine|Indian]], and [[Italian cuisine|Italian]] flavours. This culinary {{highlight|tapestry}} is a direct result of Somalia's longstanding heritage of {{highlight|vibrant}} trade and bustling commerce.
 [...]
 
@@ -269,7 +289,7 @@ An {{highlight|enduring testament}} to the influence of [[Italian Somaliland|Ita
 [...]
 
 {{highlight|Additionally,}} Somali merchants played a {{highlight|pivotal}} role in the global coffee trade, being one of the first to export coffee beans.
-|From [[Special:Diff/1292567688|this 2025 revision]] to [[Somali people]]}}
+}}|From [[Special:Diff/1292567688|this 2025 revision]] to [[Somali people]]}}
 
 {{anchor|Concrete}}
 {{shortcut|WP:CONCRETE}}
@@ -285,7 +305,7 @@ When prompted to provide a response to the placement of an {{tl|AI-generated}} t
 ===Avoidance of basic copulatives ("is"/"are" phrases)===
 {{tmbox|image=none|text=Words to watch: {{strong|''serves as/stands as/marks/represents [a]'', ''boasts/features/maintains/offers [a]''}}}}
 
-LLM-generated text often substitutes simpler constructions that use [[Copula (linguistics)|copula]]s such as ''is'' or ''are'' for constructions like ''serves as a'' or ''mark the''. One study documented an over 10% decrease in the usage of the words ''is'' and ''are'' in academic writing in 2023, with no major changes in their frequency before that.<ref name="geng2">{{cite web |last1=Geng |first1=Mingmeng |last2=Trotta |first2=Roberto |title=Is ChatGPT Transforming Academics' Writing Style? |url=https://arxiv.org/abs/2404.08627 |access-date=8 January 2026}}</ref> Similarly, it prefers phrases with ''features'', ''offers'', and the like to their more neutral counterparts with ''has''. Sometimes these constructions are more elaborate, e.g., ''ventured into politics as a candidate'' versus ''was a candidate''. 
+LLM-generated text often substitutes simpler constructions that use [[Copula (linguistics)|copula]]s such as ''is'' or ''are'' for constructions like ''serves as a'' or ''mark the''. One study documented an over 10% decrease in the usage of the words ''is'' and ''are'' in academic writing in 2023, with no major changes in their frequency before that.<ref name="geng2">{{cite web |last1=Geng |first1=Mingmeng |last2=Trotta |first2=Roberto |title=Is ChatGPT Transforming Academics' Writing Style? |url=https://arxiv.org/abs/2404.08627 |access-date=8 January 2026}}</ref> Similarly, LLMs prefer to use [[WP:BUZZ|marketing]]-related verbs like ''features'', ''offers'', and the like to their neutral synonym ''has''. (Note: This does not apply to ''has'' used in the [[past participle]] form.) Sometimes these constructions are more elaborate, e.g., ''ventured into politics as a candidate'' versus ''was a candidate''. 
 
 This is particularly visible in AI copyedits, which will often "improve" text in this way. The study above also demonstrated that when GPT-3.5 was prompted to "Revise the following sentence" in 10,000 abstracts, the words ''is'' and ''are'' appeared less often in the revised versions.<ref name="geng2" />
 
@@ -323,15 +343,15 @@ Here is an example of a negative parallelism across multiple sentences:
 Another common LLM pattern is parallelisms that explicitly state that a particular item doesn't possess the first characteristic at all. Such constructions are often expressed as "{{xt|It's not ..., it's ...}}" or "{{xt|no ..., no ..., just ...}}".<ref name="Kriss"/>
 
 '''Examples'''
-{{blockquote|
+{{blockquote|{{fmbox|image=none|text=
 The viewer is presented with a self-image that {{highlight|<u>is not</u> grounded in visual mastery, <u>but</u> in what Amelia Jones terms “the performative enactment of subjectivity”}}.
 
 [...]
 
 This dispersal {{highlight|<u>is not</u> dissolution. <u>Rather, it constitutes</u> what Deleuze might describe as “becoming”}}—an identity in flux, constituted through iterative difference. Through this lens, Kusama’s self-portrait {{highlight|is not a mirror but a portal}}: {{highlight|not a representation of self, but a mechanism}} for its constant reinvention.
-|From [[Special:Diff/1288356293|this May 2025 revision]] to [[Self-portrait (Yayoi Kusama)]]}}
+}}|From [[Special:Diff/1288356293|this May 2025 revision]] to [[Self-portrait (Yayoi Kusama)]]}}
 
-{{blockquote|
+{{blockquote|{{fmbox|image=none|text=
 You say these sources “cover multiple events”? False. They echo the same viral incident and do it through a limited lens. {{highlight|This isn’t WP:NBIO — it’s WP:1EVENT in disguise}}, trying to wear a press badge like armor.
 	
 [...]
@@ -343,7 +363,7 @@ Now let’s talk BLP1E: This person is only in the news because of one isolated 
 Then let’s stay on topic, and the topic {{highlight|<u>is not</u> who feels warm fuzzies from visibility, <u>it’s</u> whether this article meets the threshold for inclusion}}. It doesn’t.
 	
 And finally — if you don’t want “a wall of text,” maybe don’t build a wall of shallow logic and expect people not to knock it down. {{highlight|This ain’t bludgeoning — it’s surgical teardown}} of a weak argument hiding behind fake neutrality.
-|title=From [[Special:Diff/1296115128|this June 2025 revision]] to [[Wikipedia:Articles for deletion/Lilly Contino]]}}
+}}|title=From [[Special:Diff/1296115128|this June 2025 revision]] to [[Wikipedia:Articles for deletion/Lilly Contino]]}}
 
 ===Rule of three===
 {{shortcut|WP:RO3}}
@@ -381,14 +401,14 @@ The move to Paris facilitated an environment where Yankilevsky could further exp
 In section headings, AI chatbots strongly tend to capitalize all main words.<ref name="Russell"/>
 
 '''Examples'''
-{{blockquote|
-{{fake section|level=3|Global Context: Critical Mineral Demand}}
-According to a 2023 report by [[Goldman Sachs]], the global market for critical minerals [...]
-{{fake section|level=3|Strategic Negotiations and Global Partnerships}}
-In 2014, Katalayi was appointed senior executive adviser to the chairman of the board of [[Gécamines]] [...]
-{{fake section|level=3|High-Stakes Deals: Glencore, China, and Russia}}
-There was also interest from [[Moscow]] for strategic Congolese assets. [...]
-|From [[Special:Diff/1307571338|this 2025 revision]] to [[Arthur Katalayi]]}}
+{{blockquote|{{fmbox|image=none|text=
+{{fake section|level=2|Impact of Technology and Digitalization}}
+The advent of digital technology and the internet has revolutionized international economic law. [...]
+{{fake section|level=2|Sustainable Development and Environmental Law}}
+The integration of sustainable development goals into international economic law is increasingly important. [...]
+{{fake section|level=2|Human Rights and Economic Law}}
+The relationship between human rights and international economic law is a growing area of focus. [...]
+}}|From [[Special:Diff/1189640895|this December 2023 revision]] to [[International economic law]]}}
 
 ===Overuse of boldface===
 {{For|non-AI-specific guidance about this|Wikipedia:Manual of Style/Text formatting#Boldface}}
@@ -481,7 +501,7 @@ This sign is most useful when taken in combination with other indicators, not by
 {{"|The term “Dutch Caribbean” is '''not used in the statute''' and is primarily promoted by '''Dutch institutions''', not by the '''people of the autonomous countries''' themselves. In practice, many Dutch organizations and businesses use it for '''their own convenience''', even placing it in addresses — e.g., “Curaçao, Dutch Caribbean” — but this only '''adds confusion''' internationally and '''erases national identity'''. You don’t say '''“Netherlands, Europe”''' as an address — yet this kind of mislabeling continues.
 |title=From {{diff||1286082047|label=this revision}} to [[Talk:Dutch Caribbean]]; the message also [[WP:AIBOLD|overuses boldface]]}}
 
-{{"|
+{{"|{{fmbox|image=none|text=
 you're right about one thing — we do seem to have different interpretations of what policy-based discussion entails. [...]
 
 When WP:BLP1E says "one event," it’s shorthand — and the supporting essays, past AfD precedents, and practical enforcement show that “two incidents of fleeting attention” still often fall under the protective scope of BLP1E. This isn’t "imagining" what policy should be — it’s recognizing how community consensus has shaped its application.
@@ -491,7 +511,7 @@ Yes, WP:GNG, WP:NOTNEWS, WP:NOTGOSSIP, and the rest of WP:BLP all matter — and
 [...] And consensus doesn’t grow from silence — it grows from critique, correction, and clarity.
 
 If we disagree on that, then yes — we’re speaking different languages.
-|From [[Special:Diff/1296093591|this revision]] to [[Wikipedia:Articles for deletion/Lilly Contino]]}}
+}}|From [[Special:Diff/1296093591|this revision]] to [[Wikipedia:Articles for deletion/Lilly Contino]]}}
 
 === <span class="anchor" id="Tables"></span>Unusual use of tables ===
 {{shortcut|WP:AITABLE}}
@@ -600,9 +620,7 @@ Newer chatbots with [[retrieval-augmented generation]] may also fail to find sou
 
 {{blockquote|text=Below is a detailed overview {{highlight|based on available information}}:|title=From [[User:SuperPianoMan9167/Knowledge cutoff example 1|Draft:The Good, The Bad, The Dollar Menu 2]] (2025)}}
 
-{{blockquote|text=Matthews Manamela {{highlight|keeps much of his personal life private,}} choosing instead to focus public attention on his professional work and performances.|title=From [[Draft:Matthews Manamela]] (2025)}}
-
-{{blockquote|text=As an underground release, detailed lyrics are {{highlight|not widely transcribed on major sites like Genius or AZLyrics}}, likely due to the artist's limited mainstream exposure. My analysis is based on available track titles, featured artists, public song snippets from streaming platforms (e.g., Spotify, Apple Music, Deezer), and Honcho's overall discography themes. Where lyrics aren't fully accessible, {{highlight|I've inferred common motifs from similar trap tracks and Honcho's style.}}
+{{blockquote|text=As an underground release, detailed lyrics are {{highlight|not widely transcribed on major sites like Genius or AZLyrics}}, likely due to the artist's limited mainstream exposure. {{Highlight|My analysis is based on available track titles}}, featured artists, public song snippets from streaming platforms (e.g., Spotify, Apple Music, Deezer), and Honcho's overall discography themes. Where lyrics aren't fully accessible, {{highlight|I've inferred common motifs from similar trap tracks and Honcho's style.}}
 ...For deeper insights, listening to tracks on platforms like Spotify or Deezer is recommended, as {{highlight|lyrics and production details aren't fully documented in public sources.}}|title=From [[Draft:Haiti Honcho]] (2026)}}
 
 ===Phrasal templates and placeholder text===
@@ -696,7 +714,7 @@ The presence of faulty wikitext syntax mixed with Markdown syntax is a strong in
 
 Here, LLMs incorrectly use {{code|##}} to denote section headings, which MediaWiki interprets as a numbered list. 
 
-{{blockquote|
+{{blockquote|{{fmbox|image=none|text=
 ## Geography
 
 Villers-Chief is situated in the [[Jura Mountains]], in the eastern part of the Doubs department. [...]
@@ -711,7 +729,7 @@ Villers-Chief is part of the [[Canton of Valdahon]] and the [[Arrondissement of 
 ## Population
 
 The population of Villers-Chief has seen some fluctuations over the decades, [...]
-|From [[Special:Diff/1294887075|this June 2025 revision]] to [[Villers-Chief]]}}
+}}|From [[Special:Diff/1294887075|this June 2025 revision]] to [[Villers-Chief]]}}
 
 === Broken wikitext===
 Since AI chatbots are typically not proficient in wikitext and templates, they often produce faulty syntax. A noteworthy instance is garbled code related to [[Template:AfC submission]], as new editors might ask a chatbot how to submit their [[Wikipedia:Articles for Creation|Articles for Creation]] draft; see [[Special:PermaLink/1299830745#Messed_up_templates|this discussion among AfC reviewers]].
@@ -734,13 +752,13 @@ For more information, you can visit their official website: citeturn0searc
 |title=From {{diff||1274664396|label=this February 2025 revision}} to [[List of English-medium schools in Bangladesh]]
 }}
 
-{{"|
+{{"|{{fmbox|image=none|text=
 * **Japanese:** Reze is voiced by Reina Ueda, an established voice actress known for roles such as Cha Hae-In in ''Solo Leveling'' and Kanao Tsuyuri in ''Demon Slayer''.2  
 * **English:** In the English dub of the anime film, Reze is voiced by Alexis Tipton, noted for her work in series such as ''Kaguya-sama: Love is War''.3
 [...]
 
 The film itself holds a high rating on **Rotten Tomatoes** and has been described as a major anime release of 2025, indicating strong overall reception for the Reze Arc storyline and its adaptation.5
-|title=From [[User:Gurkubondinn/Draft:Reze (Chainsaw Man)|Draft:Reze (Chainsaw Man)]] (2025)}}
+}}|title=From [[User:Gurkubondinn/Draft:Reze (Chainsaw Man)|Draft:Reze (Chainsaw Man)]] (2025)}}
 
 ====Links to searches====
 * {{search link|turn0search0 OR turn0search1 OR turn0search2 OR turn0search3 OR turn0search4 OR turn0search5 OR turn0search6 OR turn0search7}}
@@ -999,7 +1017,7 @@ Note that the reverse of this sign also applies: If a user has edits that predat
 
 === <span class="anchor" id="Edit summaries"></span> Overwhelmingly exhaustive edit summaries ===
 {{Shortcut|WP:AISUMMARY|WP:AISUMM}}
-AI-generated [[Help:Edit summary|edit summaries]] are often written as formal, first-person paragraphs, without [[Wikipedia:Edit summary legend|abbreviations]], and conspicuously echo the exact text or shortcuts of Wikipedia's policies or any maintenance tags on the article—for example, itemizing the presence of "reliable sources" or "encyclopedic tone." They often mention things that they "ensured" or "avoided" doing, or include verbose justifications of minor edits. They may also include other signs on this list, such as AI vocabulary, emoji, or markdown formatting.
+AI-generated [[Help:Edit summary|edit summaries]] are often written as formal, first-person paragraphs, without [[Wikipedia:Edit summary legend|abbreviations]], and conspicuously echo the exact text of Wikipedia's policies or any maintenance tags on the article—for example, [[WP:AIADHERENCE|itemizing their adherence]] to "WP:NPOV" or "encyclopedic tone." They often mention things that they "ensured" or "avoided" doing, or include verbose justifications of minor edits. They may also include other signs on this list, such as [[WP:AIVOCAB|AI vocabulary]], [[WP:AIEMOJI|emoji]], (attempted) [[WP:AILIST|list]] formatting, or [[WP:MARKDOWN|markdown]] formatting.
 
 AI edit summaries strongly suggest that the edits themselves are also AI-generated, as it is unlikely someone would use AI for a simple summary but not the much more time-consuming task of writing.
 
@@ -1061,7 +1079,7 @@ Although several of the tells mentioned above (including [[WP:AIBOLD|boldface]],
 
 ===<span class="anchor" id="Emphasis on quality"></span><span class="anchor" id="Emphasis on good faith"></span><span class="anchor" id="Emphasis on adherence"></span> Canned emphasis on quality, good faith, and adherence to policies and guidelines===
 {{shortcuts|WP:CEQ|WP:CEGF|WP:AIADHERE}}
-{{tmbox|image=none|text=Words to watch: {{strong|''align(s) with Wikipedia's aim/goal(s)'', ''adhere(s) to Wikipedia's policies/guidelines/standards''}} }}
+{{tmbox|image=none|text=Words to watch: {{strong|''align(s) with Wikipedia's aim/goal(s)'', ''adhere(s) to Wikipedia's policies/guidelines/standards'', ''I am/we are committed to ...'', ''I assure you that ...'', ''my intention/goal is to ...''}} }}
 
 Most people on Wikipedia want others to believe that they're here for the right reasons and are willing to follow the rules, and may insist that the content they wish to introduce is (or has been) written with such rules in mind. AI chatbots, however, have a strong tendency to communicate this in a specific way: invoking policies, guidelines, and standards as a broad, formal, and abstract whole, as in [[legalese]], and often using "[[WP:AIVOCAB|AI vocabulary]]" to do so. 
 
@@ -1069,19 +1087,19 @@ Most people on Wikipedia want others to believe that they're here for the right 
 {{blockquote|
 I have a genuine interest in contributing to the knowledge and accuracy of information available on Wikipedia, particularly in the area of dogs. I have conducted extensive research and have insights that I believe could enhance the quality and comprehensiveness of the existing content on the "Dog" article.
 
-I understand the importance of <mark>adhering to Wikipedia's guidelines and policies</mark>, and I am committed to contributing in a responsible and constructive manner. My intention is to provide well-referenced and reliable information that <mark>aligns with Wikipedia's standards.</mark>
+I understand the importance of <mark>adhering to Wikipedia's guidelines and policies</mark>, and <mark>I am committed to</mark> contributing in a responsible and constructive manner. <mark>My intention is to</mark> provide well-referenced and reliable information that <mark>aligns with Wikipedia's standards.</mark>
 
 If granted permission, I would approach the editing process <mark>with the utmost care and respect for Wikipedia's community guidelines.</mark>
 |From [[Special:Diff/1210351576|this 2024 revision]] to [[Talk:Dog]]}}
 
 {{blockquote|
-I assure you that my intentions are <mark>aligned with Wikipedia's principles</mark> of neutrality, verifiability, and reliability. I strive to <mark>adhere to all content and editing guidelines</mark>, ensuring the information provided is accurate, well-sourced, and encyclopedic.
+<mark>I assure you that</mark> my intentions are <mark>aligned with Wikipedia's principles</mark> of neutrality, verifiability, and reliability. I strive to <mark>adhere to all content and editing guidelines</mark>, ensuring the information provided is accurate, well-sourced, and encyclopedic.
 |From [[Wikipedia:Identifying LLM unblock requests#company page deleted from wiki i did nothing wrong write a unblock request so i can edit company page again|this demonstrative example]] at [[Wikipedia:Identifying LLM unblock requests]]}}
 
 {{blockquote|
-I can assure you that the article and our comments are the result of human effort and collaboration. Anon and I are committed to creating informative and balanced content that <mark>adheres to Wikipedia's guidelines</mark>. [...] Let's work together to ensure that our article contributes meaningfully to the climate change discourse.
+<mark>I can assure you that</mark> the article and our comments are the result of human effort and collaboration. <mark>Anon and I are committed to</mark> creating informative and balanced content that <mark>adheres to Wikipedia's guidelines</mark>. [...] Let's work together to ensure that our article contributes meaningfully to the climate change discourse.
 ----
-Chloe and I are ready to provide any additional clarification or context that might be needed. The article is now more focused on the economic impacts and includes a range of viewpoints on technology and policy, with a clear human-centered narrative. We've also ensured that all sources are credible and properly cited. [...] Our ultimate goal is to create a valuable resource that <mark>aligns with Wikipedia's high standards</mark> and sparks important conversations about our planet's future.
+Chloe and I are ready to provide any additional clarification or context that might be needed. The article is now more focused on the economic impacts and includes a range of viewpoints on technology and policy, with a clear human-centered narrative. We've also ensured that all sources are credible and properly cited. [...] <mark>Our ultimate goal is to</mark> create a valuable resource that <mark>aligns with Wikipedia's high standards</mark> and sparks important conversations about our planet's future.
 |From [[Wikipedia:WikiProject Articles for creation/Help desk/Archives/2024 December 8]]}}
 
 ===Canned offers to receive constructive criticism===
