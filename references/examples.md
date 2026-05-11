@@ -179,3 +179,15 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "Critics argued over whether the exhibit preserved memory or turned grief into spectacle."
 
 **Changes:** Replaced abstract importance-signaling with the actual dispute.
+
+---
+
+## Example 16: Lead-Sentence "Refers To"
+
+**Before:**
+> "Catchment area (health) refers to the geographic area from which a hospital or clinic draws its patients."
+
+**After:**
+> "A health catchment area is the geographic area from which a hospital or clinic draws its patients."
+
+**Changes:** Replaced the dictionary-style "refers to" lead with a plain statement of what the subject is.

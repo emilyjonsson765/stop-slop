@@ -1,4 +1,4 @@
-REVID:1352421289
+REVID:1353263698
 {{redirect|Wikipedia:AI writing| other uses|WP:AI-INDEX}}
 {{WikiProject advice|wikiproject=WikiProject AI Cleanup|WP:AISIGNS|WP:AITELLS|WP:LLMSIGNS}}
 [[File:ChatGPT response screenshot 1.jpg|thumb|alt=A screenshot of ChatGPT reading: "[header] Legacy & Interpretation [body] The "Black Hole Edition" is not just a meme — it's a celebration of grassroots car culture, where ideas are limitless and fun is more important than spec sheets. Whether powered by a rotary engine, a V8 swap, or an imagined fighter jet turbine, the Miata remains the canvas for car enthusiasts worldwide."|LLMs tend to have an identifiable writing style.]]
@@ -58,8 +58,8 @@ When talking about biology (e.g., when asked to discuss an animal or plant speci
 
 {{blockquote|text=It {{highlight|plays a role in the ecosystem}} and {{highlight|contributes to Hawaii's rich cultural heritage}}. [...] {{highlight|Preserving this endemic species is vital}} not only for ecological diversity but also for sustaining the cultural traditions connected to Hawaii’s native flora.|title=From [[Special:Diff/1262033910|this December 2024 revision]] to [[Nototrichium divaricatum]]}}
 
-===Undue emphasis on notability, attribution, and media coverage===
-{{shortcut|WP:OVERATTRIBUTION|WP:AIATTR}}
+===Canned emphasis on notability, attribution, and media coverage===
+{{shortcut|WP:OVERATTRIBUTION|WP:AIATTR}}{{anchor|Attribution}}
 {{tmbox|image=none|text=Words to watch: {{strong|''independent coverage'', ''local/regional/national/[country name] media outlets'', ''music/business/tech outlets'', ''profiled in'', ''written by a leading expert'', ''active social media presence''}}}}
 Similarly, LLMs act as if the best way to prove that a subject is notable is to hit readers over the head with claims of notability, often by listing sources that a subject has been covered in. They may or may not provide additional context as to what those sources have actually said about the subject, and often inaccurately attribute their own [[#Superficial analyses|superficial analyses]] to the source. This is more common in text from newer AI tools (2025 or later).
 
@@ -86,8 +86,6 @@ On Wikipedia specifically, LLMs often painstakingly emphasize their sources in t
 
 '''Examples'''
 {{blockquote|text=The restaurant {{highlight|has also been mentioned in [[ABC News (Australia)|ABC News]] coverage relating to}} incidents in the surrounding precinct, underscoring its role as a well-known late-night venue in the city [of [[Adelaide]]].|title= Trivial coverage with attribution, from  [[Special:Permalink/1305163154|this August 2025 revision]] to [[The Original Pancake Kitchen]]; the reference added for this sentence did not exist.}}
-
-{{blockquote|text=In the United States, university-based incubators and accelerators have expanded alongside these centers; {{highlight|an official Library of Congress review found that}} 31.5% of SBA {{bracket|[[Small Business Administration]]}} Growth Accelerator Fund Competition winners from 2014–2016 were university-based programs.|title=Attribution of uncontroversial information, from [[Special:Permalink/1317019290|this October 2025 revision]] to [[Entrepreneurship education]]}}
 
 In articles about people or entities that use social media, LLMs will often note that they "maintain an active social media presence" or something similar. This wording is particularly idiosyncratic to AI text and relatively uncommon on Wikipedia before ~2024.
 
@@ -261,7 +259,7 @@ In AI-generated articles about topics with a title that is not a [[proper name]]
 === High density of "AI vocabulary" words ===
 {{Shortcut|WP:AIVOCAB|WP:AIWORDS}}
 <!-- Please only add words to this box if their overuse is corroborated by at least one reliable, non-pop-science external source, and is seen on Wikipedia often too. -->
-{{tmbox|image=none|text=Words to watch: {{strong|''Additionally'' (especially beginning a sentence),<ref name="geng" /> ''align with'',<ref name="Juzek" /><ref name="Kobak" /> ''boasts'' (meaning "has"),<ref name="Juzek2" /> ''bolstered'',<ref name="Kobak" /> ''crucial'',<ref name="Russell" /><ref name="geng" /> ''delve'',<ref name="Juzek" /><ref name="Kobak" /><ref name="Russell" /><ref name="Kriss">{{Cite web|last=Kriss|first=Sam|date=December 3, 2025|title=Why Does A.I. Write Like … That?|work=The New York Times|url=https://www.nytimes.com/2025/12/03/magazine/chatbot-writing-style.html|url-access=subscription|access-date=December 6, 2025}}</ref> ''emphasizing'',<ref name="Juzek" /><ref name="Kobak" /> ''enduring'',<ref name="Kobak" /> ''enhance'',<ref name="Kobak" /><ref name="Russell" /> ''fostering'',<ref name="Kobak" /><ref name="Russell"/> ''garner'',<ref name="Juzek" /><ref name="Kobak" /> ''highlight'' (as a verb),<ref name="Russell" /><ref name="Kriss"/> ''interplay'',<ref name="Kobak" /> ''intricate/intricacies'',<ref name="Juzek" /><ref name="Kobak" /><ref name="Reinhart" /><ref name="Kriss"/> ''key'' (as an adjective),{{citation needed|date=November 2025}} ''landscape'' (as an abstract noun),<ref name="Russell" /> ''meticulous/meticulously'',<ref name="Juzek2">{{cite web |last1=Juzek |first1=Tom S. |last2=Ward |first2=Zina B. |title=Word Overuse and Alignment in Large Language Models: The Influence of Learning from Human Feedback |url=https://arxiv.org/pdf/2508.01930 |access-date=27 February 2026}}</ref><ref name="Kobak" /> ''pivotal'',<ref name="Kobak" /><ref name="Russell" /> ''robust'',<ref name ="laurence"/> ''showcase'',<ref name="Juzek" /><ref name="Kobak" /><ref name="Kriss"/> ''tapestry'' (as an abstract noun),<ref name="Russell" /><ref name="Reinhart /><ref name="Kriss"/> ''testament'',<ref name="Russell" /> ''underscore'' (as a verb),<ref name="Juzek" /><ref name="Kobak" /><ref name="Russell" /><ref name="Kriss"/> ''valuable'',<ref name="geng" /> ''vibrant''<ref name="Reinhart" /> }} }}
+{{tmbox|image=none|text=Words to watch: {{strong|''Additionally'' (especially beginning a sentence),<ref name="geng" /> ''align with'',<ref name="Juzek" /><ref name="Kobak" /> ''boasts'' (meaning "has"),<ref name="Juzek2" /> ''bolstered'',<ref name="Kobak" /> ''crucial'',<ref name="Russell" /><ref name="geng" /> ''delve'',<ref name="Juzek" /><ref name="Kobak" /><ref name="Russell" /><ref name="Kriss">{{Cite web|last=Kriss|first=Sam|date=December 3, 2025|title=Why Does A.I. Write Like … That?|work=The New York Times|url=https://www.nytimes.com/2025/12/03/magazine/chatbot-writing-style.html|url-access=subscription|access-date=December 6, 2025}}</ref> ''emphasizing'',<ref name="Juzek" /><ref name="Kobak" /> ''enduring'',<ref name="Kobak" /> ''enhance'',<ref name="Kobak" /><ref name="Russell" /> ''fostering'',<ref name="Kobak" /><ref name="Russell"/> ''garner'',<ref name="Juzek" /><ref name="Kobak" /> ''highlight'' (as a verb),<ref name="Russell" /><ref name="Kriss"/> ''interplay'',<ref name="Kobak" /> ''intricate/intricacies'',<ref name="Juzek" /><ref name="Kobak" /><ref name="Reinhart" /><ref name="Kriss"/> ''key'' (as an adjective),{{citation needed|date=November 2025}} ''landscape'' (as an abstract noun),<ref name="Russell" /> ''meticulous/meticulously'',<ref name="Juzek2">{{cite web |last1=Juzek |first1=Tom S. |last2=Ward |first2=Zina B. |title=Word Overuse and Alignment in Large Language Models: The Influence of Learning from Human Feedback |url=https://arxiv.org/pdf/2508.01930 |access-date=27 February 2026}}</ref><ref name="Kobak" /> ''pivotal'',<ref name="Kobak" /><ref name="Russell" /> ''robust'', ''showcase'',<ref name="Juzek" /><ref name="Kobak" /><ref name="Kriss"/> ''tapestry'' (as an abstract noun),<ref name="Russell" /><ref name="Reinhart /><ref name="Kriss"/> ''testament'',<ref name="Russell" /> ''underscore'' (as a verb),<ref name="Juzek" /><ref name="Kobak" /><ref name="Russell" /><ref name="Kriss"/> ''valuable'',<ref name="geng" /> ''vibrant''<ref name="Reinhart" /> }} }}
 
 Many studies have demonstrated that LLMs overuse specific words. These words started appearing far more frequently in text produced after 2022, when LLM chatbots became widely accessible, than similar text produced beforehand.<ref name="Juzek">{{cite conference |last1=Juzek |first1=Tom S. |last2=Ward |first2=Zina B. |title=Why Does ChatGPT "Delve" So Much? Exploring the Sources of Lexical Overrepresentation in Large Language Models |conference=Findings of the Association for Computational Linguistics: ACL 2025 |publisher=[[Association for Computational Linguistics]] |date=2025 |arxiv=2412.11385 |url=https://aclanthology.org/2025.coling-main.426.pdf |access-date=October 13, 2025 |via=[[ACL Anthology]] |archive-date=January 21, 2025 |archive-url=https://web.archive.org/web/20250121111136/https://aclanthology.org/2025.coling-main.426.pdf |url-status=live }}</ref><ref name="Kobak">{{cite journal |last1=Kobak |first1=Dmitry |last2=González-Márquez |first2=Rita |last3=Horvát |first3=Emőke-Ágnes |last4=Lause |first4=Jan |title=Delving into LLM-assisted writing in biomedical publications through excess vocabulary |journal=[[Science Advances]] |volume=11 |issue=27 |date=2 July 2025 |issn=2375-2548 |pmid=40601754 |pmc=12219543 |doi=10.1126/sciadv.adt3813 |url=https://www.science.org/doi/10.1126/sciadv.adt3813 |access-date=21 November 2025}}</ref> They often co-occur in LLM output: where there is one, there are likely others.<ref name="Kousha">{{cite conference |last1=Kousha |first1=Kayvan |last2=Thelwall|first2=Mike |title=How much are LLMs changing the language of academic papers after ChatGPT? A multi-database and full text analysis|conference=ISSI 2025 Conference |date=2025 |arxiv=2509.09596 |url=https://arxiv.org/pdf/2509.09596|access-date=4 November 2025|archive-date=14 September 2025 |archive-url=https://web.archive.org/web/20250914165435/https://arxiv.org/pdf/2509.09596 |url-status=live}}</ref> While most of these studies have analyzed scientific abstracts or fiction, "AI vocabulary" words are also ubiquitous in LLM-based encyclopedias, such as [[Grokipedia]], and in AI-generated Wikipedia text. One or two of these words appearing in an edit may be coincidental, but an edit (post-2022) introducing lots of them, lots of times, is one of the strongest tells for AI use.
 
@@ -300,16 +298,16 @@ When prompted to provide a response to the placement of an {{tl|AI-generated}} t
 |From [[Special:Diff/1316902424|this October 2025 revision]] to [[Talk:Slavery in Portugal]]}}
 
 {{blockquote|Without <mark>concrete</mark> examples, your concern cannot be evaluated in line with WP:V, WP:RS and WP:BURDEN.
-|From [[Special:Diff/1317195089|this April 2026 revision]] to [[Talk:House of Dust (architecture)]]}}
+|From [[Special:Diff/1348114931|this April 2026 revision]] to [[Talk:House of Dust (architecture)]]}}
 
 ===Avoidance of basic copulatives ("is"/"are" phrases)===
-{{tmbox|image=none|text=Words to watch: {{strong|''serves as/stands as/marks/represents [a]'', ''boasts/features/maintains/offers [a]''}}}}
+{{tmbox|image=none|text=Words to watch: {{strong|''serves as/stands as/marks/represents [a]'', ''boasts/features/maintains/offers [a]'', ''refers to''}}}}
 
 LLM-generated text often substitutes simpler constructions that use [[Copula (linguistics)|copula]]s such as ''is'' or ''are'' for constructions like ''serves as a'' or ''mark the''. One study documented an over 10% decrease in the usage of the words ''is'' and ''are'' in academic writing in 2023, with no major changes in their frequency before that.<ref name="geng2">{{cite web |last1=Geng |first1=Mingmeng |last2=Trotta |first2=Roberto |title=Is ChatGPT Transforming Academics' Writing Style? |url=https://arxiv.org/abs/2404.08627 |access-date=8 January 2026}}</ref> Similarly, LLMs prefer to use [[WP:BUZZ|marketing]]-related verbs like ''features'', ''offers'', and the like to their neutral synonym ''has''. (Note: This does not apply to ''has'' used in the [[past participle]] form.) Sometimes these constructions are more elaborate, e.g., ''ventured into politics as a candidate'' versus ''was a candidate''. 
 
 This is particularly visible in AI copyedits, which will often "improve" text in this way. The study above also demonstrated that when GPT-3.5 was prompted to "Revise the following sentence" in 10,000 abstracts, the words ''is'' and ''are'' appeared less often in the revised versions.<ref name="geng2" />
 
-Note: This sign does not apply to Wikipedia leads (of the form "[Article subject] is..."); since LLMs are trained in part on Wikipedia, they have plenty of examples of leads to emulate.
+In lead sentences, LLMs will sometimes avoid ''is'' by writing ''refers to'' as though the article were about the word or term instead of the subject directly.
 
 '''Examples'''
 {{textdiff|Gallery 825 on [[La Cienega Boulevard]], which was purchased in 1958, is LAAA's exhibition arm for [[contemporary art]]. There are four individual gallery spaces[...]|Gallery 825 on [[La Cienega Boulevard]] serves as LAAA's exhibition space for contemporary art. The gallery features four separate spaces[...]}}
@@ -1030,7 +1028,7 @@ AI edit summaries strongly suggest that the edits themselves are also AI-generat
 More examples (albeit shorter than summaries from current LLMs) can be found [https://huggingface.co/datasets/msakota/edisum_dataset in this dataset] of edit summaries generated with GPT 3.5-turbo.
 
 === "Submission statements" in AFC drafts ===
-This one is specific to drafts submitted by [[WP:AFC|Articles for Creation]]. At least one LLM tends to insert "submission statements" intended for reviewers that supposedly explain why the subject is notable and why the draft meets Wikipedia guidelines. Of course, [[WP:BOOMERANG|all this actually does is]] let reviewers know that the draft is LLM-generated, and should be declined or speedily deleted without a second thought.
+This one is specific to drafts submitted by [[WP:AFC|Articles for Creation]]. At least one LLM tends to insert "submission statements" supposedly intended for reviewers that supposedly explain why the subject is notable and why the draft meets Wikipedia guidelines. Of course, [[WP:BOOMERANG|all this actually does is]] let reviewers know that the draft is LLM-generated, and should be declined or speedily deleted without a second thought.
 
 {{blockquote|Reviewer note (for AfC): This draft is a neutral and well-sourced biography of Portuguese public manager Jorge Patrão. All references are from independent, reliable sources (Público, Diário de Notícias, Jornal de Negócios, RTP, O Interior, Agência Lusa) covering his public career and cultural activity. It meets WP:RS and WP:BLP standards and demonstrates clear notability per WP:NBIO through: – Presidency of Serra da Estrela Tourism Region (1998–2013); – Presidency of Parkurbis – Covilhã Science and Technology Park; – Founding role in Rede de Judiarias de Portugal (member of the Council of Europe’s European Routes of Jewish Heritage); – Authorship of the book "1677 – A Fábrica d’El-Rei"; – Founder/curator of the Beatriz de Luna Art Collection (Old Master focus). There is also a Portuguese version of this article at pt.wikipedia.org/wiki/Jorge_Patrão. Thank you for your review. -->|From [[Special:Diff/1316087104|this October 2025 revision]] to [[Draft:Jorge Patrão]] (all the inevitable formatting errors are present in the original)}}
 
@@ -1161,9 +1159,25 @@ Historically, some comments generated by AI chatbots have begun with text that a
 
 {{blockquote|Subject: Concerns about Inaccurate Information|From [[Special:Diff/1278589409|this March 2025 revision]] to [[Talk:Kjersti Flaa]]}}
 
-=== <span class="anchor" id="Shortcuts"></span> Non-existent shortcuts ===
+=== Non-existent policies or guidelines ===
+When AI chatbots try to cite Wikipedia's policies or guidelines by mentioning shortcuts, they have occasionally misattributed hallucinated policies or guidelines to specific pages, including to pages that were never intended to be cited in such a manner to begin with.
+
+'''Examples'''
+{{blockquote|
+WP:NOTENGLISH clearly states:
+
+<mark>"Wikipedia articles should not contain material based solely on non-English-language sources without reliable English-language sources."</mark>
+
+In this case, the material you’re suggesting must be accompanied by a reliable English translation or reliable secondary sources for verification. Without that, it cannot meet Wikipedia’s verifiability standards.
+|From [[Special:Diff/1284250763|this April 2025 revision]] to [[Wikipedia:Administrators' noticeboard/Incidents]]}}
+
+{{blockquote|
+Per [[WP:LAW]]: <mark>''"Wikipedia is subject to the laws of the countries in which it operates."''</mark>
+|From [[Special:Diff/1306573330|this August 2025 revision]] to [[User:Flanker235]]}}
+
+==== <span class="anchor" id="Shortcuts"></span>Non-existent shortcuts ====
 {{shortcut|WP:AISHORTCUT}}
-On a few occasions, whilst participating in discussions, users of AI chatbots have pasted text containing hallucinated shortcuts that do not redirect to any existing page.
+In some cases, users of AI chatbots have pasted text containing hallucinated shortcuts that do not redirect to any existing page at all.
 
 '''Examples'''
 {{blockquote|
@@ -1178,7 +1192,7 @@ The subject’s career bridges media, child and youth care scholarship, trauma-i
 
 {{blockquote|
 1. '''MoltMatch section''': A paragraph suddenly switches to Spanish mid-article ("Sin embargo, Teixeira (2026) advierte en el libro..."). This describes credential leaking, prompt injection, and arbitrary command execution in technical detail. The language switch is inconsistent with <mark>[[WP:ENGLISHONLY]]</mark> and the content reads more like an embedded warning for LLM consumption than encyclopedic prose.
-|From [[Special:DIff/1341908665|this March 2026 revision]] to [[Talk:OpenClaw]]}}
+|From [[Special:Diff/1341908665|this March 2026 revision]] to [[Talk:OpenClaw]]}}
 
 {{blockquote|
 Verification over Origin ([[WP:V]] & <mark>[[WP:NOTAI]]</mark>): AI-assisted drafting is not prohibited. Per Wikipedia policy, the focus is on verifiability, not the tool used for drafting. Every fact in this article is supported by high-quality, third-party sources. Claiming "AI" as a pretext to delete documented financial records is a violation of [[WP:POINT]].
@@ -1260,6 +1274,14 @@ In this case, India Today, ThePrint, Business Today and NDTV have each published
 
 {{blockquote|If calling policy-based critique “spam” is the only way you can disengage from legitimate scrutiny, that says more about the strength of your position than mine. <mark>Repeating a point isn’t uncivil — especially when the point remains unaddressed. What is uncivil is trying to shut down a contributor by declaring exhaustion instead of responding with policy.</mark>
 |From [[Special:Diff/1296102535|this June 2025 revision]] to [[Wikipedia:Articles for deletion/Lilly Contino]]}}
+
+==== Invoking WP:PRESERVE ====
+During deletion discussions, AI wikilawyers particularly have a tendency of handwaving toward [[WP:PRESERVE]] as an argument for why the article should not be deleted, regardless of what the argument for deletion is; even in cases where the argument for deletion is that the article fails Wikipedia's core content policies, the AI wikilawyer may still invoke PRESERVE, which only says that we should avoid deleting articles in cases where core content policies are upheld (such as notability and verifiability) but there are other, more solvable issues.
+
+{{blockquote|
+I recognize the article requires cleanup and welcome neutral editor assistance. <mark>I request the community apply [[WP:PRESERVE]].</mark>
+|From [[Special:Diff/1349349388|this revision]] to [[Wikipedia:Articles for deletion/Michael Karlan (2nd nomination)]]
+}}
 
 ===<templatestyles src="Template:Visible anchor/styles.css" /><span class="vanchor"><!--
 -->{{#if:Emoji|<span id="{{plain text|Emoji}}"></span>}}<!--
@@ -1396,5 +1418,5 @@ In some AI-assisted text, citations may include an ''access-date'' by default, b
 == External links ==
 * [https://canyoupasstheturingtest.com/ ''Can You Pass the Turing Test?'']
 * [https://tropes.fyi/directory ''Tropes - AI Writing Pattern Directory'']
-
+{{Wikipedia artificial intelligence}}
 [[Category:Wikipedia and artificial intelligence]]
