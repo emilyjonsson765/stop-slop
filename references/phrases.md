@@ -49,6 +49,7 @@ Replace with plain language.
 | Moving forward | Next, from now |
 | Circle back | Return to, revisit |
 | On the same page | Aligned, agreed |
+| Refers to (in a lead sentence) | Is |
 
 ## Adverbs
 
@@ -208,6 +209,8 @@ If you don't know, say what is known, name the gap, or stop. Don't paste the mod
 ## Review-Workflow Boilerplate
 
 These show up when AI writes for submission queues, moderators, reviewers, or admins.
+
+- "reviewer note"
 
 - "put a decline notice"
 - "meet the necessary standards for publication"

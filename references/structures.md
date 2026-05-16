@@ -157,6 +157,18 @@ Writers using AI often tack on a closing paragraph that asks for feedback in a p
 
 **Instead:** Ask one concrete question, or state the exact change you'll make next.
 
+## Hallucinated Policy Citations
+
+AI sometimes cites rules, standards, or policy shorthand that do not exist, or cites a real page as if it said something it never said.
+
+| Pattern | Problem |
+|---------|---------|
+| "Per [POLICY]: ..." when the policy or shortcut is made up | Fake authority signal |
+| "[TERM] refers to..." in an article lead | Dodges the plain statement and turns the subject into a dictionary entry |
+| Naming a real rule that does not support the claim | Citation cosplay |
+
+**Instead:** Quote or paraphrase the real source, or cut the citation. In lead sentences, say what the subject is.
+
 ## Subject-Line Leakage
 
 AI-generated drafts for emails, forms, or messages sometimes leak the field label into the body.
