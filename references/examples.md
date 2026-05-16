@@ -155,3 +155,27 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "If you think this tag is wrong, point to the sentence that triggered it. I'll rewrite or remove it."
 
 **Changes:** Cut the procedural fog. Replaced "concrete evidence" boilerplate with a direct request tied to a specific action.
+
+---
+
+## Example 14: Compliance-Theater Reassurance
+
+**Before:**
+> "I assure you that my intention is to contribute responsibly, and I am committed to content that aligns with Wikipedia's standards."
+
+**After:**
+> "I cut the unsourced claim and replaced it with a cited paragraph from the source above."
+
+**Changes:** Removed the defensive self-description and replaced it with the concrete edit.
+
+---
+
+## Example 15: Generic Significance Inflation
+
+**Before:**
+> "The exhibit generated debate, prompted broader reflection, and raised philosophical questions about memory in the digital age."
+
+**After:**
+> "Critics argued over whether the exhibit preserved memory or turned grief into spectacle."
+
+**Changes:** Replaced abstract importance-signaling with the actual dispute.
