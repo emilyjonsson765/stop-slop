@@ -107,3 +107,39 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "Please review the revised draft."
 
 **Changes:** Removed the leaked template field label and the email-formality padding. Started with the actual request.
+
+---
+
+## Example 10: Process-Narrating Edit Summary
+
+**Before:**
+> "I formalized the tone, clarified technical content, ensured neutrality, and indicated citation needs. Historical narratives were streamlined, allocation details specified with regulatory references, propagation explanations made reader-friendly, and equipment discussions focused on availability and regulatory compliance, all while adhering to encyclopedic standards."
+
+**After:**
+> "Cut unsourced claims; added citation-needed tags; tightened technical wording."
+
+**Changes:** Replaced a ceremonial self-review with a plain summary of what changed.
+
+---
+
+## Example 11: Knowledge-Cutoff Leakage
+
+**Before:**
+> "As of my last knowledge update in January 2022, I don't have specific information about the current status of Chester Mental Health Center in today's era."
+
+**After:**
+> "I couldn't verify the center's current status from the sources I found."
+
+**Changes:** Removed the model-disclaimer phrasing and stated the actual limit.
+
+---
+
+## Example 12: Template-Name Transclusion
+
+**Before:**
+> "We should discuss tags such as {{Unreliable sources}}, {{Disputed}}, and {{Cleanup rewrite}} before adding more of them."
+
+**After:**
+> "We should discuss the 'unreliable sources', 'disputed', and 'cleanup rewrite' tags before adding more of them."
+
+**Changes:** Kept the sentence as prose instead of live template markup.
