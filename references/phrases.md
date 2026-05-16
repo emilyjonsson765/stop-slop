@@ -71,6 +71,7 @@ Specific offenders:
 - "interestingly"
 - "importantly"
 - "crucially"
+- "robust"
 
 Also cut these filler phrases:
 
@@ -154,6 +155,7 @@ If a sentence says something is important/deep/structural without showing the sp
 ## Compliance Theater
 
 These phrases show up when the writer wants to sound responsible, policy-aligned, or open to feedback instead of saying something concrete.
+These phrases show up when the writer wants to sound responsible, policy-aligned, or open to feedback instead of saying something specific.
 
 - "aligns with [the mission / the goals / the standards]"
 - "adheres to [the policies / the guidelines / the standards]"
@@ -165,6 +167,15 @@ These phrases show up when the writer wants to sound responsible, policy-aligned
 - "please do not hesitate to let me know"
 
 These are social lubricant, not substance. Replace them with the specific action, request, or revision.
+
+## Defensive Placeholder Language
+
+These phrases simulate rigor while dodging the substance of the dispute.
+
+- "concrete evidence"
+- "concrete examples"
+
+They often show up in AI-written defenses, especially when the model wants to shift the burden back to the critic instead of addressing the underlying point.
 
 ## Privacy Placeholders
 

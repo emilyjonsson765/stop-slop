@@ -133,6 +133,17 @@ Wh- openers become a crutch. "What makes this hard is..." becomes "The constrain
 | Lazy extremes (every, always, never, everyone, everybody, nobody) | False authority. Use specifics instead of sweeping claims. |
 | All adverbs (-ly words, "really," "just," "literally," "genuinely," "honestly," "simply," "actually") | Empty emphasis. See phrases.md for full list. |
 
+## Burden-Shifting Demands for Proof
+
+AI-written defenses often ask for "concrete evidence" or "concrete examples" in a canned, procedural way. The point is not to examine the claim but to bounce the burden back to the other person.
+
+| Pattern | Problem |
+|---------|---------|
+| "Without concrete examples, this concern cannot be evaluated" | Sounds rigorous while refusing to engage with the substance |
+| "In the absence of concrete evidence, I propose removing the tag" | Procedural language used as a shield |
+
+**Instead:** Answer the actual criticism. If you need an example, ask for one specific example and say what you will do with it.
+
 ## Bureaucratic Solicitation
 
 Writers using AI often tack on a closing paragraph that asks for feedback in a polished, deferential, low-information way.

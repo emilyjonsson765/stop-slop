@@ -143,3 +143,15 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "We should discuss the 'unreliable sources', 'disputed', and 'cleanup rewrite' tags before adding more of them."
 
 **Changes:** Kept the sentence as prose instead of live template markup.
+
+---
+
+## Example 13: Defensive "Concrete" Language
+
+**Before:**
+> "In the absence of concrete evidence, I propose removing the AI-generated tag immediately to maintain the article's integrity."
+
+**After:**
+> "If you think this tag is wrong, point to the sentence that triggered it. I'll rewrite or remove it."
+
+**Changes:** Cut the procedural fog. Replaced "concrete evidence" boilerplate with a direct request tied to a specific action.
