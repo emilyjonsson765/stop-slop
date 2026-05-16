@@ -83,3 +83,27 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "ISO/IEC JTC 1/SC 27 (Information security, cybersecurity, and privacy) created this standard. It belongs to the ISO/IEC 27000 family."
 
 **Changes:** Stripped citation artifacts (+3, +1). Removed passive-voice opener. Cut redundant "ISO+3ISO+3" duplication artifacts.
+
+---
+
+## Example 8: Compliance Theater + Feedback Boilerplate
+
+**Before:**
+> "We remain committed to creating content that aligns with the platform's mission and standards. If you have any concerns or suggestions, we would welcome additional input and be happy to address them."
+
+**After:**
+> "We cut the unsupported claim in paragraph three and replaced it with a cited example. If there's still a problem, point to the sentence."
+
+**Changes:** Removed mission-and-standards boilerplate, cut the generic invitation for feedback, and replaced both with a concrete revision plus a specific ask.
+
+---
+
+## Example 9: Subject-Line Leakage
+
+**Before:**
+> "Subject: Request for Review and Clarification Regarding Draft Article\n\nI am reaching out to request feedback on the revised draft."
+
+**After:**
+> "Please review the revised draft."
+
+**Changes:** Removed the leaked template field label and the email-formality padding. Started with the actual request.

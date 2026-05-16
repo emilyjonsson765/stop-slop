@@ -132,3 +132,25 @@ Wh- openers become a crutch. "What makes this hard is..." becomes "The constrain
 |---------|---------|
 | Lazy extremes (every, always, never, everyone, everybody, nobody) | False authority. Use specifics instead of sweeping claims. |
 | All adverbs (-ly words, "really," "just," "literally," "genuinely," "honestly," "simply," "actually") | Empty emphasis. See phrases.md for full list. |
+
+## Bureaucratic Solicitation
+
+Writers using AI often tack on a closing paragraph that asks for feedback in a polished, deferential, low-information way.
+
+| Pattern | Problem |
+|---------|---------|
+| "If you have any concerns/suggestions/feedback, I would be happy to address them" | Formal placeholder instead of a concrete ask |
+| "We welcome any additional input and remain committed to..." | Compliance-signaling close with no content |
+| "Please let me know if there are specific sections you'd like me to revise" | Outsourcing the writer's judgment to the reader |
+
+**Instead:** Ask one concrete question, or state the exact change you'll make next.
+
+## Subject-Line Leakage
+
+AI-generated drafts for emails, forms, or messages sometimes leak the field label into the body.
+
+| Pattern | Problem |
+|---------|---------|
+| Opening with "Subject:" followed by a title | Suggests the text was pasted from a generated template, not written for the actual medium |
+
+**Instead:** Start with the message itself. If the subject matters, turn it into a heading or cut it.
