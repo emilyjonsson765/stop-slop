@@ -127,6 +127,8 @@ Words overrepresented in AI output from the 2023–2024 GPT-4 era, confirmed by 
 - "boasts" (use: has, includes — only people boast)
 - "garner" (use: get, earn, attract)
 - "bolstered" (use: strengthened, supported)
+- "highlight" as a verb (use: show, note, point to)
+- "showcase" (use: show, present, include)
 
 **Hollow adjectives** — replace with the specific quality:
 - "meticulous" / "meticulously" (say *what* was careful about it)
@@ -173,6 +175,17 @@ These phrases show up when the writer wants to sound responsible, policy-aligned
 - "please do not hesitate to let me know"
 
 These are social lubricant, not substance. Replace them with the specific action, request, or revision.
+
+## Canned List Intros
+
+These phrases often signal that the writer is about to dump an AI-made bullet taxonomy instead of writing prose.
+
+- "Key highlights:"
+- "Media coverage"
+- "Applications include"
+- "Types include"
+
+If the point is a short list, write the short list. If it needs explanation, write sentences.
 
 ## Defensive Placeholder Language
 
