@@ -191,3 +191,27 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "A health catchment area is the geographic area from which a hospital or clinic draws its patients."
 
 **Changes:** Replaced the dictionary-style "refers to" lead with a plain statement of what the subject is.
+
+---
+
+## Example 17: Canned-Format Bullet Farm
+
+**Before:**
+> "Key highlights:\n> - **Route Details**: Starts at Medak, passes through Yellareddy, Banswada, Nasrullabad, Varni, Rudrur, Bodhan, Shatapur, Navipet, Fakirabad, Basar, Mudhol, and ends at Bhainsa.\n> - **Bypasses and Improvements**: Bypasses are planned at high-density spots.\n> - **Timeline and Impact**: Construction is 40% complete and will boost trade."
+
+**After:**
+> "The route runs from Medak to Bhainsa. Planners added bypasses around crowded towns. Officials say the project is 40% complete."
+
+**Changes:** Cut the slideshow framing, removed the bold-label template, and turned a canned taxonomy into plain statements.
+
+---
+
+## Example 18: Renderer Leakage
+
+**Before:**
+> "The platform was showcased at SAHA Expo 2026. [](grok_render_citation_card_json={\"cardIds\":[\"3bb883\"]})"
+
+**After:**
+> "The platform was showcased at SAHA Expo 2026."
+
+**Changes:** Removed leaked citation-renderer payload that belonged to the model interface, not the prose.

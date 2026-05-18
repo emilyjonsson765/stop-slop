@@ -204,6 +204,30 @@ AI sometimes pastes raw template names into discussion text, which turns prose i
 
 **Instead:** Mention the plain name, or escape the template syntax. References to markup should stay references.
 
+## Canned-Format Bullet Farms
+
+AI loves prepackaged list structures: a label, a run of bolded bullets, then a second run of "applications" or "benefits." The list feels tidy, but it usually replaces thought with taxonomy.
+
+| Pattern | Problem |
+|---------|---------|
+| "Key highlights:" followed by a stack of bold bullets | Generic presentation-deck framing instead of prose |
+| "Types / applications / benefits" lists with every bullet in the same template | Canned structure pasted across subjects |
+| Markdown bullets with bold labels and a trailing explanation in every line | Chatbot house style leaking into finished prose |
+
+**Instead:** Keep the list only if each item earns its place. Otherwise write plain sentences and name the few points that matter.
+
+## Renderer Leakage
+
+Some models leak the output format of their citation or rendering system directly into the text.
+
+| Pattern | Problem |
+|---------|---------|
+| `grok_render_citation_card_json` in body text | Raw renderer payload pasted instead of a citation |
+| Bracketed line markers like `` | Retrieval UI debris, not prose |
+| Placeholder cite blobs like `citeturn0search0` | Internal citation token leaked into final text |
+
+**Instead:** Strip the renderer artifact and replace it with a real citation, link, or sentence.
+
 ## Emoji-Decorated Headings and Lists
 
 AI likes to decorate structure with emoji when the medium does not call for it.
