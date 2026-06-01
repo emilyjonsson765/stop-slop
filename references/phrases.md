@@ -89,6 +89,9 @@ Also cut these filler phrases:
 Remove self-referential asides. The essay should move, not announce its own structure.
 
 - "Hint:"
+- "In summary,"
+- "In conclusion,"
+- "Overall,"
 - "Plot twist:" / "Spoiler:"
 - "You already know this, but"
 - "But that's another post"
@@ -224,7 +227,6 @@ If you don't know, say what is known, name the gap, or stop. Don't paste the mod
 These show up when AI writes for submission queues, moderators, reviewers, or admins.
 
 - "reviewer note"
-
 - "put a decline notice"
 - "meet the necessary standards for publication"
 - "ensure neutrality"
@@ -234,6 +236,14 @@ These show up when AI writes for submission queues, moderators, reviewers, or ad
 - "improved clarity, flow, and readability"
 - "focus on factual details"
 - "provide a neutral and informative description"
+- "I understand the concern"
+- "I am trying to understand whether the issue is"
+- "whether the problem is mainly"
+- "an experienced editor"
+- "an uninvolved editor"
+- "which of these sources, if any, count as"
+- "significant independent secondary coverage"
+- "Could you please review my listed sources"
 
 These are process slogans, not content. Replace them with the exact edit made.
 
