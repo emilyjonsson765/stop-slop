@@ -179,6 +179,30 @@ AI-generated drafts for emails, forms, or messages sometimes leak the field labe
 
 **Instead:** Start with the message itself. If the subject matters, turn it into a heading or cut it.
 
+## Section-Title Leakage
+
+AI-generated drafts sometimes paste the skeleton of a formatted memo straight into plain text. The result is a run of fake headings and subheadings embedded in the body.
+
+| Pattern | Problem |
+|---------|---------|
+| Plain-text headings like "Importance of Thorough Research" followed by generic paragraphs | Suggests the model generated a structured memo, then someone pasted it without adapting it to the medium |
+| Multiple mini-sections in one short comment, each with title-case labels | Turns a reply into a canned report template |
+| Repeated closers like "Conclusion" / "In conclusion" / "In summary" inside the same comment | Over-signals structure instead of making a point |
+
+**Instead:** Remove the labels and keep the one or two sentences that actually advance the argument.
+
+## Confusion After Explicit Feedback
+
+AI often restates a clear instruction, then immediately asks whether that instruction might secretly mean something else.
+
+| Pattern | Problem |
+|---------|---------|
+| "The decline says X... I am trying to understand whether the issue is X, Y, or Z" | Self-contradictory request that ignores the explicit feedback it just quoted |
+| Asking whether "tone, sourcing, or structure" is the issue right after acknowledging the exact issue | Sounds attentive while refusing to absorb the answer |
+| Soliciting a fresh diagnosis from "an experienced editor" instead of addressing the stated defect | Uses process to avoid revision |
+
+**Instead:** Accept the stated issue and revise for that issue. If something is still unclear, ask one narrow follow-up tied to a specific sentence or source.
+
 ## Process-Narrating Edit Summaries
 
 AI-written summaries often narrate intent, compliance, and precautions instead of naming the actual edit.
