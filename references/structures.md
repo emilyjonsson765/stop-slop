@@ -63,6 +63,20 @@ These announce insight rather than deliver it.
 | "By the time X, I was Y." | Narrative template |
 | "X that isn't Y" | Indirect. Say "X is broken" |
 
+## Anti-Plainstyle Upgrades
+
+These swap a plain sentence for something that sounds more formal or elevated without adding information.
+
+| Pattern | Problem |
+|---------|---------|
+| "serves as / stands as / represents / marks" where plain "is" works | Dodges the shortest true sentence |
+| "features / offers / maintains" where plain "has" works | Marketing verb posing as description |
+| "authored / relocated / utilized / attempted" | Stiff synonym for a common verb |
+| "began his career as" / "ventured into politics as a candidate" | Long way around "was" |
+| "as a result of" / "in order to" / "all of the" / "a part of" / "the fact that" | Wordy filler that pads syntax |
+
+**Instead:** Use the plain verb first. Upgrade only when the longer form changes the meaning.
+
 ## False Agency
 
 Giving inanimate things human verbs. Complaints don't "become" fixes. Bets don't "live or die." Decisions don't "emerge." A person does something to make those things happen. AI loves this because it avoids naming the actor.
@@ -143,6 +157,18 @@ AI-written defenses often ask for "concrete evidence" or "concrete examples" in 
 | "In the absence of concrete evidence, I propose removing the tag" | Procedural language used as a shield |
 
 **Instead:** Answer the actual criticism. If you need an example, ask for one specific example and say what you will do with it.
+
+## Content-Only Deflection
+
+When challenged about AI use or another pattern problem, AI-written replies often try to shift the discussion away from the conduct itself and toward article cleanup in the abstract.
+
+| Pattern | Problem |
+|---------|---------|
+| "Let's focus on improving the article rather than making accusations" | Tries to reframe the dispute instead of answering it |
+| "This should be focused solely on the content" | Uses process language to dodge the conduct question |
+| "If this is being taken as a personal attack..." | Recasts scrutiny as incivility instead of addressing the trigger |
+
+**Instead:** Address the sentence, source, or behavior under dispute. If a fix is needed, name it.
 
 ## Bureaucratic Solicitation
 

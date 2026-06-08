@@ -227,3 +227,27 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "The draft was declined because the sources do not establish notability. I'll replace the weak citations and cut the promotional claims before resubmitting."
 
 **Changes:** Removed plain-text heading leakage, cut the self-contradictory "I know the issue but what's the issue?" framing, and replaced the canned request for validation with a concrete next step.
+
+---
+
+## Example 20: Anti-Plainstyle Upgrade
+
+**Before:**
+> "The museum serves as a regional hub for design history and features a research library. Its founder authored several essays and later relocated to Chicago in order to expand the program."
+
+**After:**
+> "The museum is a regional hub for design history and has a research library. Its founder wrote several essays and moved to Chicago to expand the program."
+
+**Changes:** Replaced inflated syntax with plain verbs: "serves as" -> "is," "features" -> "has," "authored" -> "wrote," "relocated" -> "moved," and "in order to" -> "to."
+
+---
+
+## Example 21: Content-Only Deflection
+
+**Before:**
+> "Rather than making accusations, let's focus solely on improving the article. If there are specific sections that read this way, please point them out so I can address them constructively."
+
+**After:**
+> "Point to the sentence you want changed. I'll rewrite it."
+
+**Changes:** Removed the canned pivot away from conduct, cut the abstract call for "constructive" process, and replaced both with a direct request tied to one action.
