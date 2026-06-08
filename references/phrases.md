@@ -49,7 +49,20 @@ Replace with plain language.
 | Moving forward | Next, from now |
 | Circle back | Return to, revisit |
 | On the same page | Aligned, agreed |
+| Serves as / stands as / represents / marks | Is |
+| Features / offers / maintains | Has, includes |
 | Refers to (in a lead sentence) | Is |
+
+## Stiff Formal Upgrades
+
+These sound polished but usually weaken the sentence. Prefer the short verb unless the longer one adds a real distinction.
+
+- "authored" (use: wrote)
+- "relocated" (use: moved)
+- "utilized" (use: used)
+- "attempted" (use: tried)
+- "ventured into politics as a candidate" (use: was a candidate)
+- "began his career as" (often use: was)
 
 ## Adverbs
 
@@ -64,6 +77,7 @@ Specific offenders:
 - "honestly"
 - "simply"
 - "actually"
+- "perhaps"
 - "deeply"
 - "truly"
 - "fundamentally"
@@ -83,6 +97,12 @@ Also cut these filler phrases:
 - "When it comes to"
 - "In a world where"
 - "The reality is"
+- "tends to"
+- "as a result of"
+- "in order to"
+- "all of the"
+- "a part of"
+- "the fact that"
 
 ## Meta-Commentary
 
@@ -176,6 +196,9 @@ These phrases show up when the writer wants to sound responsible, policy-aligned
 - "happy to address any concerns"
 - "if you have any concerns / suggestions / feedback"
 - "please do not hesitate to let me know"
+- "focused solely on the improvement of [the article / the content]"
+- "let's focus on the article, not the accusations"
+- "this feels like a personal attack"
 
 These are social lubricant, not substance. Replace them with the specific action, request, or revision.
 
