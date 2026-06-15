@@ -251,3 +251,27 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "Point to the sentence you want changed. I'll rewrite it."
 
 **Changes:** Removed the canned pivot away from conduct, cut the abstract call for "constructive" process, and replaced both with a direct request tied to one action.
+
+---
+
+## Example 22: Document-Wrapper Leakage
+
+**Before:**
+> "Based only on the information you've shared with me, here's a professional encyclopedia-style draft:\n\n:::writing{variant=\"document\" id=\"68427\"}"
+
+**After:**
+> "Based only on the information you've shared with me, here's a professional encyclopedia-style draft:"
+
+**Changes:** Removed the leaked model wrapper and kept the actual sentence.
+
+---
+
+## Example 23: Hallucinated Shortcut Citation
+
+**Before:**
+> "This meets the standard for WP:RSLOCAL, which permits the use of regionally relevant sources for uncontroversial, local historical information."
+
+**After:**
+> "This source is local and attributed. If you want to keep it, point to the real guideline that supports that use."
+
+**Changes:** Replaced invented shortcut authority with a concrete sourcing claim and a request for a real citation.

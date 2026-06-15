@@ -1,4 +1,4 @@
-REVID:1358344376
+REVID:1359415622
 {{redirect|Wikipedia:AI writing| other uses|WP:AI-INDEX}}
 {{WikiProject advice|wikiproject=WikiProject AI Cleanup|WP:AISIGNS|WP:AITELLS|WP:LLMSIGNS}}
 [[File:ChatGPT response screenshot 1.jpg|thumb|alt=A screenshot of ChatGPT reading: "[header] Legacy & Interpretation [body] The "Black Hole Edition" is not just a meme — it's a celebration of grassroots car culture, where ideas are limitless and fun is more important than spec sheets. Whether powered by a rotary engine, a V8 swap, or an imagined fighter jet turbine, the Miata remains the canvas for car enthusiasts worldwide."|LLMs tend to have an identifiable writing style.]]
@@ -258,9 +258,7 @@ In AI-generated articles about topics with a title that is not a [[proper name]]
 {{blockquote|{{highlight|The “'''List of songs about Mexico'''” is a curated compilation}} of musical works that reference Mexico its culture, geography, or identity as a central theme.|From [[Special:Diff/1300476090|this July 2025 revision]] to [[List of songs about Mexico]]}}
 
 ==Language and grammar==
-AI-generated text displays consistent patterns in syntax, word choice, and sentence construction that human writing does not display to nearly the same degree. Conversely, it often struggles to match some syntactic and linguistic patterns characteristic of human writing. Some LLMs deviate more from human writing than others; for example, GPT-4o, the language model used by ChatGPT from May 2024 to August 2025, produces output with more syntactic variation than other contemporaneous language models.<ref name="Reinhart" />
-
-Since these are linguistic patterns, they occur regardless of the subject matter, which often gives AI-generated text an identifiable "voice."
+AI-generated text displays consistent patterns in syntax, word choice, and sentence construction that human writing does not display to nearly the same degree. Conversely, it often struggles to match some syntactic and linguistic patterns characteristic of human writing. Some LLMs deviate more from human writing than others; for example, GPT-4o, the language model used by ChatGPT from May 2024 to August 2025, produces output with more variation from human writing than other contemporaneous language models.<ref name="Reinhart" /> Since these are linguistic patterns, they occur consistently regardless of the subject matter, which often gives AI-generated text an identifiable "voice."
 
 === High density of "AI vocabulary" words ===
 {{Shortcut|WP:AIVOCAB|WP:AIWORDS}}
@@ -275,7 +273,7 @@ The distribution of "AI vocabulary" is slightly different depending on which cha
 * '''Mid-2024 to mid-2025''' (GPT-4o): ''align with'', ''bolstered'', ''crucial'', ''emphasizing'', ''enhance'', ''enduring'', ''fostering'', ''highlighting'', ''pivotal'', ''showcasing'', ''underscore'', ''vibrant''
 * '''Mid-2025 and on''' (GPT-5): ''emphasizing'', ''enhance'', ''highlighting'', ''showcasing'' (plus words associated with [[#Undue_emphasis_on_notability,_attribution,_and_media_coverage|"Undue emphasis on notability, attribution, and media coverage"]])
 
-Please keep context in mind. For example, while the figurative use of "underscore" is ubiquitous in earlier AI text, the word can also refer to a literal underline mark or to [[incidental music]]. 
+This section is to be taken as literally as possible: a word being overused by AI does ''not'' imply that its synonyms are also overused. Also, keep context in mind. For example, while the figurative use of "underscore" is ubiquitous in earlier AI text, the word can also refer to a literal underline mark or to [[incidental music]]. 
 
 '''Examples'''
 {{blockquote|
@@ -661,6 +659,10 @@ Final important tip: The ~~~~ at the very end is Wikipedia markup that automatic
 |title=From {{diff||1297191187|label=this June 2025 revision}} to [[Talk:Test automation management tools]]; the message also [[#Abrupt cut offs|ends unexpectedly]]
 }}
 
+{{blockquote|
+Delete this section before submission. After pasting the article, convert as many items as possible in the citation list into inline references attached to the exact sentences they support. If a reviewer questions print-era sources, explain that the article relies on identifiable published books, journals and newspapers from the pre-internet period, several of which survive only as scans from original printed copies. 
+|From [[Special:Diff/1348412352|this April 2026 revision]] to [[Draft:Gurmukh Singh Jeet]]}}
+
 {{blockquote|text=<syntaxhighlight lang="wikitext">
 <!-- WIKIPEDIA DRAFT — Triple Entry Accounting, version 2 -->
 <!-- Written to Wikipedia Manual of Style. Neutral tone, sourced throughout. -->
@@ -768,7 +770,7 @@ LLM-generated infobox edits may contain comments stating that text or images sho
 ==Markup==
 
 ===Use of Markdown===
-{{Shortcut|WP:MARKDOWN}}
+{{Shortcut|WP:MARKDOWN|WP:AIMARKDOWN}}
 
 A lot of AI chatbots are not proficient in [[H:WT|wikitext]], the [[markup language]] used to instruct Wikipedia's [[MediaWiki]] software how to format an article. As wikitext is a niche markup language, found mostly on wikis running on MediaWiki and other MediaWiki-based platforms like [[Miraheze]], LLMs wikitext-formatted content is not prominent in their training data. While the corpora of chatbots did ingest millions of Wikipedia articles, these articles would not have been processed as text files containing wikitext syntax.
 
@@ -905,7 +907,7 @@ Gölge was publicly revealed through trademark and patent applications filed wit
 Gölge is a **piston-engine** tactical UAV optimized for long-endurance missions. The name "Gölge" (Shadow) and associated branding suggest a focus on **low-observability** (low radar cross-section) features. It is designed as a flexible, multi-role platform, primarily for intelligence, surveillance, and reconnaissance (ISR) roles. [](grok_render_citation_card_json={"cardIds":["993eac"]}) 
 }}|From revision [[Special:Permalink/1352634865|1352634865]] of [[Wikipedia:Signs of AI writing/Examples/TUSAŞ Gölge tactical UAV|Draft:TUSAŞ Gölge tactical UAV]] in May 2026}}
 
-As of June 2025, markup with [[lenticular brackets]] and [[dagger symbol]]s, like <code>【85†L261-269】</code>, has also been seen.
+As of June 2025, markup with [[lenticular brackets]] and [[dagger symbol]]s, like <code>【85†L261-269】</code>, has also been seen. This format appears to be specific to [[DeepSeek]] and its derivatives.<ref>{{cite web|url=https://github.com/subharmonicseed/Synergesis/blob/99a9b959036524552be2fd796f9a8f927ac91549/Syn%20sans%20magie/Synergesis_DeepSeek_Complete_Archive/Syn%20comme%20une%20%C3%A9tude%20de%20march%C3%A9.txt#L83|title=Synergesis_DeepSeek_Complete_Archive text|access-date=11 June 2026}}</ref>
 
 {{blockquote|{{fmbox|image=none|text=Recent initiatives aim to reverse decline. Medway Council’s Gillingham Town Centre Planning Framework (2007) and later Gillingham Business Plan identified preservation of historic shopfronts and pedestrian enhancements as prioritiesmedway.gov.ukmedway.gov.uk. In 2024 MP Naushabah Khan launched the “Love Gillingham” campaign and a high-street taskforce to improve cleanliness, safety and commerce【85†L261-269】. A community panel is drafting a Gillingham Action Plan, and events like the September 2024 “Big Day Out” carnival (2,500+ attendees) help draw people in【85†L269-274】. As of 2025 vacancy rates on the High Street were reported at about 6.2% (well below the 16% UK average)【85†L261-269】, suggesting a modest stability even as big chains have disappeared.}}|From [[Special:Permalink/1295285879|this June 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Gillingham High Street|Draft:Gillingham High Street]]}}
 {{blockquote|{{fmbox|image=none|text=Paytra Gessler, known professionally as Paytra, is an American singer‑songwriter whose music combines pop and hip‑hop with R&B, funk and soul influences. She gained attention in the early 2020s with her genre‑bending singles and her feminist message. Paytra’s releases include the EP Momma Taught Me How to Fight and the album Tiny But Mighty (both 2023)【854140639155648†L119-L123】, as well as the singles “Villain Era” (2023), “Bright Red Flags” (2023)【331835262276082†L127-L149】, “Good Girls Don’t Make History” (2024)【610406519434033†L284-L290】, “All Kinda Bitches” (2024)【695032903925577†L42-L52】 and “World’s About to Get Crazy” (2024)【466616601965079†L42-L60】.}}|From [[Special:Permalink/1304282215|this August 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Paytra|Draft:Paytra]]}}
@@ -930,6 +932,34 @@ ChatGPT may add [[JSON]]-formatted code at the end of sentences in the form of <
 
 {{blockquote|text=Patrick Denice & Jake Rosenfeld, [https://sociologicalscience.com/articles-v5-23-541/ Les syndicats et la rémunération non syndiquée aux États-Unis, 1977–2015], ‘‘Sociological Science’’ (2018).]({“attribution”:{“attributableIndex”:“3795-0”{{))}})
 |title=From [[:fr:Special:Diff/225259294|this April 2025 revision]] to [[:fr:Syndicalisme aux États-Unis]]}}
+
+===:::writing===
+As of June 1, 2026, markup in the format <code>:::writing{variant="document" id="[NUMBER]"}</code>, where [NUMBER] is a random 5-digit number, has been spotted; the triple colons at the beginning may or may not be interpreted as an indent. Triple colons at the end of the "document" are often paired with this. The markup may or may not be in other languages.
+
+'''Examples'''
+{{blockquote|text=I can help draft a Wikipedia-style biography, but I should be clear: a page written this way is not automatically suitable for Wikipedia. Wikipedia requires facts to be supported by independent, reliable sources, and promotional or unsourced claims may be removed.
+
+Based only on the information you've shared with me, here's a professional encyclopedia-style draft:
+
+:::<mark>writing{variant="document" id="68427"}</mark>
+|title=From [[Special:Permalink/1358854076|this revision]] to [[User:Drrbharanidharan]]; note the indent.
+}}
+
+{{blockquote|text=<syntaxhighlight lang="wikitext">:::écriture{variante="document" id="28471"} == AK7== '''AK7''', aussi connu sous le nom de '''Yanixak7''', [...] == Discographie == === Célibataires ===	 •	 « Digba Kistha » (2022)	 •	 ''Tals'' (2025) == Privilèges externes ==	
+pédia :
+
+:::writing{variant=“document” id=“51724”}
+== Liens externes ==
+	•	[https://redacted-link.invalid Spotify officiel]
+	•	[https://redacted-link.invalid Apple Music officiel]
+	•	[https://redacted-link.invalid YouTube officiel]
+	•	[https://redacted-link.invalid Instagram officiel]
+:::
+
+Et petite corr :::
+</syntaxhighlight>
+|title=From [[Special:Permalink/1357217465|this revision]] to [[Draft:Ak7]]; links have been redacted.
+}}
 
 === Non-existent or out-of-place categories ===
 {{shortcut|WP:AIREDCAT}}
@@ -1336,7 +1366,8 @@ Blindly cutting content, especially when it pertains to significant aspects of a
 Editors have a responsibility to engage in due diligence when making significant changes to articles, particularly those involving living persons. [...]
 }}|From [[Special:Diff/1241584157|this August 2024 revision]] to [[Talk:Eric Dick (lawyer)]]}}
 
-=== Non-existent policies or guidelines ===
+=== <span class="anchor" id="Hallucinated policies"></span> Non-existent policies or guidelines ===
+{{shortcut|WP:AIFICTPOLICY}}
 When AI chatbots try to cite Wikipedia's policies or guidelines by mentioning shortcuts, they have occasionally misattributed hallucinated policies or guidelines to specific pages, including to pages that were never intended to be cited in such a manner to begin with.
 
 '''Examples'''
@@ -1352,11 +1383,24 @@ In this case, the material you’re suggesting must be accompanied by a reliable
 Per [[WP:LAW]]: <mark>''"Wikipedia is subject to the laws of the countries in which it operates."''</mark>
 |From [[Special:Diff/1306573330|this August 2025 revision]] to [[User:Flanker235]]}}
 
+{{blockquote|
+* [[WP:BLOCKPOLICY]] — blocks are preventative, not punitive.
+* [[WP:BEFORE]] — <mark>admins should attempt communication before blocking.</mark>
+* [[WP:AGF]] — assume good faith.
+* [[WP:BITE]] — do not bite newcomers.
+* [[WP:INVOLVED]] — avoid actions where involved.
+* [[WP:UNBLOCK]] — blocks may be overturned when not aligned with policy.
+|From [[Special:Diff/1326161155|this December 2025 revision]] to [[User talk:Orange Jones]]}}
+
 ==== <span class="anchor" id="Shortcuts"></span>Non-existent shortcuts ====
 {{shortcut|WP:AISHORTCUT}}
 In some cases, users of AI chatbots have pasted text containing hallucinated shortcuts that do not redirect to any existing page at all.
 
 '''Examples'''
+{{blockquote|
+This meets the standard for <mark>'''WP:RSLOCAL'''</mark>, which permits the use of regionally relevant sources for uncontroversial, local historical information — particularly when the source is attributed, as it was in this case.
+|From [[Special:Diff/1292445183|this May 2025 revision]] to a user talk page}}
+
 {{blockquote|
 '''Respectfully noted'''. However, engaging with arguments presented in a deletion discussion is entirely within the bounds of <mark>WP:AFDPURPOSE</mark>. This is not “bludgeoning,” it’s addressing flawed logic and misapplications of policy. If a “keep” !vote contains reasoning based on a misinterpretation of WP:BLP1E or WP:NPERSON, it should be scrutinized. That’s how consensus is built — through critical analysis, not silence
 |From [[Special:Diff/1296070716|this June 2025 revision]] to [[Wikipedia:Articles for deletion/Lilly Contino]]}}
@@ -1374,6 +1418,10 @@ The subject’s career bridges media, child and youth care scholarship, trauma-i
 {{blockquote|
 Verification over Origin ([[WP:V]] & <mark>[[WP:NOTAI]]</mark>): AI-assisted drafting is not prohibited. Per Wikipedia policy, the focus is on verifiability, not the tool used for drafting. Every fact in this article is supported by high-quality, third-party sources. Claiming "AI" as a pretext to delete documented financial records is a violation of [[WP:POINT]].
 |From [[Special:Diff/1345501583|this March 2026 revision]] to [[Wikipedia:Requests for page protection/Increase]]}}
+
+{{blockquote|
+Per <mark>WP:LLMUSE</mark>, this limited use is allowed as long as the model does not introduce new material, and all substantive content complies with [[WP:V]], [[WP:RS]] and [[WP:NOR]].
+|From [[Special:Diff/1348102359|this April 2026 revision]] to a user talk page}}
 
 === <span class="anchor" id="Transclusions"></span> Transclusion of article maintenance banners ===
 {{shortcut|WP:AITRANS|WP:AITRANSCLUSION}}
@@ -1538,7 +1586,10 @@ Note that the latest decline notice on that draft when this question was asked w
 
 {{blockquote|In particular, I would like to understand: Whether the issue relates to notability, sourcing, or tone If any specific sections need revision or removal|From [[Wikipedia:WikiProject Articles for creation/Help desk/Archives/2026 April 18|this archive]] of the [[WP:AFCHD|Articles for creation helpdesk]]}}
 
-=== Canned request for source assessment ===
+=== <span class="anchor" id="Review"></span> Canned request for source assessment ===
+{{shortcut|WP:AIREVIEW}}
+
+When confronted by a declined draft, or otherwise criticism of their work, it is common for LLM editors to make a stock request for an "experienced," "uninvolved," or "neutral" editor to provide a second opinion of their sources or their writing in general. This usually carries the (unintentional?) implication that the declining reviewer [[WP:EGGS|didn't do their job properly]].
 
 {{blockquote|Could <mark>an experienced editor</mark> please advise which of these sources, if any, <mark>count as reliable, independent, significant coverage for a biography article?</mark>
 |From {{section link|Wikipedia:WikiProject Articles for creation/Help desk/Archives/2026 May 8#15:09, 8 May 2026 review of submission by GMakwana}}
@@ -1567,10 +1618,10 @@ Editors should be able to explain why they made an edit or mistake. For example,
 === Syntax ===
 LLMs writing or editing Wikipedia articles will attempt, by default, to produce text in what it considers to be "formal, neutral, encyclopedic tone." This manifests as AI-generated text avoiding certain syntactic constructions that are both common in human writing and often perfectly acceptable per the [[Wikipedia:Manual of Style|Manual of Style]]--and in some cases, even preferred by it.
 
-Specifically, the following are more common in Wikipedia articles written by humans than in AI-generated text:
+Specifically, the following have been empirically observed, over 25 years of Wikipedia writing, to be more common in Wikipedia articles written by humans than in AI-generated text:
 
 * Simple is/has phrases,<ref name="geng2"/> such as ''there is a'', ''it has a''.
-* Words with complex, stiff or euphemistic synonyms, such as ''wrote'' (versus ''authored''), ''moved'' (versus ''relocated''), ''used'' (versus ''utilized''), ''tried'' (versus ''attempted''), ''died'', ''killed''.
+* Words with complex, stiff or euphemistic synonyms, such as ''wrote'' (versus ''authored''), ''moved'' (versus ''relocated''), ''used'' (versus ''utilized''), ''tried'' (versus ''attempted''), ''died'' (versus ''passed away'').
 * Superlative or definitive statements, such as ''one of the best'', ''is the only'', ''was the first''
 * Hedging qualifiers and intensifiers,<ref name="reinhart">{{cite web |last1=Reinhart |first1=Alex |last2=Markey |first2=Ben |last3=Laudenbach |first3=Michael |last4=Brown |first4=David West |title=Do LLMs write like humans? Variation in grammatical and 4 rhetorical styles |url=https://www.pnas.org/doi/10.1073/pnas.2422455122#supplementary-materials |website=pnas.org |access-date=6 June 2026}}</ref> such as ''very'', ''perhaps'', ''tends to''.
 * Isolated wordy constructions such as ''as a result of'', ''in order to'', ''all of the'', ''a part of'', or ''the fact that''.
@@ -1632,7 +1683,7 @@ Your current approach to editing and discussion, characterized by dismissive lan
 
 ===Prompt refusal===
 {{tmbox|image=none|text=Words to watch: {{strong|''as an AI language model'', ''as a large language model'', ''I cannot offer medical advice, but I can...'', ''I'm sorry''&nbsp;...}} }}
-In the past, AI chatbots occasionally declined to answer prompts as written, usually with apologies and reminders that they are AI language models. Attempting to be helpful, chatbots often gave suggestions or answers to alternative, similar requests. Outright refusals have become increasingly rare. Gemini 3.0 even uses profanity at times. 
+In the past, AI chatbots occasionally declined to answer prompts as written, usually with apologies and reminders that they are AI language models. Attempting to be helpful, chatbots often gave suggestions or answers to alternative, similar requests. Outright refusals have become increasingly rare.
 
 '''Examples'''
 {{blockquote|
