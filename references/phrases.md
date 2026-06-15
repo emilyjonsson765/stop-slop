@@ -61,6 +61,7 @@ These sound polished but usually weaken the sentence. Prefer the short verb unle
 - "relocated" (use: moved)
 - "utilized" (use: used)
 - "attempted" (use: tried)
+- "passed away" (use: died)
 - "ventured into politics as a candidate" (use: was a candidate)
 - "began his career as" (often use: was)
 
@@ -264,6 +265,7 @@ These show up when AI writes for submission queues, moderators, reviewers, or ad
 - "whether the problem is mainly"
 - "an experienced editor"
 - "an uninvolved editor"
+- "a neutral editor"
 - "which of these sources, if any, count as"
 - "significant independent secondary coverage"
 - "Could you please review my listed sources"

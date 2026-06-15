@@ -190,6 +190,7 @@ AI sometimes cites rules, standards, or policy shorthand that do not exist, or c
 | Pattern | Problem |
 |---------|---------|
 | "Per [POLICY]: ..." when the policy or shortcut is made up | Fake authority signal |
+| Shortcut soup like `WP:RSLOCAL`, `WP:LLMUSE`, or `WP:BLOCKPOLICY` cited as settled authority | Plausible-looking shorthand that often does not exist or does not say what the sentence claims |
 | "[TERM] refers to..." in an article lead | Dodges the plain statement and turns the subject into a dictionary entry |
 | Naming a real rule that does not support the claim | Citation cosplay |
 
@@ -277,6 +278,18 @@ Some models leak the output format of their citation or rendering system directl
 | Placeholder cite blobs like `citeturn0search0` | Internal citation token leaked into final text |
 
 **Instead:** Strip the renderer artifact and replace it with a real citation, link, or sentence.
+
+## Document-Wrapper Leakage
+
+Some models leak their own document wrapper markup into the prose instead of just returning the text.
+
+| Pattern | Problem |
+|---------|---------|
+| `:::writing{variant="document" id="68427"}` | Raw model wrapper pasted into the draft |
+| Closing `:::` markers with no prose purpose | Formatting shell left behind after generation |
+| Localized variants like `:::écriture{variante="document" ...}` | Same leak in another language |
+
+**Instead:** Delete the wrapper lines and keep only the actual draft text.
 
 ## Emoji-Decorated Headings and Lists
 
