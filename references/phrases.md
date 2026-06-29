@@ -151,6 +151,7 @@ Words overrepresented in AI output from the 2023–2024 GPT-4 era, confirmed by 
 - "boasts" (use: has, includes — only people boast)
 - "garner" (use: get, earn, attract)
 - "bolstered" (use: strengthened, supported)
+- "enhancing" (use: improving, increasing, or name the concrete change)
 - "highlight" as a verb (use: show, note, point to)
 - "showcase" (use: show, present, include)
 
@@ -271,6 +272,17 @@ These show up when AI writes for submission queues, moderators, reviewers, or ad
 - "Could you please review my listed sources"
 
 These are process slogans, not content. Replace them with the exact edit made.
+
+## Notability Boilerplate
+
+These phrases try to manufacture significance by stacking source-prestige words instead of naming what the sources actually say.
+
+- "independent coverage"
+- "trade publications"
+- "profiled in"
+- "written by a leading expert"
+
+These phrases are not evidence by themselves. Name the actual publication, claim, and why it matters.
 
 ## Generic Significance Inflation
 

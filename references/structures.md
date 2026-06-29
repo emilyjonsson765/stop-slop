@@ -230,6 +230,19 @@ AI often restates a clear instruction, then immediately asks whether that instru
 
 **Instead:** Accept the stated issue and revise for that issue. If something is still unclear, ask one narrow follow-up tied to a specific sentence or source.
 
+## Source Prestige Stacking
+
+AI-written notability arguments often pile up prestige labels around coverage instead of stating what any source actually establishes.
+
+| Pattern | Problem |
+|---------|---------|
+| "profiled in multiple high-quality, independent, and widely-read outlets" | The adjectives do the work that evidence should do |
+| "local/regional/national outlets, trade publications, and leading experts" | Source-category pileup masquerading as analysis |
+| "significant, substantial, secondary coverage" repeated as a slogan | Restates the test instead of proving the test is met |
+| "appearing in platforms like..." | Name-drops venues without saying what they contributed |
+
+**Instead:** Quote or summarize the exact claim from the source. If coverage matters, say what it established.
+
 ## Process-Narrating Edit Summaries
 
 AI-written summaries often narrate intent, compliance, and precautions instead of naming the actual edit.

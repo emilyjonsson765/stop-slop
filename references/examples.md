@@ -275,3 +275,15 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "This source is local and attributed. If you want to keep it, point to the real guideline that supports that use."
 
 **Changes:** Replaced invented shortcut authority with a concrete sourcing claim and a request for a real citation.
+
+---
+
+## Example 24: Source Prestige Stacking
+
+**Before:**
+> "The subject has been profiled in multiple high-quality, independent, and widely-read outlets, including national media, trade publications, and pieces written by leading experts."
+
+**After:**
+> "The subject was covered by The Australian and SBS News. Those articles report the advocacy campaign and quote the organizers."
+
+**Changes:** Cut the prestige pileup, named the actual outlets, and said what the coverage contributed.
