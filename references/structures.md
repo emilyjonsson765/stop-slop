@@ -311,6 +311,8 @@ AI likes to decorate structure with emoji when the medium does not call for it.
 | Pattern | Problem |
 |---------|---------|
 | "🧠 Analysis:" / "🚨 Problem:" / "✅ Next steps" | Template-style staging instead of natural prose |
+| "👋 Welcome..." / "🧑‍💻 About Me" / "📬 Let's Connect!" | Fake-heading energy pasted from a generated profile or memo |
 | Every bullet prefixed with an emoji | Makes the list feel generated and over-signaled |
+| Emoji mixed with bold labels inside bullets | Turns simple structure into a branded chatbot template |
 
 **Instead:** Use words, not icons, to carry structure. If the point is strong, it doesn't need a badge.

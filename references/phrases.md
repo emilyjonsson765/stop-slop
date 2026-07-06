@@ -187,6 +187,10 @@ These phrases show up when the writer wants to sound responsible, policy-aligned
 
 - "aligns with [the mission / the goals / the standards]"
 - "adheres to [the policies / the guidelines / the standards]"
+- "to ensure [the article / the page / it] adheres to Wikipedia's [policies / guidelines / standards]"
+- "to ensure [the article / the page / it] aligns with Wikipedia's [policies / guidelines / standards]"
+- "to ensure [the article / the page / it] meets Wikipedia's [policies / guidelines / standards]"
+- "to ensure [the article / the page / it] complies with Wikipedia's [policies / guidelines / standards]"
 - "committed to [the mission / responsible editing / constructive dialogue]"
 - "I am committed to"
 - "we are committed to"
