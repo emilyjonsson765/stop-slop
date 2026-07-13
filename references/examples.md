@@ -221,7 +221,7 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 ## Example 19: Section Titles + Decline-Confusion Boilerplate
 
 **Before:**
-> "Importance of Thorough Research\n\nThe latest decline says the draft needs multiple published secondary sources. I understand the concern, but I am trying to understand whether the problem is mainly source quality, article tone, or both. Could an experienced editor review my listed sources and let me know which ones count as significant independent secondary coverage?\n\nConclusion\n\nI am committed to improving the draft and welcome any additional feedback."
+> "## Importance of Thorough Research\n\nThe latest decline says the draft needs multiple published secondary sources. I understand the concern, but I am trying to understand whether the problem is mainly source quality, article tone, or both. Could an experienced editor review my listed sources and help me determine exactly what I need to improve?\n\n### Conclusion\n\nI am committed to improving the draft and welcome any additional feedback."
 
 **After:**
 > "The draft was declined because the sources do not establish notability. I'll replace the weak citations and cut the promotional claims before resubmitting."
