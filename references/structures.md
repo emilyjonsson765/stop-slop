@@ -214,6 +214,7 @@ AI-generated drafts sometimes paste the skeleton of a formatted memo straight in
 |---------|---------|
 | Plain-text headings like "Importance of Thorough Research" followed by generic paragraphs | Suggests the model generated a structured memo, then someone pasted it without adapting it to the medium |
 | Multiple mini-sections in one short comment, each with title-case labels | Turns a reply into a canned report template |
+| Markdown headings or level-2/level-3 subheadings inside a short comment | A talk-page reply starts reading like a generated memo instead of a direct response |
 | Repeated closers like "Conclusion" / "In conclusion" / "In summary" inside the same comment | Over-signals structure instead of making a point |
 
 **Instead:** Remove the labels and keep the one or two sentences that actually advance the argument.
