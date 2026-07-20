@@ -1,5 +1,5 @@
-REVID:1363788993
-{{redirect|Wikipedia:AI writing|other uses|WP:AI-INDEX}}
+REVID:1364994801
+{{redirect|Wikipedia:AI writing|identifying comments in discussions|Wikipedia:Signs of AI-generated comments|other uses|Wikipedia:Artificial intelligence resources}}
 {{WikiProject advice|wikiproject=WikiProject AI Cleanup|WP:AISIGNS|WP:AITELLS|WP:LLMSIGNS}}
 [[File:ChatGPT response screenshot 1.jpg|thumb|alt=A screenshot of ChatGPT reading: "[header] Legacy & Interpretation [body] The "Black Hole Edition" is not just a meme — it's a celebration of grassroots car culture, where ideas are limitless and fun is more important than spec sheets. Whether powered by a rotary engine, a V8 swap, or an imagined fighter jet turbine, the Miata remains the canvas for car enthusiasts worldwide."|LLMs tend to have an identifiable writing style.]]
 This is a list of writing and formatting conventions typical of [[AI chatbot]]s such as [[ChatGPT]], with real examples taken from Wikipedia articles, drafts, comments, and other content. It is a [[field guide]] to help detect [[WP:LLMDISCLOSE|undisclosed AI-generated content]] ''on Wikipedia'': while some of the signs may be broadly applicable, some may not apply in a non-Wikipedia context.{{efn|Specifically, this guide is less useful for texts which are not informational writing. For example, the many tells specific to fiction (whispering woods, [https://maxread.substack.com/p/who-is-elara-voss Elara Voss], etc.) are less relevant in Wikipedia and are not listed here.}} Not all text featuring these indicators is AI-generated, as the [[large language model]]s that power AI chatbots are trained on human writing, including Wikipedia. Many elements of AI writing can be found in editorials, blogs, or fan fiction.
@@ -85,7 +85,7 @@ When talking about biology (e.g., when asked to discuss an animal or plant speci
 ===Canned emphasis on notability, attribution, and media coverage===
 {{shortcut|WP:OVERATTRIBUTION|WP:AIATTR}}{{anchor|Attribution}}
 {{tmbox|image=none|text=Words to watch: {{strong|''independent coverage'', ''local/regional/national/[country name] media outlets'', ''music/business/tech outlets'', ''trade publications'', ''profiled in'', ''written by a leading expert'', ''active social media presence''}}}}
-Similarly, LLMs act as if the best way to prove that a subject is notable is to hit readers over the head with claims of notability, often by listing sources that a subject has been covered in and specifying what kind of sources they are (e.g., trade publications, regional media, etc). They often inaccurately attribute their own [[#Superficial analyses|superficial analyses]] to the source. This is more common in text from newer AI tools (2025 or later).
+Similarly, LLMs act as if the best way to prove that a subject is notable is to hit readers over the head with claims of notability, often by listing sources that a subject has been covered in and specifying what kind of sources they are (e.g., trade publications, regional media, etc). They often inaccurately attribute their own [[#Superficial analyses|superficial analyses]] to the source. This is more common in text from AI tools released in 2025 or later.
 
 Human-written press releases have of course also cited news clippings for decades, but LLMs specifically asked to write a Wikipedia article often echo the exact wording of [[WP:N|Wikipedia's guidelines]], such as "independent coverage."
 
@@ -226,10 +226,10 @@ Note: This sign is about the rigid formula, not simply the mention of challenges
 
 '''Examples'''
 
-{{blockquote|{{fmbox|image=none|text=
+{{blockquote|
 {{fake section|level=2|Challenges and Future Directions}}
 As the global economy continues to evolve, international economic law {{highlight|faces new challenges and opportunities.}} [...] The future of international economic law lies in its ability to {{highlight|adapt to these emerging trends|lightgreen}} and continue to facilitate a stable and equitable global economic order.
-}}|From [[Special:Diff/1189640895|this December 2023 revision]] to [[International economic law]]}}
+|From [[Special:Diff/1189640895|this December 2023 revision]] to [[International economic law]]}}
 
 {{blockquote|text=The future of hydrocarbon economies {{highlight|faces several challenges,}} including[...] This section would speculate on {{highlight|potential developments|lightgreen}} and the changing landscape of global energy.|title=From {{diff||1201557771|label=this January 2024 revision}} to [[Hydrocarbon economy]]}}
 
@@ -244,6 +244,13 @@ As the global economy continues to evolve, international economic law {{highligh
 {{blockquote|For example, while the methodology supports transdisciplinary collaboration in principle, applying it effectively in large, heterogeneous teams {{highlight|can be challenging.}} [...]
 
 SCE continues to evolve {{highlight|in response to these challenges.|lightgreen}}|From [[Special:Diff/1297629115|this June 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Socio-cognitive engineering|Draft:Socio-cognitive engineering]]}}
+
+{{blockquote|
+{{fake section|level=2|Sociology, sustainability, and {{highlight|future challenges}}}}
+The {{highlight|main contemporary challenge}} facing the fashion industry in Spain is its environmental impact, stemming from the production volume of fast fashion. [...]
+
+Complementing this, the sector relies on technological research centres, such as the Textile Technology Institute (Aitex) in the Valencian Community, to develop patents for fibre-to-fibre chemical recycling, eco-design processes, and low-water-impact dyeing. These advancements aim to reduce dependence on petroleum-derived synthetic fibres and virgin cotton, marking the sector's mandatory transition towards sustainable and traceable business models {{highlight|for the coming decades|lightgreen}}.
+|From [[Special:Diff/1363932615|this July 2026 revision]] to [[Draft:Spanish fashion]]}}
 
 ===Leads treating Wikipedia lists or broad article titles as proper nouns ===
 In AI-generated articles about topics with a title that is not a [[proper name]], such as a [[Wikipedia:Manual of Style/Lists|list]], the first sentence of the lead may introduce or define the article's title as if it were a standalone real-world entity. While the [[Wikipedia:Manual_of_Style/Lead_section#Format_of_the_first_sentence|MOS]] does allow such titles to be included at the beginning of the lead "in a natural way", these AI leads tend not to be so natural.
@@ -294,22 +301,8 @@ An {{highlight|enduring testament}} to the influence of [[Italian Somaliland|Ita
 {{highlight|Additionally,}} Somali merchants played a {{highlight|pivotal}} role in the global coffee trade, being one of the first to export coffee beans.
 }}|From [[Special:Diff/1292567688|this 2025 revision]] to [[Somali people]]}}
 
-{{anchor|Concrete}}
-{{shortcut|WP:CONCRETE}}
-When writing comments instead of article content, AI chatbots tend to use the word "concrete" as an adjective. This is often the case in comments that emphasize the apparent [[WP:NOPROOFOFAI|lack of "concrete evidence"]] of AI use or are requests for accusers to [[WP:WHERESTHEAI|provide "concrete examples"]] of text that appears AI-generated.
-
-'''Examples'''
-{{blockquote|**Review:** The use of "significantly more" is subjective and requires specific figures to validate this claim. Without {{highlight|concrete}} financial data from reliable sources, this statement could be misleading or exaggerated. The source provided is a blog.
-|From [[Special:Diff/1241601880|this August 2024 revision]] to [[Talk:Eric Dick (lawyer)]]}}
-
-{{blockquote|In the absence of {{highlight|concrete}} evidence, I propose removing the AI-generated tag immediately to maintain the article's integrity.
-|From [[Special:Diff/1316902424|this October 2025 revision]] to [[Talk:Slavery in Portugal]]}}
-
-{{blockquote|Without {{highlight|concrete}} examples, your concern cannot be evaluated in line with WP:V, WP:RS and WP:BURDEN.
-|From [[Special:Diff/1348114931|this April 2026 revision]] to [[Talk:House of Dust (architecture)]]}}
-
 ===Avoidance of basic copulatives ("is"/"are" phrases)===
-{{tmbox|image=none|text=Words to watch: {{strong|''serves as/stands as/marks/represents [a]'', ''boasts/features/maintains/offers [a]'', ''refers to''}}}}
+{{tmbox|image=none|text=Words to watch: {{strong|''serves as/stands as/marks/functions as/operates as/represents [a]'', ''boasts/features/maintains/offers [a]'', ''refers to''}}}}
 
 LLM-generated text often replaces simple constructions that use [[Copula (linguistics)|copula]]s such as ''is'' or ''are'' with constructions such as ''serves as a'' or ''mark the''. This pattern has been observed in GPT and Gemini models.<ref name="huang" /> One study documented an over 10% decrease in the usage of the words ''is'' and ''are'' in academic writing in 2023, with no major changes in their frequency before that.<ref name="geng2">{{cite web |last1=Geng |first1=Mingmeng |last2=Trotta |first2=Roberto |title=Is ChatGPT Transforming Academics' Writing Style? |url=https://arxiv.org/abs/2404.08627 |access-date=8 January 2026}}</ref> Similarly, LLMs prefer to use [[WP:BUZZ|marketing]]-related verbs like ''features'', ''offers'', and the like to their neutral synonym ''has''. (Note: Do not confuse this with ''has'' used in the [[pluperfect|past perfect]] form, as in ''has been featured''.) Sometimes--especially in more recent AI output--these constructions are more elaborate, e.g., ''ventured into politics as a candidate'' versus ''was a candidate'', or ''began his career as'' versus ''was''. 
 
@@ -328,6 +321,7 @@ In lead sentences, LLMs will sometimes avoid ''is'' by writing ''refers to'' [[W
 
 ===Negative parallelisms===
 {{Shortcut|WP:AIPARALLEL}}
+{{see also|Negative parallelism}}
 When LLMs describe a subject, their output may seem as though it is clearing up a common misconception, or as though the audience may be reaching an incomplete or incorrect conclusion about that subject. This kind of contrast can come across as trying to retroactively challenge such thinking by pointing out another characteristic that the subject may possess alongside (or in the place of) one or more previously-mentioned characteristics. While it is common among human writers (especially in "common misconceptions" or "myths busted" [[listicle]]s), it is stereotypically an "AI sign." 
 
 ====Not just X, but also Y====
@@ -885,7 +879,7 @@ LLM-generated infobox edits may contain comments stating that text or images sho
 ===Use of Markdown===
 {{Shortcut|WP:MARKDOWN|WP:AIMARKDOWN}}
 
-A lot of AI chatbots are not proficient in [[H:WT|wikitext]], the [[markup language]] used to instruct Wikipedia's [[MediaWiki]] software how to format an article. As wikitext is a niche markup language, found mostly on wikis running on MediaWiki and other MediaWiki-based platforms like [[Miraheze]], LLMs wikitext-formatted content is not prominent in their training data. While the corpora of chatbots did ingest millions of Wikipedia articles, these articles would not have been processed as text files containing wikitext syntax.
+A lot of AI chatbots are not proficient in [[H:WT|wikitext]], the [[markup language]] used to instruct Wikipedia's [[MediaWiki]] software how to format an article. As wikitext is a niche markup language, found mostly on Wikipedia, other Wikimedia wikis, and other MediaWiki-based platforms like [[Miraheze]], LLMs wikitext-formatted content is not prominent in their training data. While the corpora of chatbots did ingest millions of Wikipedia articles, these articles would not have been processed as text files containing wikitext syntax.
 
 In chatbot apps, the output display is formatted with Markdown, a markup language conceptually similar to wikitext but much more widely applied. Meanwhile, the chatbots' preprompts typically instruct them to use markdown in their answers, such as when providing lists and writing with headings. That is, their system-level instructions often direct them to format outputs using Markdown, and the chatbot apps render its syntax as formatted text on a user's screen. For example, the system prompt for Claude Sonnet 3.5 (November 2024) includes:<ref name="sonnetprompt">{{cite web |title=System Prompts |url=https://platform.claude.com/docs/en/release-notes/system-prompts#claude-sonnet-3-5 |website=Claude Docs |publisher=Anthropic |access-date=9 January 2026}}</ref>
 
@@ -935,34 +929,12 @@ Since AI chatbots are typically not proficient in wikitext and templates, they o
 [[Category:AfC submissions by date/<0030Fri, 13 Jun 2025 08:18:00 +0000202568 2025-06-13T08:18:00+00:00Fridayam0000=error>EpFri, 13 Jun 2025 08:18:00 +0000UTC00001820256 UTCFri, 13 Jun 2025 08:18:00 +0000Fri, 13 Jun 2025 08:18:00 +00002025Fri, 13 Jun 2025 08:18:00 +0000: 17498026806Fri, 13 Jun 2025 08:18:00 +0000UTC2025-06-13T08:18:00+00:0020258618163UTC13 pu62025-06-13T08:18:00+00:0030uam301820256 2025-06-13T08:18:00+00:0008amFri, 13 Jun 2025 08:18:00 +0000am2025-06-13T08:18:00+00:0030UTCFri, 13 Jun 2025 08:18:00 +0000 &qu202530;:&qu202530;.</0030Fri, 13 Jun 2025 08:18:00 +0000202568>June 2025|sandbox]]
 </syntaxhighlight>|title=From [[Special:PermanentLink/1295363321|this revision]] to [[User:Dr. Omokhudu Idogho/sandbox]]}}
 
-===turn0search0===
-ChatGPT may include <code>citeturn0search0</code> (surrounded by Unicode points in the [[Private Use Area]]) at the ends of sentences, with the number after "search" increasing as the text progresses. There also exists an alternate shorter form with only the increasing number surrounded by PUA Unicode like <code>0</code>. These are places where the chatbot links to an external site, but a human pasting the conversation into Wikipedia has that link converted into placeholder code. This was first observed in February 2025.
-
-A set of images in a response may also render as <code>iturn0image0turn0image1turn0image4turn0image5</code>. Rarely, other markup of a similar style, such as <code>citeturn0news0</code> ([[Special:PermaLink/1276934509|example]]), <code>citeturn1file0</code> ([[Special:PermaLink/1286349902|example]]), or <code>cite''generated-reference-identifier''</code> ([[Special:PermaLink/1276907078|example]]), may appear.
-
-'''Examples'''
-{{blockquote|text=The school is also a center for the US College Board examinations, SAT I & SAT II, and has been recognized as an International Fellowship Centre by Cambridge International Examinations. citeturn0search1
-
-For more information, you can visit their official website: citeturn0search0
-|title=From {{diff||1274664396|label=this February 2025 revision}} to [[List of English-medium schools in Bangladesh]]
-}}
-
-{{"|
-* **Japanese:** Reze is voiced by Reina Ueda, an established voice actress known for roles such as Cha Hae-In in ''Solo Leveling'' and Kanao Tsuyuri in ''Demon Slayer''.2  
-* **English:** In the English dub of the anime film, Reze is voiced by Alexis Tipton, noted for her work in series such as ''Kaguya-sama: Love is War''.3
-[...]
-
-The film itself holds a high rating on **Rotten Tomatoes** and has been described as a major anime release of 2025, indicating strong overall reception for the Reze Arc storyline and its adaptation.5
-|title=From [[Wikipedia:Signs of AI writing/Examples/Reze (Chainsaw Man)|Draft:Reze (Chainsaw Man)]] (2025)}}
-
-====Links to searches====
-* {{search link|turn0search0 OR turn0search1 OR turn0search2 OR turn0search3 OR turn0search4 OR turn0search5 OR turn0search6 OR turn0search7}}
-* {{search link|turn0image0 OR turn0image1 OR turn0image2 OR turn0image3 OR turn0image4 OR turn0image5 OR turn0image6 OR turn0image7}}
-* {{search link|insource:/turn0(search{{!}}image{{!}}news{{!}}file)[0-9]+/}}
-
-===Reference markup bugs: <span class="anchor" id="oaicite"></span> contentReference, oaicite, oai_citation, +1, attached_file, grok_card ===
+===Internal formatting and reference markup bugs ===
 {{Shortcut|WP:OAICITE}}
-Due to a bug, ChatGPT may add code in the form of {{code|:contentReference[oaicite:0]{index{{=}}0{{)}}}}, {{code|Example+1}}, or {{code|oai_citation}} in place of links to references in output text.
+LLM output sometimes exposes its internal formatting code, which is an unambiguous indicator that the text originated with AI. The specific bugs vary by chatbot or tool. 
+
+====ChatGPT: <span class="anchor" id="oaicite"></span> contentReference, oaicite/oai_citation, +1, turn0search0, attributableIndex ====
+ChatGPT sometimes adds code in the form of {{code|:contentReference[oaicite:0]{index{{=}}0{{)}}}}, {{code|Example+1}}, or {{code|oai_citation}} in place of links to references in output text.
 
 '''Examples'''
 {{"|{{fmbox|image=none|text=
@@ -999,12 +971,52 @@ Due to a bug, ChatGPT may add code in the form of {{code|:contentReference[oaici
 This was created conjointly by technical committee ISO/IEC JTC 1/SC 27 (Information security, cybersecurity, and protection of privacy) {{highlight|IT Governance+3ISO+3ISO+3}}. It belongs to the ISO/IEC 27000 family that talks about information security management systems (ISMS) and related practice controls. {{highlight|Wikipedia+1}}. The standard gives guidance for information security controls for cloud service providers (CSPs) and cloud service customers (CSCs). Specifically adapted to cloud specific environments like responsibility, virtualization, dynamic provisioning, and multi-tenant infrastructure. {{highlight|Ignyte+3Microsoft Learn+3Google Cloud+3}}.
 }}|title=From [[Special:Diff/1325099471|this November 2025 revision]] to [[ISO/IEC 27017]]}}
 
-As of fall 2025, tags like <code><nowiki>[attached_file:1]</nowiki></code> and <code><nowiki>[web:1]</nowiki></code> have been seen at the end of sentences. This may be [[Perplexity AI|Perplexity]]-specific.<ref name="wildperplexityappeared">{{cite web |title=Unproductive Interpretation of Work and Employment as Misinformation? |url=https://www.laetusinpraesens.org/docs20s/workeco.php |access-date=21 October 2025 |archive-date=2 September 2025 |archive-url=https://web.archive.org/web/20250902133810/https://www.laetusinpraesens.org/docs20s/workeco.php |url-status=live }}</ref>
+ChatGPT may include <code>citeturn0search0</code> (surrounded by Unicode points in the [[Private Use Area]]) at the ends of sentences, with the number after "search" increasing as the text progresses. There also exists an alternate shorter form with only the increasing number surrounded by PUA Unicode like <code>0</code>. These are places where the chatbot links to an external site, but a human pasting the conversation into Wikipedia has that link converted into placeholder code. This was first observed in February 2025. Less often, the pattern may appear as a ref name, e.g., <nowiki><ref name="0search12"></nowiki>.
+
+A set of images in a response may also render as <code>iturn0image0turn0image1turn0image4turn0image5</code>. Rarely, other markup of a similar style, such as <code>citeturn0news0</code> ([[Special:PermaLink/1276934509|example]]), <code>citeturn1file0</code> ([[Special:PermaLink/1286349902|example]]), or <code>cite''generated-reference-identifier''</code> ([[Special:PermaLink/1276907078|example]]), may appear.
+
+'''Examples'''
+{{blockquote|text=The school is also a center for the US College Board examinations, SAT I & SAT II, and has been recognized as an International Fellowship Centre by Cambridge International Examinations. citeturn0search1
+
+For more information, you can visit their official website: citeturn0search0
+|title=From {{diff||1274664396|label=this February 2025 revision}} to [[List of English-medium schools in Bangladesh]]
+}}
+
+{{"|
+* **Japanese:** Reze is voiced by Reina Ueda, an established voice actress known for roles such as Cha Hae-In in ''Solo Leveling'' and Kanao Tsuyuri in ''Demon Slayer''.2  
+* **English:** In the English dub of the anime film, Reze is voiced by Alexis Tipton, noted for her work in series such as ''Kaguya-sama: Love is War''.3
+[...]
+
+The film itself holds a high rating on **Rotten Tomatoes** and has been described as a major anime release of 2025, indicating strong overall reception for the Reze Arc storyline and its adaptation.5
+|title=From [[Wikipedia:Signs of AI writing/Examples/Reze (Chainsaw Man)|Draft:Reze (Chainsaw Man)]] (2025)}}
+
+ChatGPT may add [[JSON]]-formatted code at the end of sentences in the form of <code>({"attribution":{"attributableIndex":"X-Y"}})</code>, with X and Y being increasing numeric indices.
+
+'''Examples'''
+{{blockquote|text=
+^[Evdokimova was born on 6 October 1939 in Osnova, Kharkov Oblast, Ukrainian SSR (now Kharkiv, Ukraine).]({"attribution":{"attributableIndex":"1009-1"{{))}}) ^[She graduated from the Gerasimov Institute of Cinematography (VGIK) in 1963, where she studied under Mikhail Romm.]({"attribution":{"attributableIndex":"1009-2"{{))}}) [oai_citation:0‡IMDb](https://www.imdb.com/name/nm0947835/?utm_source=chatgpt.com) [oai_citation:1‡maly.ru](https://www.maly.ru/en/people/EvdokimovaA?utm_source=chatgpt.com)
+|title=From [[Wikipedia:Signs of AI writing/Examples/Aleftina Evdokimova|Draft:Aleftina Evdokimova]] (2025)
+}}
+
+{{blockquote|text=Patrick Denice & Jake Rosenfeld, [https://sociologicalscience.com/articles-v5-23-541/ Les syndicats et la rémunération non syndiquée aux États-Unis, 1977–2015], ‘‘Sociological Science’’ (2018).]({“attribution”:{“attributableIndex”:“3795-0”{{))}})
+|title=From [[:fr:Special:Diff/225259294|this April 2025 revision]] to [[:fr:Syndicalisme aux États-Unis]]}}
+
+====Gemini: [cite: 1], [span_1][start_span] ====
+Text copied from [[Google Gemini]] may contain <code>[cite: 1]</code> or <code>[cite: 3, 12, 13]</code>style markers.
 
 {{blockquote|{{fmbox|image=none|text=
-During his time as CEO, Philip Morris’s reputation management and media relations brought together business and news interests in ways that later became controversial, with effects still debated in contemporary regulatory and legal discussions.[attached_file:1]
-}}|title=From {{diff||1316436509|label=this October 2025 revision}} to [[Hamish Maxwell]]}}
+Maloo founded '''Kreative Machinez''' in February 2010{{highlight|[cite: 17]}}.  The agency provides services in search engine marketing, social media marketing, web development, and online branding{{highlight|[cite: 18]}}.  The company employs more than 100 people and has worked with over 1,000 client accounts across sectors such as healthcare, real estate, and e-commerce{{highlight|[cite: 19, 20, 21]}}.
+}}|title=From [[Wikipedia:Signs of AI writing/Examples/Parmod Maloo|Parmod Maloo]] in February 2026}}
 
+Gemini text may also contain formatting bugs in the form of <code>[span_1][start_span]</code> and <code>[span_1][end_span]</code>.
+
+{{blockquote|{{fmbox|image=none|text=
+Riding the wave of their soundtrack success, the group released their fourth studio album, ''[[Fore!]]{{highlight|[span_2](start_span)}}'', in August 1986{{highlight|[span_2](end_span)}}. {{highlight|[span_3](start_span)}}The album mirrored the multi-platinum status of its predecessor and topped the ''Billboard'' 200 chart{{highlight|[span_3](end_span)}}. ''Fore{{highlight|[span_4](start_span)}}!'' yielded two number-one singles on the Hot 100}}|title=From {{diff||1363979466|label=this July 2026 revision}} to [[Huey Lewis and the News]]}}
+
+'''Links to searches'''
+* {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22span+0+start+span%22+OR+%22span+0+end+span%22+OR+%22start+span+span+0%22+OR+%22span+1+start+span%22+OR+%22span+1+end+span%22+OR+%22start+span+span+1%22+OR+%22span+2+start+span%22+OR+%22span+2+end+span%22+OR+%22start+span+span+2%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1&ns1=1&ns2=1&ns3=1&ns4=1&ns5=1&ns6=1&ns7=1&ns8=1&ns9=1&ns10=1&ns11=1&ns12=1&ns13=1&ns14=1&ns15=1&ns100=1&ns101=1&ns118=1&ns119=1&ns126=1&ns127=1&ns710=1&ns711=1&ns828=1&ns829=1&ns1728=1&ns1729=1 "span 0 start span" OR "span 0 end span" OR "start span span 0" OR "span 1 start span" OR "span 1 end span" OR "start span span 1" OR "span 2 start span" OR "span 2 end span" OR "start span span 2"}}
+
+====Grok: grok_card, grok_render_citation_card_json ====
 Text generated by Grok may occasionally include [[XML]]-styled <code>grok_card</code> tags after citations.
 
 {{blockquote|{{fmbox|image=none|text=
@@ -1020,6 +1032,10 @@ Gölge was publicly revealed through trademark and patent applications filed wit
 Gölge is a **piston-engine** tactical UAV optimized for long-endurance missions. The name "Gölge" (Shadow) and associated branding suggest a focus on **low-observability** (low radar cross-section) features. It is designed as a flexible, multi-role platform, primarily for intelligence, surveillance, and reconnaissance (ISR) roles. [](grok_render_citation_card_json={"cardIds":["993eac"]}) 
 }}|From revision [[Special:Permalink/1352634865|1352634865]] of [[Wikipedia:Signs of AI writing/Examples/TUSAŞ Gölge tactical UAV|Draft:TUSAŞ Gölge tactical UAV]] in May 2026}}
 
+'''Links to searches'''
+* {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22grok-card+data-id%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1&ns1=1&ns2=1&ns3=1&ns4=1&ns5=1&ns6=1&ns7=1&ns8=1&ns9=1&ns10=1&ns11=1&ns12=1&ns13=1&ns14=1&ns15=1&ns100=1&ns101=1&ns118=1&ns119=1&ns126=1&ns127=1&ns710=1&ns711=1&ns828=1&ns829=1&ns1728=1&ns1729=1 grok-card data-id}}
+
+====DeepSeek: lenticular brackets, dagger symbols ====
 As of June 2025, markup with [[lenticular brackets]] and [[dagger symbol]]s, like <code>【85†L261-269】</code>, has also been seen. This format appears to be specific to [[DeepSeek]] and its derivatives.<ref>{{cite web|url=https://github.com/subharmonicseed/Synergesis/blob/99a9b959036524552be2fd796f9a8f927ac91549/Syn%20sans%20magie/Synergesis_DeepSeek_Complete_Archive/Syn%20comme%20une%20%C3%A9tude%20de%20march%C3%A9.txt#L83|title=Synergesis_DeepSeek_Complete_Archive text|access-date=11 June 2026}}</ref>
 
 {{blockquote|{{fmbox|image=none|text=Recent initiatives aim to reverse decline. Medway Council’s Gillingham Town Centre Planning Framework (2007) and later Gillingham Business Plan identified preservation of historic shopfronts and pedestrian enhancements as prioritiesmedway.gov.ukmedway.gov.uk. In 2024 MP Naushabah Khan launched the “Love Gillingham” campaign and a high-street taskforce to improve cleanliness, safety and commerce【85†L261-269】. A community panel is drafting a Gillingham Action Plan, and events like the September 2024 “Big Day Out” carnival (2,500+ attendees) help draw people in【85†L269-274】. As of 2025 vacancy rates on the High Street were reported at about 6.2% (well below the 16% UK average)【85†L261-269】, suggesting a modest stability even as big chains have disappeared.}}|From [[Special:Permalink/1295285879|this June 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Gillingham High Street|Draft:Gillingham High Street]]}}
@@ -1030,28 +1046,16 @@ JAF-GT300 cars are generally Japanese makes or specially constructed “silhouet
 </syntaxhighlight>
 |title=From [[Wikipedia:Signs of AI writing/Examples/JAF-GT300|Draft:JAF-GT300]] in March 2026}}
 
-Text copied from [[Google Gemini]] may contain <code>[cite: 1]</code> or <code>[cite: 3, 12, 13]</code> style markers.
+====Perplexity: attached_file, ppl-ai-file-upload ====
+As of fall 2025, tags like <code><nowiki>[attached_file:1]</nowiki></code> and <code><nowiki>[web:1]</nowiki></code> have been seen at the end of sentences. This may be [[Perplexity AI|Perplexity]]-specific.<ref name="wildperplexityappeared">{{cite web |title=Unproductive Interpretation of Work and Employment as Misinformation? |url=https://www.laetusinpraesens.org/docs20s/workeco.php |access-date=21 October 2025 |archive-date=2 September 2025 |archive-url=https://web.archive.org/web/20250902133810/https://www.laetusinpraesens.org/docs20s/workeco.php |url-status=live }}</ref> 
+
 {{blockquote|{{fmbox|image=none|text=
-Maloo founded '''Kreative Machinez''' in February 2010{{highlight|[cite: 17]}}.  The agency provides services in search engine marketing, social media marketing, web development, and online branding{{highlight|[cite: 18]}}.  The company employs more than 100 people and has worked with over 1,000 client accounts across sectors such as healthcare, real estate, and e-commerce{{highlight|[cite: 19, 20, 21]}}.
-}}|title=From [[Wikipedia:Signs of AI writing/Examples/Parmod Maloo|Parmod Maloo]] in February 2026}}
+During his time as CEO, Philip Morris’s reputation management and media relations brought together business and news interests in ways that later became controversial, with effects still debated in contemporary regulatory and legal discussions.[attached_file:1]
+}}|title=From {{diff||1316436509|label=this October 2025 revision}} to [[Hamish Maxwell]]}}
 
-====Links to searches====
-* {{plainlink|url=https://en.wikipedia.org/w/index.php?search=%22contentReference%22+OR+%22oaicite%22+OR+%22oai_citation%22&title=Special%3ASearch "contentReference" OR "oaicite" OR "oai_citation"}}
-* {{plainlink|url=https://en.wikipedia.org/w/index.php?search=insource%3A%2F%E3%80%90%5B0-9%5D%2B%E2%80%A0%2F&title=Special%3ASearch&profile=advanced&fulltext=1&ns118=1 insource:/【[0-9<nowiki>]</nowiki>+†/}} (in drafts only)
+Perplexity may also cite text to an [[Amazon S3]] bucket, with <code>ppl-ai-file-upload</code> in the URL.
 
-===attribution and attributableIndex===
-ChatGPT may add [[JSON]]-formatted code at the end of sentences in the form of <code>({"attribution":{"attributableIndex":"X-Y"}})</code>, with X and Y being increasing numeric indices.
-
-'''Examples'''
-{{blockquote|text=
-^[Evdokimova was born on 6 October 1939 in Osnova, Kharkov Oblast, Ukrainian SSR (now Kharkiv, Ukraine).]({"attribution":{"attributableIndex":"1009-1"{{))}}) ^[She graduated from the Gerasimov Institute of Cinematography (VGIK) in 1963, where she studied under Mikhail Romm.]({"attribution":{"attributableIndex":"1009-2"{{))}}) [oai_citation:0‡IMDb](https://www.imdb.com/name/nm0947835/?utm_source=chatgpt.com) [oai_citation:1‡maly.ru](https://www.maly.ru/en/people/EvdokimovaA?utm_source=chatgpt.com)
-|title=From [[Wikipedia:Signs of AI writing/Examples/Aleftina Evdokimova|Draft:Aleftina Evdokimova]] (2025)
-}}
-
-{{blockquote|text=Patrick Denice & Jake Rosenfeld, [https://sociologicalscience.com/articles-v5-23-541/ Les syndicats et la rémunération non syndiquée aux États-Unis, 1977–2015], ‘‘Sociological Science’’ (2018).]({“attribution”:{“attributableIndex”:“3795-0”{{))}})
-|title=From [[:fr:Special:Diff/225259294|this April 2025 revision]] to [[:fr:Syndicalisme aux États-Unis]]}}
-
-===:::writing===
+====Unclassified: :::writing====
 As of June 1, 2026, markup in the format <code>:::writing{variant="document" id="[NUMBER]"}</code>, where [NUMBER] is a random 5-digit number, has been spotted; the triple colons at the beginning may or may not be interpreted as an indent. Triple colons at the end of the "document" are often paired with this. The markup may or may not be in other languages.
 
 '''Examples'''
@@ -1078,6 +1082,13 @@ Et petite corr :::
 </syntaxhighlight>
 |title=From [[Special:Permalink/1357217465|this revision]] to [[Draft:Ak7]]; links have been redacted.
 }}
+
+====Links to searches====
+* {{plainlink|url=https://en.wikipedia.org/w/index.php?search=%22contentReference%22+OR+%22oaicite%22+OR+%22oai_citation%22&title=Special%3ASearch "contentReference" OR "oaicite" OR "oai_citation"}}
+* {{plainlink|url=https://en.wikipedia.org/w/index.php?search=insource%3A%2F%E3%80%90%5B0-9%5D%2B%E2%80%A0%2F&title=Special%3ASearch&profile=advanced&fulltext=1&ns118=1 insource:/【[0-9<nowiki>]</nowiki>+†/}} (in drafts only)
+* {{search link|turn0search0 OR turn0search1 OR turn0search2 OR turn0search3 OR turn0search4 OR turn0search5 OR turn0search6 OR turn0search7}}
+* {{search link|turn0image0 OR turn0image1 OR turn0image2 OR turn0image3 OR turn0image4 OR turn0image5 OR turn0image6 OR turn0image7}}
+* {{search link|insource:/turn0(search{{!}}image{{!}}news{{!}}file)[0-9]+/}}
 
 === Non-existent or out-of-place categories ===
 {{shortcut|WP:AIREDCAT}}
@@ -1197,7 +1208,7 @@ The LLM in this case has diligently included the incorrect re-use syntax after e
 For over thirty years, computers have been utilized in the rehabilitation of individuals with brain injuries. Initially, researchers delved into the potential of developing a "prosthetic memory."<ref>Fowler R, Hart J, Sheehan M. A prosthetic memory: an application of the prosthetic environment concept. ''Rehabil Counseling Bull''. 1972;15:80–85.</ref> However, by the early 1980s, the focus shifted towards addressing brain dysfunction through repetitive practice.<ref>{{Cite journal |last=Smith |first=R. J. |last2=Bryant |first2=R. G. |date=1975-10-27 |title=Metal substitutions incarbonic anhydrase: a halide ion probe study |url=https://pubmed.ncbi.nlm.nih.gov/3 |journal=Biochemical and Biophysical Research Communications |volume=66 |issue=4 |pages=1281–1286 |doi=10.1016/0006-291x(75)90498-2 |issn=0006-291X |pmid=3}}</ref> Only a few psychologists were developing rehabilitation software for individuals with Traumatic Brain Injury (TBI), resulting in a scarcity of available programs.<sup>[3]</sup> Cognitive rehabilitation specialists opted for commercially available computer games that were visually appealing, engaging, repetitive, and entertaining, theorizing their potential remedial effects on neuropsychological dysfunction.<sup>[3]</sup>
 </syntaxhighlight>|title=From [[Special:PermanentLink/1188218670|this revision]] to [[Cognitive orthotics]]}}
 
-Some LLMs or chatbot interfaces use the character <kbd>↩</kbd> to indicate footnotes:
+Some LLMs or chatbot interfaces use the character <kbd>↩</kbd> around footnotes. The character is often used on other websites to provide a link for the user to jump back to the article after reading the footnote.
 
 {{blockquote|
 {{fmbox|image=none|text=
@@ -1275,36 +1286,28 @@ A common referencing error produced by LLMs involves sources in a <syntaxhighlig
 * [[WP:ORCC|Request input from other editors]] to help them determine [[WP:WHERESTHEAI|exactly what they need to improve]].
 * Accuse those who call them out for AI use of [[WP:CAAAOS|acting on speculation]] based on their [[WP:STYLISTIC|writing style]] and [[WP:NOPROOFOFAI|failing to present stronger evidence]] that they used AI.
 
-'''Links to searches'''<!-- This is for phrases that are associated with multiple indicators; for example, a phrase like "to ensure the article adheres to Wikipedia's" is associated with WP:AIADHERE and WP:CORCC -->
+'''Links to searches'''<!-- This is for phrases that may be associated with multiple indicators; for example, a phrase like "to ensure the article adheres to Wikipedia's" may be associated with both WP:AIADHERE and WP:CORCC -->
 {|
 |
 * to ensure the article/content/draft/page...
 ** {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22to+ensure+the+article+adheres+to+Wikipedia%27s%22+OR+%22to+ensure+the+content+adheres+to+Wikipedia%27s%22+OR+%22to+ensure+the+draft+adheres+to+Wikipedia%27s%22+OR+%22to+ensure+the+page+adheres+to+Wikipedia%27s%22+OR+%22to+ensure+it+adheres+to+Wikipedia%27s%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 adheres to Wikipedia's ...}}
 ** {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22to+ensure+the+article+aligns+with+Wikipedia%27s%22+OR+%22to+ensure+the+content+aligns+with+Wikipedia%27s%22+OR+%22to+ensure+the+draft+aligns+with+Wikipedia%27s%22+OR+%22to+ensure+the+page+aligns+with+Wikipedia%27s%22+OR+%22to+ensure+it+aligns+with+Wikipedia%27s%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 aligns with Wikipedia's ...}}
 ** {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22to+ensure+the+article+complies+with+Wikipedia%27s%22+OR+%22to+ensure+the+content+complies+with+Wikipedia%27s%22+OR+%22to+ensure+the+draft+complies+with+Wikipedia%27s%22+OR+%22to+ensure+the+page+complies+with+Wikipedia%27s%22+OR+%22to+ensure+it+complies+with+Wikipedia%27s%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 complies with Wikipedia's ...}}
+** {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22to+ensure+the+article+follows+Wikipedia%27s%22+OR+%22to+ensure+the+content+follows+Wikipedia%27s%22+OR+%22to+ensure+the+draft+follows+Wikipedia%27s%22+OR+%22to+ensure+the+page+follows+Wikipedia%27s%22+OR+%22to+ensure+it+follows+Wikipedia%27s%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 follows Wikipedia's ...}}
 ** {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22to+ensure+the+article+meets+Wikipedia%27s%22+OR+%22to+ensure+the+content+meets+Wikipedia%27s%22+OR+%22to+ensure+the+draft+meets+Wikipedia%27s%22+OR+%22to+ensure+the+page+meets+Wikipedia%27s%22+OR+%22to+ensure+it+meets+Wikipedia%27s%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 meets Wikipedia's ...}}
 |
 * to ensure that the article/content/draft/page...
 ** {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22to+ensure+that+the+article+adheres+to+Wikipedia%27s%22+OR+%22to+ensure+that+the+content+adheres+to+Wikipedia%27s%22+OR+%22to+ensure+that+the+draft+adheres+to+Wikipedia%27s%22+OR+%22to+ensure+that+the+page+adheres+to+Wikipedia%27s%22+OR+%22to+ensure+that+it+adheres+to+Wikipedia%27s%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 adheres to Wikipedia's ...}}
 ** {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22to+ensure+that+the+article+aligns+with+Wikipedia%27s%22+OR+%22to+ensure+that+the+content+aligns+with+Wikipedia%27s%22+OR+%22to+ensure+that+the+draft+aligns+with+Wikipedia%27s%22+OR+%22to+ensure+that+the+page+aligns+with+Wikipedia%27s%22+OR+%22to+ensure+that+it+aligns+with+Wikipedia%27s%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 aligns with Wikipedia's ...}}
 ** {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22to+ensure+that+the+article+complies+with+Wikipedia%27s%22+OR+%22to+ensure+that+the+content+complies+with+Wikipedia%27s%22+OR+%22to+ensure+that+the+draft+complies+with+Wikipedia%27s%22+OR+%22to+ensure+that+the+page+complies+with+Wikipedia%27s%22+OR+%22to+ensure+that+it+complies+with+Wikipedia%27s%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 complies with Wikipedia's ...}}
+** {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22to+ensure+that+the+article+follows+Wikipedia%27s%22+OR+%22to+ensure+that+the+content+follows+Wikipedia%27s%22+OR+%22to+ensure+that+the+draft+follows+Wikipedia%27s%22+OR+%22to+ensure+that+the+page+follows+Wikipedia%27s%22+OR+%22to+ensure+that+it+follows+Wikipedia%27s%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 follows Wikipedia's ...}}
 ** {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22to+ensure+that+the+article+meets+Wikipedia%27s%22+OR+%22to+ensure+that+the+content+meets+Wikipedia%27s%22+OR+%22to+ensure+that+the+draft+meets+Wikipedia%27s%22+OR+%22to+ensure+that+the+page+meets+Wikipedia%27s%22+OR+%22to+ensure+that+it+meets+Wikipedia%27s%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 meets Wikipedia's ...}}
 |}
 
-== Miscellaneous ==
-=== Pronounced shift in writing style ===
-A sudden shift in an editor's writing style, such as unexpectedly flawless grammar compared to their other communication (e.g., talk page comments versus text added), may indicate the use of AI. This is especially likely if that other writing predates November 2022. The reverse also applies: If a user has edits that predate LLM chatbots, and their writing style has remained consistent between those older edits and their current ones (e.g., frequent use of boldface, list formatting, etc.), that suggests the newer edits are less likely to be AI.
-
-{{anchor|Sudden shift in English variety use}}A mismatch of user location, national ties of the topic to a variety of English, and the variety of English used may indicate the use of AI tools. A human writer from India writing about an Indian university would probably not use American English; however, several LLMs use American English by default unless prompted otherwise.<ref name="Ju et al." /> 
-
-Note that non-native English speakers also tend to mix up English varieties, and many writers use more formal prose in certain venues as a form of [[code switching]] (although that doesn't rule out writers doing that code switching with AI). These signs should raise suspicion only if there is a dramatic, not easily explainable shift in an editor's writing style.
-
-More subtly, if an editor has used AI for several years, the writing style of their edits will often change in parallel with contemporaneous AI tools: their 2023 edits will resemble 2023 LLM output, their 2025 edits will resemble 2025 LLM output, and so on.
-
-=== <span class="anchor" id="Edit summaries"></span> Overwhelmingly exhaustive edit summaries ===
+== <span class="anchor" id="Edit summaries"></span> Edit summaries ==
 {{Shortcut|WP:AISUMMARY|WP:AISUMM}}
-AI-generated [[Help:Edit summary|edit summaries]] are often written as formal, first-person paragraphs, without [[Wikipedia:Edit summary legend|abbreviations]], and conspicuously echo the exact text of Wikipedia's policies or any maintenance tags on the article—for example, [[WP:AIADHERENCE|itemizing their adherence]] to "WP:NPOV" or "encyclopedic tone." They often mention things that they "ensured" or "avoided" doing, or include verbose justifications of minor edits; this is especially obvious if AI is used to "fix" text following suspicion of AI-use. 
-They may also include other signs on this list, such as [[WP:AIVOCAB|AI vocabulary]], [[WP:AIEMOJI|emoji]], (attempted) [[WP:AILIST|list]] formatting, or [[WP:MARKDOWN|markdown]] formatting. 
+In general, AI-generated [[Help:Edit summary|edit summaries]] are often written as formal, first-person paragraphs, without [[Wikipedia:Edit summary legend|abbreviations]], and conspicuously echo the exact text of Wikipedia's policies or any maintenance tags on the article—for example, [[WP:AIADHERENCE|itemizing their adherence]] to "WP:NPOV" or "encyclopedic tone." They often mention things that they "ensured" or "avoided" doing, or include verbose justifications of minor edits; this is especially obvious if AI is used to "fix" text following suspicion of AI-use. 
+They may also include other signs on this list, such as [[WP:AIVOCAB|AI vocabulary]], [[WP:AIEMOJI|emoji]], (attempted) [[WP:AILIST|list]] formatting, or [[WP:MARKDOWN|markdown]] formatting. This section contains specific explanations and examples of some of the most common signs which are strongly indicative of AI generated edit summaries.
 
 AI edit summaries strongly suggest that the edits themselves are also AI-generated, as it is unlikely someone would use AI for a simple summary but not the much more time-consuming task of writing.
 
@@ -1325,6 +1328,59 @@ AI edit summaries strongly suggest that the edits themselves are also AI-generat
 
 More examples (albeit shorter than summaries from current LLMs) can be found [https://huggingface.co/datasets/msakota/edisum_dataset in this dataset] of edit summaries generated with GPT 3.5-turbo.
 
+=== Canned assurance of adherence to Wikipedia policies and guidelines ===
+{{tmbox|image=none|text=Words to watch: {{strong| ensured that... adheres to, improved, in compliance/complies with, revised, verifiability, neutrality, neutral tone, encyclopedic tone}} }}
+
+In line with the [[WP:AIASSURE|similarly-named comment-specific sign]], AI generated edit summaries will often reassure the reader to a nearly self-conscious extent that the edit was made in compliance with various Wikipedia PAGs like neutrality and sourcing requirements.
+
+Human editors do occasionally express that they are editing text because it violates a particular manual of style entry or guideline, but this is normally done in a brief and specific manner with a link to the particular item. For example, "removed excessive links per [[MOS:OVERLINK]]", whereas the AI-generated equivalent is usually more verbose and yet less specific (because the human editor behind the bot does not know the relevant guidelines to be able to prompt anything more specific than "make this more neutral"), explaining that they reorganised a section to "ensure neutrality," "improve attribution," "comply with the manual of style" or the likes.
+
+The more of these assurances there are stacked in a single edit summary, especially if they cover a wide variety of "improvements" that a human editor is less likely to cover in a single edit, the stronger the sign.
+
+{{blockquote|Revised the Capabilities section for clarity and <mark>compliance with the Manual of Style;</mark> removed unnecessary language parameters, consolidated overlapping fine-tuning sections, <mark>corrected promotional wording,</mark> and distinguished preprints from established findings.|2=Edit summary from [[Special:Diff/1363764012|this July 2026 revision]] to [[GPT-4o]]}}
+
+{{blockquote|Updated the feature-film section with current release information, added coverage of David and Solo Mio, corrected Sound of Freedom details, and <mark>improved sourcing and neutrality.</mark>|2=Edit summary from [[Special:Diff/1363721990|this July 2026 revision]] to [[Angel Studios]]}}
+
+{{blockquote|Reorganize and copyedit <mark>for a more neutral tone.</mark> Condensed lists. <mark>Removed promotional</mark> and mostly unrelated material. <mark>Improve citations</mark> with museums, grant-organization, independent arts sources, etc. Added 2026 SOLA Award.|2=Edit summary from [[Special:Diff/1363709326|this July 2026 revision]] to [[Carol Milne]]}}
+
+=== Specific mentions of "preserved" or "retained" information ===
+{{tmbox|image=none|text=Words to watch: {{strong| preserved/preserving, retained/retaining}} }}
+
+It is unusual for a human edit summary to include mention of material which was not edited. It is, however, exactly what one might expect from an AI which has been prompted to edit the article to accomplish X and Y but to specifically preserve or avoid changing Z.
+
+Note (as is also shown in the examples below) that this typically goes hand in hand with the vague, canned assurances of adherence to/improvement in line with the PAGs/the MOS also discussed in this section; in the format of "Revised [section] to [improve/ensure/etc] [neutrality/verifiability/etc] while preserving [whatever]" or the inverse.
+
+{{blockquote|Removed promotional language and revised the passage to use a more neutral, balanced tone <mark>while preserving the original meaning and technical details.</mark>|2=Edit summary from [[Special:Diff/1363763742|this July 2026 revision]] to [[Space Systems Processing Facility]]}}
+
+{{blockquote|...<mark>preserved existing structure and lead emphasis</mark> while improving verifiability, neutrality, layout and consistency.|2=Edit summary from [[Special:Diff/1364008360|this July 2026 revision]] to [[University of Navarra]]}}
+
+{{blockquote|Updated Red Coral Universe section... added... to the founding team; added Young’s Head of Content and Bizati’s Head of Acquisitions roles; <mark>preserved references and categories</mark>.|2=Edit summary from [[Special:Diff/1363959211|this July 2026 revision]] to [[Larry Meistrich]]}}
+
+{{blockquote|Reworded lead and body for neutrality and balance: attributed contested claims to critics/sources, noted internal diversity of views, clarified Peterson's position as adjacent rather than core, and removed loaded phrasing <mark>while preserving sourced criticisms.</mark>|2=Edit summary from [[Special:Diff/1363858070|this July 2026 revision]] to [[Manosphere]]}}
+
+=== Overemphasis on presence/reliability of citations ===
+{{tmbox|image=none|text=Words to watch: {{strong| added sourced [information/content/infobox/section], added [coverage/citations/references], improved attribution}} }}
+
+One of the common general signs of AI generated text is the tendency to [[WP:AIATTR|allude to the existence of coverage but not actually summarise the content of that coverage]]. A similar form of this manifests in edit summaries, where an excessive focus is placed on the fact that the content added is "sourced", "closely attributed" to "reliable sources", that "citations" or "coverage" were added, and so on.
+
+A human editor is far more likely to focus on the actual content of the prose they added (e.g., "Added info about the artist's debut"} rather than only vaguely mentioning the source that information is linked to.
+
+{{blockquote|Build out Professional associations, Regulatory status, and Scope of practice sections <mark>with sourced content;</mark> add Exercise Physiology row to comparison table <mark>with ESSA citations</mark>|2=Edit summary from [[Special:Diff/1363765282|this July 2026 revision]] to [[Myotherapy]]}}
+
+{{blockquote|Expanded the article with new sections, <mark>added sourced information, references,</mark> and internal/external links.|2=Edit summary from [[Special:Diff/1363991030|this July 2026 revision]] to [[Alexandr Bilinkis]]}}
+
+{{blockquote|Add <mark>sourced Military culture section</mark> covering samurai households,literature, ritual, religion, firearms, naval traditions, martial training, medicine, games and Meiji-era bushidō.|2=Edit summary from [[Special:Diff/1363970071|this July 2026 revision]] to [[Culture of Japan]]}}
+
+== Miscellaneous ==
+=== Pronounced shift in writing style ===
+A sudden shift in an editor's writing style, such as unexpectedly flawless grammar compared to their other communication (e.g., talk page comments versus text added), may indicate the use of AI. This is especially likely if that other writing predates November 2022. The reverse also applies: If a user has edits that predate LLM chatbots, and their writing style has remained consistent between those older edits and their current ones (e.g., frequent use of boldface, list formatting, etc.), that suggests the newer edits are less likely to be AI.
+
+{{anchor|Sudden shift in English variety use}}A mismatch of user location, national ties of the topic to a variety of English, and the variety of English used may indicate the use of AI tools. A human writer from India writing about an Indian university would probably not use American English; however, several LLMs use American English by default unless prompted otherwise.<ref name="Ju et al." /> 
+
+Note that non-native English speakers also tend to mix up English varieties, and many writers use more formal prose in certain venues as a form of [[code switching]] (although that doesn't rule out writers doing that code switching with AI). These signs should raise suspicion only if there is a dramatic, not easily explainable shift in an editor's writing style.
+
+More subtly, if an editor has used AI for several years, the writing style of their edits will often change in parallel with contemporaneous AI tools: their 2023 edits will resemble 2023 LLM output, their 2025 edits will resemble 2025 LLM output, and so on.
+
 === "Submission statements" in AfC drafts ===
 This one is specific to drafts submitted by [[WP:AFC|Articles for Creation]]. At least one LLM tends to insert "submission statements" supposedly intended for reviewers that supposedly explain why the subject is notable and why the draft meets Wikipedia guidelines. Of course, [[WP:BOOMERANG|all this actually does is]] let reviewers know that the draft is LLM-generated, and should be declined or speedily deleted without a second thought.
 
@@ -1344,11 +1400,39 @@ LLMs have been known to create pages that already have maintenance templates tha
 {{Use American English|date=September 2022}}
 {{Use mdy dates|date=February 2025}}
 </syntaxhighlight>
-|From [[Special:Diff/1278033935|this revision]] to a user sandbox (later [[WP:C&P|cut-and-paste moved]] to [[Émile Dufresne]])}}
+|From [[Special:Diff/1278033935|this revision]] to [[Wikipedia:Signs of AI writing/Examples/Émile Dufresne|Émile Dufresne]]}}
 
 '''Links to searches'''
-* [https://en.wikipedia.org/w/index.php?search=%22you+declined+your+own+draft%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns4=1&ns118=1 you declined your own draft]
-* [https://en.wikipedia.org/w/index.php?search=%22AI%22+%22put+a+decline+notice%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns3=1&ns4=1 "AI" + "put a decline notice"]
+* {{plain link|url=https://en.wikipedia.org/wiki/Special:Search?search=%22you+declined+your%22&prefix=Wikipedia%3AWikiProject+Articles+for+creation%2FHelp+desk%2FArchives&fulltext=Search+the+help+desk+archives&fulltext=Search&ns0=1 "you declined your"}}
+* {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22you+declined+it+yourself%22&prefix=Wikipedia%3AWikiProject+Articles+for+creation%2FHelp+desk%2FArchives&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1 "you declined it yourself"}}
+* {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22put+a+decline%22&prefix=Wikipedia%3AWikiProject+Articles+for+creation%2FHelp+desk%2FArchives&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1 "put a decline"}}
+
+=== Canned user pages ===
+{{shortcut|WP:AIUSERPAGE}}
+{{main|Wikipedia:Canned user pages}}
+Some AI-generated user pages follow a certain format and often contain [[WP:AILIST|inline-header vertical lists]] and section headings with titles like {{xt|Welcome To My User Page!}}, {{xt|About Me}}, {{xt|My Interests}}, and {{xt|Let's Connect!}}. They may also contain [[WP:AIEMOJI|emoji]] and [[WP:AIBOLD|bold text]]—or attempts at bold text with [[WP:MARKDOWN|Markdown]], which is typically the strongest giveaway that the content may have been generated by an LLM.
+
+'''Examples'''
+{{blockquote|
+{{fake section|level=2|✨ About Me}}
+* 🖊️ I enjoy writing about Indian cinema, culture, and history.
+* 📚 I ensure accuracy by citing reliable sources.
+* 🔧 I work on improving Wikipedia pages through editing and formatting.
+
+{{fake section|level=2|🏆 My Contributions}}
+* Created and improved '''20+ Wikipedia articles''' 
+* Fixed formatting, citations, and grammar issues  
+* Engaged in discussions to enhance Wikipedia content  
+
+{{fake section|level=2|💬 Let's Connect!}}
+Feel free to leave a message on my **[[User talk:Arumobileworld|Talk Page]]** if you have any suggestions, questions, or would like to collaborate.  
+
+'''Happy Editing! 🚀'''
+|From [[Special:Diff/1278940176|this March 2025 revision]] to a user page}}
+
+'''Links to searches'''
+* {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22About+Me%22+%22Let%27s+Connect%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns2=1 "About Me" "Let's Connect"}}
+* {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22About+Me%22+%22Let%27s+Collaborate%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns2=1 "About Me" "Let's Collaborate"}}
 
 === Permissions gaming ===
 [[WP:PGAME|Permissions gaming]] is a form of disruptive editing where someone makes many benign-seeming but unconstructive edits, often on disparate topics or in quick succession, until their edit count is high enough to raise their [[Wikipedia:User access levels|user access level]], allowing them to pursue their real goal of adding spam, vandalism, or contentious content. 
@@ -1390,15 +1474,14 @@ Specifically, the following have been empirically observed, over 25 years of Wik
 == Ineffective indicators ==
 False accusations of AI use can [[Wikipedia:BITE|drive away new editors]] and foster an atmosphere of suspicion. Before claiming AI was used, consider whether the [[Dunning–Kruger effect]] or [[confirmation bias]] may be clouding your judgement. Detecting LLM texts on the basis of style alone is ''not'' as easy as it seems, see [[WP:AIDETECTIVE]] in this page. Here are several somewhat commonly used indicators that are ineffective in LLM detection{{em dash}}and may even indicate the opposite.
 
-* '''Perfect grammar''': While modern LLMs are known for high grammatical proficiency, many editors are also skilled writers or come from professional writing backgrounds. (See also [[Wikipedia:Signs of AI writing#Sudden shift in English variety use|§ Sudden shift in English variety use]].) 
-* '''Combination of casual and formal registers, or language that sounds both "clinical" and "emotional"''': This may indicate the casual writing of a person in a technical field, such as computer science. It may also indicate youth, a preference for mixed registers, playfulness, or neurodivergence. In the case of a wiki, it may simply be the result of multiple editors adding to a page.
-* '''"Bland" or "robotic" prose''': LLM output has specific traits, as detailed above, and it skews positive and verbose by default. While these tendencies are formulaic, they may not scan as "robotic" to those unfamiliar with AI writing.<ref name="jalt">{{cite journal |last1=Murray |first1=Nathan |last2=Tersigni |first2=Elisa |title=Can instructors detect AI-generated papers? Postsecondary writing instructor knowledge and perceptions of AI |journal=Journal of Applied Learning & Teaching |volume=7 |issue=2 |date=21 July 2024 |issn=2591-801X |doi=10.37074/jalt.2024.7.2.12 |url=https://journals.sfu.ca/jalt/index.php/jalt/article/view/1895 |access-date=21 November 2025}}</ref>
-* '''"Fancy", "academic", or "formal" prose''': While LLMs disproportionately favor certain words and phrases, many of which are longer and have more difficult [[readability]] scores than some of their synonyms, these are ''specific words''. The correlation does not extend to all formal, academic, or "fancy"-sounding prose.<ref name="Russell" /> 
-* '''Letter-like writing (in isolation)''': Although many talk page messages written with [[salutation]]s, [[valediction]]s, [[WP:SUBJECTLINE|subject line]]s, and other formalities after 2023 tend to appear AI-generated, letters and emails have conventionally been written in such ways ''long'' before modern LLMs existed. Human editors (particularly newer editors) may format their talk page comments similarly for various reasons, such as being more accustomed to formal communication, posting as part of a school assignment that requires this tone, or simply mistaking the talk page for email. Other tells, such as [[#Inline-header vertical lists|vertical lists]]{{efn|[[Wikipedia:Articles for deletion/Sarwan Kumar Bheel|Example]] of a vertical list in a deletion discussion}}, [[#Phrasal templates and placeholder text|placeholder]]s, or [[#Abrupt cut offs|abrupt cutoffs]], are stronger.
-* '''Transition words (in isolation)''': Older AI text tended to formulaically overuse certain [[Transition (linguistics)|transitions]] like ''Additionally,'' ''Consequently,'' and ''Notably,'' often to begin sentences. However, only a few transition words and phrases are known to be overused by AI in this way. This pattern also has precedence in essay-like writing by humans and is accepted by many style guides, so this is not a strong tell.
-* '''Unsourced content''': [[:Category:All articles with unsourced statements|More than 570,000 articles]] are tagged as needing citations, and most of them predate LLMs. Meanwhile, since modern LLM chatbots can search the web and view sources a user provides to it, citations are fairly common now in AI-generated text. This does not mean they are ''accurate'' citations, but they are there. 
-* '''Bizarre [[Help:Wikitext|wikitext]]''': While LLMs may hallucinate templates or generate wikitext code with invalid syntax for reasons explained in {{slink||Use of Markdown}}, they are not likely to generate content with certain random-seeming, "inexplicable" errors and artifacts (excluding the ones listed here in {{slink||Markup}}). Bizarrely placed [[HTML tags]] like <nowiki><span> are more indicative of poorly programmed browser extensions or a known bug with Wikipedia's content translation tool (</nowiki>{{Phabricator|T113137}}). Misplaced syntax like {{Code|''Catch-22 i''s a satirical novel.}} (rendered as "''Catch-22 i''s a satirical novel.") are more indicative of mistakes in [[Wikipedia:VisualEditor|VisualEditor]], where such errors are harder to notice than in [[Wikipedia:Source editing|source editing]].
-* '''Correct wikitext''':  Especially if the person is using the visual editor or has found the [[Help:Show preview|Preview]] button, getting the formatting correct, even for complex templates, is normal.
+* '''Perfect grammar'''{{snd}}While modern LLMs are known for high grammatical proficiency, many editors are also skilled writers or come from professional writing backgrounds. (See also [[Wikipedia:Signs of AI writing#Sudden shift in English variety use|§ Sudden shift in English variety use]].) 
+* '''Combination of casual and formal registers, or language that sounds both "clinical" and "emotional"'''{{snd}}This may indicate the casual writing of a person in a technical field, such as computer science. It may also indicate youth, a preference for mixed registers, playfulness, or neurodivergence. In the case of a wiki, it may simply be the result of multiple editors adding to a page.
+* '''"Bland" or "robotic" prose'''{{snd}}LLM output has specific traits, as detailed above, and it skews positive and verbose by default. While these tendencies are formulaic, they may not scan as "robotic" to those unfamiliar with AI writing.<ref name="jalt">{{cite journal |last1=Murray |first1=Nathan |last2=Tersigni |first2=Elisa |title=Can instructors detect AI-generated papers? Postsecondary writing instructor knowledge and perceptions of AI |journal=Journal of Applied Learning & Teaching |volume=7 |issue=2 |date=21 July 2024 |issn=2591-801X |doi=10.37074/jalt.2024.7.2.12 |url=https://journals.sfu.ca/jalt/index.php/jalt/article/view/1895 |access-date=21 November 2025}}</ref>
+* '''"Fancy", "academic", or "formal" prose'''{{snd}}While LLMs disproportionately favor certain words and phrases, many of which are longer and have more difficult [[readability]] scores than some of their synonyms, these are ''specific words''. The correlation does not extend to all formal, academic, or "fancy"-sounding prose.<ref name="Russell" /> 
+* '''Transition words (in isolation)'''{{snd}}Older AI text tended to formulaically overuse certain [[Transition (linguistics)|transitions]] like ''Additionally,'' ''Consequently,'' and ''Notably,'' often to begin sentences. However, only a few transition words and phrases are known to be overused by AI in this way. This pattern also has precedence in essay-like writing by humans and is accepted by many style guides, so this is not a strong tell.
+* '''Unsourced content'''{{snd}}[[:Category:All articles with unsourced statements|More than 570,000 articles]] are tagged as needing citations, and most of them predate LLMs. Meanwhile, since modern LLM chatbots can search the web and view sources a user provides to it, citations are fairly common now in AI-generated text. This does not mean they are ''accurate'' citations, but they are there. 
+* '''Bizarre [[Help:Wikitext|wikitext]]'''{{snd}}While LLMs may hallucinate templates or generate wikitext code with invalid syntax for reasons explained in {{slink||Use of Markdown}}, they are not likely to generate content with certain random-seeming, "inexplicable" errors and artifacts (excluding the ones listed here in {{slink||Markup}}). Bizarrely placed [[HTML tags]] like <nowiki><span> are more indicative of poorly programmed browser extensions or a known bug with Wikipedia's content translation tool (</nowiki>{{Phabricator|T113137}}). Misplaced syntax like {{Code|''Catch-22 i''s a satirical novel.}} (rendered as "''Catch-22 i''s a satirical novel.") are more indicative of mistakes in [[Wikipedia:VisualEditor|VisualEditor]], where such errors are harder to notice than in [[Wikipedia:Source editing|source editing]].
+* '''Correct wikitext'''{{snd}} Especially if the person is using the visual editor or has found the [[Help:Show preview|Preview]] button, getting the formatting correct, even for complex templates, is normal.
 
 == Historical indicators ==
 The following indicators were common in text generated by older AI models, but are much less frequent in newer models. They may still be useful for finding older undetected AI-generated edits. Dates are approximate.

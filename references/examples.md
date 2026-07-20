@@ -146,15 +146,15 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 
 ---
 
-## Example 13: Defensive "Concrete" Language
+## Example 13: Future-Challenges Padding
 
 **Before:**
-> "In the absence of concrete evidence, I propose removing the AI-generated tag immediately to maintain the article's integrity."
+> "Challenges and Future Directions: The main contemporary challenge facing the sector is sustainability. These shifts will shape the industry's transition for the coming decades."
 
 **After:**
-> "If you think this tag is wrong, point to the sentence that triggered it. I'll rewrite or remove it."
+> "The industry faces a documented sustainability problem. Regulators now require supply-chain disclosures and lower-water dyeing standards."
 
-**Changes:** Cut the procedural fog. Replaced "concrete evidence" boilerplate with a direct request tied to a specific action.
+**Changes:** Removed the prefab "future challenges" heading and replaced vague horizon language with the specific issue and the concrete change.
 
 ---
 
@@ -206,15 +206,15 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 
 ---
 
-## Example 18: Renderer Leakage
+## Example 18: Internal Reference Markup Leakage
 
 **Before:**
-> "The platform was showcased at SAHA Expo 2026. [](grok_render_citation_card_json={\"cardIds\":[\"3bb883\"]})"
+> "The school is also a center for the US College Board examinations. citeturn0search1 ^[The principal expanded the testing program in 2024.]({\"attribution\":{\"attributableIndex\":\"1009-1\"}})"
 
 **After:**
-> "The platform was showcased at SAHA Expo 2026."
+> "The school is also a center for the US College Board examinations. The principal expanded the testing program in 2024."
 
-**Changes:** Removed leaked citation-renderer payload that belonged to the model interface, not the prose.
+**Changes:** Removed internal citation tokens and JSON attribution markup that belonged to the model interface, not the prose.
 
 ---
 
@@ -290,7 +290,7 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 
 ---
 
-## Example 25: Emoji-Decorated Heading Stack
+## Example 25: Canned User-Page Template
 
 **Before:**
 > "👋 Welcome to the User Page of Bhaskar Sunsari\n\n🧑‍💻 About Me\n\n🌏 My Interests\n- 💻 **Computing & Open Source Technology**\n- 📚 **Education Systems in South Asia**\n\n📬 Let's Connect!"
@@ -298,4 +298,4 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 **After:**
 > "Bhaskar Sunsari works on computing, education systems in South Asia, and local history. Message them if you want to collaborate."
 
-**Changes:** Removed emoji-staged headings, cut the bold-label bullet template, and turned the profile wrapper into plain sentences.
+**Changes:** Removed the canned user-page headings, cut the bold-label bullet template, and turned the profile wrapper into plain sentences.

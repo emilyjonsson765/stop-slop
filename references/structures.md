@@ -69,7 +69,7 @@ These swap a plain sentence for something that sounds more formal or elevated wi
 
 | Pattern | Problem |
 |---------|---------|
-| "serves as / stands as / represents / marks" where plain "is" works | Dodges the shortest true sentence |
+| "serves as / stands as / functions as / operates as / represents / marks" where plain "is" works | Dodges the shortest true sentence |
 | "features / offers / maintains" where plain "has" works | Marketing verb posing as description |
 | "authored / relocated / utilized / attempted" | Stiff synonym for a common verb |
 | "began his career as" / "ventured into politics as a candidate" | Long way around "was" |
@@ -147,16 +147,17 @@ Wh- openers become a crutch. "What makes this hard is..." becomes "The constrain
 | Lazy extremes (every, always, never, everyone, everybody, nobody) | False authority. Use specifics instead of sweeping claims. |
 | All adverbs (-ly words, "really," "just," "literally," "genuinely," "honestly," "simply," "actually") | Empty emphasis. See phrases.md for full list. |
 
-## Burden-Shifting Demands for Proof
+## Future-Challenges Padding
 
-AI-written defenses often ask for "concrete evidence" or "concrete examples" in a canned, procedural way. The point is not to examine the claim but to bounce the burden back to the other person.
+AI often generates a closing section about "future challenges" even when the subject does not need one. The section usually stacks abstract pressure, transition, and horizon language instead of concrete facts.
 
 | Pattern | Problem |
 |---------|---------|
-| "Without concrete examples, this concern cannot be evaluated" | Sounds rigorous while refusing to engage with the substance |
-| "In the absence of concrete evidence, I propose removing the tag" | Procedural language used as a shield |
+| "Challenges and Future Directions" / "future challenges" | Generic section shell pasted onto the topic |
+| "The main contemporary challenge..." | Inflated setup before any evidence |
+| "for the coming decades" / "emerging trends" / "potential developments" | Vague horizon language that pads speculation |
 
-**Instead:** Answer the actual criticism. If you need an example, ask for one specific example and say what you will do with it.
+**Instead:** Name the actual constraint, date, or forecast. If there is no sourced future-facing claim, cut the section.
 
 ## Content-Only Deflection
 
@@ -290,6 +291,8 @@ Some models leak the output format of their citation or rendering system directl
 | `grok_render_citation_card_json` in body text | Raw renderer payload pasted instead of a citation |
 | Bracketed line markers like `` | Retrieval UI debris, not prose |
 | Placeholder cite blobs like `citeturn0search0` | Internal citation token leaked into final text |
+| Ref names like `<ref name="0search12">` | Search-token markup leaked into citation syntax |
+| JSON tails like `({"attribution":{"attributableIndex":"1009-1"}})` | Internal reference bookkeeping pasted into prose |
 
 **Instead:** Strip the renderer artifact and replace it with a real citation, link, or sentence.
 
