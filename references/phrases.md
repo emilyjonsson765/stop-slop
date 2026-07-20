@@ -49,7 +49,7 @@ Replace with plain language.
 | Moving forward | Next, from now |
 | Circle back | Return to, revisit |
 | On the same page | Aligned, agreed |
-| Serves as / stands as / represents / marks | Is |
+| Serves as / stands as / functions as / operates as / represents / marks | Is |
 | Features / offers / maintains | Has, includes |
 | Refers to (in a lead sentence) | Is |
 
@@ -223,14 +223,18 @@ These phrases often signal that the writer is about to dump an AI-made bullet ta
 
 If the point is a short list, write the short list. If it needs explanation, write sentences.
 
-## Defensive Placeholder Language
+## Canned User-Page Boilerplate
 
-These phrases simulate rigor while dodging the substance of the dispute.
+These phrases often show up when AI generates a full user-page template instead of a real profile.
 
-- "concrete evidence"
-- "concrete examples"
+- "About Me"
+- "My Interests"
+- "Let's Connect!"
+- "Happy Editing!"
+- "Created and improved [N]+ Wikipedia articles"
+- "Feel free to leave a message on my talk page"
 
-They often show up in AI-written defenses, especially when the model wants to shift the burden back to the critic instead of addressing the underlying point.
+These are wrapper phrases, not substance. Replace them with one or two plain sentences about the person.
 
 ## Privacy Placeholders
 
