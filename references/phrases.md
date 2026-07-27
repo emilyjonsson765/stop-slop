@@ -180,6 +180,18 @@ Sentences that announce importance without naming the specific thing. Kill these
 
 If a sentence says something is important/deep/structural without showing the specific thing, cut it or replace it with the specific thing.
 
+## Notability Boilerplate
+
+These phrases try to prove importance by stacking source prestige instead of stating what the sources actually show.
+
+- "profiled in multiple high-quality, independent, and widely-read outlets"
+- "significant, substantial, secondary coverage"
+- "repeated national media coverage"
+- "other prominent media outlets"
+- "appearing in platforms like"
+
+Replace these with the outlet names and the concrete fact each source establishes.
+
 ## Compliance Theater
 
 These phrases show up when the writer wants to sound responsible, policy-aligned, or open to feedback instead of saying something concrete.
