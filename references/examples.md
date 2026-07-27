@@ -266,7 +266,19 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 
 ---
 
-## Example 23: Hallucinated Shortcut Citation
+## Example 23: Perplexity Citation Artifact Leakage
+
+**Before:**
+> "During his time as CEO, Philip Morris's reputation management and media relations brought together business and news interests in ways that later became controversial.[attached_file:1]"
+
+**After:**
+> "During his time as CEO, Philip Morris's reputation management and media relations later drew criticism from regulators and journalists."
+
+**Changes:** Removed the leaked citation placeholder and rewrote the sentence so it stands on its own until a real citation is added.
+
+---
+
+## Example 24: Hallucinated Shortcut Citation
 
 **Before:**
 > "This meets the standard for WP:RSLOCAL, which permits the use of regionally relevant sources for uncontroversial, local historical information."
@@ -278,7 +290,7 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 
 ---
 
-## Example 24: Source Prestige Stacking
+## Example 25: Source Prestige Stacking
 
 **Before:**
 > "The subject has been profiled in multiple high-quality, independent, and widely-read outlets, including national media, trade publications, and pieces written by leading experts."
@@ -290,7 +302,7 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 
 ---
 
-## Example 25: Canned User-Page Template
+## Example 26: Canned User-Page Template
 
 **Before:**
 > "👋 Welcome to the User Page of Bhaskar Sunsari\n\n🧑‍💻 About Me\n\n🌏 My Interests\n- 💻 **Computing & Open Source Technology**\n- 📚 **Education Systems in South Asia**\n\n📬 Let's Connect!"

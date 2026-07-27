@@ -292,6 +292,8 @@ Some models leak the output format of their citation or rendering system directl
 | Bracketed line markers like `` | Retrieval UI debris, not prose |
 | Placeholder cite blobs like `citeturn0search0` | Internal citation token leaked into final text |
 | Ref names like `<ref name="0search12">` | Search-token markup leaked into citation syntax |
+| Bracket tags like `[attached_file:1]` or `[web:1]` | Model-specific citation placeholders leaked into the sentence |
+| URLs or filenames containing `ppl-ai-file-upload` | Perplexity upload plumbing surfaced instead of a usable citation |
 | JSON tails like `({"attribution":{"attributableIndex":"1009-1"}})` | Internal reference bookkeeping pasted into prose |
 
 **Instead:** Strip the renderer artifact and replace it with a real citation, link, or sentence.
