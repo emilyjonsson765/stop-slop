@@ -255,6 +255,8 @@ These phrases pretend to explain a lack of information while saying nothing.
 - "maintains a low profile"
 - "keeps personal details private"
 - "maintains an active social media presence"
+- "maintains a strong digital presence"
+- "actively shares the latest updates and events"
 
 If the information is unknown, say it's unknown or omit the claim.
 
@@ -278,6 +280,9 @@ These show up when AI writes for submission queues, moderators, reviewers, or ad
 - "reviewer note"
 - "put a decline notice"
 - "meet the necessary standards for publication"
+- "addressing reviewer feedback"
+- "addressed reviewer feedback"
+- "per reviewer feedback"
 - "ensure neutrality"
 - "ensured neutrality"
 - "ensured an encyclopedic tone"
@@ -297,6 +302,17 @@ These show up when AI writes for submission queues, moderators, reviewers, or ad
 - "Could you please review my listed sources"
 
 These are process slogans, not content. Replace them with the exact edit made.
+
+## Vague Attribution Inflation
+
+These phrases pad a claim with a blurry authority instead of naming who said what.
+
+- "researchers and conservationists"
+- "modern researchers"
+- "according to [nationality] sources"
+- "industry publications such as"
+
+These phrases sound sourced without doing the work of a source. Name the publication, person, or study, or cut the attribution.
 
 ## Notability Boilerplate
 

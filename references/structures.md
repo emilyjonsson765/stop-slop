@@ -253,6 +253,9 @@ AI-written summaries often narrate intent, compliance, and precautions instead o
 |---------|---------|
 | "I revised the content to provide a neutral and informative description..." | First-person justification instead of a summary |
 | "ensured neutrality / encyclopedic tone / reliable sources" | Echoes policy language instead of the concrete change |
+| "addressing reviewer feedback" / "per reviewer feedback" | Narrates the moderation workflow instead of the edit itself |
+| "added sourced information / references / internal links" | Announces that citations exist without naming the added fact |
+| "while preserving the original meaning / existing structure / references and categories" | Reassures about what survived instead of summarizing what changed |
 | Itemizing adherence to policy shorthand like "WP:NPOV" or "encyclopedic tone" | Sounds like the model is reciting the rubric rather than summarizing the edit |
 | Long paragraph summaries for small edits | Suggests the model is explaining itself rather than editing |
 | Bullet points, markdown, or emoji inside an edit summary | Overformatted for a field that should be terse |

@@ -1,4 +1,4 @@
-REVID:1366293057
+REVID:1367370457
 {{redirect|Wikipedia:AI writing|identifying comments in discussions|Wikipedia:Signs of AI-generated comments|other uses|Wikipedia:Artificial intelligence resources}}
 {{WikiProject advice|wikiproject=WikiProject AI Cleanup|WP:AISIGNS|WP:AITELLS|WP:LLMSIGNS}}
 [[File:ChatGPT response screenshot 1.jpg|thumb|alt=A screenshot of ChatGPT reading: "[header] Legacy & Interpretation [body] The "Black Hole Edition" is not just a meme — it's a celebration of grassroots car culture, where ideas are limitless and fun is more important than spec sheets. Whether powered by a rotary engine, a V8 swap, or an imagined fighter jet turbine, the Miata remains the canvas for car enthusiasts worldwide."|LLMs tend to have an identifiable writing style.]]
@@ -13,7 +13,7 @@ The [[Wikipedia:Speedy deletion|speedy deletion policy]] criterion [[WP:G15|G15]
 ==Caveats==
 ===AI detection tools===
 {{shortcut|WP:AIDETECTION}}
-Do not solely rely on [[artificial intelligence content detection]] tools (such as [[GPTZero]]). While they perform better than random chance, these tools have non-trivial error rates.<ref name="Russell" /><ref name="dik2025">{{cite journal |last1=Dik |first1=Selin |last2=Erdem |first2=Osman |last3=Dik |first3=Mehmet |title=Assessing GPTZero's Accuracy in Identifying AI vs. Human-Written Essays |journal=arXiv |date=2025 |arxiv=2506.23517 }}</ref> Detectors can be susceptible to factors such as text modifications (e.g. paraphrasing, markup, and spacing changes) and the use of models not seen during detector training.<ref>{{cite conference|last1=Dugan|first1=Liam|last2=Hwang|first2=Alyssa|last3=Trhlik|first3=Filip|last4=Zhu|first4=Andrew|last5=Ludan|first5=Josh Magnus|last6=Xu|first6=Hainiu|last7=Ippolito|first7=Daphne|last8=Callison-Burch|first8=Chris|title=RAID: A Shared Benchmark for Robust Evaluation of Machine-Generated Text Detectors|conference=Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)|year=2024|pages=12463–12492|location=Bangkok, Thailand|publisher=Association for Computational Linguistics|arxiv=2405.07940|url=https://aclanthology.org/2024.acl-long.674|access-date=2025-11-08|archive-date=2025-08-24|archive-url=https://web.archive.org/web/20250824132743/https://aclanthology.org/2024.acl-long.674/|url-status=live}}</ref> A high percentage of detected AI writing from the results of a detection tool is '''not''' a valid criterion for speedy deletion under G15.
+Do not solely rely on [[artificial intelligence content detection]] tools (such as [[GPTZero]] and [[Pangram (AI detector)|Pangram]]). While they perform better than random chance, these tools have non-trivial error rates.<ref name="Russell" /><ref name="dik2025">{{cite journal |last1=Dik |first1=Selin |last2=Erdem |first2=Osman |last3=Dik |first3=Mehmet |title=Assessing GPTZero's Accuracy in Identifying AI vs. Human-Written Essays |journal=arXiv |date=2025 |arxiv=2506.23517 }}</ref> Detectors can be susceptible to factors such as text modifications (e.g. paraphrasing, markup, and spacing changes) and the use of models not seen during detector training.<ref>{{cite conference|last1=Dugan|first1=Liam|last2=Hwang|first2=Alyssa|last3=Trhlik|first3=Filip|last4=Zhu|first4=Andrew|last5=Ludan|first5=Josh Magnus|last6=Xu|first6=Hainiu|last7=Ippolito|first7=Daphne|last8=Callison-Burch|first8=Chris|title=RAID: A Shared Benchmark for Robust Evaluation of Machine-Generated Text Detectors|conference=Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)|year=2024|pages=12463–12492|location=Bangkok, Thailand|publisher=Association for Computational Linguistics|arxiv=2405.07940|url=https://aclanthology.org/2024.acl-long.674|access-date=2025-11-08|archive-date=2025-08-24|archive-url=https://web.archive.org/web/20250824132743/https://aclanthology.org/2024.acl-long.674/|url-status=live}}</ref> A high percentage of detected AI writing from the results of a detection tool is '''not''' a valid criterion for speedy deletion under G15.
 
 ===Your detection ability===
 {{Shortcut|WP:AIDETECTIVE}}
@@ -67,16 +67,22 @@ GriefBots have {{highlight|prompted broader reflection}} on mortality and memory
 
 LLMs may even include these statements for even the most mundane of subjects like etymology or population data. Sometimes, they add hedging preambles acknowledging that the subject is of relatively low importance, before talking about its importance anyway.
 
-{{blockquote|text=During the [[Spanish Colonial Period (Philippines)|Spanish colonial period]], the name ''Bakunutan'' was hispanized to ''Bacnotan'', a modification reflected in official documents preserved in the [[National Archives of the Philippines|National Archives]] in Manila. {{highlight|This etymology highlights the enduring legacy}} of the community's resistance and {{highlight|the transformative power}} of unity in shaping its identity.|title=From [[Special:Diff/1265870147|this December 2024 revision]] to [[Bacnotan]]}}
+{{ctop|From [[Special:Diff/1265870147|this December 2024 revision]] to [[Bacnotan]]}}
+During the [[Spanish Colonial Period (Philippines)|Spanish colonial period]], the name ''Bakunutan'' was hispanized to ''Bacnotan'', a modification reflected in official documents preserved in the [[National Archives of the Philippines|National Archives]] in Manila. {{highlight|This etymology highlights the enduring legacy}} of the community's resistance and {{highlight|the transformative power}} of unity in shaping its identity.
+{{cbot}}
 
-{{blockquote|text={{highlight|Though it saw only limited application}}, it {{highlight|contributes to the broader history}} of early aviation engineering and {{highlight|reflects the influence of French rotary designs}} on German manufacturers.|title=From [[Wikipedia:Signs of AI writing/Examples/Goebel Goe II|Draft:Goebel Goe II]] (July 2025)}}
+{{ctop|From [[Wikipedia:Signs of AI writing/Examples/Goebel Goe II|Draft:Goebel Goe II]] (July 2025)}}{{highlight|Though it saw only limited application}}, it {{highlight|contributes to the broader history}} of early aviation engineering and {{highlight|reflects the influence of French rotary designs}} on German manufacturers.
+{{cbot}}
 
 When talking about biology (e.g., when asked to discuss an animal or plant species), LLMs tend to over-emphasize connections to the broader ecosystem or environment, even when those connections are tenuous or generic. LLMs also tend to belabor the species' conservation status and research and preservation efforts, even if the status is unknown and no serious efforts exist.
 
-{{blockquote|text=Currently, {{highlight|there is no specific conservation assessment}} for ''Lethrinops lethrinus'' by the International Union for Conservation of Nature (IUCN). However, the general health of the Lake Malawi ecosystem is {{highlight|crucial for the survival of this and other endemic species}}. Factors such as overfishing, pollution, and habitat destruction could potentially impact their populations.
-|title=From [[Special:Diff/1235454313|this July 2024 revision]] to [[Lethrinops lethrinus]]}}
+{{ctop|From [[Special:Diff/1235454313|this July 2024 revision]] to [[Lethrinops lethrinus]]}}
+Currently, {{highlight|there is no specific conservation assessment}} for ''Lethrinops lethrinus'' by the International Union for Conservation of Nature (IUCN). However, the general health of the Lake Malawi ecosystem is {{highlight|crucial for the survival of this and other endemic species}}. Factors such as overfishing, pollution, and habitat destruction could potentially impact their populations.
+{{cbot}}
 
-{{blockquote|text=It {{highlight|plays a role in the ecosystem}} and {{highlight|contributes to Hawaii's rich cultural heritage}}. [...] {{highlight|Preserving this endemic species is vital}} not only for ecological diversity but also for sustaining the cultural traditions connected to Hawaii’s native flora.|title=From [[Special:Diff/1262033910|this December 2024 revision]] to [[Nototrichium divaricatum]]}}
+{{ctop|From [[Special:Diff/1262033910|this December 2024 revision]] to [[Nototrichium divaricatum]]}}
+It {{highlight|plays a role in the ecosystem}} and {{highlight|contributes to Hawaii's rich cultural heritage}}. [...] {{highlight|Preserving this endemic species is vital}} not only for ecological diversity but also for sustaining the cultural traditions connected to Hawaii’s native flora.
+{{cbot}}
 
 ===Canned emphasis on notability, attribution, and media coverage===
 {{shortcut|WP:OVERATTRIBUTION|WP:AIATTR}}{{anchor|Attribution}}
@@ -85,8 +91,10 @@ Similarly, LLMs act as if the best way to prove that a subject is notable is to 
 
 Human-written press releases have of course also cited news clippings for decades, but LLMs specifically asked to write a Wikipedia article often echo the exact wording of [[WP:N|Wikipedia's guidelines]], such as "independent coverage."
 
+In articles about people or entities that use social media, LLMs will often note that they "maintain an active social media presence" or something similar. This wording is particularly idiosyncratic to AI text and relatively uncommon on Wikipedia before ~2024.
+
 '''Examples'''
-{{collapse top|From [[Special:Diff/1276225083|this February 2025 revision]] to [[Sinead Bovell]]}}
+{{collapse top|From [[Special:Diff/1276225083|this February 2025 revision]] to [[Sinead Bovell]]|expand=yes}}
 She spoke about AI on CNN, and was {{highlight|featured in}} Vogue, Wired, Toronto Star, and {{highlight|other media}}.
 [...]
 Her insights have also been {{highlight|featured in}} *Wired*, *Refinery29*, and {{highlight|other prominent media outlets}}.
@@ -102,15 +110,13 @@ The subject has been {{highlight|profiled in multiple high-quality, independent,
 • {{highlight|Repeated national media coverage}} for both professional and advocacy work ({{highlight|reported by}} SBS, 7News, The Australian, etc.) • Leadership roles in international and national health campaigns (e.g., THINK Aorta ANZ and board member of Hearts4Heart) • National ambassador role for the National Heart Foundation of Australia, {{highlight|highlighted by multiple independent reports}} • Academic and economic contributions {{highlight|recognised by universities, specialist publications, and health system institutions}} (e.g., University of Sydney, Monash University, RANZCR) • {{highlight|Ongoing public presence in respected media}} and at speaking events over multiple years, including via {{highlight|independent news commentary, landmark survival stories, and national health initiatives}} Together, these factors clearly demonstrate {{highlight|significant, sustained, and verifiable coverage}}—meeting both WP:BIOSIGand WP:SIGCOV.
 {{collapse bottom}}
 
-On Wikipedia specifically, LLMs often painstakingly emphasize their sources in the body text—even for trivial coverage, uncontroversial facts, or other situations where a human Wikipedia editor would be more likely to either provide an inline citation or no source at all.
+{{ctop|from  [[Special:Permalink/1305163154|this August 2025 revision]] to [[The Original Pancake Kitchen]]; the reference added for this sentence did not exist.}}
+The restaurant {{highlight|has also been mentioned in [[ABC News (Australia)|ABC News]] coverage relating to}} incidents in the surrounding precinct, underscoring its role as a well-known late-night venue in the city [of [[Adelaide]]].
+{{cbot}}
 
-'''Examples'''
-{{blockquote|text=The restaurant {{highlight|has also been mentioned in [[ABC News (Australia)|ABC News]] coverage relating to}} incidents in the surrounding precinct, underscoring its role as a well-known late-night venue in the city [of [[Adelaide]]].|title= Trivial coverage with attribution, from  [[Special:Permalink/1305163154|this August 2025 revision]] to [[The Original Pancake Kitchen]]; the reference added for this sentence did not exist.}}
-
-In articles about people or entities that use social media, LLMs will often note that they "maintain an active social media presence" or something similar. This wording is particularly idiosyncratic to AI text and relatively uncommon on Wikipedia before ~2024.
-
-'''Examples'''
-{{blockquote|The mall {{highlight|maintains a strong digital presence}}, particularly on Instagram, where it actively shares the latest updates and events. Forum Kochi has consistently demonstrated excellence in digital promotions, with high-quality, engaging, and impactful video content playing a key role in its outreach.|From [[Special:Diff/1297291381|this June 2025 revision]] to [[Forum Mall Kochi]]}}
+{{ctop|From [[Special:Diff/1297291381|this June 2025 revision]] to [[Forum Mall Kochi]]|expand=yes}}
+The mall {{highlight|maintains a strong digital presence}}, particularly on Instagram, where it actively shares the latest updates and events. Forum Kochi has consistently demonstrated excellence in digital promotions, with high-quality, engaging, and impactful video content playing a key role in its outreach.
+{{cbot}}
 
 ===Superficial analyses===
 {{shortcut|WP:SUPERFICIAL}}
@@ -155,6 +161,16 @@ Fridrichová highlights that Blois and Bar perceive truncations as a **distortio
 }}
 {{collapse bottom}}
 
+{{collapse top|From [[Wikipedia:AI noticeboard#c-Munfarid1-20260726114900-Munfarid1-20260726113700|this July 2026 AI noticeboard comment]]}}
+Answer: Here are several neutral, Wikipedia-style paraphrases:
+<br>1. **Recommended:**<br>
+> The cover of Columbia's Tunisian record supplement featured the popular Tunisian Jewish singer Louisa Tounsia, {{highlight|reflecting the public image that the record company sought to project.}}
+<br>2. **More formal:**<br>
+> Louisa Tounsia, one of Tunisia's most popular Jewish performers, appeared on the cover of Columbia's Tunisian record supplement, {{highlight|underscoring the image that the label aimed to cultivate.}}
+<br>3. **Closer to the original:**<br>
+Columbia's Tunisian record supplement featured Louisa Tounsia on its cover, {{highlight|highlighting the image that the record label wished to promote through its marketing.}}
+{{collapse bottom}}
+
 ===<span class="anchor" id="Promotional language"></span>Promotional and advertisement-like language===
 {{For|non-AI-specific guidance about this|Wikipedia:Manual of Style/Words to watch#Puffery}}
 {{see also|Wikipedia:Marketing buzzspeak#Marketing buzzspeak and artificial intelligence}}
@@ -191,26 +207,25 @@ staying true to Cadillac's signature bold proportions.}} Its low, elongated silh
 {{For|non-AI-specific guidance about this|Wikipedia:Manual of Style/Words to watch#Unsupported attributions}}
 {{Shortcut|WP:AIWEASEL}}
 {{tmbox|image=none|text=Words to watch: {{strong|''Industry reports'', ''Observers have cited'', ''Experts argue'', ''Some critics argue'', ''several sources/publications'' (when only few sources are cited), ''such as'' (before exhaustive word lists), &nbsp;...}}}}
-AI chatbots tend to attribute opinions or claims to some vague authority—a practice called [[weasel wording]].
+AI chatbots tend to attribute opinions or claims to some vague authority—a practice called [[weasel wording]]. They also commonly exaggerate the quantity of sources that these opinions are attributed to. They may present views from one or two sources as widely held (often combined with the vague attributions above), mention the existence or opinion of multiple "reviewers" or "scholars" while only citing one person, or imply that lists of examples are non-exhaustive when the sources give no indication that other examples exist.
 
 '''Examples'''
 
-{{quote|Due to its unique characteristics, the Haolai River is of interest to {{highlight|researchers and conservationists}}. Efforts are ongoing to monitor its ecological health and preserve the surrounding grassland environment, which is part of a larger initiative to protect China’s semi-arid ecosystems from degradation.
-|title=From [[Special:Diff/1295362066|this June 2025 revision]] to [[Haolai River]]}}
+{{ctop|From [[Special:Diff/1295362066|this June 2025 revision]] to [[Haolai River]]}}
+Due to its unique characteristics, the Haolai River is of interest to {{highlight|researchers and conservationists}}. Efforts are ongoing to monitor its ecological health and preserve the surrounding grassland environment, which is part of a larger initiative to protect China’s semi-arid ecosystems from degradation.
+{{cbot}}
 
-{{quote|The Kwararafa (Kororofa) confederacy is {{highlight|described in scholarship}} as a shifting [[Benue valley]] coalition led by [[Jukun]] groups and incorporating a range of [[Middle Belt]] peoples. Because much of the historical record derives from [[Hausa]] chronicles, Bornu sources and oral tradition, {{highlight|modern researchers treat}} Kwararafa as a fluid political and cultural formation rather than a fixed state.
-|From [[Special:Diff/1323819205|this November 2025 revision]] to [[Kwararafa Confederacy]]}}
+{{ctop|From [[Special:Diff/1323819205|this November 2025 revision]] to [[Kwararafa Confederacy]]}}
+The Kwararafa (Kororofa) confederacy is {{highlight|described in scholarship}} as a shifting [[Benue valley]] coalition led by [[Jukun]] groups and incorporating a range of [[Middle Belt]] peoples. Because much of the historical record derives from [[Hausa]] chronicles, Bornu sources and oral tradition, {{highlight|modern researchers treat}} Kwararafa as a fluid political and cultural formation rather than a fixed state.
+{{cbot}}
 
-AI chatbots also commonly exaggerate the quantity of sources that these opinions are attributed to. They may present views from one or two sources as widely held (often combined with the vague attributions above), mention the existence or opinion of multiple "reviewers" or "scholars" while only citing one person, or imply that lists of examples are non-exhaustive when the sources give no indication that other examples exist.
+{{ctop|From [[Special:Diff/1299755238|this July 2025 revision]] to [[BRICS]]|expand=yes}}While Pakistan was not directly named, the reference to cross-border terrorism, {{highlight|according to Indian sources,}} was widely interpreted as aimed at Islamabad.<ref name ="Indian Express" group="overgen">{{Cite web |date=2025-07-07 |title=BRICS leaders condemn April 22 Pahalgam attack: On terror, zero tolerance |url=https://indianexpress.com/article/india/brics-leaders-condemn-jk-pahalgam-attack-on-terror-zero-tolerance-10110505/ |access-date=2025-07-10 |website=The Indian Express |language=en}}</ref>
+{{cbot}}
 
-'''Examples'''
-{{blockquote|
-While Pakistan was not directly named, the reference to cross-border terrorism, {{highlight|according to Indian sources,}} was widely interpreted as aimed at Islamabad.<ref name ="Indian Express" group="overgen">{{Cite web |date=2025-07-07 |title=BRICS leaders condemn April 22 Pahalgam attack: On terror, zero tolerance |url=https://indianexpress.com/article/india/brics-leaders-condemn-jk-pahalgam-attack-on-terror-zero-tolerance-10110505/ |access-date=2025-07-10 |website=The Indian Express |language=en}}</ref>
-|From [[Special:Diff/1299755238|this July 2025 revision]] to [[BRICS]]}}
+{{ctop|From [[Special:Diff/1325377957|this December 2025 revision]] to [[Rubik's WOWCube]].}}
+{{highlight|Toy industry publications such as}} ''The Toy Insider'' and ''Mojo Nation'' have presented Rubik's WOWCube as a STEM-oriented platform that brings the Rubik's Cube "into the future" with motion controls and an open software ecosystem.<ref name="ToyInsider2025" group="overgen">{{cite web |date=31 October 2025 |title=Rubik’s WOWCube |url=https://thetoyinsider.com/products/rubiks-wow-cube/ |access-date=2 December 2025 |website=The Toy Insider}}</ref><ref name="Mojo2025" group="overgen">{{cite web |date=26 July 2025 |title=Cubios Inc teams with Spin Master for Rubik’s WOWCube gaming platform |url=https://www.mojo-nation.com/cubios-inc-teams-with-spin-master-for-rubiks-wowcube-gaming-platform/ |access-date=2 December 2025 |website=Mojo Nation}}</ref>
+{{cbot}}
 
-{{blockquote|
-{{highlight|Toy industry publications such as}} ''The Toy Insider'' and ''Mojo Nation'' have presented Rubik's WOWCube as a STEM-oriented platform that brings the Rubik's Cube "into the future" with motion controls and an open software ecosystem.<ref name="ToyInsider2025" group="overgen">{{cite web |date=31 October 2025 |title=Rubik’s WOWCube |url=https://thetoyinsider.com/products/rubiks-wow-cube/ |access-date=2 December 2025 |website=The Toy Insider}}</ref><ref name="Mojo2025" group="overgen">{{cite web |date=26 July 2025 |title=Cubios Inc teams with Spin Master for Rubik’s WOWCube gaming platform |url=https://www.mojo-nation.com/cubios-inc-teams-with-spin-master-for-rubiks-wowcube-gaming-platform/ |access-date=2 December 2025 |website=Mojo Nation}}</ref>|
-From [[Special:Diff/1325377957|this December 2025 revision]] to [[Rubik's WOWCube]].}}
 {{Reflist-talk|group=overgen}}
 
 === Outline-like conclusions about challenges and future prospects ===
@@ -347,7 +362,7 @@ Moreover, in another instance, you accused an editor of "bludgeoning discussion 
 It’s important to recognize that everyone who contributes to Wikipedia—whether they’re new or experienced, whether they agree with you or not—deserves to be treated with respect. Collaboration, not confrontation, should be the goal. By continuing to engage with others in such a dismissive and harsh manner, you {{highlight|not only discourage participation but also}} damage the collaborative spirit that is essential to Wikipedia’s success.
 {{collapse bottom}}
 
-{{collapse top|From [[Special:Diff/1288184349|this April 2025 revision]] to [[Self-portrait (Yayoi Kusama)]]}}
+{{collapse top|From [[Special:Diff/1288184349|this April 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Self-portrait (Yayoi Kusama)|Self-portrait (Yayoi Kusama)]]}}
 '''Self-Portrait''' by Yayoi Kusama, executed in 2010 and currently preserved in the famous Uffizi Gallery in Florence, constitutes {{highlight|not only a work of self-representation, but}} a visual document of her obsessions, visual strategies and psychobiographical narratives.
 {{collapse bottom}}
 
@@ -364,7 +379,7 @@ Here is an example of a negative parallelism across multiple sentences:
 Another common LLM pattern is parallelisms that explicitly state that a particular item doesn't possess the first characteristic at all. Such constructions are often expressed as "{{xt|It's not ..., it's ...}}" or "{{xt|no ..., no ..., just ...}}".<ref name="Kriss"/>
 
 '''Examples'''
-{{collapse top|From [[Special:Diff/1288356293|this May 2025 revision]] to [[Self-portrait (Yayoi Kusama)]]}}
+{{collapse top|From [[Special:Diff/1288356293|this May 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Self-portrait (Yayoi Kusama)|Self-portrait (Yayoi Kusama)]]}}
 The viewer is presented with a self-image that {{highlight|<u>is not</u> grounded in visual mastery, <u>but</u> in what Amelia Jones terms “the performative enactment of subjectivity”}}.
 
 [...]
@@ -679,11 +694,27 @@ The mall employs approximately 3,167 staff members across all operations. Key ma
 |}
 {{collapse bottom}}
 
-{{collapse top|From [[Special:PermanentLink/1365092137#5.3 The Tibeto-Burman Connection: Later Adopters|these]] [[Special:PermanentLink/1365092137#5.5 Summary of Evidence|parts]] of an extremely long July 2026 comment at [[Talk:Xorai]]}}
-'''The Distinctive Context'''
+{{collapse top|From [[Special:PermanentLink/1365728625#Shared Artifact Types in Shan Culture|these]] [[Special:PermanentLink/1365728625#5.3 Comparison of Traditions|sections]] of a July 2026 revision to [[Xorai]]}}
+The structural similarity between the Shan hsun-ok and the Assamese xorai is striking:
+
+{| class="wikitable"
+|+ Comparison of Shan Hsun-Ok and Assamese Xorai
+|-
+! Feature !! Shan Hsun-Ok !! Assamese Xorai
+|-
+| Basic Structure || Bowl on pedestal with tray and cover || Tray on pedestal with domed cover
+|-
+| Primary Material || Lacquered bamboo || Bell metal (kah) or brass
+|-
+| Ceremonial Use || Buddhist offerings to monks || Hindu/Vaishnava offerings; hospitality
+|-
+| Cover || Stupa-shaped spire || Domed cover
+|}
+----
 The Tibetan high-footed vessels differ from the Tai-Kadai pedestal trays in several important ways:
 
 {| class="wikitable"
+|+ Comparison of Tai-Kadai and Tibetan Traditions
 |-
 ! Feature !! Tai-Kadai Tradition !! Tibetan Tradition
 |-
@@ -696,42 +727,6 @@ The Tibetan high-footed vessels differ from the Tai-Kadai pedestal trays in seve
 | Transmission || Carried by migration || Received as gifts from Chinese courts
 |-
 | Linguistic Connection || Native vocabulary (phan, phun) || Borrowed terminology
-|}
-----
-{{fake section|level=3|5.5 Summary of Evidence}}
-
-'''The Case for Tai-Kadai Origin'''
-
-{| class="wikitable"
-|-
-! Evidence Type !! Details !! Sources
-|-
-| Archaeological || Dou vessels appear in Neolithic China (c. 6000 BCE) in the Baiyue homeland || Neolithic Chinese archaeology
-|-
-| Linguistic || Shared vocabulary for pedestal trays across Tai-Kadai languages || Li Fang-Kuei's Tai-Kadai linguistics
-|-
-| Migration || Tai-Kadai westward migration (8th–13th c.) carried the tradition to Southeast Asia || Historical and archaeological records
-|-
-| Ahom Evidence || Ahoms brought bota/xorai to Assam in 1228 CE; native word phun || Satsari Asam Buranji, Asam Buranji
-|-
-| Continuity || Unbroken chain: dou → phan/hsun-ok → xorai || Archaeological and historical records
-|}
-
-'''The Case for Tibeto-Burman Adoption'''
-
-{| class="wikitable"
-|-
-! Evidence Type !! Details !! Sources
-|-
-| Different Origin || Tibeto-Burmans originated in Yellow River region, not the dou heartland || Genetic and linguistic studies
-|-
-| Late Appearance || High-footed bowls appear in Tibet through Ming dynasty gifts (14th–15th c.) || Tibet Museum records
-|-
-| Chinese Influence || Tibetan high-footed bowls were made in China for Tibetan patrons || Ming imperial records
-|-
-| Foreign Prototypes || Some high-footed cups trace to Byzantine prototypes, not indigenous tradition || Art historical research
-|-
-| Borrowing || Yunnan contact zones show adoption, not invention || Archaeological evidence
 |}
 {{collapse bottom}}
 
@@ -915,7 +910,7 @@ In some cases, LLM-generated citations may also contain placeholders in other fi
 <nowiki><ref></nowiki>{{((}}cite web<br /> {{!}}title{{=}}Ecos de Amor – Spotify<br /> {{!}}url{{=}}{{highlight|PASTE_SPOTIFY_TRACK_URL_HERE}}<br /> {{!}}website{{=}}Spotify<br /> {{!}}access-date{{=}}2026-02-09<br />{{))}}<nowiki></ref></nowiki><br /><nowiki><ref></nowiki>{{((}}cite web<br /> {{!}}title{{=}}Jesse & Joy – Ecos de Amor (Official Music Video)<br /> {{!}}url{{=}}{{highlight|PASTE_YOUTUBE_VIDEO_URL_HERE}}<br /> {{!}}website{{=}}YouTube<br /> {{!}}access-date{{=}}2026-02-09<br />{{))}}<nowiki></ref></nowiki>
 {{collapse bottom}}
 
-LLM-generated infobox edits may contain comments stating that text or images should be added if sources are found. Note: Comments in infoboxes, especially older infoboxes, are common—some templates automatically include them—and not an indicator of AI use. Anything but "Add ____", or variations on that specific wording, is actually more likely to indicate human text. Even then, there are exceptions; for example, articles with [[:Template:Infobox military person]] often contain the boilerplate "Add spouse if reliably sourced", which predates LLMs.
+LLM-generated infobox edits may contain comments stating that text or images should be added if/when sources are available, and sometimes contain instructions to upload images to Wikimedia Commons. These are not the same as the predefined boilerplate comments included in many templates, such as [[:Template:Infobox company|Infobox company]], despite occasional resemblances -- for example, articles with [[:Template:Infobox military person|Infobox military person]] often contain the boilerplate "Add spouse if reliably sourced." Before citing this sign, check whether the comment in question is part of the infobox template.
 
 '''Examples'''
 {{blockquote|{{!}} leader_name        {{=}} {{highlight|<nowiki><!-- Add if available with citation --></nowiki>}}|From [[Special:Diff/1301011748|this July 2025 revision]] to [[Pindi Saidpur]]}}
@@ -1373,20 +1368,25 @@ They may also include other signs on this list, such as [[WP:AIVOCAB|AI vocabula
 
 AI edit summaries strongly suggest that the edits themselves are also AI-generated, as it is unlikely someone would use AI for a simple summary but not the much more time-consuming task of writing.
 
-{{blockquote|ChatGPT I revised the content to provide a neutral and informative description of the Indira Gandhi National Centre for the Arts (IGNCA). The focus was on presenting the institution's objectives, approach, and programs in a way that adheres to Wikipedia's guidelines. The tone was adjusted to be more encyclopedic and less promotional.
-|Edit summary from [[Special:Diff/1169501852|this August 2023 revision]] to [[Indira Gandhi National Centre for the Arts]]}}
+=== General examples ===
+{{ctop|Edit summary from [[Special:Diff/1169501852|this August 2023 revision]] to [[Indira Gandhi National Centre for the Arts]]|expand=yes}}
+ChatGPT I revised the content to provide a neutral and informative description of the Indira Gandhi National Centre for the Arts (IGNCA). The focus was on presenting the institution's objectives, approach, and programs in a way that adheres to Wikipedia's guidelines. The tone was adjusted to be more encyclopedic and less promotional.
+{{cbot}}
 
-{{blockquote|**Concise edit summary:** Improved clarity, flow, and readability of the plot section; reduced redundancy and refined tone for better encyclopedic style.
-|Edit summary from [[Special:Diff/1293085006|this May 2025 revision]] to [[Anaganaga (film)]]}}
+{{ctop|Edit summary from [[Special:Diff/1293085006|this May 2025 revision]] to [[Anaganaga (film)]]}}**Concise edit summary:** Improved clarity, flow, and readability of the plot section; reduced redundancy and refined tone for better encyclopedic style.
+{{cbot}}
 
-{{blockquote|Reorganized article per RfC to address structural and content management concerns. Separated responses into four sections: Government (senators, DOJ, antitrust review, court hearings), Industry (guilds, trade orgs, notable industry figures), Shareholder (WBD shareholder actions/votes), and Foreign (international regulatory reviews and executive meetings). Background is now limited to developments only: reduced news-style phrasing and close paraphrasing.
-|Edit summary from [[Special:Diff/1337450779|this February 2026 revision]] to [[Proposed acquisition of Warner Bros. Discovery by Paramount Skydance]]}}
+{{ctop|Edit summary from [[Special:Diff/1337450779|this February 2026 revision]] to [[Proposed acquisition of Warner Bros. Discovery by Paramount Skydance]]}}
+Reorganized article per RfC to address structural and content management concerns. Separated responses into four sections: Government (senators, DOJ, antitrust review, court hearings), Industry (guilds, trade orgs, notable industry figures), Shareholder (WBD shareholder actions/votes), and Foreign (international regulatory reviews and executive meetings). Background is now limited to developments only: reduced news-style phrasing and close paraphrasing.
+{{cbot}}
 
-{{blockquote|Added sourced Impact section including restrictions, healthcare strain, and economic effects (2020–2022).
-|Edit summary from [[Special:Diff/1347582895|this April 2026 revision]] to [[COVID-19 pandemic in Montreal]]; also note ChatGPT UTM parameters}}
+{{ctop|Edit summary from [[Special:Diff/1347582895|this April 2026 revision]] to [[COVID-19 pandemic in Montreal]]; also note ChatGPT UTM parameters}}
+Added sourced Impact section including restrictions, healthcare strain, and economic effects (2020–2022).
+{{cbot}}
 
-{{blockquote|Claude responded: That last sentence is the killer — "Subject meets WP:BIO" — you're speaking their language and daring them to argue with it.Comprehensive rewrite: Early life sourced from University of Miami Athletics official roster (1984–85, LB #85, 6'3" 210 lbs); modeling career documented via Phillips auction house (Bruce Weber direct quote), Holden Luntz Gallery, Artsy, theFashionSpot, and eBay archival listings confirmin
-|Edit summary (with chatbot preamble) from [[Special:AbuseLog/44428512]], June 2026}}
+{{ctop|Edit summary (with chatbot preamble) from [[Special:AbuseLog/44428512]], June 2026}}
+Claude responded: That last sentence is the killer — "Subject meets WP:BIO" — you're speaking their language and daring them to argue with it.Comprehensive rewrite: Early life sourced from University of Miami Athletics official roster (1984–85, LB #85, 6'3" 210 lbs); modeling career documented via Phillips auction house (Bruce Weber direct quote), Holden Luntz Gallery, Artsy, theFashionSpot, and eBay archival listings confirmin
+{{cbot}}
 
 More examples (albeit shorter than summaries from current LLMs) can be found [https://huggingface.co/datasets/msakota/edisum_dataset in this dataset] of edit summaries generated with GPT 3.5-turbo.
 
@@ -1399,11 +1399,17 @@ Human editors do occasionally express that they are editing text because it viol
 
 The more of these assurances there are stacked in a single edit summary, especially if they cover a wide variety of "improvements" that a human editor is less likely to cover in a single edit, the stronger the sign.
 
-{{blockquote|Revised the Capabilities section for clarity and <mark>compliance with the Manual of Style;</mark> removed unnecessary language parameters, consolidated overlapping fine-tuning sections, <mark>corrected promotional wording,</mark> and distinguished preprints from established findings.|2=Edit summary from [[Special:Diff/1363764012|this July 2026 revision]] to [[GPT-4o]]}}
+{{ctop|Edit summary from [[Special:Diff/1363764012|this July 2026 revision]] to [[GPT-4o]]|expand=yes}}
+Revised the Capabilities section for clarity and <mark>compliance with the Manual of Style;</mark> removed unnecessary language parameters, consolidated overlapping fine-tuning sections, <mark>corrected promotional wording,</mark> and distinguished preprints from established findings.
+{{cbot}}
 
-{{blockquote|Updated the feature-film section with current release information, added coverage of David and Solo Mio, corrected Sound of Freedom details, and <mark>improved sourcing and neutrality.</mark>|2=Edit summary from [[Special:Diff/1363721990|this July 2026 revision]] to [[Angel Studios]]}}
+{{ctop|Edit summary from [[Special:Diff/1363721990|this July 2026 revision]] to [[Angel Studios]]}}
+Updated the feature-film section with current release information, added coverage of David and Solo Mio, corrected Sound of Freedom details, and <mark>improved sourcing and neutrality.</mark>
+{{cbot}}
 
-{{blockquote|Reorganize and copyedit <mark>for a more neutral tone.</mark> Condensed lists. <mark>Removed promotional</mark> and mostly unrelated material. <mark>Improve citations</mark> with museums, grant-organization, independent arts sources, etc. Added 2026 SOLA Award.|2=Edit summary from [[Special:Diff/1363709326|this July 2026 revision]] to [[Carol Milne]]}}
+{{ctop|Edit summary from [[Special:Diff/1363709326|this July 2026 revision]] to [[Carol Milne]]}}
+Reorganize and copyedit <mark>for a more neutral tone.</mark> Condensed lists. <mark>Removed promotional</mark> and mostly unrelated material. <mark>Improve citations</mark> with museums, grant-organization, independent arts sources, etc. Added 2026 SOLA Award.
+{{cbot}}
 
 === Specific mentions of "preserved" or "retained" information ===
 {{tmbox|image=none|text=Words to watch: {{strong| preserved/preserving, retained/retaining}} }}
@@ -1412,13 +1418,20 @@ It is unusual for a human edit summary to include mention of material which was 
 
 Note (as is also shown in the examples below) that this typically goes hand in hand with the vague, canned assurances of adherence to/improvement in line with the PAGs/the MOS also discussed in this section; in the format of "Revised [section] to [improve/ensure/etc] [neutrality/verifiability/etc] while preserving [whatever]" or the inverse.
 
-{{blockquote|Removed promotional language and revised the passage to use a more neutral, balanced tone <mark>while preserving the original meaning and technical details.</mark>|2=Edit summary from [[Special:Diff/1363763742|this July 2026 revision]] to [[Space Systems Processing Facility]]}}
+{{ctop|Edit summary from [[Special:Diff/1363763742|this July 2026 revision]] to [[Space Systems Processing Facility]]|expand=yes}}
+Removed promotional language and revised the passage to use a more neutral, balanced tone <mark>while preserving the original meaning and technical details.</mark>
+{{cbot}}
 
-{{blockquote|...<mark>preserved existing structure and lead emphasis</mark> while improving verifiability, neutrality, layout and consistency.|2=Edit summary from [[Special:Diff/1364008360|this July 2026 revision]] to [[University of Navarra]]}}
+{{ctop|Edit summary from [[Special:Diff/1364008360|this July 2026 revision]] to [[University of Navarra]]}}
+...<mark>preserved existing structure and lead emphasis</mark> while improving verifiability, neutrality, layout and consistency.
+{{cbot}}
 
-{{blockquote|Updated Red Coral Universe section... added... to the founding team; added Young’s Head of Content and Bizati’s Head of Acquisitions roles; <mark>preserved references and categories</mark>.|2=Edit summary from [[Special:Diff/1363959211|this July 2026 revision]] to [[Larry Meistrich]]}}
+{{ctop|Edit summary from [[Special:Diff/1363959211|this July 2026 revision]] to [[Larry Meistrich]]}}Updated Red Coral Universe section... added... to the founding team; added Young’s Head of Content and Bizati’s Head of Acquisitions roles; <mark>preserved references and categories</mark>.
+{{cbot}}
 
-{{blockquote|Reworded lead and body for neutrality and balance: attributed contested claims to critics/sources, noted internal diversity of views, clarified Peterson's position as adjacent rather than core, and removed loaded phrasing <mark>while preserving sourced criticisms.</mark>|2=Edit summary from [[Special:Diff/1363858070|this July 2026 revision]] to [[Manosphere]]}}
+{{ctop|Edit summary from [[Special:Diff/1363858070|this July 2026 revision]] to [[Manosphere]]}}
+Reworded lead and body for neutrality and balance: attributed contested claims to critics/sources, noted internal diversity of views, clarified Peterson's position as adjacent rather than core, and removed loaded phrasing <mark>while preserving sourced criticisms.</mark>
+{{cbot}}
 
 === Overemphasis on presence/reliability of citations ===
 {{tmbox|image=none|text=Words to watch: {{strong| added sourced [information/content/infobox/section], added [coverage/citations/references], improved attribution}} }}
@@ -1427,11 +1440,29 @@ One of the common general signs of AI generated text is the tendency to [[WP:AIA
 
 A human editor is far more likely to focus on the actual content of the prose they added (e.g., "Added info about the artist's debut"} rather than only vaguely mentioning the source that information is linked to.
 
-{{blockquote|Build out Professional associations, Regulatory status, and Scope of practice sections <mark>with sourced content;</mark> add Exercise Physiology row to comparison table <mark>with ESSA citations</mark>|2=Edit summary from [[Special:Diff/1363765282|this July 2026 revision]] to [[Myotherapy]]}}
+{{ctop|Edit summary from [[Special:Diff/1363765282|this July 2026 revision]] to [[Myotherapy]]|expand=yes}}
+Build out Professional associations, Regulatory status, and Scope of practice sections <mark>with sourced content;</mark> add Exercise Physiology row to comparison table <mark>with ESSA citations</mark>
+{{cbot}}
 
-{{blockquote|Expanded the article with new sections, <mark>added sourced information, references,</mark> and internal/external links.|2=Edit summary from [[Special:Diff/1363991030|this July 2026 revision]] to [[Alexandr Bilinkis]]}}
+{{ctop|Edit summary from [[Special:Diff/1363991030|this July 2026 revision]] to [[Alexandr Bilinkis]]}}Expanded the article with new sections, <mark>added sourced information, references,</mark> and internal/external links.
+{{cbot}}
 
-{{blockquote|Add <mark>sourced Military culture section</mark> covering samurai households,literature, ritual, religion, firearms, naval traditions, martial training, medicine, games and Meiji-era bushidō.|2=Edit summary from [[Special:Diff/1363970071|this July 2026 revision]] to [[Culture of Japan]]}}
+{{ctop|Edit summary from [[Special:Diff/1363970071|this July 2026 revision]] to [[Culture of Japan]]}}
+Add <mark>sourced Military culture section</mark> covering samurai households,literature, ritual, religion, firearms, naval traditions, martial training, medicine, games and Meiji-era bushidō.
+{{cbot}}
+
+=== Reference to AfC review ===
+AI edit summaries following a decline at AfC will often specifically mention that the edits were made to address the feedback given by the reviewer, a statement so obvious that a human would not typically feel the need to state it.
+
+{{ctop|Edit summary from [[Special:Diff/1357190252|this June 2026 edit]] to [[Draft:Yes Securities]]|expand=yes}}<mark>Addressing reviewer feedback</mark> by integrating independent secondary coverage from mainstream financial media.
+{{cbot}}
+
+{{ctop|Edit summary from [[Special:Diff/1363498526|this July 2026 edit]] to [[Draft:Millat Mohammed]]}}Rewrote from scratch <mark>per reviewer feedback.</mark> All claims verified. Added ISNI.
+{{cbot}}
+
+{{ctop|Edit summary from [[Special:Diff/1365762152|this July 2026 edit]] to [[Draft:St. Augustine's Day School, Barrackpore]]}}
+<mark>Addressed reviewer feedback</mark> by improving sourcing, formatting, and neutrality.
+{{cbot}}
 
 == Miscellaneous ==
 === Pronounced shift in writing style ===
@@ -1457,8 +1488,6 @@ LLMs have been known to create pages that already have maintenance templates tha
 {{blockquote|
 <syntaxhighlight lang="wikitext">
 {{Short description|French inventor and engineer (1861–1942)}}
-{{pp|small=yes}}
-{{pp-move}}
 {{Use American English|date=September 2022}}
 {{Use mdy dates|date=February 2025}}
 </syntaxhighlight>
