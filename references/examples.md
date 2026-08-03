@@ -311,3 +311,27 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "Bhaskar Sunsari works on computing, education systems in South Asia, and local history. Message them if you want to collaborate."
 
 **Changes:** Removed the canned user-page headings, cut the bold-label bullet template, and turned the profile wrapper into plain sentences.
+
+---
+
+## Example 27: Reviewer-Feedback Edit Summary
+
+**Before:**
+> "Addressed reviewer feedback by improving sourcing, formatting, and neutrality."
+
+**After:**
+> "Replaced the self-published source with two newspaper citations and cut the unsourced awards paragraph."
+
+**Changes:** Replaced review-queue narration with the concrete edit.
+
+---
+
+## Example 28: Vague Attribution Inflation
+
+**Before:**
+> "Due to its unique characteristics, the river is of interest to researchers and conservationists. According to local sources, the project has drawn wider attention."
+
+**After:**
+> "A 2025 wetland survey by the regional ecology department documented the river's seasonal flooding. The June 2026 city report said the project increased visitor traffic."
+
+**Changes:** Replaced blurry authority labels with named sources and specific claims.
