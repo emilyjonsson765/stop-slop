@@ -42,9 +42,9 @@
 > "Speed. Quality. Cost. You can only pick two. That's it. That's the tradeoff."
 
 **After:**
-> "Speed, quality, cost—pick two."
+> "Pick two: speed, quality, cost."
 
-**Changes:** Single sentence. No performative emphasis.
+**Changes:** Single sentence. No performative emphasis. No em dash.
 
 ---
 
@@ -335,3 +335,27 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "A 2025 wetland survey by the regional ecology department documented the river's seasonal flooding. The June 2026 city report said the project increased visitor traffic."
 
 **Changes:** Replaced blurry authority labels with named sources and specific claims.
+
+---
+
+## Example 29: Debate Inflation
+
+**Before:**
+> "The proposal participated in public discussions about housing, generated debate, and raised broader questions about affordability."
+
+**After:**
+> "Tenant groups opposed the proposal because it cut rent-stabilized units. The planning board approved it anyway."
+
+**Changes:** Replaced vague debate-signaling with the actual parties and dispute.
+
+---
+
+## Example 30: Compliance-Theater Self-Defense
+
+**Before:**
+> "I put in the effort to ensure the draft adheres to Wikipedia's guidelines, and my comments reflect my own thoughts. If there are concerns, I welcome further input."
+
+**After:**
+> "I cut the unsourced sentence and replaced it with the newspaper quote above. If another sentence is wrong, point to it."
+
+**Changes:** Removed effort-signaling, cut the "these are my thoughts" disclaimer, and replaced both with the concrete revision.
