@@ -13,6 +13,7 @@ These create false drama. State the point directly.
 | "The question isn't X. It's Y." | Rhetorical misdirection |
 | "Not X. But Y." / "not X, it's Y" / "isn't X, it's Y" | Mechanical contrast |
 | "It's not this. It's that." | Same formula, different words |
+| "It is not just X, it's Y." / "It's not just X, it's Y." | Polished version of the same canned reversal |
 | "stops being X and starts being Y" | False transformation arc |
 | "doesn't mean X, but actually Y" | Negation-then-assertion crutch |
 | "is about X but not Y" | False distinction |
@@ -136,7 +137,7 @@ Wh- openers become a crutch. "What makes this hard is..." becomes "The constrain
 | Three-item lists | Use two items or one |
 | Questions answered immediately | Let questions breathe or cut them |
 | Every paragraph ends punchily | Vary endings |
-| Em-dashes | Remove. Use commas or periods. No em dashes at all. |
+| Em-dashes | Remove for house style, but don't treat them as a standalone AI tell. Use commas or periods instead. |
 | Staccato fragmentation | Don't stack short punchy sentences |
 | "Not always. Not perfectly." | Hedging disguised as reassurance |
 

@@ -146,6 +146,7 @@ Announcing difficulty or significance rather than demonstrating it:
 Words overrepresented in AI output from the 2023–2024 GPT-4 era, confirmed by Wikipedia's AI writing pattern documentation. Replace with concrete, specific language.
 
 **Filler intensity words** — cut or rephrase:
+- "deep dive" (use: analysis, detailed look, walkthrough)
 - "delve" (use: examine, explore, look at)
 - "underscore" (use: show, confirm, highlight)
 - "boasts" (use: has, includes — only people boast)
@@ -180,6 +181,17 @@ Sentences that announce importance without naming the specific thing. Kill these
 
 If a sentence says something is important/deep/structural without showing the specific thing, cut it or replace it with the specific thing.
 
+## Debate Inflation
+
+These phrases try to manufacture significance by gesturing at "debate" or "discussion" without naming the dispute.
+
+- "participated in public discussions"
+- "sparked broader discussion"
+- "generated debate"
+- "has been the subject of debate"
+
+Name the actual argument, critics, or stakes instead of hinting at some vague public conversation.
+
 ## Notability Boilerplate
 
 These phrases try to prove importance by stacking source prestige instead of stating what the sources actually show.
@@ -212,6 +224,8 @@ These phrases show up when the writer wants to sound responsible, policy-aligned
 - "we are committed to"
 - "I assure you that"
 - "my intention is to"
+- "I put in the effort to ensure [the article / the content / the draft] adheres to Wikipedia's [policies / guidelines / standards]"
+- "my comments reflect my thoughts"
 - "our ultimate goal is to"
 - "open to further guidance"
 - "welcome any additional input"
