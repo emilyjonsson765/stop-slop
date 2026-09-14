@@ -325,6 +325,10 @@ These phrases pad a claim with a blurry authority instead of naming who said wha
 - "modern researchers"
 - "according to [nationality] sources"
 - "industry publications such as"
+- "in connection with"
+- "connected with"
+- "in association with"
+- "associated with"
 
 These phrases sound sourced without doing the work of a source. Name the publication, person, or study, or cut the attribution.
 
@@ -349,3 +353,32 @@ These phrases gesture at importance, discourse, or philosophy without adding con
 - "raising philosophical questions"
 
 If something sparked a debate or raised a question, name the debate or question.
+
+## Edit-Summary Overclaiming
+
+These phrases over-describe a small edit or narrate the writer's precautions.
+
+- "added verified information"
+- "with independent sources"
+- "with secondary sources"
+- "with third-party sources"
+- "with peer-reviewed sources"
+- "corrected infobox parameters"
+- "added inline citations"
+- "added internal links"
+- "preserved existing structure"
+- "preserved references and categories"
+- "avoided promotional language"
+- "aimed to improve"
+
+Edit summaries should name the edit, not recite the rubric. "Added 2025 revenue from annual report" beats "added verified information with independent sources."
+
+## Lexical Variety Padding
+
+AI often avoids repeating a precise word and replaces it with elegant variation.
+
+- Repeating a concept through needless synonyms instead of reusing the exact term
+- Swapping a technical noun for a looser poetic noun on second mention
+- Varying labels in a way that makes the referent less clear
+
+Repeat the right word. Clarity beats variety.

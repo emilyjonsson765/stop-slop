@@ -359,3 +359,27 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "I cut the unsourced sentence and replaced it with the newspaper quote above. If another sentence is wrong, point to it."
 
 **Changes:** Removed effort-signaling, cut the "these are my thoughts" disclaimer, and replaced both with the concrete revision.
+
+---
+
+## Example 31: Markup-Minute Edit Summary
+
+**Before:**
+> "Corrected infobox parameters (image_size), added inline citations and internal links, and preserved existing references and categories."
+
+**After:**
+> "Fixed the lead image size and added citations for the funding paragraph."
+
+**Changes:** Replaced markup plumbing and preservation theater with the visible edit.
+
+---
+
+## Example 32: Elegant Variation
+
+**Before:**
+> "The institute opened in 1989. The regional statistics body later expanded its surveys, and the Catalan data organization published annual reports."
+
+**After:**
+> "The institute opened in 1989. It later expanded its surveys and published annual reports."
+
+**Changes:** Removed needless alternate labels for the same subject. Repeated reference should clarify, not decorate.

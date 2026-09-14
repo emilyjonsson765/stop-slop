@@ -274,6 +274,43 @@ AI sometimes pastes raw template names into discussion text, which turns prose i
 
 **Instead:** Mention the plain name, or escape the template syntax. References to markup should stay references.
 
+## Markup Minutiae in Edit Summaries
+
+AI-written edit summaries often list the names of template fields, infobox parameters, internal links, or citation mechanics. That level of markup detail is strange when the actual edit was simple.
+
+| Pattern | Problem |
+|---------|---------|
+| "Corrected infobox parameters (image_size)" | Names markup plumbing instead of the visible change |
+| "Added inline citations and internal links" | Announces formatting instead of the fact added |
+| "Updated reference parameters / templates / categories" | Over-specific about mechanics, vague about content |
+| "Preserved references and categories" | Narrates what was not changed |
+
+**Instead:** Name the content change. "Added 2026 funding round; fixed image size" is enough.
+
+## Empty or Overleveled Headings
+
+AI-generated wiki drafts often expose the scaffold before there is content under it.
+
+| Pattern | Problem |
+|---------|---------|
+| A heading that contains only subheadings | Leaves the outline visible instead of writing the section |
+| Level-1 headings inside article text | Uses document-title syntax where normal section syntax belongs |
+| A heading that repeats the article title | Treats the title as part of the generated body |
+
+**Instead:** Delete empty wrapper headings. Start with the lead or the first real section.
+
+## Elegant Variation
+
+AI often treats repeated words as a style problem and rotates synonyms until the referent blurs.
+
+| Pattern | Problem |
+|---------|---------|
+| Three names for the same person, entity, or idea in one paragraph | Makes the reader resolve aliases instead of reading |
+| Synonyms chosen for variety rather than precision | Replaces the exact term with a softer one |
+| Avoiding a repeated technical term | Breaks domain clarity |
+
+**Instead:** Reuse the precise word. If the repetition feels heavy, shorten the sentence.
+
 ## Canned-Format Bullet Farms
 
 AI loves prepackaged list structures: a label, a run of bolded bullets, then a second run of "applications" or "benefits." The list feels tidy, but it usually replaces thought with taxonomy.
