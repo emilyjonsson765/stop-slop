@@ -18,6 +18,7 @@ These create false drama. State the point directly.
 | "doesn't mean X, but actually Y" | Negation-then-assertion crutch |
 | "is about X but not Y" | False distinction |
 | "not just X but also Y" | Additive hedge |
+| "rather than simply X, Y" | Polished contrast that smuggles in a canned upgrade |
 
 **Instead:** State Y directly. "The problem is Y." "Y matters here." Drop the negation entirely.
 

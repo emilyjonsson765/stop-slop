@@ -1,5 +1,5 @@
-REVID:1374467046
-{{redirect|Wikipedia:AI writing|identifying comments in discussions|Wikipedia:Signs of AI-generated comments|other uses|Wikipedia:Artificial intelligence resources}}
+REVID:1376003197
+{{redirect|Wikipedia:AI writing|identifying comments in discussions|Wikipedia:Signs of AI use in comments|other uses|Wikipedia:Artificial intelligence resources}}
 {{pp-protected|small=yes}}
 {{WikiProject advice|wikiproject=WikiProject AI Cleanup|WP:AISIGNS|WP:AITELLS|WP:LLMSIGNS}}
 {{update|the most recent models|type=page|date=August 2026}}
@@ -10,7 +10,7 @@ Moreover, this list is {{em|descriptive}}, not {{em|prescriptive}}; it consists 
 
 '''The patterns listed here are also only potential {{em|signs}} of a problem, not {{em|the problem itself}}.''' While many of these issues are immediately obvious and easy to fix{{--}}e.g., excessive boldface, broken markup, citation style quirks{{--}}they can point to less outwardly visible problems that carry [[WP:AIFAIL|much more serious policy risks]]. '''Please do not merely treat these signs as the problems to be fixed; that could just make detection harder.''' The actual problems are those deeper concerns, so make sure to address them, either yourself or by flagging them, per the [[Wikipedia:WikiProject AI Cleanup/Guide|relevant guide]].
 
-The [[Wikipedia:Speedy deletion|speedy deletion policy]] criterion [[WP:G15|G15]] (LLM-generated pages without human review) lists some signs of AI writing, but is limited to the most objective ones. The remaining signs covered here are not sufficient on their own for speedy deletion.
+The [[Wikipedia:Speedy deletion|speedy deletion policy]] criterion [[WP:G15|G15]] (Unambiguously LLM-generated pages) lists some signs of AI writing, but is limited to the most objective ones. The remaining signs covered here are not sufficient on their own for speedy deletion.
 
 ==Caveats==
 ===AI detection tools===
@@ -443,7 +443,8 @@ When LLMs describe a subject, their output may seem as though it is clearing up 
 It is common for LLMs to use parallel constructions involving "not", "but", or "however" such as "{{xt|Not only ... but ...}}" or "{{xt|It is not just ..., it's ...}}".<ref>{{cite web |last1=Robbins |first1=Hollis |title=How to Tell if Something is AI Written |url=https://hollisrobbinsanecdotal.substack.com/p/how-to-tell-if-something-is-ai-written |website=Anecdotal Value |publisher=Substack |access-date=7 December 2025}}</ref><ref name="Russell">{{cite conference |last1=Russell |first1=Jenna |last2=Karpinska |first2=Marzena |last3=Iyyer |first3=Mohit |year=2025 |url=https://aclanthology.org/2025.acl-long.267/ |location=Vienna, Austria |title=People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text |conference=Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) |publisher=Association for Computational Linguistics |pages=5342–5373 |arxiv=2501.15654 |doi=10.18653/v1/2025.acl-long.267 |doi-access=free |access-date=2025-09-05 |via=[[ACL Anthology]] |archive-date=2025-08-29 |archive-url=https://web.archive.org/web/20250829184825/https://aclanthology.org/2025.acl-long.267/ |url-status=live }}</ref><ref name="merrill" /><ref name="economistJul2026" />
 
 '''Examples'''
-{{cot|bg=#ffffff|From [[Talk:Eric Dick (lawyer)#c-Scott free0011-20240824023600-HCDE Tenure|this August 2024 comment]] at [[Talk:Eric Dick (lawyer)]]}}
+{{cot|bg=#fff|2024–2025}}
+{{quote frame|
 In your most recent exchange, you referred to another editor’s comment as "bizarre" and "totally incorrect," following up with an assertion that their viewpoint was "bogus." This choice of language is {{highlight|not only dismissive|pink}} {{highlight|but also unnecessarily harsh and confrontational}}. It shuts down the possibility of constructive dialogue and disrespects the effort that others put into contributing to this platform.
 
 This kind of dismissive and confrontational attitude is not new. [...] This remark {{highlight|doesn’t just undermine the editor’s argument|pink}}; {{highlight|it questions their very right to participate}} based on how long they’ve been active, which is contrary to the inclusive nature that Wikipedia aims to foster. New contributors {{highlight|should be encouraged}}, {{highlight|not belittled|pink}}, and it’s disheartening to see you take such a dismissive stance.
@@ -453,17 +454,22 @@ Your sarcastic remark about adding "Eric Dick is a secret Democrat. [citation ne
 Moreover, in another instance, you accused an editor of "bludgeoning discussion with screeds of AI generated waffle" and dismissed their contributions as "acres of fanciful extrapolation on Wikipedia policies." These comments are {{highlight|not just dismissive|pink}}—{{highlight|they’re outright disrespectful}}. Accusations like these don’t belong in a professional and collaborative setting. They undermine the very spirit of Wikipedia, which is built on the idea that people with different perspectives can come together to create something valuable.
 
 It’s important to recognize that everyone who contributes to Wikipedia—whether they’re new or experienced, whether they agree with you or not—deserves to be treated with respect. Collaboration, not confrontation, should be the goal. By continuing to engage with others in such a dismissive and harsh manner, you {{highlight|not only discourage participation|pink}} {{highlight|but also damage the collaborative spirit that is essential to Wikipedia’s success}}.
-{{cob}}
+|From [[Talk:Eric Dick (lawyer)#c-Scott free0011-20240824023600-HCDE Tenure|this August 2024 comment]] at [[Talk:Eric Dick (lawyer)]]}}
 
-{{cot|bg=#ffffff|From [[Special:Diff/1288184349|this April 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Self-portrait (Yayoi Kusama)|Self-portrait (Yayoi Kusama)]]}}
+{{quote frame|
 '''Self-Portrait''' by Yayoi Kusama, executed in 2010 and currently preserved in the famous Uffizi Gallery in Florence, constitutes {{highlight|not only a work of self-representation|pink}}, {{highlight|but a visual document of her obsessions, visual strategies and psychobiographical narratives}}.
-{{cob}}
+|From [[Special:Diff/1288184349|this April 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Self-portrait (Yayoi Kusama)|Self-portrait (Yayoi Kusama)]]}}
 
-{{cot|bg=#ffffff|From [[Wikipedia:Articles for deletion/Northern English nationalism#c-195.5.161.42-20250827212800-Aszx5000-20250827152200|this August 2025 comment]] at [[Wikipedia:Articles for deletion/Northern English nationalism]]}}
+{{quote frame|
 I appreciate the feedback so far, but I want to clarify something that’s being overlooked. The issue here {{highlight|isn’t just sourcing|pink}}—{{highlight|it’s framing}}. There’s a visible, growing movement around Northern English identity, documented across academic literature, social media, and grassroots activism. The fact that it doesn’t always use the exact phrase “Northern English nationalism” {{highlight|doesn’t mean it doesn’t exist|pink}}. {{highlight|Movements evolve before they’re neatly labelled}}.
 	
 TikTok campaigns, dialect revival, and regional symbolism (like St Oswald’s stripes) are part of a broader cultural shift. Dismissing these as “not notable” or “original research” while allowing pages on Cornish nationalism, Wessex regionalism, and Yorkshire separatism suggests an inconsistency in how regional identity is treated. {{highlight|That’s not just a sourcing issue|pink}}—{{highlight|it’s a systemic bias}}.
+|From [[Wikipedia:Articles for deletion/Northern English nationalism#c-195.5.161.42-20250827212800-Aszx5000-20250827152200|this August 2025 comment]] at [[Wikipedia:Articles for deletion/Northern English nationalism]]}}
 {{cob}}
+
+{{quote frame|
+Yoo Sumin argues that Ne Zha should also be understood as a form of "modern mythology". {{highlight|Rather than simply retelling a classical legend|pink}}, {{highlight|the film adapts the Nezha story to the emotional concerns and social context of contemporary China}}. According to Yoo, the film's popularity derives {{highlight|not only from its digital animation and visual spectacle|pink}}, {{highlight|but also from its ability to make a traditional mythological figure meaningful to contemporary audiences}}.
+|From [[Special:Diff/1359424195|this June 2026 revisiion]] to [[Ne Zha (2019 film)]]}}
 
 Here is an example of a negative parallelism across multiple sentences:
 {{blockquote|text=He hailed from the esteemed Duse family, renowned for their theatrical legacy. Eugenio's life, however, took a path that intertwined both personal ambition and familial complexities.|title=From [[Special:Diff/1284729136|this April 2025 revision]] to [[Eugenio Duse]]}}
@@ -472,7 +478,7 @@ Here is an example of a negative parallelism across multiple sentences:
 Another common LLM pattern is parallelisms that explicitly state that a particular item doesn't possess the first characteristic at all. Such constructions are often expressed as "{{xt|It's not ..., it's ...}}" or "{{xt|no ..., no ..., just ...}}".<ref name="Kriss"/><ref name="economistJul2026" />
 
 '''Examples'''
-{{cot|bg=#ffffff|From [[Special:Diff/1288356293|this May 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Self-portrait (Yayoi Kusama)|Self-portrait (Yayoi Kusama)]]}}
+{{cot|bg=#fff|From [[Special:Diff/1288356293|this May 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Self-portrait (Yayoi Kusama)|Self-portrait (Yayoi Kusama)]]}}
 The viewer is presented with a self-image that {{highlight|is not grounded in visual mastery|pink}}, {{highlight|but in what Amelia Jones terms “the performative enactment of subjectivity”}}.
 
 [...]
@@ -480,7 +486,7 @@ The viewer is presented with a self-image that {{highlight|is not grounded in vi
 This dispersal {{highlight|is not dissolution|pink}}. {{highlight|Rather, it constitutes what Deleuze might describe as “becoming”}}—an identity in flux, constituted through iterative difference. Through this lens, Kusama’s self-portrait is {{highlight|not a mirror|pink}} {{highlight|but a portal}}: {{highlight|not a representation of self|pink}}, {{highlight|but a mechanism}} for its constant reinvention.
 {{cob}}
 
-{{cot|bg=#ffffff|From [[Wikipedia:Articles for deletion/Lilly Contino#c-Momentoftrue-20250617223200-Lilly Contino|this June 2025 comment]] at [[Wikipedia:Articles for deletion/Lilly Contino]]}}
+{{cot|bg=#fff|From [[Wikipedia:Articles for deletion/Lilly Contino#c-Momentoftrue-20250617223200-Lilly Contino|this June 2025 comment]] at [[Wikipedia:Articles for deletion/Lilly Contino]]}}
 You say these sources “cover multiple events”? False. They echo the same viral incident and do it through a limited lens. {{highlight|This isn’t WP:NBIO|pink}} — {{highlight|it’s WP:1EVENT in disguise}}, trying to wear a press badge like armor.
 	
 [...]
@@ -1381,11 +1387,11 @@ Et petite corr :::
 
 === Non-existent or out-of-place categories ===
 {{shortcut|WP:AIREDCAT}}
-LLMs may hallucinate non-existent categories, sometimes for generic concepts that ''seem like'' plausible category titles (or [[search engine optimization|SEO]] keywords), and sometimes because their training set includes obsolete and renamed categories. These will appear as [[WP:REDNOT|red links]]. You may also find category redirects, such as the longtime spammer favorite [[:Category:Entrepreneurs]]. Sometimes, broken categories may be deleted by reviewers, so if you suspect a page may be LLM-generated, it may be worth checking earlier revisions.
+LLMs may hallucinate non-existent categories, sometimes for generic concepts that ''seem like'' plausible category titles (or [[search engine optimization|SEO]] keywords), and sometimes because their training set includes obsolete and renamed categories. These will appear as [[WP:REDNOT|red links]]. You may also find category redirects, such as the longtime spammer favorite [[:Category:Entrepreneurs]]. More recent LLMs will occasionally drop punctuation and words in category markup, visibly breaking them.
 
-Note that the presence of bad or nonexistent categories does not prove the use of AI all by itself, as human editors regularly make similar mistakes. They are, however, valid corroborating evidence if a page also shows other signs of AI editing.
+Note that the presence of bad or nonexistent categories does not prove the use of AI by itself, as human editors regularly make similar mistakes. New users are unlikely to know about Wikipedia's style guidelines for these sections, and returning editors may be used to old categories that have since been deleted. They are, however, valid corroborating evidence if a page also shows other signs of AI editing.
 
-Of course, none of this section should be treated as a hard-and-fast rule. New users are unlikely to know about Wikipedia's style guidelines for these sections, and returning editors may be used to old categories that have since been deleted.
+Sometimes, broken categories may have gotten fixed by the time you see a page, so if you suspect a page may be LLM-generated, it may be worth checking earlier revisions.
 
 '''Examples'''
 {{blockquote|<syntaxhighlight lang="wikitext">[[Category:American hip hop musicians]]</syntaxhighlight>|title=From [[Special:PermanentLink/1304282215|this August 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Paytra|Draft:Paytra]]}}
@@ -1569,7 +1575,7 @@ A common referencing error produced by LLMs involves sources in a <syntaxhighlig
 
 == <span class="anchor" id="Comments"></span> Comment-specific indicators ==
 {{shortcut|WP:AICOMMENT|WP:AICOMMENTS}}
-{{further|Wikipedia:Signs of AI-generated comments}}
+{{further|Wikipedia:Signs of AI use in comments}}
 {{see also|Wikipedia:Identifying LLM unblock requests|Wikipedia:The LLM-written ANI report}}
 
 <nowiki>In many cases, some users have copy-pasted text from AI chatbots into their comments. Comments suspected of having been pasted from an LLM may be collapsed via {{</nowiki>[[Template:Collapse AI|collapse AI]]<nowiki>}} per </nowiki>[[WP:AITALK]]. Asides from making any of the mistakes listed on this page, editors who use large language models or similar technology to write their comments are also likely to:
@@ -1585,7 +1591,6 @@ A common referencing error produced by LLMs involves sources in a <syntaxhighlig
 * {{plink|url=https://en.wikipedia.org/w/index.php?search=%22I+understand+concern+AI-generated%22%7E2+OR+%22I+understand+concerns+AI-generated%22%7E2&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 I understand <nowiki>[the/your] concern(s) [about/regarding]</nowiki> AI-generated ...}}
 * {{plink|url=https://en.wikipedia.org/w/index.php?limit=50&fulltext=1&ns1=1&ns119=1&ns3=1&ns4=1&ns5=1&profile=advanced&search=%22I+understand+my+may+perceived+as%22%7E5&title=Special%3ASearch I understand (that) my <nowiki>[contributions] may [have been]</nowiki> perceived as ...}}
 * {{plink|url=https://en.wikipedia.org/w/index.php?limit=100&fulltext=1&ns1=1&ns119=1&ns3=1&ns4=1&ns5=1&profile=advanced&search=%22would+enhance+the+article%27s+and%22%7E3+OR+%22will+enhance+the+article%27s+and%22%7E3+OR+%22can+enhance+the+article%27s+and%22%7E3+OR+%22could+enhance+the+article%27s+and%22%7E3&title=Special%3ASearch can/could/will/would enhance the article's ... and ...}}
-* {{plink|url=https://en.wikipedia.org/w/index.php?search=%22to+ensure+adheres+to+Wikipedia%27s%22%7E3+OR+%22to+ensure+the+with+Wikipedia%27s%22%7E3&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 ... to ensure (that) <nowiki>[the content obeys] Wikipedia's [rules]</nowiki>}}
 * Dear Wikipedia Editorial Team:
 ** {{plink|url=https://en.wikipedia.org/w/index.php?search=%22Dear+Wikipedia+Editorial+Team%22+%22I+am+writing+to%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns118=1 I am writing to ...}}
 ** {{plink|url=https://en.wikipedia.org/w/index.php?search=%22Dear+Wikipedia+Editorial+Team%22+%22this+message+finds+you+well%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns118=1 I hope/trust this message finds you well.}}
