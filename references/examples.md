@@ -353,7 +353,7 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 ## Example 30: Compliance-Theater Self-Defense
 
 **Before:**
-> "I put in the effort to ensure the draft adheres to Wikipedia's guidelines, and my comments reflect my own thoughts. If there are concerns, I welcome further input."
+> "I am committed to responsible editing, and my comments reflect my own thoughts. If there are concerns, I welcome further input."
 
 **After:**
 > "I cut the unsourced sentence and replaced it with the newspaper quote above. If another sentence is wrong, point to it."
@@ -383,3 +383,15 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "The institute opened in 1989. It later expanded its surveys and published annual reports."
 
 **Changes:** Removed needless alternate labels for the same subject. Repeated reference should clarify, not decorate.
+
+---
+
+## Example 33: Additive Contrast
+
+**Before:**
+> "Rather than simply retelling a classical legend, the film adapts the story to contemporary concerns. Its popularity derives not only from animation and spectacle, but also from making a traditional figure meaningful to contemporary audiences."
+
+**After:**
+> "The film adapts the legend for contemporary audiences. Viewers responded to the animation and to the updated version of the traditional figure."
+
+**Changes:** Removed the "rather than simply" setup and the "not only / but also" additive contrast. Kept the two concrete claims.

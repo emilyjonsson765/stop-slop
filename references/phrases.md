@@ -206,25 +206,15 @@ Replace these with the outlet names and the concrete fact each source establishe
 
 ## Compliance Theater
 
-These phrases show up when the writer wants to sound responsible, policy-aligned, or open to feedback instead of saying something concrete.
 These phrases show up when the writer wants to sound responsible, policy-aligned, or open to feedback instead of saying something specific.
 
 - "aligns with [the mission / the goals / the standards]"
 - "adheres to [the policies / the guidelines / the standards]"
-- "to ensure [the article / the content / the draft / the page / it] adheres to Wikipedia's [policies / guidelines / standards]"
-- "to ensure [the article / the content / the draft / the page / it] aligns with Wikipedia's [policies / guidelines / standards]"
-- "to ensure [the article / the content / the draft / the page / it] meets Wikipedia's [policies / guidelines / standards]"
-- "to ensure [the article / the content / the draft / the page / it] complies with Wikipedia's [policies / guidelines / standards]"
-- "to ensure that [the article / the content / the draft / the page / it] adheres to Wikipedia's [policies / guidelines / standards]"
-- "to ensure that [the article / the content / the draft / the page / it] aligns with Wikipedia's [policies / guidelines / standards]"
-- "to ensure that [the article / the content / the draft / the page / it] meets Wikipedia's [policies / guidelines / standards]"
-- "to ensure that [the article / the content / the draft / the page / it] complies with Wikipedia's [policies / guidelines / standards]"
 - "committed to [the mission / responsible editing / constructive dialogue]"
 - "I am committed to"
 - "we are committed to"
 - "I assure you that"
 - "my intention is to"
-- "I put in the effort to ensure [the article / the content / the draft] adheres to Wikipedia's [policies / guidelines / standards]"
 - "my comments reflect my thoughts"
 - "our ultimate goal is to"
 - "open to further guidance"
