@@ -244,8 +244,21 @@ AI-written notability arguments often pile up prestige labels around coverage in
 | "local/regional/national outlets, trade publications, and leading experts" | Source-category pileup masquerading as analysis |
 | "significant, substantial, secondary coverage" repeated as a slogan | Restates the test instead of proving the test is met |
 | "appearing in platforms like..." | Name-drops venues without saying what they contributed |
+| "was identified by" attached to a source category | Treats attribution itself as proof instead of naming the finding |
 
 **Instead:** Quote or summarize the exact claim from the source. If coverage matters, say what it established.
+
+## Heritage-to-Modernity Wrappers
+
+AI-written cultural summaries often describe a work as preserving tradition while updating it through abstract modern values.
+
+| Pattern | Problem |
+|---------|---------|
+| "preserves core elements such as X while reshaping them through Y" | Uses a balanced wrapper to avoid naming the actual adaptation |
+| Lists like "mythological image, magical weapons, and spirit of resistance" | Bundles concrete objects with vague abstractions |
+| Lists like "contemporary values, modern aesthetics, and digital animation technology" | Stacks broad modernization labels instead of describing the changed scene, design, or theme |
+
+**Instead:** Name the specific element and the specific change. "The film keeps Nezha's fire spear but gives the character a contemporary teenage voice" beats a tradition-versus-modernity wrapper.
 
 ## Process-Narrating Edit Summaries
 
