@@ -1,4 +1,4 @@
-REVID:1376003197
+REVID:1376889964
 {{redirect|Wikipedia:AI writing|identifying comments in discussions|Wikipedia:Signs of AI use in comments|other uses|Wikipedia:Artificial intelligence resources}}
 {{pp-protected|small=yes}}
 {{WikiProject advice|wikiproject=WikiProject AI Cleanup|WP:AISIGNS|WP:AITELLS|WP:LLMSIGNS}}
@@ -8,7 +8,7 @@ This is a list of writing and formatting conventions typical of [[AI chatbot]]s 
 
 Moreover, this list is {{em|descriptive}}, not {{em|prescriptive}}; it consists of observations, not rules. Advice about formatting or language to avoid can be found in the [[Wikipedia:PAG|policies and guidelines]] and the [[Wikipedia:MOS|Manual of Style]], but does not belong on this page.
 
-'''The patterns listed here are also only potential {{em|signs}} of a problem, not {{em|the problem itself}}.''' While many of these issues are immediately obvious and easy to fix{{--}}e.g., excessive boldface, broken markup, citation style quirks{{--}}they can point to less outwardly visible problems that carry [[WP:AIFAIL|much more serious policy risks]]. '''Please do not merely treat these signs as the problems to be fixed; that could just make detection harder.''' The actual problems are those deeper concerns, so make sure to address them, either yourself or by flagging them, per the [[Wikipedia:WikiProject AI Cleanup/Guide|relevant guide]].
+The patterns listed here are also only potential {{em|signs}} of a problem, not {{em|the problem itself}}. While many of these issues are immediately obvious and easy to fix{{--}}e.g., excessive boldface, broken markup, citation style quirks{{--}}they can point to less outwardly visible problems that carry [[WP:AIFAIL|much more serious policy risks]]. '''Please do not merely treat these signs as the problems to be fixed; that could just make detection harder.''' The actual problems are those deeper concerns, so make sure to address them, either yourself or by flagging them, per the [[Wikipedia:WikiProject AI Cleanup/Guide|relevant guide]].
 
 The [[Wikipedia:Speedy deletion|speedy deletion policy]] criterion [[WP:G15|G15]] (Unambiguously LLM-generated pages) lists some signs of AI writing, but is limited to the most objective ones. The remaining signs covered here are not sufficient on their own for speedy deletion.
 
@@ -89,8 +89,8 @@ It {{highlight|plays a role in the ecosystem}} and {{highlight|contributes to Ha
 
 ===<span class="anchor" id="Attribution"></span>Canned emphasis on notability, attribution, and media coverage===
 {{shortcut|WP:OVERATTRIBUTION|WP:AIATTR}}
-{{for|non-AI-specific guidance about this|Wikipedia:Metacoverage}}
-{{tmbox|image=none|text=Words to watch: {{strong|''independent coverage'', ''local/regional/national/[country name] media outlets'', ''music/business/tech outlets'', ''trade publications'', ''cited/featured/profiled in'', ''written by a leading expert'', ''active social media presence''}}}}
+{{for|non-AI-specific guidance about this|Wikipedia:Citing sources#In-text attribution}}
+{{tmbox|image=none|text=Words to watch: {{strong|''independent coverage'', ''local/regional/national/[country name] media outlets'', ''music/business/tech outlets'', ''trade publications'', ''cited/featured/profiled in'', ''written by a leading expert'', ''active social media presence'', ''was identified by''}}}}
 Similarly, LLMs act as if the best way to prove that a subject is notable is to hit readers over the head with claims of notability, often by detailing sources that a subject has been covered in and specifying what kind of sources they are (e.g., trade publications, regional media, etc). They often inaccurately attribute their own [[#Superficial analyses|superficial analyses]] to the source. This is more common in text from AI tools released in 2025 or later.
 
 This sign is narrow and distinct from human-written press releases, which have of course also cited news clippings for decades. The distinctions are the idiosyncratic phrasing above and the fact that the focus is placed on characteristics of ''the sources themselves'': their contents, their availability/unavailability in public searching, and their classification in relation to the media landscape and the article's subject. When LLMs are asked to write a Wikipedia article, the result often echoes the exact wording of [[WP:N|Wikipedia's guidelines]] like "independent coverage," as if the LLM has collapsed the context between the edit and its justification. {{efn|This effect is similar to how Claude's reasoning [https://slhck.info/software/2026/06/22/claudish.html can seem to leak into its conversational output].}}
@@ -184,11 +184,9 @@ Columbia's Tunisian record supplement featured Louisa Tounsia on its cover, {{hi
 |From [[Wikipedia:AI noticeboard#c-Munfarid1-20260726114900-Munfarid1-20260726113700|this July 2026 AI noticeboard comment]]}}
 {{cob}}
 
-===<span class="anchor" id="Promotional language"></span>Promotional and advertisement-like language===
-{{For|non-AI-specific guidance about this|Wikipedia:Manual of Style/Words to watch#Puffery}}
-{{see also|Wikipedia:Marketing buzzspeak#Marketing buzzspeak and artificial intelligence}}
-{{Shortcut|WP:AIPUFFERY|WP:AIPEACOCK}} 
-{{tmbox|image=none|text=Words to watch: {{strong|''boasts a'', ''vibrant'', ''rich'', ''profound'', ''enhancing'', ''showcasing'', ''exemplifies'', ''commitment to'', ''natural beauty'', ''nestled'', ''in the heart of'', ''groundbreaking'', ''renowned'', ''featuring'', ''diverse array'', &nbsp;...}}}}
+===Promotional and advertisement-like language===
+{{Shortcut|WP:AIPUFFERY|WP:AIPEACOCK}}{{For|non-AI-specific guidance about this|Wikipedia:Manual of Style/Words to watch#Puffery}}
+{{see also|Wikipedia:Marketing buzzspeak#Marketing buzzspeak and artificial intelligence}}{{tmbox|image=none|text=Words to watch: {{strong|''boasts a'', ''vibrant'', ''rich'', ''profound'', ''enhancing'', ''showcasing'', ''exemplifies'', ''commitment to'', ''natural beauty'', ''nestled'', ''in the heart of'', ''groundbreaking'', ''renowned'', ''featuring'', ''diverse array'', &nbsp;...}}}}
 LLMs have serious problems keeping a neutral tone. Even when prompted to use an encyclopedic style, their output will often tend toward advertisement-like writing, or like the prose of a travel guide. This may happen when generating new text or rewriting existing text: for instance, an edit summary claiming a rewrite "removed promotional tone" while actually introducing it. This may also happen when editors are not [[WP:COI|deliberately trying to advertise]] a subject.<ref name="rettberg">{{cite web |last1=Walker Rettberg |first1=Jill |title=Genre glitches and unexpected promotional phrases as a sign of AI writing |url=https://jilltxt.net/genre-glitches-and-unexpected-promotional-phrases-as-a-sign-of-ai-writing/ |website=jilltxt |access-date=13 May 2026}}</ref>
 
 Note: Not all promotional or spammy writing is AI-generated. LLMs tend to over-use the same set of promotional phrases no matter what the topic. Also, older LLMs (e.g., GPT-4) tend to output more blatantly positive text<ref name="sussman">{{cite web |last1=Sussman |first1=Kristen |last2=Carter |first2=Daniel |title=Detecting Effects of AI-Mediated Communication on Language Complexity and Sentiment |url=https://arxiv.org/abs/2504.19556 |website=Companion Proceedings of the ACM Web Conference 2025 |publisher=arXiv |access-date=13 May 2026}}</ref> than newer LLMs, which are more subtly positive and tend to avoid obviously superlative statements like "the best."
@@ -223,8 +221,8 @@ staying true to Cadillac's signature bold proportions.}} Its low, elongated silh
 {{cob}}
 
 ===Vague attributions and overgeneralization of opinions===
-{{For|non-AI-specific guidance about this|Wikipedia:Manual of Style/Words to watch#Unsupported attributions}}
 {{Shortcut|WP:AIWEASEL}}
+{{For|non-AI-specific guidance about this|Wikipedia:Manual of Style/Words to watch#Unsupported attributions}}
 {{tmbox|image=none|text=Words to watch: {{strong|''Industry reports'', ''Observers have cited'', ''Experts argue'', ''Some critics argue'', ''several sources/publications'' (when only few sources are cited), ''such as'' (before exhaustive word lists), &nbsp;...}}}}
 AI chatbots tend to attribute opinions or claims to some vague authority—a practice called [[weasel wording]]. They also commonly exaggerate the quantity of sources that these opinions are attributed to. They may present views from one or two sources as widely held (often combined with the vague attributions above), mention the existence or opinion of multiple "reviewers" or "scholars" while only citing one person, or imply that lists of examples are non-exhaustive when the sources give no indication that other examples exist.
 
@@ -524,6 +522,10 @@ This sign is stronger when it appears in contexts where most people would not bo
 * **Automotive**: Employed in auto body repair and modification tasks.
 |From [[Special:Diff/1237779206|this July 2024 revision]] to [[Rotary saw]] (note that these are [[WP:AILIST|canned-format lists]] that used [[WP:MARKDOWN|Markdown]])}}
 
+{{blockquote|
+The film preserves core elements such as Nezha's {{highlight|mythological image, magical weapons, and spirit of resistance}} while reshaping them through {{highlight|contemporary values, modern aesthetics, and digital animation technology}}.
+|From [[Special:Diff/1359424195|this June 2026 revision]] to [[Ne Zha (2019 film)]]}}
+
 ==Style==
 ===Title heading===
 AI chatbots tend to put a heading with the article name before all the content, since they don't usually imagine the title header when you make an article as being already there.
@@ -535,10 +537,7 @@ AI chatbots tend to put a heading with the article name before all the content, 
 }}
 
 ===Title case===
-{{For|non–AI-specific guidance about this|Wikipedia:Manual of Style/Capital letters#Headings, headers, and captions}}
-{{Shortcut|WP:AITITLECASE}}
-
-In section headings, AI chatbots strongly tend to capitalize all main words.<ref name="Russell"/>
+{{Shortcut|WP:AITITLECASE}}{{For|non–AI-specific guidance about this|Wikipedia:Manual of Style/Capital letters#Headings, headers, and captions}}In section headings, AI chatbots strongly tend to capitalize all main words.<ref name="Russell"/>
 
 '''Examples'''
 {{quote frame|
@@ -565,8 +564,8 @@ AI chatbots may generate a heading that only stores other headings, without text
 }}
 
 ===Overuse of boldface===
-{{For|non-AI-specific guidance about this|Wikipedia:Manual of Style/Text formatting#Boldface}}
 {{shortcut|WP:AIBOLD}}
+{{For|non-AI-specific guidance about this|Wikipedia:Manual of Style/Text formatting#Boldface}}
 AI chatbots may display various phrases in [[boldface]] for emphasis in an excessive, mechanical manner. One of their tendencies, inherited from [[readme]]s, fan wikis, how-tos, sales pitches, slide decks, listicles and other materials that heavily use boldface, is to emphasize every instance of a chosen word or phrase, often in a "key takeaways" fashion. Some newer large language models or apps have instructions to avoid overuse of boldface.
 
 '''Examples'''
@@ -669,9 +668,9 @@ One might wonder: if it’s a "travel food," why not just cook it on the ship?
 {{cob}}
 
 ===Overuse of em dashes===
+{{Shortcut|WP:AIDASH}}
 {{For|non-AI-specific guidance about the use of dashes|Wikipedia:Manual of Style#Dashes}}
 {{mbox|text=If more recent examples of this AI sign can't be found, it should probably be moved to {{slink|#Historical indicators}}, as it seems to be less common in current LLM output. (September 2026)}}
-{{Shortcut|WP:AIDASH}}
 While human editors and writers often use [[em dash]]es (—), LLM output uses them more often than nonprofessional human-written text of the same genre, and uses them in places where humans are more likely to use commas, parentheses, colons, or (misused) hyphens (-) and [[en dash]]es (–). LLMs especially tend to use em dashes in a formulaic, pat way, often mimicking "punched up" sales-like writing by over-emphasizing clauses or parallelisms.<ref name="merrill" /><ref name="Kriss"/> AI-generated em dashes are usually surrounded by spaces, contrary to common typographic guidelines (which most human users of em dashes will be familiar with).
 
 This sign is most useful when taken in combination with other indicators, not by itself. It is much more common on discussion pages than in article text. Also, because LLMs' use of em-dashes has become somewhat notorious, some AI companies have attempted to make their newer chatbots suppress their use, most notably OpenAI's [[GPT-5.1]].<ref name="edwards">{{cite news |last1=Edwards |first1=Benj |title=Forget AGI—Sam Altman celebrates ChatGPT finally following em dash formatting rules |url=https://arstechnica.com/ai/2025/11/forget-agi-sam-altman-celebrates-chatgpt-finally-following-em-dash-formatting-rules/ |access-date=24 February 2026 |work=Ars Technica |date=14 November 2025}}</ref> A July 2026 study found that of contemporary models only Claude used em dashes more than professional writers, and ChatGPT used them less.<ref name="economistJul2026">{{cite web |title=How to spot AI writing |url=https://www.economist.com/culture/2026/07/30/how-to-spot-ai-writing |website=The Economist |access-date=8 August 2026 |date=30 July 2026}}</ref>
@@ -845,10 +844,7 @@ The Tibetan high-footed vessels differ from the Tai-Kadai pedestal trays in seve
 Occasionally, AIs will attempt to insert [[WP:AIMARKDOWN|markdown table formatting]] inside wikitables, which will render as a more obvious garbled mess.
 
 ===Curly quotation marks and apostrophes===
-{{For|non-AI-specific guidance about this|Wikipedia:Manual of Style#Quotation characters|Wikipedia:Manual of Style#Apostrophes}}
-{{Shortcut|WP:AICURLY}}	
-
-ChatGPT <!-- appears to have risen some time in mid-2025 -->and [[DeepSeek]] typically use curly quotation marks (“...” or ‘...’) instead of straight quotation marks ("..." or '...'). In some cases, AI chatbots inconsistently use pairs of curly and straight quotation marks in the same response. They also tend to use the curly apostrophe (’), the same character as the curly [[right single quotation mark]], instead of the straight apostrophe ('), such as in [[Contraction (grammar)|contractions]] and [[English possessive|possessive forms]]. They may also do this inconsistently. 
+{{Shortcut|WP:AICURLY}}{{For|non-AI-specific guidance about this|Wikipedia:Manual of Style#Quotation characters|Wikipedia:Manual of Style#Apostrophes}}ChatGPT <!-- appears to have risen some time in mid-2025 -->and [[DeepSeek]] typically use curly quotation marks (“...” or ‘...’) instead of straight quotation marks ("..." or '...'). In some cases, AI chatbots inconsistently use pairs of curly and straight quotation marks in the same response. They also tend to use the curly apostrophe (’), the same character as the curly [[right single quotation mark]], instead of the straight apostrophe ('), such as in [[Contraction (grammar)|contractions]] and [[English possessive|possessive forms]]. They may also do this inconsistently. 
 
 Curly quotes alone do not prove LLM use. Directional quotation marks (curly or typographer) are often used in published works written and edited using the [[Chicago Manual of Style]].<ref>{{cite web|url=https://www.chicagomanualofstyle.org/qanda/data/faq/topics/SpecialCharacters/faq0002.html|title=CMOS 18th edition 6.123|website=Chicago Manual of Style}}</ref> [[Microsoft Word]] has a "[[smart quotes]]" feature that converts straight quotes to curly quotes. So does the default system-wide configuration on [[macOS]] and [[iOS]] devices, except on some applications (or if turned off, as may be necessary for [[computer programming|programming]]). Grammar correcting tools such as [[LanguageTool]] may also have such a feature. <!-- NB: LanguageTool is partially powered by neural networks. --> Curly quotation marks and apostrophes are common in professionally typeset works such as major newspapers. Citation tools like [https://citer.toolforge.org/ Citer] may repeat those that appear in the title of a web page: for example, 
 <blockquote>McClelland, Mac (2017-09-27). [https://www.nytimes.com/2017/09/27/magazine/when-not-guilty-is-a-life-sentence.html "When ‘Not Guilty’ Is a Life Sentence"]. {{em|The New York Times}}. Retrieved 2025-08-03.</blockquote>
@@ -1168,7 +1164,7 @@ Instead, the default formatting style of most chatbots is Markdown, a markup lan
 
 As the above indicates, Markdown syntax is completely different from wikitext. Markdown uses asterisks (*) or underscores (_) instead of single-quotes (') for bold and italic formatting, hash symbols (#) instead of equals signs (=) for section headings, parentheses (()) instead of square brackets (<nowiki>[]</nowiki>) around URLs, and three symbols (---, ***, or ___) instead of four hyphens (<nowiki>----</nowiki>) for thematic breaks.
 
-When told to "generate an article", chatbots often default to using Markdown for the generated output. This formatting is preserved in clipboard text by the copy functions on some chatbot platforms. If instructed to generate content for Wikipedia, the chatbot might "realize" the need to generate Wikipedia-compatible code, and might include a message like {{tqi|Would you like me to ... turn this into actual Wikipedia markup format (`wikitext`)?}}{{efn|[[Special:PermanentLink/1300700102|Example]] (deleted, administrators only)}} in its output. If the chatbot is told to proceed, the resulting syntax is often rudimentary, syntactically incorrect, or both. The chatbot might put its attempted-wikitext content in a Markdown-style [[Wikipedia:Signs of AI writing/Wikitext wrapped in Markdown code blocks from chatbots|fenced code block]] (its syntax for [[WP:PRE]]) surrounded by Markdown-based syntax and content, which may also be preserved by platform-specific copy-to-clipboard functions, leading to a telling footprint of both markup languages' syntax. This might include the appearance of three backticks in the text, such as: <code>```wikitext</code>.{{efn|[[Special:PermanentLink/1297827841|Example]] of {{code|```wikitext}} on a draft.|}}{{efn|See [[WP:AISIGNS/Wikitext wrapped in Markdown code blocks from chatbots]]}}
+When told to "generate an article", chatbots often default to using Markdown for the generated output. This formatting is preserved in clipboard text by the copy functions on some chatbot platforms. If instructed to generate content for Wikipedia, the chatbot might "realize" the need to generate Wikipedia-compatible code, and might include a message like {{tqi|Would you like me to ... turn this into actual Wikipedia markup format (`wikitext`)?}}{{efn|[[Special:PermanentLink/1300700102|Example]] (deleted, administrators only)}} in its output. If the chatbot is told to proceed, the resulting syntax is often rudimentary, syntactically incorrect, or both. The chatbot might put its attempted wikitext content in a Markdown-style [[Wikipedia:Signs of AI writing/Wikitext wrapped in Markdown code blocks from chatbots|fenced code block]] (its syntax for [[WP:PRE|preformatted plain text]]) surrounded by Markdown-based syntax and content, which may also be preserved by platform-specific copy-to-clipboard functions, leading to a telling footprint of both markup languages' syntax. This might include the appearance of three backticks in the text, such as: <code>```wikitext</code>.{{efn|[[Special:PermanentLink/1297827841|Example]] of {{code|```wikitext}} on a draft.|}}{{efn|See [[WP:AISIGNS/Wikitext wrapped in Markdown code blocks from chatbots]]}}
 
 The presence of faulty wikitext syntax mixed with Markdown syntax is a strong indicator that content is LLM-generated, especially if in the form of a fenced Markdown code block. However, Markdown {{em|alone}} is not such a strong indicator. Software developers, researchers, technical writers, and experienced internet users frequently use Markdown in tools like [[Obsidian (software)|Obsidian]] and [[GitHub Flavored Markdown|GitHub]], and on platforms like [https://support.reddithelp.com/hc/en-us/articles/360043033952-Formatting-Guide Reddit], [https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline Discord], and [https://slack.com/help/articles/202288908-Format-your-messages Slack]. Some writing tools and apps, such as [[iOS Notes]], [[Google Docs]], and [[Windows Notepad]], support Markdown editing or exporting. The increasing ubiquity of Markdown may also lead new editors to expect or assume Wikipedia to support Markdown by default.
 
@@ -1440,8 +1436,8 @@ rather than
 * [[Wikipedia:Database reports/Transclusions of non-existent templates]] – many of these broken templates are legitimate mistakes, but the "infobox" and "lang" sections are likely to contain LLM hallucinations
 
 == Citations ==
-{{For|non-AI-specific guidance about this|Wikipedia:Fictitious references}}
 {{Shortcut|WP:AIFICTREF}}
+{{For|non-AI-specific guidance about this|Wikipedia:Fictitious references}}
 {{See also|Template:Failed verification}}
 
 === Broken external links ===
@@ -1574,11 +1570,11 @@ A common referencing error produced by LLMs involves sources in a <syntaxhighlig
 * {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22Cite+error%3A+A+list-defined+reference+named%22+%22is+not+used+in+the+content+%28see+the+help+page%29.%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1&ns2=1&ns118=1 "Cite error: A list-defined reference named" + "is not used in the content (see the help page)."}}
 
 == <span class="anchor" id="Comments"></span> Comment-specific indicators ==
-{{shortcut|WP:AICOMMENT|WP:AICOMMENTS}}
+{{shortcut|WP:AICOMMENT}}
 {{further|Wikipedia:Signs of AI use in comments}}
 {{see also|Wikipedia:Identifying LLM unblock requests|Wikipedia:The LLM-written ANI report}}
 
-<nowiki>In many cases, some users have copy-pasted text from AI chatbots into their comments. Comments suspected of having been pasted from an LLM may be collapsed via {{</nowiki>[[Template:Collapse AI|collapse AI]]<nowiki>}} per </nowiki>[[WP:AITALK]]. Asides from making any of the mistakes listed on this page, editors who use large language models or similar technology to write their comments are also likely to:
+<nowiki>In many cases, some users have copy-pasted text from AI chatbots into their comments. Comments and nominations suspected of having been pasted from an LLM may be collapsed via {{</nowiki>[[Template:Collapse AI|collapse AI]]<nowiki>}} or closed entirely in accordance with </nowiki>{{Section link|Wikipedia:Talk page guidelines#LLM-generated}}. Asides from making any of the mistakes listed on this page, editors who use large language models or similar technology to write their comments are also likely to:
 * [[WP:AIFICTPOLICY|Misquote policies and guidelines]] and [[WP:AISHORTCUT|cite made-up shortcuts]] that don't lead to any existing project page.
 * [[WP:AITRANSCLUSION|Transclude maintenance banners]] whenever they mention them.
 * Post lengthy comments [[WP:AISECTION|divided into sections with titles]], either written in [[WP:MARKDOWN|Markdown]], plain text, or as [[WP:AISUBHEADING|level-2 or level-3 subheadings]].
@@ -1811,7 +1807,7 @@ Specifically, the following have been empirically observed, over 25 years of Wik
 * Isolated wordy constructions such as ''as a result of'', ''in order to'', ''all of the'', ''a part of'', or ''the fact that''.
 
 == Ineffective indicators ==
-False accusations of AI use can [[Wikipedia:BITE|drive away new editors]] and foster an atmosphere of suspicion. Before claiming AI was used, consider whether the [[Dunning–Kruger effect]] or [[confirmation bias]] may be clouding your judgement. Detecting LLM texts on the basis of style alone is ''not'' as easy as it seems, see [[WP:AIDETECTIVE]] in this page. Here are several somewhat commonly used indicators that are ineffective in LLM detection{{em dash}}and may even indicate the opposite.
+False accusations of AI use can [[Wikipedia:BITE|drive away new editors]] and foster an atmosphere of suspicion. Before claiming AI was used, consider whether the [[Dunning–Kruger effect]] or [[confirmation bias]] may be clouding your judgement. Detecting LLM texts on the basis of style alone is ''not'' as easy as it seems, see {{Section link|#Your detection ability}} in this page. Here are several somewhat commonly used indicators that are ineffective in LLM detection{{em dash}}and may even indicate the opposite.
 
 * '''Perfect grammar'''{{snd}}While modern LLMs are known for high grammatical proficiency, many editors are also skilled writers or come from professional writing backgrounds. (See also [[Wikipedia:Signs of AI writing#Sudden shift in English variety use|§ Sudden shift in English variety use]].) 
 * '''Combination of casual and formal registers, or language that sounds both "clinical" and "emotional"'''{{snd}}This may indicate the casual writing of a person in a technical field, such as computer science. It may also indicate youth, a preference for mixed registers, playfulness, or neurodivergence. In the case of a wiki, it may simply be the result of multiple editors adding to a page.
@@ -1887,9 +1883,9 @@ This method is not foolproof, as a malformed copy/paste from one's local compute
 In some AI-assisted text, citations may include an ''access-date'' by default, but the date can look unexpectedly old relative to when the edit was made (for example, an article created in December 2025 containing multiple citations with <code>|access-date=12 December 2024</code>). However, newer chatbots seldom produce this error, and older ''access-date'' values can occur legitimately (copied citations, offline work, batch moves/merges).
 
 ===Lexical diversity/elegant variation===
+{{shortcut|WP:AIELEVAR}}
 {{For|a non-AI-specific style essay about this|Wikipedia:The problem with elegant variation}}
 {{Further|Lexical diversity}}
-{{shortcut|WP:AIELEVAR}}
 Older AI models may include a repetition penalty, meant to discourage it from reusing words too often.<ref name="chronicle">{{cite web |last=Belcher|first=Wendy|title=10 Ways AI Is Ruining Your Students' Writing.|website=Chronicle of Higher Education|date=September 16, 2025|url=https://www.chronicle.com/article/10-ways-ai-is-ruining-your-students-writing|access-date=October 1, 2025|archive-date=October 1, 2025|archive-url=https://web.archive.org/web/20251001071208/https://www.chronicle.com/article/10-ways-ai-is-ruining-your-students-writing/|url-status=live}}</ref> This pattern has also been observed on Wikipedia on a broad level: both when comparing Wikipedia text from before 2023 to Wikipedia text from after 2023, and comparing the older Wikipedia text to "Wikipedia-style articles" generated by GPT-4o-mini and Gemini-1.5-Flash.<ref name="huang" />
 
 Note: If a user adds multiple pieces of AI-generated content in separate edits, this tell may not apply, as each piece of text may have been generated in isolation.
@@ -1911,7 +1907,7 @@ The move to Paris facilitated an environment where Yankilevsky could further exp
 It must be noticed however that editors who are not native English speakers might prefer to avoid repeated words as well. For example Italian schools often teach to avoid repeating words.<ref name="birattari2020">{{cite web |last1=Birattari |first1=Massimo |title=Come evitare le ripetizioni “moleste” quando scriviamo? |url=https://www.illibraio.it/news/grammatica/come-evitare-ripetizioni-quando-scriviamo-540892/ |website=Il Libraio |access-date=29 May 2026}}</ref><ref name="cortelazzo">{{cite web |last1=Cortelazzo |first1=Michele A. |title=Non sempre è necessario usare parole diverse |url=http://www.maldura.unipd.it/buro/gel/gel13.html |website=SEMPLIFICAZIONE DEL LINGUAGGIO AMMINISTRATIVO «MANUALE DI STILE» |publisher=Università di Padova |access-date=29 May 2026}}</ref>
 
 == See also ==
-* [[Template:Looks AI-generated]], which appears as {{looks AI-generated}}
+* {{Template link|Looks AI-generated}}, which appears as {{looks AI-generated}}
 * [[Wikipedia:Artificial intelligence resources]]
 * [[Wikipedia:Artificial intelligence]]
 

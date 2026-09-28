@@ -201,6 +201,7 @@ These phrases try to prove importance by stacking source prestige instead of sta
 - "repeated national media coverage"
 - "other prominent media outlets"
 - "appearing in platforms like"
+- "was identified by"
 
 Replace these with the outlet names and the concrete fact each source establishes.
 

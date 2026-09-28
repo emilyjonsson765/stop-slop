@@ -395,3 +395,15 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "The film adapts the legend for contemporary audiences. Viewers responded to the animation and to the updated version of the traditional figure."
 
 **Changes:** Removed the "rather than simply" setup and the "not only / but also" additive contrast. Kept the two concrete claims.
+
+---
+
+## Example 34: Heritage-to-Modernity Wrapper
+
+**Before:**
+> "The film preserves core elements such as the hero's mythological image, magical weapons, and spirit of resistance while reshaping them through contemporary values, modern aesthetics, and digital animation technology."
+
+**After:**
+> "The film keeps the hero's magical weapons and rebellious role from the legend. It updates the character design and animation style for a contemporary audience."
+
+**Changes:** Replaced the "preserves X while reshaping through Y" wrapper with two concrete claims. Removed abstract value labels that sounded analytical without saying what changed.
