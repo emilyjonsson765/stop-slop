@@ -186,6 +186,20 @@ Writers using AI often tack on a closing paragraph that asks for feedback in a p
 
 **Instead:** Ask one concrete question, or state the exact change you'll make next.
 
+## Source-Usage Warnings
+
+Retrieval-enabled chatbots often tack on a caveat about how a source should be read. It reuses the older "didactic disclaimer" habit and the negative-parallelism frame.
+
+| Pattern | Problem |
+|---------|---------|
+| "[claim] should be treated as [speculative thing] rather than [definitive thing]" | Lectures the reader on how to weigh a claim instead of stating what the source supports |
+| "The available information does not support [conclusion]" | Warns against a conclusion nobody drew |
+| "This does not by itself establish..." | Defensive hedge that adds no fact |
+| "Details are not widely documented" followed by a guess about what they likely are | Fills the gap with speculation, then dresses it as caution |
+| "[Person] maintains a low profile" after a failed search | Turns a search failure into a claim about the person |
+
+**Instead:** State what the source says. If the source is thin, say so in one plain sentence and stop.
+
 ## Hallucinated Policy Citations
 
 AI sometimes cites rules, standards, or policy shorthand that do not exist, or cites a real page as if it said something it never said.

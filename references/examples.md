@@ -407,3 +407,15 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "The film keeps the hero's magical weapons and rebellious role from the legend. It updates the character design and animation style for a contemporary audience."
 
 **Changes:** Replaced the "preserves X while reshaping through Y" wrapper with two concrete claims. Removed abstract value labels that sounded analytical without saying what changed.
+
+---
+
+## Example 35: Source-Usage Warning
+
+**Before:**
+> "Claims concerning the statue's miraculous suspension should be treated as religious tradition rather than as an archaeological explanation."
+
+**After:**
+> "The statue's suspension is a religious tradition. No archaeological study explains it."
+
+**Changes:** Dropped the "should be treated as X rather than Y" lecture and stated both facts directly.
