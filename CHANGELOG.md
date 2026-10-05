@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-05
+
+- Wikipedia "Signs of AI writing" revision 1378597190: the knowledge-cutoff section is now "Disclaimers about source availability and recommended usage" and adds "should be treated as... rather than...", "does not by itself establish", and "[claim] ... limited/scarce details" patterns. Updated phrases.md, structures.md, and examples.md.
+- Wikipedia now notes that the reversed negative-parallelism construction (previously tied to Grok) also appears in ChatGPT and Claude output, and that "Awards and recognition" headings are far more common in AI text than in promotional human text. Vague "associated with / in connection with" and list-title lead sections were moved on the page; no content change needed.
+
 ## 2026-01-13
 
 ### Added

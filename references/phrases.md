@@ -265,18 +265,22 @@ These phrases pretend to explain a lack of information while saying nothing.
 
 If the information is unknown, say it's unknown or omit the claim.
 
-## Knowledge-Cutoff Disclaimers
+## Disclaimers About Source Availability and Usage
 
-These announce the model's limits instead of answering the question.
+These announce the model's limits, or lecture the reader on how to treat a source, instead of answering the question. Older output leaned on knowledge-cutoff lines. Newer retrieval-enabled chatbots lean on source-availability and source-usage caveats.
 
 - "As of my last knowledge update"
 - "based on available information"
 - "I don't have specific information about"
 - "is limited in the provided search results"
+- "While specific details are limited" / "While specific details are scarce"
 - "aren't widely documented"
+- "not widely available" / "not widely disclosed"
 - "are not extensively documented in readily available sources"
+- "[claim] should be treated as [X] rather than [Y]"
+- "does not by itself establish"
 
-If you don't know, say what is known, name the gap, or stop. Don't paste the model's internal disclaimer into the prose.
+If you don't know, say what is known, name the gap, or stop. Don't paste the model's internal disclaimer into the prose. Don't warn the reader how to weigh a source unless the source really needs the warning, and then say why.
 
 ## Review-Workflow Boilerplate
 
