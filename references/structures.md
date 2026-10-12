@@ -140,6 +140,7 @@ Wh- openers become a crutch. "What makes this hard is..." becomes "The constrain
 | Every paragraph ends punchily | Vary endings |
 | Em-dashes | Remove for house style, but don't treat them as a standalone AI tell. Use commas or periods instead. |
 | Staccato fragmentation | Don't stack short punchy sentences |
+| Uniform short sentences with only commas and periods | Newer models avoid em dashes but fall into an even 8-20 word cadence. Vary length on purpose. |
 | "Not always. Not perfectly." | Hedging disguised as reassurance |
 
 ## Word Patterns

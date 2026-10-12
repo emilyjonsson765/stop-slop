@@ -419,3 +419,15 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "The statue's suspension is a religious tradition. No archaeological study explains it."
 
 **Changes:** Dropped the "should be treated as X rather than Y" lecture and stated both facts directly.
+
+---
+
+## Example 36: Mid-2026 Vocabulary + Importance Editorial
+
+**Before:**
+> "Teams that leverage a multifaceted approach foster dependable results. The distinction matters because practical challenges quietly compound."
+
+**After:**
+> "Teams that run weekly reviews and track defects ship fewer regressions. Small bugs left open for a quarter doubled the fix cost."
+
+**Changes:** Replaced "leverage / multifaceted / foster / dependable / practical / challenges / quietly" with concrete actions and numbers. Cut "the distinction matters because" and stated the consequence.
