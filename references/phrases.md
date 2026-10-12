@@ -31,6 +31,7 @@ These add no meaning. Delete them.
 - "This matters because"
 - "Make no mistake"
 - "Here's why that matters"
+- "distinction [matters / is important] because" (editorializing about why a nuance is important; common in mid-2026 output)
 
 ## Business Jargon
 
@@ -166,6 +167,23 @@ Words overrepresented in AI output from the 2023–2024 GPT-4 era, confirmed by 
 **Poetic reach** — cut entirely:
 - "tapestry" (never use for non-literal contexts)
 - "testament" ("a testament to X" → cut; say X directly)
+
+**Mid-2026 (GPT-6 era) vocabulary** — plain words that newer models now overuse. Cut them when they carry no specific meaning:
+- "challenge" / "challenges" (name the actual obstacle)
+- "clearer" (show what became clear)
+- "dependable" (say what it did reliably)
+- "echoed" (say who said it or what it matched)
+- "foster" (use: build, encourage, support)
+- "leverage" (use: use)
+- "matters" (say what changes because of it)
+- "multifaceted" (name the facets)
+- "practical" (give the concrete use)
+- "prioritize" (use: put first, choose)
+- "quietly" (cut, or show the understatement)
+- "steady" (give the rate or the numbers)
+- "universally" (name who, or cut)
+
+These models also write shorter sentences with more commas and periods and fewer dashes. Suppressing em dashes has not removed the pattern, it moved it to uniform short sentences and heavy comma use. Vary sentence length rather than just swapping punctuation.
 
 **Additionally**: The connector "additionally" is a top AI tell. Cut it. If two ideas belong together, connect them with a conjunction or restructure the sentence. If they're separate, start a new sentence.
 
