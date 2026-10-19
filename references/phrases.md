@@ -367,6 +367,19 @@ These phrases gesture at importance, discourse, or philosophy without adding con
 
 If something sparked a debate or raised a question, name the debate or question.
 
+## Travel-Brochure Place Descriptions
+
+Wikipedia's page now includes a user-page example describing a country in brochure language. These phrases praise a place without saying anything checkable.
+
+- "a vibrant country in South Asia"
+- "celebrated for its resilience, cultural richness, and natural beauty"
+- "has made remarkable strides in human development, education, and disaster management"
+- "make [place] ecologically unique"
+- "a deep-rooted tradition of literature, music, and art"
+- "offers a dynamic blend of tradition and progress that continues to inspire the world"
+
+Replace the praise with facts: population, dates, rankings, named institutions, or measured change.
+
 ## Edit-Summary Overclaiming
 
 These phrases over-describe a small edit or narrate the writer's precautions.

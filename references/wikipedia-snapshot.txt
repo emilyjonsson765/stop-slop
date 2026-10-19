@@ -1,5 +1,6 @@
-REVID:1379781616
+REVID:1380884756
 <noinclude>{{pp-protected|small=yes}}</noinclude>
+{{for|encyclopedic coverage of this page|Signs of AI writing}}
 {{redirect|Wikipedia:AI writing|identifying comments in discussions|Wikipedia:Signs of AI use in comments|other uses|Wikipedia:Artificial intelligence resources}}
 {{WikiProject advice|wikiproject=WikiProject AI Cleanup|WP:AISIGNS|WP:AITELLS|WP:LLMSIGNS}}
 [[File:ChatGPT response screenshot 1.jpg|thumb|alt=A screenshot of ChatGPT reading: "[header] Legacy & Interpretation [body] The "Black Hole Edition" is not just a meme — it's a celebration of grassroots car culture, where ideas are limitless and fun is more important than spec sheets. Whether powered by a rotary engine, a V8 swap, or an imagined fighter jet turbine, the Miata remains the canvas for car enthusiasts worldwide."|LLMs tend to have an identifiable writing style.]]
@@ -197,6 +198,12 @@ When writing about something that could be considered "cultural heritage," LLMs 
 {{quote frame|
 {{highlight|Nestled}} within the {{highlight|breathtaking}} region of Gonder in Ethiopia, Alamata Raya Kobo {{highlight|stands as a vibrant town with a rich cultural heritage and a significant place}} within the Amhara region. {{highlight|From its scenic landscapes to its historical landmarks}}, Alamata Raya Kobo {{highlight|offers visitors a fascinating glimpse into the diverse tapestry}} of Ethiopia. In this article, we will explore the {{highlight|unique characteristics}} that make Alamata Raya Kobo {{highlight|a town worth visiting}} and shed light on {{highlight|its significance}} within the Amhara region.
 |From {{diff||1162718043|label=this June 2023 revision}} to [[Alamata (woreda)]]}}
+{{cob}}
+
+{{cot|bg=#ffffff|From [[Special:Diff/1284404282|this April 2025 revision]] to [[User:Fahim5100]]}}
+{{quote frame|
+Bangladesh, a vibrant country in South Asia, is {{highlight|celebrated for its resilience, cultural richness, and natural beauty}}. Despite being one of the most densely populated countries in the world, {{highlight|it has made remarkable strides in human development, education, and disaster management}}. The lush greenery, fertile delta of the Ganges-Brahmaputra-Meghna rivers, and the world’s largest mangrove forest—the Sundarbans, home to the Royal Bengal Tiger—{{highlight|make Bangladesh ecologically unique}}. The country has a {{highlight|deep-rooted tradition of literature, music, and art}}, with the language movement of 1952 marking a pivotal moment in its identity. From the bustling streets of Dhaka to the serene beaches of Cox’s Bazar—the longest natural sea beach in the world—Bangladesh {{highlight|offers a dynamic blend of tradition and progress that continues to inspire the world}}.
+|From [[Special:Diff/1284404282|this April 2025 revision]] to [[User:Fahim5100]]}}
 {{cob}}
 
 {{cot|bg=#ffffff|From {{diff||1299567515|label=this July 2025 revision}} to [[Tamil Nadu Tourism Development Corporation]]}}
@@ -658,7 +665,7 @@ AI chatbots tend to put a heading with the article name before all the content, 
 }}
 
 ====Skipping heading levels====
-AI chatbots tend to skip level 2 headings (<code><nowiki>==</nowiki></code>) and start sections from the third level (<code><nowiki>===</nowiki></code>).  [[Wikipedia:Manual_of_Style/Accessibility#Headings|Because doing so is against Wikipedia's accessibility and style conventions]], it is therefore very unlikely for a manually-formatted page to have this quirk.<!--
+AI chatbots tend to skip level 2 headings (<code><nowiki>==</nowiki></code>) and start sections from the third level (<code><nowiki>===</nowiki></code>).  [[Wikipedia:Manual_of_Style/Accessibility#Headings|Because doing so is against Wikipedia's accessibility and style conventions]], it is very unlikely for a manually-formatted page to have this quirk.<!--
 
 '''Examples'''
 -->
@@ -1061,7 +1068,7 @@ LLM-generated infobox edits may contain comments stating that text or images sho
 {{Shortcut|WP:MARKDOWN|WP:AIMARKDOWN}}
 {{further|WP:AISIGNS/Wikitext wrapped in Markdown code blocks from chatbots|label1=Wikitext wrapped in Markdown code blocks from chatbots}}
 
-Wikipedia's prose is formatted in [[H:WT|wikitext]], a [[markup language]] used to instruct Wikipedia's [[MediaWiki]] software how to format an article. This is a niche markup language, found mostly on Wikipedia, other Wikimedia wikis, and other MediaWiki-based platforms like [[Miraheze]]. While LLM-based chatbots do have the ability to produce wikitext, it is neither the most common markup language in their datasets nor the most salient one to their userbase--the overwhelming majority of whom are not Wikipedia editors.
+Wikipedia's prose is formatted in [[H:WT|wikitext]], a [[markup language]] used to tell Wikipedia's [[MediaWiki]] software how to format an article. This is a niche markup language, found mostly on Wikipedia, other Wikimedia wikis, and other MediaWiki-based platforms like [[Miraheze]]. While LLM-based chatbots do have the ability to produce wikitext, it is neither the most common markup language in their datasets nor the most salient one to their userbase&nbsp;– the overwhelming majority of whom are not Wikipedia editors.
 
 Instead, the default formatting style of most chatbots is Markdown, a markup language conceptually similar to wikitext but more commonly used, especially for technology applications. Their system-level instructions often direct them to format article components like lists and headings with Markdown syntax, and the chatbot apps then render that syntax as formatted text on a user's screen. For example, the system prompt for Claude Sonnet 3.5 (November 2024) includes:<ref name="sonnetprompt">{{cite web |title=System Prompts |url=https://platform.claude.com/docs/en/release-notes/system-prompts#claude-sonnet-3-5 |website=Claude Docs |publisher=Anthropic |access-date=9 January 2026}}</ref>
 
@@ -1106,9 +1113,19 @@ The population of Villers-Chief has seen some fluctuations over the decades, [..
 |From [[Special:Diff/1294887075|this June 2025 revision]] to [[Villers-Chief]]}}
 
 ==== Unusual link formatting ====
-Instead of <code><nowiki>[example.com this]</nowiki></code>, an LLM might incorrectly format external links in a manner similar to Gemini's [[WP:STARTSPAN]] citation formatting, like this: [example.com](example.com)
+{{shortcut|WP:AILINK}}
+Instead of <code><nowiki>[example.com this]</nowiki></code>, an LLM might incorrectly format external links in a manner similar to Gemini's [[WP:STARTSPAN]] citation formatting, like this: [Example](example.com)
 
 '''Examples'''
+{{quote frame|
+- **Recent Changes**: You can track my latest edits {{highlight|[here](https://en.wikipedia.org/wiki/Special:Contributions/DoubleCrogs)}}.
+
+[...]
+
+{{fake section|level=3|Contact Me}}
+- **Talk Page**: If you want to discuss anything related to Wikipedia or need assistance, you can reach out to me on my {{highlight|[talk page](https://en.wikipedia.org/wiki/User_talk:DoubleCrogs)}}.
+|From [[Special:Diff/1240254631|this August 2024 revision]] to [[User:Doublecrogs]]}}
+
 {{quote frame|
 <nowiki>- The Wikipedia entry does not explicitly mention the "Cyberhero League" being recognized as a winner of the World Future Society's BetaLaunch Technology competition, as detailed in the interview with THE FUTURIST ([https://consciouscreativity.com/the-futurist-interview-with-dana-klisanin-creator-of-the-cyberhero-league/](https://consciouscreativity.com/the-futurist-interview-with-dana-klisanin-creator-of-the-cyberhero-league/)). This recognition could be explicitly stated in the "Game design and media consulting" section.</nowiki>
 |From {{diff||1290202502|label=this May 2025 revision}} to [[Talk:Dana Klisanin]]}}
@@ -1119,33 +1136,33 @@ AI chatbots sometimes include a thematic break (<code><nowiki>----</nowiki></cod
 '''Examples'''
 {{cot|bg=#ffffff|From [[Special:Diff/1344638960|this March 2026 revision]] to [[Wikipedia:Signs of AI writing/Examples/Ichafu|Draft:Ichafu]]}}
 <syntaxhighlight lang=wikitext highlight=5,11>
-{{fake section|level=3|Distinction from French “''[[List of English words of French origin|chiffon]]''”}}
+===Distinction from French “''[[List of English words of French origin|chiffon]]''”}}
 Some claims have suggested that ''Ichafu'' derives from the French word chiffon (“rag” or "light cloth”). However, early lexicographic records do not support this interpretation and later sources differ in their explanations.
 
 [...]
 ----
 
-{{fake section|level=2|History}}
+==History==
 Headwrapping practices among Igbo women are documented in historical and ethnographic sources and are generally understood to predate the colonial period.
 
 [...]
 ----
 
-{{fake section|level=2|Form and construction}}
+==Form and construction==
 </syntaxhighlight>
 {{cob}}
 
 {{cot|bg=#ffffff|From [[Special:Diff/1367361447|this August 2026 revision]] to [[Wikipedia:Signs of AI writing/Examples/Pixaroo|Draft:Pixaroo]]}}
 <syntaxhighlight lang=wikitext highlight=5,15,21,25,29,33,37,44,48,52>
-{{fake section|level=1|History}}
+=History}}
 Pixaroo was created as an educational animation project designed for children between the ages of '''3 and 6 years'''. The project aims to combine entertaining stories with early childhood learning in a colorful, family-friendly environment.
 
 The first original series introduced by the brand is '''Pixy's Adventure Club''', featuring recurring characters who teach letters, numbers, colors, creativity, and problem-solving.
 ----
 
-{{fake section|level=1|Programming}}
+=Programming=
 
-{{fake section|level=2|Pixy's Adventure Club}}
+==Pixy's Adventure Club==
 '''Pixy's Adventure Club''' is the main animated series produced by Pixaroo.
 
 [...]
@@ -1153,44 +1170,44 @@ The first original series introduced by the brand is '''Pixy's Adventure Club'''
 Episodes are designed to encourage participation through songs, games, and simple interactive questions.
 ----
 
-{{fake section|level=1|Main Characters}}
+=Main Characters=
 
 [...]
 
 ----
 
-{{fake section|level=2|Roo}}
+==Roo==
 A playful kangaroo who loves jumping, games, and outdoor adventures.
 ----
 
-{{fake section|level=2|Pandy}}
+==Pandy==
 A gentle panda who enjoys reading, nature, and learning new things.
 ----
 
-{{fake section|level=2|Ellie}}
+==Ellie==
 A caring elephant known for her excellent memory and thoughtful advice.
 ----
 
-{{fake section|level=2|Chiku}}
+==Chiku==
 A cheerful little chick who brings energy, laughter, and optimism to every adventure.
 ----
 
-{{fake section|level=1|Educational Goals}}
+=Educational Goals=
 Pixaroo focuses on developing early childhood skills through entertainment, including:
 
 [...]
 
 ----
 
-{{fake section|level=1|Style}}
+=Style=
 Pixaroo uses colorful animation, original songs, engaging storytelling, and memorable characters to create a fun learning experience for preschool audiences.
 ----
 
-{{fake section|level=1|Target Audience}}
+=Target Audience=
 Children aged '''3–6 years''', along with parents, teachers, and caregivers seeking educational entertainment.
 ----
 
-{{fake section|level=1|External Links}}
+=External Links=
 </syntaxhighlight>
 {{cob}}
 
@@ -1832,7 +1849,7 @@ The following indicators were common in text generated by older AI models, but a
 {{tmbox|image=none|text=Words to watch: {{strong|''Up to my last training update'', ''as of my last knowledge update''&nbsp;...}}}}
 A knowledge-cutoff disclaimer is a statement used by an AI chatbot to indicate that the information provided may be incomplete, inaccurate, or outdated.
 
-Older LLMs with fixed [[knowledge cutoff]]s, such as [[GPT-3.5]] or [[GPT-4]], were unable to provide any information on events or developments past a certain date (usually the model's last training update). Such LLMs would often remind the user about this by outputting a disclaimer that the information in its response is accurate only up to a certain date, sometimes explicitly mentioning the knowledge cutoff.
+Older LLMs with fixed [[knowledge cutoff]]s, such as [[GPT-3.5]] or [[GPT-4]], were unable to provide any information on events or developments past a certain date (usually the model's last training update).<ref name="strzelecki">{{cite web |last1=Strzelecki |first1=Artur |date=2024-12-24 |title='As of my last knowledge update': How is content generated by ChatGPT infiltrating scientific papers published in premier journals? |url=https://onlinelibrary.wiley.com/doi/full/10.1002/leap.1650 |publisher=Learned Publishing |access-date=2026-10-14}}</ref> Such LLMs would often remind the user about this by outputting a disclaimer that the information in its response is accurate only up to a certain date, sometimes explicitly mentioning the knowledge cutoff.
 
 '''Examples'''
 {{blockquote|
@@ -1966,6 +1983,7 @@ It must be noticed however that editors who are not native English speakers migh
 * {{Template link|Looks AI-generated}}, which appears as {{looks AI-generated}}
 * [[Wikipedia:Artificial intelligence resources]]
 * [[Wikipedia:Artificial intelligence]]
+* [[User:Guy Macon/AI Slop Detection]]
 
 == Notes ==
 {{notelist}}
