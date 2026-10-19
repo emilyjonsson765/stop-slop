@@ -392,3 +392,7 @@ AI likes to decorate structure with emoji when the medium does not call for it.
 | Emoji mixed with bold labels inside bullets | Turns simple structure into a branded chatbot template |
 
 **Instead:** Use words, not icons, to carry structure. If the point is strong, it doesn't need a badge.
+
+## Markdown Link Syntax in Wikitext
+
+LLMs often write external links in Markdown form, such as `[Example](example.com)`, even where the surrounding markup is not Markdown. On Wikipedia the correct form is `[example.com Example]`. Outside Wikipedia, check that link syntax matches the target medium, and write a full URL when the link text adds nothing.

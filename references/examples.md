@@ -431,3 +431,16 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "Teams that run weekly reviews and track defects ship fewer regressions. Small bugs left open for a quarter doubled the fix cost."
 
 **Changes:** Replaced "leverage / multifaceted / foster / dependable / practical / challenges / quietly" with concrete actions and numbers. Cut "the distinction matters because" and stated the consequence.
+
+---
+
+## Example 37: Travel-Brochure Country Profile
+
+**Before:**
+> "Bangladesh, a vibrant country in South Asia, is celebrated for its resilience, cultural richness, and natural beauty. Despite being one of the most densely populated countries in the world, it has made remarkable strides in human development, education, and disaster management."
+
+**After:**
+> "Bangladesh is a South Asian country of about 170 million people. It is among the most densely populated in the world. Cyclone death tolls have fallen sharply since the 1970s after the country built shelters and warning systems."
+
+**Changes:** Cut "vibrant," "celebrated for," and "remarkable strides." Replaced the praise with figures and a named cause. Check any numbers against a source before using them.
+
