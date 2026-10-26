@@ -241,6 +241,7 @@ These phrases show up when the writer wants to sound responsible, policy-aligned
 - "happy to address any concerns"
 - "if you have any concerns / suggestions / feedback"
 - "please do not hesitate to let me know"
+- "check / verify / confirm [the details] before publishing / submitting"
 - "focused solely on the improvement of [the article / the content]"
 - "let's focus on the article, not the accusations"
 - "this feels like a personal attack"
@@ -297,6 +298,17 @@ These announce the model's limits, or lecture the reader on how to treat a sourc
 - "are not extensively documented in readily available sources"
 - "[claim] should be treated as [X] rather than [Y]"
 - "does not by itself establish"
+- "the available information does not establish [conclusion]"
+- "should not be confused with [other topic]" (weaker signal than the two above)
+- "undergoing testing and evaluation rather than validated"
+
+The "rather than" and "does not establish" caveats are a mid-2026 pattern (roughly the July GPT-5.6 release). Text containing them that predates July 2026 is less likely to be AI-written.
+
+**Older didactic disclaimers (2023-2025)** — advice to an imagined reader:
+- "However, it's important to note that..."
+- "It's important to remember that..."
+- "It is crucial to differentiate X from Y to prevent confusion"
+- "...so always check before you use something"
 
 If you don't know, say what is known, name the gap, or stop. Don't paste the model's internal disclaimer into the prose. Don't warn the reader how to weigh a source unless the source really needs the warning, and then say why.
 

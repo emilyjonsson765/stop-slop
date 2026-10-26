@@ -198,6 +198,9 @@ Retrieval-enabled chatbots often tack on a caveat about how a source should be r
 | "This does not by itself establish..." | Defensive hedge that adds no fact |
 | "Details are not widely documented" followed by a guess about what they likely are | Fills the gap with speculation, then dresses it as caution |
 | "[Person] maintains a low profile" after a failed search | Turns a search failure into a claim about the person |
+| "X is undergoing testing and evaluation rather than validated" | Negative-parallelism caveat about what a source supports, common in mid-2026 output |
+| "[Topic] should not be confused with [other topic]" | Disambiguation lecture nobody asked for; a weaker signal than the others |
+| "However, it's important to note that..." / "It is crucial to differentiate..." | 2023-25 didactic disclaimer addressed to an imagined reader |
 
 **Instead:** State what the source says. If the source is thin, say so in one plain sentence and stop.
 
@@ -396,3 +399,14 @@ AI likes to decorate structure with emoji when the medium does not call for it.
 ## Markdown Link Syntax in Wikitext
 
 LLMs often write external links in Markdown form, such as `[Example](example.com)`, even where the surrounding markup is not Markdown. On Wikipedia the correct form is `[example.com Example]`. Outside Wikipedia, check that link syntax matches the target medium, and write a full URL when the link text adds nothing.
+
+## Gemini Highlight Tags
+
+Text pasted from Gemini can arrive wrapped in HTML `<mark>...</mark>` tags and render as highlighted. It looks like a leftover of Gemini's "Double-check response" feature. Citation markers like `[1, 2, 3]` often trail the same sentence.
+
+| Pattern | Problem |
+|---------|---------|
+| `<mark>celebrated Pakistani Punjabi folk singer</mark>` inside a biography sentence | Interface highlighting pasted into the text |
+| `[1, 2, 3]` after a sentence with no real citation | Citation placeholder left behind |
+
+**Instead:** Strip the tags and replace the placeholders with real sources.
