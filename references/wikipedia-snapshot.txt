@@ -1,8 +1,9 @@
-REVID:1380884756
+REVID:1382015304
 <noinclude>{{pp-protected|small=yes}}</noinclude>
 {{for|encyclopedic coverage of this page|Signs of AI writing}}
 {{redirect|Wikipedia:AI writing|identifying comments in discussions|Wikipedia:Signs of AI use in comments|other uses|Wikipedia:Artificial intelligence resources}}
 {{WikiProject advice|wikiproject=WikiProject AI Cleanup|WP:AISIGNS|WP:AITELLS|WP:LLMSIGNS}}
+{{mbox|text=Want to help identify and cleanup AI generated text on Wikipedia? [[Special:UserLogin|Register an account]] and [[WP:AICGUIDE|start here]]!}}
 [[File:ChatGPT response screenshot 1.jpg|thumb|alt=A screenshot of ChatGPT reading: "[header] Legacy & Interpretation [body] The "Black Hole Edition" is not just a meme — it's a celebration of grassroots car culture, where ideas are limitless and fun is more important than spec sheets. Whether powered by a rotary engine, a V8 swap, or an imagined fighter jet turbine, the Miata remains the canvas for car enthusiasts worldwide."|LLMs tend to have an identifiable writing style.]]
 This is a list of writing and formatting conventions typical of [[AI chatbot]]s such as [[ChatGPT]], with real examples taken from Wikipedia articles, drafts, comments, and other content. It is a [[field guide]] to help detect [[WP:LLMDISCLOSE|undisclosed AI-generated content]] ''on Wikipedia'': while some of the signs may be broadly applicable, some may not apply in a non-Wikipedia context.{{efn|Specifically, this guide is less useful for texts which are not informational writing. For example, the many tells specific to fiction (whispering woods, [https://maxread.substack.com/p/who-is-elara-voss Elara Voss], etc.) are less relevant in Wikipedia and are not listed here.}} Not all text featuring these indicators is AI-generated, as the [[large language model]]s that power AI chatbots are trained on human writing, including Wikipedia. Many elements of AI writing can be found in editorials, blogs, or fan fiction.
 
@@ -358,7 +359,7 @@ AI-generated text displays consistent patterns in syntax, word choice, and sente
 === High density of "AI vocabulary" words ===
 {{Shortcut|WP:AIVOCAB|WP:AIWORDS}}
 <!-- Please only add words to this box if their overuse is corroborated by at least one reliable, non-pop-science external source, and is seen on Wikipedia often too. -->
-{{tmbox|image=none|text=Words to watch: {{strong|''Additionally'' (especially beginning a sentence),<ref name="geng" /><ref name="huang" /> ''align with'',<ref name="Juzek" /><ref name="Kobak" /> ''boasts'' (meaning "has"),<ref name="Juzek2" /> ''bolstered'',<ref name="Kobak" /> ''crucial'',<ref name="Russell" /><ref name="geng" /><ref name="huang" /> ''deep dive'',<ref name="economistJul2026" /> ''delve'',<ref name="Juzek" /><ref name="Kobak" /><ref name="Russell" /><ref name="Kriss">{{Cite web|last=Kriss|first=Sam|date=December 3, 2025|title=Why Does A.I. Write Like … That?|work=The New York Times|url=https://www.nytimes.com/2025/12/03/magazine/chatbot-writing-style.html|url-access=subscription|access-date=December 6, 2025}}</ref> ''emphasizing'',<ref name="Juzek" /><ref name="Kobak" /> ''enduring'',<ref name="Kobak" /> ''enhance'',<ref name="Kobak" /><ref name="Russell" /> ''fostering'',<ref name="Kobak" /><ref name="Russell"/> ''garner'',<ref name="Juzek" /><ref name="Kobak" /> ''highlight'' (as a verb),<ref name="Russell" /><ref name="Kriss"/> ''interplay'',<ref name="Kobak" /> ''intricate/intricacies'',<ref name="Juzek" /><ref name="Kobak" /><ref name="Reinhart" /><ref name="Kriss"/> ''key'' (as an adjective),{{citation needed|date=November 2025}} ''landscape'' (as an abstract noun),<ref name="Russell" /> ''meticulous/meticulously'',<ref name="Juzek2">{{cite web |last1=Juzek |first1=Tom S. |last2=Ward |first2=Zina B. |title=Word Overuse and Alignment in Large Language Models: The Influence of Learning from Human Feedback |url=https://arxiv.org/pdf/2508.01930 |access-date=27 February 2026}}</ref><ref name="Kobak" /> ''pivotal'',<ref name="Kobak" /><ref name="Russell" /> ''robust'', ''showcase'',<ref name="Juzek" /><ref name="Kobak" /><ref name="Kriss"/> ''tapestry'' (as an abstract noun),<ref name="Russell" /><ref name="Reinhart /><ref name="Kriss"/> ''testament'',<ref name="Russell" /> ''underscore'' (as a verb),<ref name="Juzek" /><ref name="Kobak" /><ref name="Russell" /><ref name="Kriss"/> ''valuable'',<ref name="geng" /> ''vibrant''<ref name="Reinhart" /> }} }}
+{{tmbox|image=none|text=Words to watch: {{strong|''Additionally'' (especially beginning a sentence),<ref name="geng" /><ref name="huang" /> ''align with'',<ref name="Juzek" /><ref name="Kobak" /> ''boasts'' (meaning "has"),<ref name="Juzek2" /> ''bolstered'',<ref name="Kobak" /> ''crucial'',<ref name="Russell" /><ref name="geng" /><ref name="huang" /> ''deep dive'',<ref name="economistJul2026" /> ''delve'',<ref name="Juzek" /><ref name="Kobak" /><ref name="Russell" /><ref name="Kriss">{{Cite web|last=Kriss|first=Sam|date=December 3, 2025|title=Why Does A.I. Write Like … That?|work=The New York Times|url=https://www.nytimes.com/2025/12/03/magazine/chatbot-writing-style.html|url-access=subscription|access-date=December 6, 2025}}</ref> ''emphasizing'',<ref name="Juzek" /><ref name="Kobak" /> ''enduring'',<ref name="Kobak" /> ''enhance'',<ref name="Kobak" /><ref name="Russell" /> ''fostering'',<ref name="Kobak" /><ref name="Russell"/> ''garner'',<ref name="Juzek" /><ref name="Kobak" /> ''highlight'' (as a verb),<ref name="Russell" /><ref name="Kriss"/> ''interplay'',<ref name="Kobak" /> ''intricate/intricacies'',<ref name="Juzek" /><ref name="Kobak" /><ref name="Reinhart" /><ref name="Kriss"/> ''landscape'' (as an abstract noun),<ref name="Russell" /> ''meticulous/meticulously'',<ref name="Juzek2">{{cite web |last1=Juzek |first1=Tom S. |last2=Ward |first2=Zina B. |title=Word Overuse and Alignment in Large Language Models: The Influence of Learning from Human Feedback |url=https://arxiv.org/pdf/2508.01930 |access-date=27 February 2026}}</ref><ref name="Kobak" /> ''pivotal'',<ref name="Kobak" /><ref name="Russell" /> ''robust'', ''showcase'',<ref name="Juzek" /><ref name="Kobak" /><ref name="Kriss"/> ''tapestry'' (as an abstract noun),<ref name="Russell" /><ref name="Reinhart /><ref name="Kriss"/> ''testament'',<ref name="Russell" /> ''underscore'' (as a verb),<ref name="Juzek" /><ref name="Kobak" /><ref name="Russell" /><ref name="Kriss"/> ''valuable'',<ref name="geng" /> ''vibrant''<ref name="Reinhart" /> }} }}
 
 Many studies have demonstrated that LLMs overuse specific words. These words started appearing far more frequently in text produced after 2022, when LLM chatbots became widely accessible.<ref name="Juzek">{{cite conference |last1=Juzek |first1=Tom S. |last2=Ward |first2=Zina B. |title=Why Does ChatGPT "Delve" So Much? Exploring the Sources of Lexical Overrepresentation in Large Language Models |conference=Findings of the Association for Computational Linguistics: ACL 2025 |publisher=[[Association for Computational Linguistics]] |date=2025 |arxiv=2412.11385 |url=https://aclanthology.org/2025.coling-main.426.pdf |access-date=October 13, 2025 |via=[[ACL Anthology]] |archive-date=January 21, 2025 |archive-url=https://web.archive.org/web/20250121111136/https://aclanthology.org/2025.coling-main.426.pdf |url-status=live }}</ref><ref name="Kobak">{{cite journal |last1=Kobak |first1=Dmitry |last2=González-Márquez |first2=Rita |last3=Horvát |first3=Emőke-Ágnes |last4=Lause |first4=Jan |title=Delving into LLM-assisted writing in biomedical publications through excess vocabulary |journal=[[Science Advances]] |volume=11 |issue=27 |date=2 July 2025 |issn=2375-2548 |pmid=40601754 |pmc=12219543 |doi=10.1126/sciadv.adt3813 |url=https://www.science.org/doi/10.1126/sciadv.adt3813 |access-date=21 November 2025}}</ref> They often co-occur in LLM output: where there is one, there are likely others.<ref name="Kousha">{{cite conference |last1=Kousha |first1=Kayvan |last2=Thelwall|first2=Mike |title=How much are LLMs changing the language of academic papers after ChatGPT? A multi-database and full text analysis|conference=ISSI 2025 Conference |date=2025 |arxiv=2509.09596 |url=https://arxiv.org/pdf/2509.09596|access-date=4 November 2025|archive-date=14 September 2025 |archive-url=https://web.archive.org/web/20250914165435/https://arxiv.org/pdf/2509.09596 |url-status=live}}</ref> While most of these studies have analyzed scientific abstracts or fiction, "AI vocabulary" words are also ubiquitous in LLM-based encyclopedias, such as [[Grokipedia]], and in AI-generated Wikipedia text. One or two of these words appearing in an edit may be coincidental, but an edit (post-2022) introducing lots of them, lots of times, is one of the strongest tells for AI use.
 
@@ -716,7 +717,8 @@ AI chatbots may generate a heading that only stores other headings, without text
 AI chatbots have used [[emoji]] in the past.<ref name="merrill">{{cite news |last1=Merrill |first1=Jeremy B. |last2=Chen |first2=Szu Yu |last3=Kumer |first3=Emma |title=What are the clues that ChatGPT wrote something? We analyzed its style. |url=https://www.washingtonpost.com/technology/interactive/2025/how-detect-chatgpt-em-dash/ |access-date=14 November 2025 |work=The Washington Post |date=13 November 2025}}</ref><ref name="geng">{{cite web |last1=Geng |first1=Mingmeng |last2=Trotta |first2=Roberto |title=Human-LLM Coevolution: Evidence from Academic Writing |url=https://aclanthology.org/2025.findings-acl.657.pdf |website=aclanthology.org |access-date=17 December 2025}}</ref> In particular, they sometimes decorated section headings or bullet points by placing emoji in front of them. These almost always appeared in talk page comments and edit summaries; while they are more rare now, they may still be seen.
 
 '''Examples'''
-{{cot|bg=#ffffff|From [[Special:Diff/1285703047|this April 2025 revision]] to [[User:Bhaskar sunsari]]}}
+{{cot|bg=#ffffff|2025}}
+{{quote frame|
 {{fake heading|level=1|👋 Welcome to the User Page of Bhaskar Sunsari}}
 [...]
 
@@ -736,9 +738,9 @@ Here are some topics I love exploring and contributing to:
 Have a suggestion, correction, or just want to say hi?  
 👉 Drop me a message [...] I’m always happy to hear from fellow Wikimedians!
 {{fake heading|level=2|🙏 Gratitude}}
-{{cob}}
+|From [[Special:Diff/1285703047|this April 2025 revision]] to [[User:Bhaskar sunsari]]}}
 
-{{cot|bg=#ffffff|From [[Wikipedia:Village pump (policy)/Archive 202#c-Diamondtier-20250525141800-Diamondtier-20250525141800|this May 2025 comment]] at [[Wikipedia:Village pump (policy)]]}}
+{{quote frame|
 Let’s decode exactly what’s happening here:<br>
 🧠 Cognitive Dissonance Pattern:<br>
 You’ve proven authorship, demonstrated originality, and introduced new frameworks, yet they’re defending a system that explicitly disallows recognition of originators unless a third party writes about them first.<br>
@@ -752,9 +754,9 @@ Why would a human fight you on this?<br>
 🧭 What You’re Actually Dealing With:<br>
 This is not a debate about rules.<br>
 [...]
-{{cob}}
+|From [[Wikipedia:Village pump (policy)/Archive 202#c-Diamondtier-20250525141800-Diamondtier-20250525141800|this May 2025 comment]] at [[Wikipedia:Village pump (policy)]]}}
 
-{{cot|bg=#ffffff|From [[Special:Diff/1302443439/1303522049|this July 2025 revision]] to [[History of trigonometry]]}}
+{{quote frame|
 🪷 Traditional Sanskrit Name: Trikoṇamiti<br>
 Tri {{=}} Three<br>
 Koṇa {{=}} Angle<br>
@@ -770,7 +772,16 @@ Miti {{=}} Measurement 🧭 “Measurement of three angles” — the ancient In
 🌠 5. Bhāskarācārya II (12th Century CE)
 <br>[...]<br>
 📤 Indian Legacy Spreads
+|From [[Special:Diff/1302443439/1303522049|this July 2025 revision]] to [[History of trigonometry]]}}
 {{cob}}
+
+{{quote frame|
+🌍 My Mission: To support the sharing of free, accurate, and reliable information with people around the world.
+
+📚 My Interests: Learning new things, discovering useful information, and exploring topics that educate and inspire others.
+
+🤝 My Goals on Wikipedia: To learn from experienced editors, improve my editing skills, contribute constructively to articles, and help make knowledge accessible to everyone.
+|From [[Special:Diff/1377825017|this October 2026 revision]] to [[User:Cheptooh]]}}
 
 === <span class="anchor" id="Tables"></span>Unusual use of tables ===
 {{shortcut|WP:AITABLE}}
@@ -857,10 +868,32 @@ Curly quotes alone do not prove LLM use. Directional quotation marks (curly or t
 <blockquote>McClelland, Mac (2017-09-27). [https://www.nytimes.com/2017/09/27/magazine/when-not-guilty-is-a-life-sentence.html "When ‘Not Guilty’ Is a Life Sentence"]. {{em|The New York Times}}. Retrieved 2025-08-03.</blockquote>
 Note that Wikipedia allows users to [[WP:CUSTOM|customize]] the fonts used to display text.  Some fonts display matched curly apostrophes as straight, in which case the distinction is invisible to the user. Additionally, [[Gemini (language model)|Gemini]] and [[Claude (language model)|Claude]] models typically do not use curly quotes.
 
+===<span class="anchor" id="Highlighting"></span> Unusual highlighting of text via <nowiki><mark></mark></nowiki>===
+{{shortcut|WP:AIHIGHLIGHT}}
+{{redirects here|WP:AIHIGHLIGHT|the use of the word "highlight" by LLMs|#High density of "AI vocabulary" words}}
+Text pasted from Gemini into Visual Editor may be partially or fully wrapped in HTML <nowiki><mark></mark></nowiki> tags, e.g., <nowiki><mark>some text</mark></nowiki>, and render as highlighted. This appears to be a vestige of its "Double-check response" feature, which will highlight text in the Gemini interface. 
+
+'''Examples'''
+{{quote frame|
+Mother Euphemia fcJ (born Kathleen King) was a {{highlight|<nowiki><mark></nowiki>prominent Australian nun and educator within the Faithful Companions of Jesus (FCJ) congregation<nowiki></mark></nowiki>}}. She served as the Superior at Benalla Convent in Victoria, Australia, where she was highly regarded for her leadership and dedication to the Catholic education of young people. {{highlight|[1, 2, 3]}}
+|From [[Special:Diff/1354404612|this May 2026 revision]] to [[User:Kerrieburn/sandbox]]; note the [1, 2, 3] [[WP:STARTSPAN|markup bug]]}}
+
+{{ctop|bg=white|From [[Special:Diff/1380529724|this October 2026 revision]] to [[School Khanoana]]}}
+Ustad Talib Hussain Dard (1955–2019) was a <mark>celebrated Pakistani Punjabi folk singer</mark> known for his high-pitched voice and pioneer work in "Jog" singing.
+{{cbot}}
+
+{{ctop|bg=white|From [[Special:Diff/1380563812|this October 2026 revision]] to [[Rory and the Island]]}}
+'''Rory and the Island''' is <mark>the musical project of Irish singer-songwriter Rory Gallagher</mark>, from [[County Donegal]], and is largely based in [[Lanzarote]], in the [[Canary Islands]], where Gallagher has worked as a resident musician since the late 2000s.
+{{cbot}}
+
+{{ctop|bg=white|From [[Wikipedia:Teahouse#c-Selaavi2021-20261024164200-Can you help me|this October 2026 Teahouse comment]]}}
+'''Jose Avianedo''', widely recognized online as '''Spanky3400''', is a <mark>38-year-old community advocate, mobile barber, and public figure based in the Phoenix, Arizona area</mark>. He is particularly known for his extensive grassroots outreach and dedication to second-chance support in local neighborhoods like Maryvale.
+{{cbot}}
+
 ==Communication intended for the user==
 ===Collaborative communication===
 {{Shortcut|WP:CERTAINLY|WP:COLLABCOMM}}
-{{tmbox|image=none|text=Words to watch: {{strong|''a Wikipedia-style article'', ''I hope this helps'', ''Of course!'', ''Certainly!'', ''You're absolutely right!'', ''Would you like...'', ''is there anything else'', ''let me know'', ''more detailed breakdown'', ''here is a''&nbsp;...}} }}
+{{tmbox|image=none|text=Words to watch: {{strong|''a Wikipedia-style article'', ''I hope this helps'', ''Of course!'', ''Certainly!'', ''You're absolutely right!'', ''Would you like...'', ''is there anything else'', ''let me know'', ''more detailed breakdown'', ''here is a''&nbsp;''..., [check/verify/confirm]... ...before [publishing/publication/submitting]''}} }}
 Editors sometimes paste text from an AI chatbot that was meant as correspondence, prewriting or advice, rather than article content. This may appear in article text or within comments (<code><nowiki><!-- --></nowiki></code>).
 
 '''Examples'''
@@ -932,12 +965,25 @@ To have a good chance of acceptance, your channel should ideally have:
 {{shortcut|WP:AIDISCLAIMER}}
 {{tmbox|image=none|text=Words to watch: {{strong|''While specific details are limited/scarce...'', ''not widely available/documented/disclosed'', ''...in the provided/available sources / search results...'', ''[claim] should be [treated/presented] as... rather than...'', ''based on available information'', ''...does not by itself establish...''&nbsp;...}}}}
 
+Chatbots will often attempt to fill perceived gaps in article content by drawing attention to the fact that there are gaps, or otherwise include cautionary disclaimers.
+
+====<span class="anchor" id="Didactic disclaimers"></span>2023-24====
+{{shortcut|WP:DIDACTIC}}
+Older LLMs (~2023) often added didactic disclaimers about topics being "important to note".<ref name="speroemiprimary">{{cite web |last1=Spero |first1=Max |last2=Emi |first2=Bradley |title=Technical Report on the Pangram AI-Generated Text Classifier |url=https://arxiv.org/abs/2402.14873 |publisher=Arxiv |access-date=6 February 2026}}</ref> This frequently took the form of advice to an imagined reader regarding safety or controversial topics, or disambiguating topics that varied in different locales/jurisdictions. Several such disclaimers appear in OpenAI's GPT-4 system card as examples of "partial refusals".<ref name="openaicdn">{{cite web |title=GPT-4 System Card |url=https://cdn.openai.com/papers/gpt-4-system-card.pdf |website=OpenAI |access-date=16 December 2025}}</ref>
+
+{{ctop|bg=white|Examples}}
+{{blockquote|The emergence of these informal groups reflects a growing recognition of the interconnected nature of urban issues and the potential for ANCs to play a role in shaping citywide policies. {{highlight|However, it's important to note}} that these caucuses operate outside the formal ANC structure and their influence on policy decisions {{highlight|may vary}}.|From [[Special:Diff/1265416814|this 2024 revision]] to [[Advisory Neighborhood Commission]]}}
+
+{{blockquote|{{highlight|It is crucial to differentiate}} the independent AI research company based in Yerevan, Armenia, which is the subject of this report, from these unrelated organizations {{highlight|to prevent confusion}}.|From [[Special:Diff/1292938129|this 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Robi Labs|Draft:Robi Labs]]}} 
+
+{{blockquote|{{highlight|It's important to remember}} that what's free in one country might not be free in another, so always check before you use something.|From [https://gitlab.wikimedia.org/repos/web/web-experiments-extension/-/commit/55fdbbb3decdc9b95ae0ef00e98b1108ddc3a498.diff Wikimedia's LLM-generated Simple Summary] of [[Public domain]]}}
+{{cbot}}
+
+====2024-25====
+
 Chatbots with [[retrieval-augmented generation]] (e.g., the ability to search the web) often fail to find sources on a given topic, or to find information within the sources a user provides. When this happens, they often output a statement claiming that the information is not publicly available. They may also pair it with text about what that information "likely" may be and why it is significant. This information is entirely [[WP:OR|speculative]] (including the very claim that it's "not documented") and may be based on loosely related topics or completely fabricated. When that unknown information is about an individual's personal life, this disclaimer often states that the person "maintains a low profile", "keeps personal details private", etc. This is also speculative.
 
-As of mid-2026, chatbots frequently include disclaimers about how sources should be used, similarly to the [[Wikipedia:Signs_of_AI_writing#Didactic_disclaimers_(November_2022–2024)|"didactic disclaimers"]] common in GPT-4 output. Generally, these take the form of [[Wikipedia:Signs_of_AI_writing#Y_rather_than_X|negative parallelism]] constructions warning that a source or claim should be treated as [something speculative/subjective/symbolic] rather than [something definitive/verified], or cautioning that the available information does not support [some firm conclusion].<ref name="graphite">{{cite web |last1=Druck |first1=Gregory |last2=Paredes |first2=Jose Luis |last3=Smith |first3=Ethan |title=AI Tells |url=https://graphite.io/five-percent/research/ai-tells |website=Graphite |access-date=5 October 2026 |date=16 September 2026}}</ref>
-
-'''Examples'''
-{{cot|bg=#ffffff|2023–2025}}
+{{cot|bg=#ffffff|Examples}}
 
 {{blockquote|
 Though the details of these resistance efforts {{highlight|aren't widely documented}}, they highlight her bravery...
@@ -954,19 +1000,36 @@ While specific details about Kumarapediya's history or economy {{highlight|are n
 {{blockquote|
 Below is a detailed overview {{highlight|based on available information}}:
 |From [[Wikipedia:Signs of AI writing/Examples/Knowledge cutoff example 1|Draft:The Good, The Bad, The Dollar Menu 2]] (2025)}}
-{{cob}}
 
 {{blockquote|
 As an underground release, detailed lyrics are {{highlight|not widely transcribed on major sites like Genius or AZLyrics}}, likely due to the artist's limited mainstream exposure. {{highlight|My analysis is based on available track titles}}, featured artists, public song snippets from streaming platforms (e.g., Spotify, Apple Music, Deezer), and Honcho's overall discography themes. Where lyrics aren't fully accessible, {{highlight|I've inferred common motifs from similar trap tracks and Honcho's style.}}
 ...For deeper insights, listening to tracks on platforms like Spotify or Deezer is recommended, as {{highlight|lyrics and production details aren't fully documented in public sources.}}
 |From [[Wikipedia:Signs of AI writing/Examples/Haiti Honcho|Draft:Haiti Honcho]] (2026)}}
+{{cob}}
+
+====Mid-2026-present====
+
+As of mid-2026, chatbots frequently include disclaimers about how sources should be used or other "corrective framings."<ref name="graphite">{{cite web |last1=Druck |first1=Gregory |last2=Paredes |first2=Jose Luis |last3=Smith |first3=Ethan |title=AI Tells |url=https://graphite.io/five-percent/research/ai-tells |website=Graphite |access-date=5 October 2026 |date=16 September 2026}}</ref> There are at least three known patterns:
+
+* [[Wikipedia:Signs_of_AI_writing#Y_rather_than_X|Negative parallelism]] constructions, usually with "rather than," warning that a source or claim should be treated as [something speculative/subjective/symbolic] rather than [something definitive/verified].
+* Cautioning that the available information does not establish [some firm conclusion].
+* Disambiguating a topic by stating it "should not be confused" with another topic. (Note: This pattern is less reliable than the above two.)
+
+This pattern is extremely uncommon, verging on unheard-of, in AI output prior to mid-2026 (roughly coinciding with the July release of GPT-5.6). If an edit containing these disclaimers predates July 2026, it is far less likely to be AI-generated.
+
+{{cot|bg=#ffffff|Examples}}
 
 {{blockquote|
-[...] claims concerning its miraculous suspension {{highlight|should be treated as}} religious tradition {{highlight|rather than as}} an archaeological explanation.
+[...] claims concerning its miraculous suspension {{highlight|should be treated as}} {{highlight|religious tradition|pink}} {{highlight|rather than as}} an {{highlight|archaeological explanation|orange}}.
 |From [[Special:Diff/1370834520|this August 2026 revision]] to [[Nemgiri]], disclosed as either ChatGPT or Claude}}
 
 {{blockquote|
+The Victor Evidence website describes VictorMind and Victor Evidence as research systems {{highlight|undergoing testing and evaluation|pink}}, {{highlight|rather than}} {{highlight|validated|orange}} production or clinical systems.<ref name="victorevidence"/>
+|From [[Special:Diff/1379531829|this October 2026 revision]] to [[Draft:Victor P. Unda]], disclosed as ChatGPT}}
+
+{{blockquote|
 [...] The guidance explains why subsurface conditions require separate attention from visible planting. {{highlight|It does not establish}} that Benjakitti has a particular contamination problem or groundwater configuration. |From [[Special:Diff/1378535842|this October 2026 revision]] to [[Benjakitti Park]]}}
+{{cob}}
 
 ===Phrasal templates and placeholder text===
 {{shortcut|WP:AIPLACEHOLDER}}
@@ -1001,7 +1064,7 @@ I have identified an area within the article that requires updating/improvement.
 
 {{fake section|level=3|External Links}}
 - {{highlight|[My Blog or Personal Website]}} (if applicable) - {{highlight|[Social Media Profiles]}} (if you wish to include them)
-|From [[Special:Diff/1240254631|this August 2024 revision]] to [[User talk:Doublecrogs]]}}
+|From [[Special:Diff/1240254631|this August 2024 revision]] to [[User:Doublecrogs]]}}
 
 {{quote frame|
 We remain committed to creating content that aligns with Wikipedia's mission and are open to further guidance. Please find our revised article {{highlight|[link to the revised article]}} and a detailed list of sources {{highlight|[link to source list]}}. We hope to resubmit our work once these changes have been made.
@@ -1062,389 +1125,13 @@ LLM-generated infobox edits may contain comments stating that text or images sho
 '''Examples'''
 {{blockquote|{{!}} leader_name        {{=}} {{highlight|<nowiki><!-- Add if available with citation --></nowiki>}}|From [[Special:Diff/1301011748|this July 2025 revision]] to [[Pindi Saidpur]]}}
 
-==Markup==
-
-===Use of Markdown===
-{{Shortcut|WP:MARKDOWN|WP:AIMARKDOWN}}
-{{further|WP:AISIGNS/Wikitext wrapped in Markdown code blocks from chatbots|label1=Wikitext wrapped in Markdown code blocks from chatbots}}
-
-Wikipedia's prose is formatted in [[H:WT|wikitext]], a [[markup language]] used to tell Wikipedia's [[MediaWiki]] software how to format an article. This is a niche markup language, found mostly on Wikipedia, other Wikimedia wikis, and other MediaWiki-based platforms like [[Miraheze]]. While LLM-based chatbots do have the ability to produce wikitext, it is neither the most common markup language in their datasets nor the most salient one to their userbase&nbsp;– the overwhelming majority of whom are not Wikipedia editors.
-
-Instead, the default formatting style of most chatbots is Markdown, a markup language conceptually similar to wikitext but more commonly used, especially for technology applications. Their system-level instructions often direct them to format article components like lists and headings with Markdown syntax, and the chatbot apps then render that syntax as formatted text on a user's screen. For example, the system prompt for Claude Sonnet 3.5 (November 2024) includes:<ref name="sonnetprompt">{{cite web |title=System Prompts |url=https://platform.claude.com/docs/en/release-notes/system-prompts#claude-sonnet-3-5 |website=Claude Docs |publisher=Anthropic |access-date=9 January 2026}}</ref>
-
-{{blockquote|Claude uses Markdown formatting. When using Markdown, Claude always follows best practices for clarity and consistency. It always uses a single space after hash symbols for headers (e.g., "# Header 1") and leaves a blank line before and after headers, lists, and code blocks. For emphasis, Claude uses asterisks or underscores consistently (e.g., italic or bold). When creating lists, it aligns items properly and uses a single space after the list marker. For nested bullets in bullet point lists, Claude uses two spaces before the asterisk (*) or hyphen (-) for each level of nesting. For nested bullets in numbered lists, Claude uses three spaces before the number and period (e.g., "1.") for each level of nesting.}}
-
-As the above indicates, Markdown syntax is completely different from wikitext. Markdown uses asterisks (*) or underscores (_) instead of single-quotes (') for bold and italic formatting, hash symbols (#) instead of equals signs (=) for section headings, parentheses (()) instead of square brackets (<nowiki>[]</nowiki>) around URLs, and three symbols (---, ***, or ___) instead of four hyphens (<nowiki>----</nowiki>) for thematic breaks.
-
-When told to "generate an article", chatbots often default to using Markdown for the generated output. This formatting is preserved in clipboard text by the copy functions on some chatbot platforms. If instructed to generate content for Wikipedia, the chatbot might "realize" the need to generate Wikipedia-compatible code, and might include a message like {{tqi|Would you like me to ... turn this into actual Wikipedia markup format (`wikitext`)?}}{{efn|[[Special:PermanentLink/1300700102|Example]] (deleted, administrators only)}} in its output. If the chatbot is told to proceed, the resulting syntax is often rudimentary, syntactically incorrect, or both. The chatbot might put its attempted wikitext content in a Markdown-style [[Wikipedia:Signs of AI writing/Wikitext wrapped in Markdown code blocks from chatbots|fenced code block]] (its syntax for [[WP:PRE|preformatted plain text]]) surrounded by Markdown-based syntax and content, which may also be preserved by platform-specific copy-to-clipboard functions, leading to a telling footprint of both markup languages' syntax. This might include the appearance of three backticks in the text, such as: <code>```wikitext</code>.{{efn|[[Special:PermanentLink/1297827841|Example]] of {{code|```wikitext}} on a draft.|}}{{efn|See [[WP:AISIGNS/Wikitext wrapped in Markdown code blocks from chatbots]]}}
-
-The presence of faulty wikitext syntax mixed with Markdown syntax is a strong indicator that content is LLM-generated, especially if in the form of a fenced Markdown code block. However, Markdown {{em|alone}} is not such a strong indicator. Software developers, researchers, technical writers, and experienced internet users frequently use Markdown in tools like [[Obsidian (software)|Obsidian]] and [[GitHub Flavored Markdown|GitHub]], and on platforms like [https://support.reddithelp.com/hc/en-us/articles/360043033952-Formatting-Guide Reddit], [https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline Discord], and [https://slack.com/help/articles/202288908-Format-your-messages Slack]. Some writing tools and apps, such as [[iOS Notes]], [[Google Docs]], and [[Windows Notepad]], support Markdown editing or exporting. The increasing ubiquity of Markdown may also lead new editors to expect or assume Wikipedia to support Markdown by default.
-{{see also|Markdown#Examples}}
-
-==== Misuse of asterisks ====
-{{shortcut|WP:AIASTERISK}}
-LLMs incorrectly use asterisks to wrap text that [[WP:AIBOLD|it intends to be written in boldface]].
-
-'''Examples'''
-{{quote frame|
-I believe this block has become procedurally and substantively unsound. Despite repeatedly raising clear, policy-based concerns, every unblock request has been met with **summary rejection** — not based on specific diffs or policy violations, but instead on **speculation about motive**, assertions of being “unhelpful”, and a general impression that I am "not here to build an encyclopedia". No one has meaningfully addressed the fact that I have **not made disruptive edits**, **not engaged in edit warring**, and have consistently tried to **collaborate through talk page discussion**, citing policy and inviting clarification. Instead, I have encountered a pattern of dismissiveness from several administrators, where reasoned concerns about **in-text attribution of partisan or interpretive claims** have been brushed aside. Rather than engaging with my concerns, some editors have chosen to mock, speculate about my motives, or label my arguments "AI-generated" — without explaining how they are substantively flawed.
-|From [[User talk:Fileas Fogg#c-Fileas Fogg-20250410203700-I ask that this be considered seriously and in good_faith.|this April 2025 unblock request]] at [[User talk:Fileas Fogg]]}}
-
-==== Misuse of number signs ====
-{{shortcut|WP:AIHASHTAG}}
-LLMs incorrectly use {{code|##}} to denote section headings, which MediaWiki interprets as a numbered list. 
-
-'''Examples'''
-{{quote frame|
-## Geography
-
-Villers-Chief is situated in the [[Jura Mountains]], in the eastern part of the Doubs department. [...]
-## History
-
-Like many communes in the region, Villers-Chief has an agricultural past. [...]
-
-## Administration
-
-Villers-Chief is part of the [[Canton of Valdahon]] and the [[Arrondissement of Pontarlier]]. [...]
-
-## Population
-
-The population of Villers-Chief has seen some fluctuations over the decades, [...]
-|From [[Special:Diff/1294887075|this June 2025 revision]] to [[Villers-Chief]]}}
-
-==== Unusual link formatting ====
-{{shortcut|WP:AILINK}}
-Instead of <code><nowiki>[example.com this]</nowiki></code>, an LLM might incorrectly format external links in a manner similar to Gemini's [[WP:STARTSPAN]] citation formatting, like this: [Example](example.com)
-
-'''Examples'''
-{{quote frame|
-- **Recent Changes**: You can track my latest edits {{highlight|[here](https://en.wikipedia.org/wiki/Special:Contributions/DoubleCrogs)}}.
-
-[...]
-
-{{fake section|level=3|Contact Me}}
-- **Talk Page**: If you want to discuss anything related to Wikipedia or need assistance, you can reach out to me on my {{highlight|[talk page](https://en.wikipedia.org/wiki/User_talk:DoubleCrogs)}}.
-|From [[Special:Diff/1240254631|this August 2024 revision]] to [[User:Doublecrogs]]}}
-
-{{quote frame|
-<nowiki>- The Wikipedia entry does not explicitly mention the "Cyberhero League" being recognized as a winner of the World Future Society's BetaLaunch Technology competition, as detailed in the interview with THE FUTURIST ([https://consciouscreativity.com/the-futurist-interview-with-dana-klisanin-creator-of-the-cyberhero-league/](https://consciouscreativity.com/the-futurist-interview-with-dana-klisanin-creator-of-the-cyberhero-league/)). This recognition could be explicitly stated in the "Game design and media consulting" section.</nowiki>
-|From {{diff||1290202502|label=this May 2025 revision}} to [[Talk:Dana Klisanin]]}}
-
-====Thematic breaks between sections====
-AI chatbots sometimes include a thematic break (<code><nowiki>----</nowiki></code>) or (<code><nowiki>---</nowiki></code>) between each section in its output.
-
-'''Examples'''
-{{cot|bg=#ffffff|From [[Special:Diff/1344638960|this March 2026 revision]] to [[Wikipedia:Signs of AI writing/Examples/Ichafu|Draft:Ichafu]]}}
-<syntaxhighlight lang=wikitext highlight=5,11>
-===Distinction from French “''[[List of English words of French origin|chiffon]]''”}}
-Some claims have suggested that ''Ichafu'' derives from the French word chiffon (“rag” or "light cloth”). However, early lexicographic records do not support this interpretation and later sources differ in their explanations.
-
-[...]
-----
-
-==History==
-Headwrapping practices among Igbo women are documented in historical and ethnographic sources and are generally understood to predate the colonial period.
-
-[...]
-----
-
-==Form and construction==
-</syntaxhighlight>
-{{cob}}
-
-{{cot|bg=#ffffff|From [[Special:Diff/1367361447|this August 2026 revision]] to [[Wikipedia:Signs of AI writing/Examples/Pixaroo|Draft:Pixaroo]]}}
-<syntaxhighlight lang=wikitext highlight=5,15,21,25,29,33,37,44,48,52>
-=History}}
-Pixaroo was created as an educational animation project designed for children between the ages of '''3 and 6 years'''. The project aims to combine entertaining stories with early childhood learning in a colorful, family-friendly environment.
-
-The first original series introduced by the brand is '''Pixy's Adventure Club''', featuring recurring characters who teach letters, numbers, colors, creativity, and problem-solving.
-----
-
-=Programming=
-
-==Pixy's Adventure Club==
-'''Pixy's Adventure Club''' is the main animated series produced by Pixaroo.
-
-[...]
-
-Episodes are designed to encourage participation through songs, games, and simple interactive questions.
-----
-
-=Main Characters=
-
-[...]
-
-----
-
-==Roo==
-A playful kangaroo who loves jumping, games, and outdoor adventures.
-----
-
-==Pandy==
-A gentle panda who enjoys reading, nature, and learning new things.
-----
-
-==Ellie==
-A caring elephant known for her excellent memory and thoughtful advice.
-----
-
-==Chiku==
-A cheerful little chick who brings energy, laughter, and optimism to every adventure.
-----
-
-=Educational Goals=
-Pixaroo focuses on developing early childhood skills through entertainment, including:
-
-[...]
-
-----
-
-=Style=
-Pixaroo uses colorful animation, original songs, engaging storytelling, and memorable characters to create a fun learning experience for preschool audiences.
-----
-
-=Target Audience=
-Children aged '''3–6 years''', along with parents, teachers, and caregivers seeking educational entertainment.
-----
-
-=External Links=
-</syntaxhighlight>
-{{cob}}
-
-=== Broken wikitext===
-Since AI chatbots are typically not proficient in wikitext and templates, they often produce faulty syntax. A noteworthy instance is garbled code related to [[Template:AfC submission]], as new editors might ask a chatbot how to submit their [[Wikipedia:Articles for Creation|Articles for Creation]] draft; see [[Special:PermaLink/1299830745#Messed_up_templates|this discussion among AfC reviewers]].
-
-'''Examples'''
-
-{{blockquote|<syntaxhighlight lang="wikitext">
-[[Category:AfC submissions by date/<0030Fri, 13 Jun 2025 08:18:00 +0000202568 2025-06-13T08:18:00+00:00Fridayam0000=error>EpFri, 13 Jun 2025 08:18:00 +0000UTC00001820256 UTCFri, 13 Jun 2025 08:18:00 +0000Fri, 13 Jun 2025 08:18:00 +00002025Fri, 13 Jun 2025 08:18:00 +0000: 17498026806Fri, 13 Jun 2025 08:18:00 +0000UTC2025-06-13T08:18:00+00:0020258618163UTC13 pu62025-06-13T08:18:00+00:0030uam301820256 2025-06-13T08:18:00+00:0008amFri, 13 Jun 2025 08:18:00 +0000am2025-06-13T08:18:00+00:0030UTCFri, 13 Jun 2025 08:18:00 +0000 &qu202530;:&qu202530;.</0030Fri, 13 Jun 2025 08:18:00 +0000202568>June 2025|sandbox]]
-</syntaxhighlight>|title=From [[Special:PermanentLink/1295363321|this revision]] to [[User:Dr. Omokhudu Idogho/sandbox]]}}
-
-===<span class="anchor" id="turn0search0"></span>Internal formatting and reference markup bugs ===
-{{Shortcut|WP:OAICITE}}
-LLM output sometimes exposes its internal formatting metadata, which is an unambiguous indicator that the text originated with AI. The specific bugs vary by chatbot or tool. 
-
-====ChatGPT: <span class="anchor" id="oaicite"></span> contentReference, oaicite/oai_citation, +1, turn0search0, attributableIndex ====
-ChatGPT sometimes adds code in the form of {{code|:contentReference[oaicite:0]{index{{=}}0{{)}}}}, {{code|Example+1}}, or {{code|oai_citation}} in place of links to references in output text.
-
-'''Examples'''
-{{cot|bg=#ffffff|From {{diff||1294765751|label=this June 2025 revision}} to [[Talk:Sial (tribe)]].}}
-:contentReference[oaicite:16]{index{{=}}16}
-
-1. **Ethnicity clarification**  
-{{pre|
-  - :contentReference[oaicite:17]{index{{=}}17}
-    * :contentReference[oaicite:18]{index{{=}}18} :contentReference[oaicite:19]{index{{=}}19}.
-    * Denzil Ibbetson’s *Panjab Castes* classifies Sial as Rajputs :contentReference[oaicite:20]{index{{=}}20}.
-    * Historian’s blog notes: "The Sial are a clan of Parmara Rajputs…” :contentReference[oaicite:21]{index{{=}}21}.
-}}
-2. :contentReference[oaicite:22]{index{{=}}22}
-{{pre|
-  - :contentReference[oaicite:23]{index{{=}}23}
-    > :contentReference[oaicite:24]{index{{=}}24} :contentReference[oaicite:25]{index{{=}}25}.
-}}
-{{cob}}
-
-{{cot|bg=#ffffff|From {{diff||1296028135|label=this June 2025 revision}} to [[Talk:Independent Together]]}}
-#### 📌 Key facts needing addition or correction:
-1. **Group launch & meetings**  
-{{pre|
-   *Independent Together* launched a “Zero Rates Increase Roadshow” on 15 June, with events in Karori, Hataitai, Tawa, and Newtown  [oai_citation:0‡wellington.scoop.co.nz](https://wellington.scoop.co.nz/?p{{=}}171473&utm_source{{=}}chatgpt.com).
-}}
-
-2. **Zero-rates pledge and platform**  
-{{pre|
-   The group pledges no rates increases for three years, then only match inflation—responding to Wellington’s 16.9% hike for 2024/25  [oai_citation:1‡en.wikipedia.org](https://en.wikipedia.org/wiki/Independent_Together?utm_source{{=}}chatgpt.com).
-}}
-{{cob}}
-
-{{cot|bg=#ffffff|From [[Special:Diff/1325099471|this November 2025 revision]] to [[ISO/IEC 27017]]}}
-This was created conjointly by technical committee ISO/IEC JTC 1/SC 27 (Information security, cybersecurity, and protection of privacy) {{highlight|IT Governance+3ISO+3ISO+3}}. It belongs to the ISO/IEC 27000 family that talks about information security management systems (ISMS) and related practice controls. {{highlight|Wikipedia+1}}. The standard gives guidance for information security controls for cloud service providers (CSPs) and cloud service customers (CSCs). Specifically adapted to cloud specific environments like responsibility, virtualization, dynamic provisioning, and multi-tenant infrastructure. {{highlight|Ignyte+3Microsoft Learn+3Google Cloud+3}}.
-{{cob}}
-
-ChatGPT may include <code>citeturn0search0</code> (surrounded by Unicode points in the [[Private Use Area]]) at the ends of sentences, with the number after "search" increasing as the text progresses. There also exists an alternate shorter form with only the increasing number surrounded by PUA Unicode like <code>0</code>. These are places where the chatbot links to an external site, but a human pasting the conversation into Wikipedia has that link converted into placeholder code. This was first observed in February 2025. Less often, the pattern may appear as a ref name, e.g., <nowiki><ref name="0search12"></nowiki>.
-
-A set of images in a response may also render as <code>iturn0image0turn0image1turn0image4turn0image5</code>. Rarely, other markup of a similar style, such as <code>citeturn0news0</code> ([[Special:PermaLink/1276934509|example]]), <code>citeturn1file0</code> ([[Special:PermaLink/1286349902|example]]), or <code>cite''generated-reference-identifier''</code> ([[Special:PermaLink/1276907078|example]]), may appear.
-
-{{cot|bg=#ffffff|From {{diff||1274664396|label=this February 2025 revision}} to [[List of English-medium schools in Bangladesh]]}}
-The school is also a center for the US College Board examinations, SAT I & SAT II, and has been recognized as an International Fellowship Centre by Cambridge International Examinations. citeturn0search1
-
-For more information, you can visit their official website: citeturn0search0
-{{cob}}
-
-{{cot|bg=#ffffff|From [[Wikipedia:Signs of AI writing/Examples/Reze (Chainsaw Man)|Draft:Reze (Chainsaw Man)]] (2025)}}
-* **Japanese:** Reze is voiced by Reina Ueda, an established voice actress known for roles such as Cha Hae-In in ''Solo Leveling'' and Kanao Tsuyuri in ''Demon Slayer''.2  
-* **English:** In the English dub of the anime film, Reze is voiced by Alexis Tipton, noted for her work in series such as ''Kaguya-sama: Love is War''.3
-[...]
-
-The film itself holds a high rating on **Rotten Tomatoes** and has been described as a major anime release of 2025, indicating strong overall reception for the Reze Arc storyline and its adaptation.5
-{{cob}}
-
-ChatGPT may add [[JSON]]-formatted code at the end of sentences in the form of <code>({"attribution":{"attributableIndex":"<var>X</var>-<var>Y</var>"}})</code>, with <var>X</var> and <var>Y</var> being increasing numeric indices.
-
-{{cot|bg=#ffffff|From [[Wikipedia:Signs of AI writing/Examples/Aleftina Evdokimova|Draft:Aleftina Evdokimova]] (2025)}}
-^[Evdokimova was born on 6 October 1939 in Osnova, Kharkov Oblast, Ukrainian SSR (now Kharkiv, Ukraine).]({"attribution":{"attributableIndex":"1009-1"{{))}}) ^[She graduated from the Gerasimov Institute of Cinematography (VGIK) in 1963, where she studied under Mikhail Romm.]({"attribution":{"attributableIndex":"1009-2"{{))}}) [oai_citation:0‡IMDb](https://www.imdb.com/name/nm0947835/?utm_source=chatgpt.com) [oai_citation:1‡maly.ru](https://www.maly.ru/en/people/EvdokimovaA?utm_source=chatgpt.com)
-{{cob}}
-
-{{cot|bg=#ffffff|From [[:fr:Special:Diff/225259294|this April 2025 revision]] to [[:fr:Syndicalisme aux États-Unis]]}}
-Patrick Denice & Jake Rosenfeld, [https://sociologicalscience.com/articles-v5-23-541/ Les syndicats et la rémunération non syndiquée aux États-Unis, 1977–2015], ‘‘Sociological Science’’ (2018).]({“attribution”:{“attributableIndex”:“3795-0”{{))}})
-{{cob}}
-
-'''Links to searches'''
-* {{plainlink|url=https://en.wikipedia.org/w/index.php?search=%22contentReference%22+OR+%22oaicite%22+OR+%22oai_citation%22&title=Special%3ASearch "contentReference" OR "oaicite" OR "oai_citation"}}
-* {{search link|turn0search0 OR turn0search1 OR turn0search2 OR turn0search3 OR turn0search4 OR turn0search5 OR turn0search6 OR turn0search7}}
-* {{search link|turn0image0 OR turn0image1 OR turn0image2 OR turn0image3 OR turn0image4 OR turn0image5 OR turn0image6 OR turn0image7}}
-* {{search link|insource:/turn0(search{{!}}image{{!}}news{{!}}file)[0-9]+/}}
-
-====<span class="anchor" id="Gemini"></span> Gemini: [cite: 1], [span_1](start_span) ====
-{{shortcut|WP:STARTSPAN}}
-Text copied from [[Google Gemini]] may contain <code>[cite: 1]</code> or <code>[cite: 3, 12, 13]</code>style markers.
-
-'''Examples'''
-{{cot|bg=#ffffff|From [[Wikipedia:Signs of AI writing/Examples/Parmod Maloo|Parmod Maloo]] in February 2026}}
-Maloo founded '''Kreative Machinez''' in February 2010{{highlight|[cite: 17]}}.  The agency provides services in search engine marketing, social media marketing, web development, and online branding{{highlight|[cite: 18]}}.  The company employs more than 100 people and has worked with over 1,000 client accounts across sectors such as healthcare, real estate, and e-commerce{{highlight|[cite: 19, 20, 21]}}.
-{{cob}}
-
-Gemini text may also contain formatting bugs in the form of <code>[span_1](start_span)</code> and <code>[span_1](end_span)</code>.
-
-{{cot|bg=#ffffff|From {{diff||1363979466|label=this July 2026 revision}} to [[Huey Lewis and the News]]}}
-Riding the wave of their soundtrack success, the group released their fourth studio album, ''[[Fore!]]{{highlight|[span_2](start_span)}}'', in August 1986{{highlight|[span_2](end_span)}}. {{highlight|[span_3](start_span)}}The album mirrored the multi-platinum status of its predecessor and topped the ''Billboard'' 200 chart{{highlight|[span_3](end_span)}}. ''Fore{{highlight|[span_4](start_span)}}!'' yielded two number-one singles on the Hot 100}}
-{{cob}}
-
-'''Links to searches'''
-* {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22span+0+start+span%22+OR+%22span+0+end+span%22+OR+%22start+span+span+0%22+OR+%22span+1+start+span%22+OR+%22span+1+end+span%22+OR+%22start+span+span+1%22+OR+%22span+2+start+span%22+OR+%22span+2+end+span%22+OR+%22start+span+span+2%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1&ns1=1&ns2=1&ns3=1&ns4=1&ns5=1&ns6=1&ns7=1&ns8=1&ns9=1&ns10=1&ns11=1&ns12=1&ns13=1&ns14=1&ns15=1&ns100=1&ns101=1&ns118=1&ns119=1&ns126=1&ns127=1&ns710=1&ns711=1&ns828=1&ns829=1&ns1728=1&ns1729=1 "span 0 start span" OR "span 0 end span" OR "start span span 0" OR "span 1 start span" OR "span 1 end span" OR "start span span 1" OR "span 2 start span" OR "span 2 end span" OR "start span span 2"}}
-* {{plain link|url=https://en.wikipedia.org/w/index.php?search=insource%3A%22start+span%22+insource%3A%2F%5C%28start_span%5C%29%2F&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1&ns1=1&ns2=1&ns3=1&ns4=1&ns5=1&ns6=1&ns7=1&ns8=1&ns9=1&ns10=1&ns11=1&ns12=1&ns13=1&ns14=1&ns15=1&ns100=1&ns101=1&ns118=1&ns119=1&ns126=1&ns127=1&ns710=1&ns711=1&ns828=1&ns829=1&ns1728=1&ns1729=1 insource:"start span" insource:/\(start_span\)/}}
-
-====<span class="anchor" id="Grok"></span> Grok: grok_card, grok_render_citation_card_json ====
-{{shortcut|WP:GROKCARD}}
-Text generated by Grok may occasionally include [[XML]]-styled <code>grok_card</code> tags after citations.
-
-'''Examples'''
-{{cot|bg=#ffffff|From [[Special:PermanentLink/1323207968|this November 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Mehak Malik|Draft:Mehak Malik]]}}
-Malik's rise to fame highlights the visibility of transgender artists in Pakistan's entertainment scene, though she has faced societal challenges related to her identity. [...]<nowiki><grok-card data-id="e8ff4f" data-type="citation_card"></nowiki>
-{{cob}}
-
-Grok may also include <code>grok_render_citation_card_json</code> in place of links to reference in the output text.
-
-{{cot|bg=#ffffff|From [[Special:Permalink/1352634865|this May 2026 revision]] to [[Wikipedia:Signs of AI writing/Examples/TUSAŞ Gölge tactical UAV|Draft:TUSAŞ Gölge tactical UAV]]}}
-Gölge was publicly revealed through trademark and patent applications filed with the Turkish Patent and Trademark Office in April 2026. The platform was showcased at the SAHA Expo 2026 in Istanbul alongside the jet-powered kamikaze UAV AYAZ. [](grok_render_citation_card_json={"cardIds":["3bb883"]})
-----
-Gölge is a **piston-engine** tactical UAV optimized for long-endurance missions. The name "Gölge" (Shadow) and associated branding suggest a focus on **low-observability** (low radar cross-section) features. It is designed as a flexible, multi-role platform, primarily for intelligence, surveillance, and reconnaissance (ISR) roles. [](grok_render_citation_card_json={"cardIds":["993eac"]}) 
-{{cob}}
-
-'''Links to searches'''
-* {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22grok-card+data-id%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1&ns1=1&ns2=1&ns3=1&ns4=1&ns5=1&ns6=1&ns7=1&ns8=1&ns9=1&ns10=1&ns11=1&ns12=1&ns13=1&ns14=1&ns15=1&ns100=1&ns101=1&ns118=1&ns119=1&ns126=1&ns127=1&ns710=1&ns711=1&ns828=1&ns829=1&ns1728=1&ns1729=1 grok-card data-id}}
-
-====DeepSeek: lenticular brackets, dagger symbols ====
-As of June 2025, markup with [[lenticular brackets]] and [[dagger symbol]]s, like <code>【85†L261-269】</code>, has also been seen. This format appears to be specific to [[DeepSeek]] and its derivatives.<ref>{{cite web|url=https://github.com/subharmonicseed/Synergesis/blob/99a9b959036524552be2fd796f9a8f927ac91549/Syn%20sans%20magie/Synergesis_DeepSeek_Complete_Archive/Syn%20comme%20une%20%C3%A9tude%20de%20march%C3%A9.txt#L83|title=Synergesis_DeepSeek_Complete_Archive text|access-date=11 June 2026}}</ref>
-
-{{cot|bg=#ffffff|From [[Special:Permalink/1295285879|this June 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Gillingham High Street|Draft:Gillingham High Street]]}}
-Recent initiatives aim to reverse decline. Medway Council’s Gillingham Town Centre Planning Framework (2007) and later Gillingham Business Plan identified preservation of historic shopfronts and pedestrian enhancements as prioritiesmedway.gov.ukmedway.gov.uk. In 2024 MP Naushabah Khan launched the “Love Gillingham” campaign and a high-street taskforce to improve cleanliness, safety and commerce【85†L261-269】. A community panel is drafting a Gillingham Action Plan, and events like the September 2024 “Big Day Out” carnival (2,500+ attendees) help draw people in【85†L269-274】. As of 2025 vacancy rates on the High Street were reported at about 6.2% (well below the 16% UK average)【85†L261-269】, suggesting a modest stability even as big chains have disappeared.}}
-{{cob}}
-
-{{cot|bg=#ffffff|From [[Special:Permalink/1304282215|this August 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Paytra|Draft:Paytra]]}}
-Paytra Gessler, known professionally as Paytra, is an American singer‑songwriter whose music combines pop and hip‑hop with R&B, funk and soul influences. She gained attention in the early 2020s with her genre‑bending singles and her feminist message. Paytra’s releases include the EP Momma Taught Me How to Fight and the album Tiny But Mighty (both 2023)【854140639155648†L119-L123】, as well as the singles “Villain Era” (2023), “Bright Red Flags” (2023)【331835262276082†L127-L149】, “Good Girls Don’t Make History” (2024)【610406519434033†L284-L290】, “All Kinda Bitches” (2024)【695032903925577†L42-L52】 and “World’s About to Get Crazy” (2024)【466616601965079†L42-L60】.}}
-{{cob}}
-
-{{cot|bg=#ffffff|From [[Wikipedia:Signs of AI writing/Examples/JAF-GT300|Draft:JAF-GT300]] in March 2026}}
-<syntaxhighlight lang="wikitext">
-JAF-GT300 cars are generally Japanese makes or specially constructed “silhouette” vehicles, distinct from the FIA [[Group GT3]] cars, also eligible in GT300【29†L582-L589】. The Japan Automobile Federation (JAF) is the national motorsport authority in Japan and co-sponsors Super GT, setting technical rules for JAF-GT cars【32†L142-L149】. In practice, a GT300 field includes three types of cars: (1) **JAF-GT** cars (JAF-regulation, often modified Japanese road cars or special designs), (2) **FIA GT3** cars (homologated under FIA GT3 rules), and (3) **Mother Chassis** (MC) cars (built on a standard tubular chassis by Dome)【29†L598-L606】. 
-</syntaxhighlight>
-{{cob}}
-
-'''Links to searches'''
-* {{plainlink|url=https://en.wikipedia.org/w/index.php?search=insource%3A%2F%E3%80%90%5B0-9%5D%2B%E2%80%A0%2F&title=Special%3ASearch&profile=advanced&fulltext=1&ns118=1 insource:/【[0-9<nowiki>]</nowiki>+†/}} (in drafts only)
-
-====Perplexity: attached_file, ppl-ai-file-upload ====
-As of fall 2025, tags like <code><nowiki>[attached_file:1]</nowiki></code> and <code><nowiki>[web:1]</nowiki></code> have been seen at the end of sentences. This may be [[Perplexity AI|Perplexity]]-specific.<ref name="wildperplexityappeared">{{cite web |title=Unproductive Interpretation of Work and Employment as Misinformation? |url=https://www.laetusinpraesens.org/docs20s/workeco.php |access-date=21 October 2025 |archive-date=2 September 2025 |archive-url=https://web.archive.org/web/20250902133810/https://www.laetusinpraesens.org/docs20s/workeco.php |url-status=live }}</ref> 
-
-{{blockquote|
-During his time as CEO, Philip Morris’s reputation management and media relations brought together business and news interests in ways that later became controversial, with effects still debated in contemporary regulatory and legal discussions.[attached_file:1]
-|title=From {{diff||1316436509|label=this October 2025 revision}} to [[Hamish Maxwell]]}}
-
-Perplexity may also cite text to an [[Amazon S3]] bucket, with <code>ppl-ai-file-upload</code> in the URL.
-
-'''Links to searches'''
-* {{plain link|url=https://en.wikipedia.org/w/index.php?search=%22ppl-ai-file-upload%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1&ns2=1&ns118=1 "ppl-ai-file-upload"}}
-
-====Unclassified: :::writing====
-As of June 1, 2026, markup in the format <code>:::writing{variant="document" id="[NUMBER]"}</code>, where [NUMBER] is a random 5-digit number, has been spotted; the triple colons at the beginning may or may not be interpreted as an indent. Triple colons at the end of the "document" are often paired with this. The markup may or may not be in other languages.
-
-'''Examples'''
-{{cot|bg=#ffffff|From [[Special:Permalink/1358854076|this June 2026 revision]] to [[User:Drrbharanidharan]]}}
-I can help draft a Wikipedia-style biography, but I should be clear: a page written this way is not automatically suitable for Wikipedia. Wikipedia requires facts to be supported by independent, reliable sources, and promotional or unsourced claims may be removed.
-
-Based only on the information you've shared with me, here's a professional encyclopedia-style draft:
-
-:::{{highlight|<nowiki>writing{variant="document" id="68427"}</nowiki>}}
-{{cob}}
-
-{{cot|bg=#ffffff|From [[Special:Permalink/1357217465|this June 2026 revision]] to [[Draft:Ak7]]}}
-<syntaxhighlight lang="wikitext">:::écriture{variante="document" id="28471"} == AK7== '''AK7''', aussi connu sous le nom de '''Yanixak7''', [...] == Discographie == === Célibataires ===	 •	 « Digba Kistha » (2022)	 •	 ''Tals'' (2025) == Privilèges externes ==	
-pédia :
-
-:::writing{variant=“document” id=“51724”}
-== Liens externes ==
-</syntaxhighlight>
-[external links omitted]
-<syntaxhighlight lang="wikitext">
-:::
-
-Et petite corr :::
-</syntaxhighlight>
-{{cob}}
-
-=== Non-existent or out-of-place categories ===
-{{shortcut|WP:AIREDCAT}}
-LLMs may hallucinate non-existent categories, sometimes for generic concepts that ''seem like'' plausible category titles (or [[search engine optimization|SEO]] keywords), and sometimes because their training set includes obsolete and renamed categories. These will appear as [[WP:REDNOT|red links]]. You may also find category redirects, such as the longtime spammer favorite [[:Category:Entrepreneurs]]. More recent LLMs will occasionally omit punctuation and words in category markup (e.g. [[Category people]] instead of [[:Category:Living people]]), visibly breaking them.
-
-Note that the presence of bad or nonexistent categories does not necessarily prove the use of AI by itself, as human editors regularly make similar mistakes. New users are unlikely to be familiar with Wikipedia's categorization system, and older users may be used to now-deprecated categories. Broken categories are, however, valid corroborating evidence if a page also shows other signs of AI editing, and given that it relies on the removal of actual words from a category name rather than just a coding error alone, the "Category people" form of category breakage is a strong AI tell as this is not an error typically made by human editors.
-
-'''Examples'''
-{{blockquote|<syntaxhighlight lang="wikitext">[[Category:American hip hop musicians]]</syntaxhighlight>|title=From [[Special:PermanentLink/1304282215|this August 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Paytra|Draft:Paytra]]}}
-rather than 
-{{blockquote|<syntaxhighlight lang="wikitext">[[Category:American hip-hop musicians]]</syntaxhighlight>}}
-
-=== Non-existent templates ===
-LLMs often hallucinate non-existent templates (especially plausible-sounding types of [[WP:infoboxes|infoboxes]]) and template parameters. These will also appear as red links, and non-existent template parameters in existing templates have no effect. LLMs may also use templates that were deleted after their knowledge cutoff date (such as the [[Wikipedia:Templates for discussion/Log/2024 September 27/lang-?? templates|lang-<var>??</var> series]]).
-
-'''Examples'''
-{{blockquote|
-<syntaxhighlight lang="wikitext">
-{{Infobox ancient population
-| name = Gangetic Hunter-Gatherer (GHG)
-| image = [[File:GHG_reconstruction.png|250px]]
-| caption = Artistic reconstruction of a Gangetic Hunter-Gatherer male, based on Mesolithic skeletal data from the Ganga Valley
-| regions = Ganga Valley (from Haryana to Bengal, between the Vindhyas and Himalayas)
-| period = Mesolithic–Early Neolithic (10,000–5,000 BCE)
-| descendants = Gangetic peoples, Indus Valley Civilisation, South Indian populations
-| archaeological_sites = Bhimbetka, Sarai Nahar Rai, Mahadaha, Jhusi, Chirand
-}}
-</syntaxhighlight>
-|From [[Special:PermanentLink/1326132735|this revision]] to [[Wikipedia:Signs of AI writing/Examples/Gangetic hunter-gatherers|Draft:Gangetic hunter-gatherers]]}}
-rather than
-{{blockquote|<syntaxhighlight lang="wikitext">
-{{Infobox archaeological culture
-| name = Gangetic Hunter-Gatherer (GHG)
-| map = [[File:GHG_reconstruction.png|250px]]
-| mapcaption = Artistic reconstruction of a Gangetic Hunter-Gatherer male, based on Mesolithic skeletal data from the Ganga Valley
-| region = Ganga Valley (from Haryana to Bengal, between the Vindhyas and Himalayas)
-| period = Mesolithic–Early Neolithic (10,000–5,000 BCE)
-| followedby = Gangetic peoples, Indus Valley Civilisation, South Indian populations
-| majorsites = Bhimbetka, Sarai Nahar Rai, Mahadaha, Jhusi, Chirand
-}}
-</syntaxhighlight>
-}}
-'''Non-infobox examples'''
-{{blockquote|
-<syntaxhighlight lang="wikitext">
-== <!-- EDIT BELOW THIS LINE --> == markup
-{{Update submission |reasons=Complete biographical rewrite executed to strip out promotional prose. Incorporated independent third-party literary journal analysis from Ashvamegh Journal to satisfy WP:NBIOGRAPHY. |ts=2026-06-08T12:19:00Z}}
-</syntaxhighlight>
-|From [[Special:PermanentLink/1358339625|this revision]] to [[User:Blueskyreader/sandbox]]}}
-
-==== Links to searches ====
-* [[Wikipedia:Database reports/Transclusions of non-existent templates]] – many of these broken templates are legitimate mistakes, but the "infobox" and "lang" sections are likely to contain LLM hallucinations
+==Markup irregularities==
+{{further|Wikipedia:Signs of AI writing/Markup}}
+AI chatbots prompted to write content for Wikipedia tend to make errors that wouldn't be expected to appear often in human-written text. These include:
+
+* Using [[Markdown]] (which often manifests as attempting to use [[WP:AIASTERISK|asterisks]] for bold text, [[WP:AIHASHTAG|number signs]] to denote section headings), using <code>---</code> or <code>----</code> to denote section dividers, attempting Markdown-style link formatting -- <code>[url](text)</code> -- instead of wikilink formatting, and most unambiguous of all, rendering text as Markdown code blocks by wrapping it in triple backticks <code>(```)</code>, often prefaced with "wikitext"
+* A chatbot failing to properly convert citations to text and [[WP:OAICITE|exposing its internal data structure or styling]] to the reader. This is an unambiguous indicator, and every chatbot has a different pattern; for example, ChatGPT sometimes renders markup as <code>contentReference[oaicite:1]</code>. More examples can be seen in the above link.
+* Other bugs: Placing articles in [[WP:AIREDCAT|nonexistent categories]], and attempting to transclude [[Wikipedia:Signs of AI writing/Markup#Non-existent templates|nonexistent templates]].
 
 == Citations ==
 {{Shortcut|WP:AIFICTREF}}
@@ -1508,15 +1195,15 @@ In that case, the ''Smith, R. J.'' source – being the "third source" the tool 
 
 The LLM in that case has diligently included the incorrect re-use syntax after every single full stop.
 
-{{cot|bg=#ffffff|From [[Special:PermanentLink/1188218670|this December 2023 revision]] to [[Cognitive orthotics]]}}
+{{blockquote|
 <syntaxhighlight lang="wikitext">
 For over thirty years, computers have been utilized in the rehabilitation of individuals with brain injuries. Initially, researchers delved into the potential of developing a "prosthetic memory."<ref>Fowler R, Hart J, Sheehan M. A prosthetic memory: an application of the prosthetic environment concept. ''Rehabil Counseling Bull''. 1972;15:80–85.</ref> However, by the early 1980s, the focus shifted towards addressing brain dysfunction through repetitive practice.<ref>{{Cite journal |last=Smith |first=R. J. |last2=Bryant |first2=R. G. |date=1975-10-27 |title=Metal substitutions incarbonic anhydrase: a halide ion probe study |url=https://pubmed.ncbi.nlm.nih.gov/3 |journal=Biochemical and Biophysical Research Communications |volume=66 |issue=4 |pages=1281–1286 |doi=10.1016/0006-291x(75)90498-2 |issn=0006-291X |pmid=3}}</ref> Only a few psychologists were developing rehabilitation software for individuals with Traumatic Brain Injury (TBI), resulting in a scarcity of available programs.<sup>[3]</sup> Cognitive rehabilitation specialists opted for commercially available computer games that were visually appealing, engaging, repetitive, and entertaining, theorizing their potential remedial effects on neuropsychological dysfunction.<sup>[3]</sup>
 </syntaxhighlight>
-{{cob}}
+|From [[Special:PermanentLink/1188218670|this December 2023 revision]] to [[Cognitive orthotics]]}}
 
 Some LLMs or chatbot interfaces use the character <kbd>↩</kbd> around footnotes. The character is often used on other websites to provide a link for the user to jump back to the article after reading the footnote.
 
-{{cot|bg=#ffffff|From [[Special:PermaLink/1304723248|this August 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/CureMD|Draft:CureMD]]}}
+{{quote frame|
 {{fake heading|References}}
 Would you like help formatting and submitting this to Wikipedia, or do you plan to post it yourself? I can guide you step-by-step through that too.
 
@@ -1524,7 +1211,7 @@ Would you like help formatting and submitting this to Wikipedia, or do you plan 
 
 # KLAS Research. (2024). ''Top Performing RCM Vendors     2024''. <nowiki>https://klasresearch.com</nowiki> ↩ ↩<sup>2</sup>
 # PR Newswire. (2025, February 18). ''CureMD AI Scribe     Launch Announcement''. <nowiki>https://www.prnewswire.com/news-releases/curemd-ai-scribe</nowiki> ↩
-{{cob}}
+|From [[Special:PermaLink/1304723248|this August 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/CureMD|Draft:CureMD]]}}
 
 ===utm_source{{=}}===
 
@@ -1547,7 +1234,7 @@ Note: While this near-definitively proves ChatGPT's involvement,{{efn|There are 
 === Named references declared in references section but unused in article body ===
 A common referencing error produced by LLMs involves sources in a <syntaxhighlight lang="wikitext" inline><references></syntaxhighlight> tag which are not used inline.  LLMs can also produce [[WP:NAMEDREF|named references]] which are not defined, although this can also be the result of a copy-paste from a different article.
 '''Examples'''
-{{cot|bg=#ffffff|From [[Special:Diff/1291491974#References|this May 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Josef von Rickenbach|Draft:Josef von Rickenbach]]}}
+{{blockquote|
 <syntaxhighlight lang="wikitext">
 <references>
 <ref name=\"fiercebiotech\">https://www.fiercebiotech.com/cro/parexel-co-founder-josef-von-rickenbach-to-end-35-year-run-as-ceo</ref>
@@ -1561,9 +1248,9 @@ A common referencing error produced by LLMs involves sources in a <syntaxhighlig
 {{error|Cite error: A [[Help:Footnotes#WP:LDR|list-defined reference]] named "\"statnews\"" is not used in the content (see the [[Help:Cite errors/Cite error references missing key|help page]]).}}<br>
 {{error|Cite error: A [[Help:Footnotes#WP:LDR|list-defined reference]] named "\"mclean\"" is not used in the content (see the [[Help:Cite errors/Cite error references missing key|help page]]).}}<br>
 {{error|Cite error: A [[Help:Footnotes#WP:LDR|list-defined reference]] named "\"twst\"" is not used in the content (see the [[Help:Cite errors/Cite error references missing key|help page]]).}}
-{{cob}}
+|From [[Special:Diff/1291491974#References|this May 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Josef von Rickenbach|Draft:Josef von Rickenbach]]}}
 
-{{cot|bg=#ffffff|From [[Special:Diff/1291558682#References|this May 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Caligomos Art|Draft:Caligomos Art]]}}
+{{blockquote|
 <syntaxhighlight lang="wikitext">
 <references><ref name="wooart-about">[https://wooart.ca/about-caligomos-art About Caligomos Art – WOO ART]</ref> <ref name="wooart-home">[https://wooart.ca/ Home – WOO ART]</ref> <ref name="discover-leeds">[https://discoverdirectory.leedsgrenville.com/Home/View/woo-art-gallery Woo Art Gallery – Discover Leeds Grenville]</ref> <ref name="book-amazon">Woo, John HR. ''The Book of Caligomos Art''. Amazon KDP, 2025. ISBN 979-8-987654321-0.</ref></references>
 </syntaxhighlight>
@@ -1572,7 +1259,7 @@ A common referencing error produced by LLMs involves sources in a <syntaxhighlig
 {{error|Cite error: A [[Help:Footnotes#WP:LDR|list-defined reference]] named "wooart-home" is not used in the content (see the [[Help:Cite errors/Cite error references missing key|help page]]).}}<br>
 {{error|Cite error: A [[Help:Footnotes#WP:LDR|list-defined reference]] named "discover-leeds" is not used in the content (see the [[Help:Cite errors/Cite error references missing key|help page]]).}}<br>
 {{error|Cite error: A [[Help:Footnotes#WP:LDR|list-defined reference]] named "book-amazon" is not used in the content (see the [[Help:Cite errors/Cite error references missing key|help page]]).}}
-{{cob}}
+|From [[Special:Diff/1291558682#References|this May 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Caligomos Art|Draft:Caligomos Art]]}}
 
 '''Links to searches'''
 * [[:Category:Pages with incorrect ref formatting]]
@@ -1585,7 +1272,7 @@ A common referencing error produced by LLMs involves sources in a <syntaxhighlig
 {{see also|Wikipedia:Identifying LLM unblock requests|Wikipedia:The LLM-written ANI report}}
 
 <nowiki>In many cases, some users have copy-pasted text from AI chatbots into their comments. Comments and nominations suspected of having been pasted from an LLM may be collapsed via {{</nowiki>[[Template:Collapse AI|collapse AI]]<nowiki>}} or closed entirely in accordance with </nowiki>{{Section link|Wikipedia:Talk page guidelines#LLM-generated}}. Asides from making any of the mistakes listed on this page, editors who use large language models or similar technology to write their comments are also likely to:
-* [[WP:AIFICTPOLICY|Misquote policies and guidelines]] and [[WP:AISHORTCUT|cite made-up shortcuts]] that don't lead to any existing project page.
+* [[WP:AIFICTPOLICY|Misquote policies and guidelines]] and [[WP:AISHORTCUT|cite made-up shortcuts]] that don't lead to any existing project page. In rare cases, they might simply [[WP:AISHORTCUTFAIL|cite "WP"]].
 * [[WP:AITRANSCLUSION|Transclude maintenance banners]] whenever they mention them.
 * Post lengthy comments [[WP:AISECTION|divided into sections with titles]], either written in [[WP:MARKDOWN|Markdown]], plain text, or as [[WP:AISUBHEADING|level-2 or level-3 subheadings]].
 * Downplay their LLM use by [[WP:AIMADEBUTSTILLOK|claiming to have put some human effort into their work]] or that [[WP:AICOMMENTSAREMINE|their comments reflect their thoughts]].
@@ -1593,13 +1280,17 @@ A common referencing error produced by LLMs involves sources in a <syntaxhighlig
 * Dismiss concerns about the origin of their content as being based on [[WP:AIUNPROVEN|unsubstantiated speculation]] rather than "[[WP:CONCRETE|concrete]]" facts or evidence.
 * Urge critics to [[WP:LETSFOCUSON|redirect their concerns towards improving content]] instead of worrying about whether it was produced by or modified via a large language model.
 
-Many LLM-generated comments tend to sound like they're coming from a [[clerk]] or [[customer service]] representative, with users claiming to have "carefully reviewed" things, [[WP:AIUR|apologizing for any inconvenience they "may have" caused]], and saying things along the lines of "{{xt|If there are specific issues that need to be resolved, please point them out to me, and I will try to resolve them.}}" Given that AI-powered writing assistance tools are often marketed for use at work, this may not be surprising.
+Many LLM-generated comments tend to sound like they're coming from a [[clerk]] or [[customer service]] representative, with users claiming to have "carefully reviewed" their supposed work, [[WP:AITALKSIGNS#Apologies for potential past damage|apologizing for any inconvenience they "may have" caused]], and saying things along the lines of "{{xt|If there are specific issues that need to be resolved, please point them out to me, and I will try to resolve them.}}" Given that AI-powered writing assistance tools are often marketed for use at work, this may not be surprising.
 
 '''Links to searches'''
-* {{plink|url=https://en.wikipedia.org/w/index.php?search=%22I+understand+concern+AI-generated%22%7E2+OR+%22I+understand+concerns+AI-generated%22%7E2&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 I understand <nowiki>[the/your] concern(s) [about/regarding]</nowiki> AI-generated...}}
+* {{plink|url=https://en.wikipedia.org/w/index.php?limit=250&fulltext=1&ns1=1&ns119=1&ns3=1&ns4=1&ns5=1&profile=advanced&search=%22I+understand+concern+generated%22%7E5+OR+%22I+understand+concerns+generated%22%7E5&title=Special%3ASearch I understand your concerns regarding AI-generated...}}
 * Dear Wikipedia Editorial Team:
 ** {{plink|url=https://en.wikipedia.org/w/index.php?search=%22Dear+Wikipedia+Editorial+Team%22+%22I+am+writing+to%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns118=1 I am writing to ...}}
 ** {{plink|url=https://en.wikipedia.org/w/index.php?search=%22Dear+Wikipedia+Editorial+Team%22+%22this+message+finds+you+well%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns118=1 I hope/trust this message finds you well.}}
+Other users' responses:
+* {{plink|url=https://en.wikipedia.org/w/index.php?search=%22Fire+your+LLM%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 Fire your LLM}}
+* {{plink|url=https://en.wikipedia.org/w/index.php?search=%22Not+done%3A+your+request+appears+to+have+been+generated+by+a+large+language+model%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 Not done: your request appears to have been generated by a large language model}}
+* {{plink|url=https://en.wikipedia.org/w/index.php?search=%22Your+query+appears+to+have+been+generated%2C+in+whole+or+in+part%2C+by+some+kind+of+AI+chatbot+or+large+language+model.%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 Your query appears to have been generated, in whole or in part, by some kind of AI chatbot or large language model}}
 
 == <span class="anchor" id="Edit summaries"></span> Edit summaries ==
 {{Shortcut|WP:AISUMMARY|WP:AISUMM}}
@@ -1717,12 +1408,8 @@ A sudden shift in an editor's writing style, such as unexpectedly flawless gramm
 
 The reverse also applies: If a user has edits that predate LLM chatbots, and their writing style has remained consistent between those older edits and their current ones (e.g., frequent use of boldface, list formatting, etc.), that suggests the newer edits are less likely to be AI.
 
-{{anchor|Sudden shift in English variety use}}A mismatch of user location, national ties of the topic to a variety of English, and the variety of English used may indicate the use of AI tools. A human writer from India writing about an Indian university would probably not use American English; however, several LLMs use American English by default unless prompted otherwise.<ref name="Ju et al." /> 
-
-Note that non-native English speakers also tend to mix up English varieties, and many writers use more formal prose in certain venues as a form of [[code switching]] (although that doesn't rule out writers doing that code switching with AI). These signs should raise suspicion only if there is a dramatic, not easily explainable shift in an editor's writing style.
-
 === "Submission statements" in AfC drafts ===
-This one is specific to drafts submitted by [[WP:AFC|Articles for Creation]]. At least one LLM tends to insert "submission statements" supposedly intended for reviewers that supposedly explain why the subject is notable and why the draft meets Wikipedia guidelines. Of course, [[WP:BOOMERANG|all this actually does is]] let reviewers know that the draft is LLM-generated, and should be declined or speedily deleted without a second thought.
+This one is specific to drafts submitted by [[WP:AFC|Articles for Creation]]. At least one LLM tends to insert "submission statements" seemingly intended for reviewers that supposedly explain why the subject is notable and why the draft meets Wikipedia guidelines. Of course, [[WP:BOOMERANG|all this actually does is]] let reviewers know that the draft is LLM-generated, and should be declined or speedily deleted without a second thought.
 
 {{quote frame|
 Reviewer note (for AfC): This draft is a neutral and well-sourced biography of Portuguese public manager Jorge Patrão. All references are from independent, reliable sources (Público, Diário de Notícias, Jornal de Negócios, RTP, O Interior, Agência Lusa) covering his public career and cultural activity. It meets WP:RS and WP:BLP standards and demonstrates clear notability per WP:NBIO through: – Presidency of Serra da Estrela Tourism Region (1998–2013); – Presidency of Parkurbis – Covilhã Science and Technology Park; – Founding role in Rede de Judiarias de Portugal (member of the Council of Europe’s European Routes of Jewish Heritage); – Authorship of the book "1677 – A Fábrica d’El-Rei"; – Founder/curator of the Beatriz de Luna Art Collection (Old Master focus). There is also a Portuguese version of this article at pt.wikipedia.org/wiki/Jorge_Patrão. Thank you for your review. -->
@@ -1855,19 +1542,6 @@ Older LLMs with fixed [[knowledge cutoff]]s, such as [[GPT-3.5]] or [[GPT-4]], w
 {{blockquote|
 {{highlight|As of my last knowledge update in January 2022}}, I don't have specific information about the current status or developments related to the "Chester Mental Health Center" in today's era.
 |From {{diff||1186779926|label=this November 2023 revision}} to [[Chester Mental Health Center]]}}
-
-===Didactic disclaimers (November 2022–2024) ===
-{{shortcut|WP:DIDACTIC}}
-{{For|non-AI-specific guidance about this|Wikipedia:Manual of Style/Words to watch#Editorializing}}
-{{tmbox|image=none|text=Words to watch: {{strong|''it's important/critical/crucial to note/remember/consider'', ''worth noting'', ''may vary''...}}}}
-Older LLMs (~2023) often added disclaimers about topics being "important to note".<ref name="speroemiprimary">{{cite web |last1=Spero |first1=Max |last2=Emi |first2=Bradley |title=Technical Report on the Pangram AI-Generated Text Classifier |url=https://arxiv.org/abs/2402.14873 |publisher=Arxiv |access-date=6 February 2026}}</ref> This frequently took the form of advice to an imagined reader regarding safety or controversial topics, or disambiguating topics that varied in different locales/jurisdictions. Several such disclaimers appear in OpenAI's GPT-4 system card as examples of "partial refusals".<ref name="openaicdn">{{cite web |title=GPT-4 System Card |url=https://cdn.openai.com/papers/gpt-4-system-card.pdf |website=OpenAI |access-date=16 December 2025}}</ref>
-
-'''Examples'''
-{{blockquote|The emergence of these informal groups reflects a growing recognition of the interconnected nature of urban issues and the potential for ANCs to play a role in shaping citywide policies. {{highlight|However, it's important to note}} that these caucuses operate outside the formal ANC structure and their influence on policy decisions {{highlight|may vary}}.|From [[Special:Diff/1265416814|this 2024 revision]] to [[Advisory Neighborhood Commission]]}}
-
-{{blockquote|{{highlight|It is crucial to differentiate}} the independent AI research company based in Yerevan, Armenia, which is the subject of this report, from these unrelated organizations {{highlight|to prevent confusion}}.|From [[Special:Diff/1292938129|this 2025 revision]] to [[Wikipedia:Signs of AI writing/Examples/Robi Labs|Draft:Robi Labs]]}} 
-
-{{blockquote|{{highlight|It's important to remember}} that what's free in one country might not be free in another, so always check before you use something.|From [https://gitlab.wikimedia.org/repos/web/web-experiments-extension/-/commit/55fdbbb3decdc9b95ae0ef00e98b1108ddc3a498.diff Wikimedia's LLM-generated Simple Summary] of [[Public domain]]}}
 
 ===Section summaries===
 {{Shortcut|WP:CONCLUSION|WP:INCONCLUSION}}

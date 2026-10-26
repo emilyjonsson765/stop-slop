@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-26
+
+- Wikipedia "Signs of AI writing" revision 1382015304: the source-disclaimer section is now split into "2023-24" didactic disclaimers ("it's important to note", "it is crucial to differentiate... to prevent confusion") and a "Mid-2026-present" pattern with three forms: "rather than" negative parallelism, "does not establish [conclusion]", and "should not be confused with". The page says the pattern is near absent before the July 2026 GPT-5.6 release. Updated phrases.md, structures.md, and examples.md.
+- New section on Gemini `<mark>` highlight tags in pasted text, added to structures.md.
+- Chatbot-communication words now include "check/verify/confirm... before publishing/submitting", added to phrases.md.
+- "key" (as an adjective) was dropped from Wikipedia's words-to-watch list. The Markup section moved to a subpage; no content change needed.
+
 ## 2026-10-05
 
 - Wikipedia "Signs of AI writing" revision 1378597190: the knowledge-cutoff section is now "Disclaimers about source availability and recommended usage" and adds "should be treated as... rather than...", "does not by itself establish", and "[claim] ... limited/scarce details" patterns. Updated phrases.md, structures.md, and examples.md.

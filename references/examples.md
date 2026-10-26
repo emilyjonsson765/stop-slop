@@ -444,3 +444,27 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 
 **Changes:** Cut "vibrant," "celebrated for," and "remarkable strides." Replaced the praise with figures and a named cause. Check any numbers against a source before using them.
 
+---
+
+## Example 38: Research-System Caveat
+
+**Before:**
+> "The website describes the tool as a research system undergoing testing and evaluation, rather than a validated production or clinical system."
+
+**After:**
+> "The website calls the tool a research system. It has not been validated for production or clinical use."
+
+**Changes:** Dropped the "rather than" frame and stated the limit as two flat facts.
+
+---
+
+## Example 39: Didactic Disclaimer
+
+**Before:**
+> "It's important to remember that what's free in one country might not be free in another, so always check before you use something."
+
+**After:**
+> "Copyright terms differ by country. A work in the public domain in the US may still be protected elsewhere."
+
+**Changes:** Cut the "important to remember" lecture and the "always check" advice. Named the actual difference.
+
