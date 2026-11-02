@@ -301,6 +301,8 @@ These announce the model's limits, or lecture the reader on how to treat a sourc
 - "the available information does not establish [conclusion]"
 - "should not be confused with [other topic]" (weaker signal than the two above)
 - "undergoing testing and evaluation rather than validated"
+- "Rather than introducing a new [tool], X acts as an interface between [A] and [B]"
+- "a bridge between [A] and [B] rather than a replacement for [C]"
 
 The "rather than" and "does not establish" caveats are a mid-2026 pattern (roughly the July GPT-5.6 release). Text containing them that predates July 2026 is less likely to be AI-written.
 

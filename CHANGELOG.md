@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-02
+
+- Wikipedia "Signs of AI writing" revision 1383265080: the Style section (title case, boldface, inline-header lists, heading errors) moved to the subpage Wikipedia:Signs of AI writing/Style. The main page now carries a short summary with curly quotes and emoji added to the list. Added a compact "Style Tells" section to structures.md.
+- The citation placeholder section was split into date and URL placeholders. It adds `PASTE_..._URL_HERE`, `INSERT_SOURCE_URL_##`, `[Year]`-style bracket slots, "Evidence to be supplied: [...]" stubs, and numbered example.com subpage URLs. Added an "Unfilled Placeholders" section to structures.md and Example 41 to examples.md.
+- New "rather than" negative-parallelism example (a tool described as "an interface between... rather than a new decompiler"). Added to phrases.md and as Example 40 in examples.md.
+
 ## 2026-10-26
 
 - Wikipedia "Signs of AI writing" revision 1382015304: the source-disclaimer section is now split into "2023-24" didactic disclaimers ("it's important to note", "it is crucial to differentiate... to prevent confusion") and a "Mid-2026-present" pattern with three forms: "rather than" negative parallelism, "does not establish [conclusion]", and "should not be confused with". The page says the pattern is near absent before the July 2026 GPT-5.6 release. Updated phrases.md, structures.md, and examples.md.

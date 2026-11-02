@@ -410,3 +410,31 @@ Text pasted from Gemini can arrive wrapped in HTML `<mark>...</mark>` tags and r
 | `[1, 2, 3]` after a sentence with no real citation | Citation placeholder left behind |
 
 **Instead:** Strip the tags and replace the placeholders with real sources.
+
+## Unfilled Placeholders
+
+Models sometimes leave template fields in the finished text, in citations, drafts, and reports.
+
+| Pattern | Problem |
+|---------|---------|
+| `[Year]`, `[Founder Names]`, `[Insert details here]` in running prose | Template slot never filled |
+| "**Evidence to be supplied:** [Links to the relevant discussions.]" | A report that promises evidence and delivers a bracketed stub |
+| `INSERT_SOURCE_URL_30`, `PASTE_YOUTUBE_VIDEO_URL_HERE`, `SOURCE_PUBLISHER` | Placeholder in a URL or citation field |
+| Dates like `2022-11-XX` or `2025-xx-xx` in an access-date or date field | Date slot left as a pattern |
+| Links to numbered subpages of example.com (`example.com/source1`, `/source2`) | Invented citations. The bare domain is a common template filler, but numbered subpages point to LLM output |
+| `<!-- Add if available with citation -->` in a structured field | Instruction to the reader left in the markup. Check that it isn't boilerplate from the template before treating it as a tell |
+
+**Instead:** Fill the field with something real or delete it. Never ship a slot that promises a source or a fact you don't have.
+
+## Style Tells Moved to a Subpage
+
+Wikipedia now keeps the style list on a separate subpage and only summarizes it. The signs are formatting habits:
+
+- Title Case On Every Heading, where sentence case is the norm
+- Boldface scattered through prose, or stray `**asterisks**` left from Markdown
+- Vertical lists where each item opens with a bold inline header and a colon
+- Wrong heading levels: a level-1 heading that repeats the article title, or several level-1 headings in the body
+- Emoji at the start of headings or list items
+- Curly quotation marks and apostrophes (“ ” ’) where straight ones belong
+
+**Instead:** Use sentence-case headings, bold only the rare term that needs it, and write list items as plain sentences.
