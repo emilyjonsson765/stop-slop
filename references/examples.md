@@ -468,3 +468,26 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 
 **Changes:** Cut the "important to remember" lecture and the "always check" advice. Named the actual difference.
 
+---
+
+## Example 40: Tool Description as Negative Parallelism
+
+**Before:**
+> "Rather than introducing a new decompiler, the tool acts as an interface between AI agents and established analysis tools. Coverage described it as a bridge between AI coding agents and existing reverse-engineering tools rather than a replacement for conventional disassemblers."
+
+**After:**
+> "The tool passes pseudocode, assembly, and symbols from existing analysis tools to AI coding agents. It does not decompile anything itself."
+
+**Changes:** Dropped both "rather than" frames and the "bridge/interface" metaphor. Said what the tool does and what it doesn't.
+
+---
+
+## Example 41: Unfilled Template Fields
+
+**Before:**
+> "Travomate was founded in [Year] by [Founder Names]. The platform lets travelers carry packages across borders.<ref>https://example.com/news</ref>"
+
+**After:**
+> "Travomate lets travelers carry packages across borders for other people. Founding details need a real source before they go in."
+
+**Changes:** Removed the bracketed slots and the invented example.com citation. Kept only what the writer can actually support.
