@@ -1,4 +1,4 @@
-REVID:1383265080
+REVID:1384534594
 <noinclude>{{pp-protected|small=yes}}</noinclude>
 {{for|encyclopedic coverage of this page|Signs of AI writing}}
 {{redirect|Wikipedia:AI writing|identifying comments in discussions|Wikipedia:Signs of AI use in comments|other uses|Wikipedia:Artificial intelligence resources}}
@@ -11,12 +11,12 @@ Moreover, this list is {{em|descriptive}}, not {{em|prescriptive}}; it consists 
 
 The [[Wikipedia:Speedy deletion|speedy deletion policy]] criterion [[WP:G15|G15]] (Unambiguously LLM-generated pages) lists some signs of AI writing, but is limited to the most objective ones. The remaining signs covered here are not sufficient on their own for speedy deletion.
 
-As of October 2026, the most common signs of newly AI-generated text on Wikipedia (besides the unambiguous indicators above) are [[Wikipedia:Signs_of_AI_writing#Use_of_Markdown|Markdown presence]], [[Wikipedia:Signs_of_AI_writing#Edit summaries|AI edit summaries]], [[Wikipedia:Signs_of_AI_writing#Hedging disclaimers about source availability and recommended usage|hedging disclaimers about source availability and usage]], [[Wikipedia:Signs_of_AI_writing#Vague expression of connection or association|vague expression of connection or association]], and [[Wikipedia:Signs_of_AI_writing#Canned emphasis on notability, attribution, and media coverage|canned emphasis on source attribution and media coverage]].
+As of October 2026, the most common signs of newly AI-generated text on Wikipedia (besides the unambiguous indicators above) are [[Markdown]], [[Wikipedia:Signs_of_AI_writing#Edit summaries|AI edit summaries]], [[Wikipedia:Signs_of_AI_writing#Hedging disclaimers about source availability and recommended usage|hedging disclaimers about source availability and usage]], [[Wikipedia:Signs_of_AI_writing#Vague expression of connection or association|vague expression of connection or association]], and undue emphasis on identification by primary sources.
 
 ==Caveats==
 ===AI detection tools===
 {{shortcut|WP:AIDETECTION|WP:AIDETECTOR}}
-{{See also |Wikipedia:WikiProject AI Cleanup/Guide and resources#LLM detection software}}
+{{See also |Wikipedia:WikiProject AI Cleanup/Guide and resources#LLM detection software |Wikipedia:Pangram}}
 Do not solely rely on [[artificial intelligence content detection]] tools (such as [[GPTZero]] and [[Pangram (AI detector)|Pangram]]). While they perform better than random chance, these tools have non-trivial error rates.<ref name="Russell" /><ref name="dik2025">{{cite journal |last1=Dik |first1=Selin |last2=Erdem |first2=Osman |last3=Dik |first3=Mehmet |title=Assessing GPTZero's Accuracy in Identifying AI vs. Human-Written Essays |journal=arXiv |date=2025 |arxiv=2506.23517 }}</ref> Detectors can be susceptible to factors such as text modifications (e.g. paraphrasing, markup, and spacing changes) and the use of models not seen during detector training.<ref>{{cite conference|last1=Dugan|first1=Liam|last2=Hwang|first2=Alyssa|last3=Trhlik|first3=Filip|last4=Zhu|first4=Andrew|last5=Ludan|first5=Josh Magnus|last6=Xu|first6=Hainiu|last7=Ippolito|first7=Daphne|last8=Callison-Burch|first8=Chris|title=RAID: A Shared Benchmark for Robust Evaluation of Machine-Generated Text Detectors|conference=Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)|year=2024|pages=12463–12492|location=Bangkok, Thailand|publisher=Association for Computational Linguistics|arxiv=2405.07940|url=https://aclanthology.org/2024.acl-long.674|access-date=2025-11-08|archive-date=2025-08-24|archive-url=https://web.archive.org/web/20250824132743/https://aclanthology.org/2024.acl-long.674/|url-status=live}}</ref> A high percentage of detected AI writing from the results of a detection tool is '''not''' a valid criterion for speedy deletion under G15.
 
 ===Your detection ability===
@@ -91,7 +91,7 @@ As of mid-2026, LLMs frequently include these alongside [[Wikipedia:Signs_of_AI_
 ===<span class="anchor" id="Attribution"></span>Canned emphasis on notability, attribution, and media coverage===
 {{shortcut|WP:OVERATTRIBUTION|WP:AIATTR}}
 {{for|non-AI-specific guidance about this|Wikipedia:Citing sources#In-text attribution}}
-{{tmbox|image=none|text=Words to watch: {{strong|''independent coverage'', ''local/regional/national/<var>[country name]</var> media outlets'', ''music/business/tech outlets'', ''trade publications'', ''cited/featured/profiled in'', ''written by a leading expert'', ''active social media presence'', ''was identified by''}}}}
+{{tmbox|image=none|text=Words to watch: {{strong|''independent coverage'', ''local/regional/national/<var>[country name]</var> media outlets'', ''music/business/tech outlets'', ''trade publications'', ''cited/featured/profiled in'', ''written by a leading expert'', ''active social media presence''}}}}
 Similarly, LLMs act as if the best way to prove that a subject is notable is to hit readers over the head with claims of notability, often by detailing sources that a subject has been covered in and specifying what kind of sources they are (e.g., trade publications, regional media, etc). They often inaccurately attribute their own [[#Superficial analyses|superficial analyses]] to the source. This is more common in text from AI tools released in 2025 or later.
 
 This sign is narrow and distinct from human-written press releases, which have of course also cited news clippings for decades. The distinctions are the idiosyncratic phrasing above and the fact that the focus is placed on characteristics of ''the sources themselves'': their contents, their availability/unavailability in public searching, and their classification in relation to the media landscape and the article's subject. When LLMs are asked to write a Wikipedia article, the result often echoes the exact wording of [[WP:N|Wikipedia's guidelines]] like "independent coverage," as if the LLM has collapsed the context between the edit and its justification.{{efn|This effect is similar to how Claude's reasoning [https://slhck.info/software/2026/06/22/claudish.html can seem to leak into its conversational output].}}
@@ -128,6 +128,18 @@ The subject has been {{highlight|profiled in multiple high-quality, independent,
 • {{highlight|Repeated national media coverage}} for both professional and advocacy work ({{highlight|reported by}} SBS, 7News, The Australian, etc.) • Leadership roles in international and national health campaigns (e.g., THINK Aorta ANZ and board member of Hearts4Heart) • National ambassador role for the National Heart Foundation of Australia, {{highlight|highlighted by multiple independent reports}} • Academic and economic contributions {{highlight|recognised by universities, specialist publications, and health system institutions}} (e.g., University of Sydney, Monash University, RANZCR) • {{highlight|Ongoing public presence in respected media}} and at speaking events over multiple years, including via {{highlight|independent news commentary, landmark survival stories, and national health initiatives}} Together, these factors clearly demonstrate {{highlight|significant, sustained, and verifiable coverage}}—meeting both WP:BIOSIGand WP:SIGCOV.
 |From [[Wikipedia:WikiProject Articles for creation/Help desk/Archives/2025 November 2#06:02, 2 November 2025 review of submission by Moefry1|this November 2025 AfC help desk comment]]}}
 {{cob}}
+
+=== <span class="anchor" id="AIIDENTIFY"></span>Undue emphasis on identification by primary or tertiary sources===
+{{shortcut|WP:AIDENTIFY|WP:AIIDENTIFY}}
+{{tmbox|image=none|text=Words to watch: {{strong|''Databases/records/listings/filings/materials identify/list/describe [article subject] as...'', ''was identified by [source] as [fact]...'', ''is listed in'', ''his/her professional profile lists''}}}}
+
+When an article subject is mentioned in [[WP:PRIMARY|primary or tertiary sources]] (e.g., official websites, databases, historical records), AI-generated text will still over-stress the existence and contents of those sources. The emphasis will generally be on how these sources ''identify'' the article subject and/or a fact about them, usually in a stilted and formulaic manner.
+
+This sign became common starting in 2026.
+
+{{quote frame|
+His {{highlight|personal website identifies him as}} a retired Indian Administrative Service (IAS) officer associated with the 1982 batch...
+|From [[Special:Permalink/1382450761|this October 2026 revision]] to [[User:Saibhakth/Sample page]]; also note [[WP:AIDISCLAIMER|AIDISCLAIMER]] and reference [[WP:AIPLACEHOLDER|placeholder]]s in the full text}}
 
 ===Superficial analyses===
 {{shortcut|WP:SUPERFICIAL}}
@@ -183,48 +195,6 @@ Answer: Here are several neutral, Wikipedia-style paraphrases:
 <br>3. **Closer to the original:**<br>
 Columbia's Tunisian record supplement featured Louisa Tounsia on its cover, {{highlight|highlighting the image that the record label wished to promote through its marketing.}}
 |From [[Wikipedia:AI noticeboard#c-Munfarid1-20260726114900-Munfarid1-20260726113700|this July 2026 AI noticeboard comment]]}}
-{{cob}}
-
-===Promotional and advertisement-like language===
-{{Shortcut|WP:AIPUFFERY|WP:AIPEACOCK}}{{For|non-AI-specific guidance about this|Wikipedia:Manual of Style/Words to watch#Puffery}}
-{{see also|Wikipedia:Marketing buzzspeak#Marketing buzzspeak and artificial intelligence}}{{tmbox|image=none|text=Words to watch: {{strong|''boasts a'', ''vibrant'', ''rich'', ''profound'', ''enhancing'', ''showcasing'', ''exemplifies'', ''commitment to'', ''natural beauty'', ''nestled'', ''in the heart of'', ''groundbreaking'', ''renowned'', ''featuring'', ''diverse array'', &nbsp;...}}}}
-LLMs have serious problems keeping a neutral tone. Even when prompted to use an encyclopedic style, their output will often tend toward advertisement-like writing, or like the prose of a travel guide. This may happen when generating new text or rewriting existing text: for instance, an edit summary claiming a rewrite "removed promotional tone" while actually introducing it. This may also happen when editors are not [[WP:COI|deliberately trying to advertise]] a subject.<ref name="rettberg">{{cite web |last1=Walker Rettberg |first1=Jill |title=Genre glitches and unexpected promotional phrases as a sign of AI writing |url=https://jilltxt.net/genre-glitches-and-unexpected-promotional-phrases-as-a-sign-of-ai-writing/ |website=jilltxt |access-date=13 May 2026}}</ref>
-
-Note: Not all promotional or spammy writing is AI-generated. LLMs tend to over-use the same set of promotional phrases no matter what the topic. Also, older LLMs (e.g., GPT-4) tend to output more blatantly positive text<ref name="sussman">{{cite web |last1=Sussman |first1=Kristen |last2=Carter |first2=Daniel |title=Detecting Effects of AI-Mediated Communication on Language Complexity and Sentiment |url=https://arxiv.org/abs/2504.19556 |website=Companion Proceedings of the ACM Web Conference 2025 |publisher=arXiv |access-date=13 May 2026}}</ref> than newer LLMs, which are more subtly positive and tend to avoid obviously superlative statements like "the best."
-
-====Subtypes====
-
-When writing about something that could be considered "cultural heritage," LLMs [[#Undue emphasis on significance, legacy, and broader trends|constantly remind the reader of its importance]].
-{{cot|bg=#ffffff|From {{diff||1162718043|label=this June 2023 revision}} to [[Alamata (woreda)]]}}
-{{quote frame|
-{{highlight|Nestled}} within the {{highlight|breathtaking}} region of Gonder in Ethiopia, Alamata Raya Kobo {{highlight|stands as a vibrant town with a rich cultural heritage and a significant place}} within the Amhara region. {{highlight|From its scenic landscapes to its historical landmarks}}, Alamata Raya Kobo {{highlight|offers visitors a fascinating glimpse into the diverse tapestry}} of Ethiopia. In this article, we will explore the {{highlight|unique characteristics}} that make Alamata Raya Kobo {{highlight|a town worth visiting}} and shed light on {{highlight|its significance}} within the Amhara region.
-|From {{diff||1162718043|label=this June 2023 revision}} to [[Alamata (woreda)]]}}
-{{cob}}
-
-{{cot|bg=#ffffff|From [[Special:Diff/1284404282|this April 2025 revision]] to [[User:Fahim5100]]}}
-{{quote frame|
-Bangladesh, a vibrant country in South Asia, is {{highlight|celebrated for its resilience, cultural richness, and natural beauty}}. Despite being one of the most densely populated countries in the world, {{highlight|it has made remarkable strides in human development, education, and disaster management}}. The lush greenery, fertile delta of the Ganges-Brahmaputra-Meghna rivers, and the world’s largest mangrove forest—the Sundarbans, home to the Royal Bengal Tiger—{{highlight|make Bangladesh ecologically unique}}. The country has a {{highlight|deep-rooted tradition of literature, music, and art}}, with the language movement of 1952 marking a pivotal moment in its identity. From the bustling streets of Dhaka to the serene beaches of Cox’s Bazar—the longest natural sea beach in the world—Bangladesh {{highlight|offers a dynamic blend of tradition and progress that continues to inspire the world}}.
-|From [[Special:Diff/1284404282|this April 2025 revision]] to [[User:Fahim5100]]}}
-{{cob}}
-
-{{cot|bg=#ffffff|From {{diff||1299567515|label=this July 2025 revision}} to [[Tamil Nadu Tourism Development Corporation]]}}
-{{quote frame|
-TTDC {{highlight|acts as the gateway}} to Tamil Nadu’s {{highlight|diverse attractions}}, seamlessly connecting the beginning and end of {{highlight|every traveller's journey}}. It offers {{highlight|dependable, value-driven experiences}} that showcase the state’s {{highlight|rich history, spiritual heritage, and natural beauty}}.
-|From {{diff||1299567515|label=this July 2025 revision}} to [[Tamil Nadu Tourism Development Corporation]]}}
-{{cob}}
-
-When writing about people or companies, LLMs will often adopt a press-release or commercial-esque tone.
-{{cot|bg=#ffffff|From [[Special:Diff/1259548187|this November 2024 revision]] to [[Kenya Airways]]}}
-{{quote frame|
-These projects {{highlight|align with KQ's goals of reducing its environmental footprint, improving operational efficiency, and fostering community development through job creation.}} CEO Allan Kilavuka {{highlight|emphasized the airline's commitment to sustainability, customer focus, and Africa's prosperity through responsible corporate practices.}}
-|From [[Special:Diff/1259548187|this November 2024 revision]] to [[Kenya Airways]]}}
-{{cob}}
-
-{{cot|bg=#ffffff|From [[Special:Diff/1285549984|this April 2025 revision]] to [[Cadillac Sollei]]}}
-{{quote frame|
-The SOLLEI’s exterior design {{highlight|communicates a powerful emotional presence,
-staying true to Cadillac's signature bold proportions.}} Its low, elongated silhouette is highlighted by a wide stance and an extended coupe door, {{highlight|which enhances accessibility to the spacious rear cabin.}} Smooth, uninterrupted surfaces and a pronounced A-line {{highlight|accentuate the vehicle’s overall length,}} while a sleek, low tail {{highlight|imparts a sense of refined dynamism.}} A mid-body line runs seamlessly from the headlamps to the taillights, {{highlight|reinforcing the car’s cohesive and elegant design.}} Traditional door handles have been replaced with discrete buttons, {{highlight|preserving the vehicle’s clean and modern profile.}} In a nod to Cadillac’s legacy of bold color choices, the exterior is finished in "Manila Cream"—a distinctive hue originally offered in 1957 and 1958. This heritage color has been thoughtfully revived and hand-painted by Cadillac artisans, {{highlight|showcasing the brand’s dedication to craftsmanship and historical reverence.}}
-|From [[Special:Diff/1285549984|this April 2025 revision]] to [[Cadillac Sollei]]}}
 {{cob}}
 
 ===Vague expression of connection or association===
@@ -349,7 +319,7 @@ Complementing this, the sector relies on technological research centres, such as
 
 === "Awards and recognition" section ===
 
-Section or subsection headers in the format of "<var>X</var> and <var>Y</var>" are common in (but not exclusive to) AI generated articles. An "Awards and recognition" section is particularly common (indeed, also simply a "Recognition" section). This is a manifestation of AI-generated text's undue and particular focus on [[WP:AILEGACY|legacy and trends]] and its tendency to vaguely allude to [[WP:AIATTR|"coverage" or "recognition" of the subject]] by various outlets. 
+Section or subsection headers in the format of "<var>X</var> and <var>Y</var>" are common in (but not exclusive to) AI-generated articles. An "Awards and recognition" section is particularly common (indeed, also simply a "Recognition" section). This is a manifestation of AI-generated text's undue and particular focus on [[WP:AILEGACY|legacy and trends]] and its tendency to vaguely allude to [[WP:AIATTR|"coverage" or "recognition" of the subject]] by various outlets. 
 
 While human editors may also include sections about a subject's legacy or impact on the world or their industry, the specific wording of "Awards and recognition" is nearly ubiquitous in AI generated articles, and much more common than in human writing even when comparing against [[:Category:Articles with a promotional tone|articles tagged as containing promotional content]].
 
@@ -357,7 +327,7 @@ While human editors may also include sections about a subject's legacy or impact
 AI-generated text displays consistent patterns in syntax, word choice, and sentence construction that human writing does not display to nearly the same degree. Conversely, it often struggles to match some syntactic and linguistic patterns characteristic of human writing. Some LLMs deviate more from human writing than others; for example, GPT-4o, the language model used by ChatGPT from May 2024 to August 2025, produces output with more variation from human writing than other contemporaneous language models.<ref name="Reinhart" /> Since these are linguistic patterns, they occur consistently regardless of the subject matter, which often gives AI-generated text an identifiable "voice".
 
 === High density of "AI vocabulary" words ===
-{{Shortcut|WP:AIVOCAB|WP:AIWORDS}}
+{{Shortcut|WP:AIVOCAB|WP:AIWORDS|WP:AILEXICON}}
 <!-- Please only add words to this box if their overuse is corroborated by at least one reliable, non-pop-science external source, and is seen on Wikipedia often too. -->
 {{tmbox|image=none|text=Words to watch: {{strong|''Additionally'' (especially beginning a sentence),<ref name="geng" /><ref name="huang" /> ''align with'',<ref name="Juzek" /><ref name="Kobak" /> ''boasts'' (meaning "has"),<ref name="Juzek2" /> ''bolstered'',<ref name="Kobak" /> ''crucial'',<ref name="Russell" /><ref name="geng" /><ref name="huang" /> ''deep dive'',<ref name="economistJul2026" /> ''delve'',<ref name="Juzek" /><ref name="Kobak" /><ref name="Russell" /><ref name="Kriss">{{Cite web|last=Kriss|first=Sam|date=December 3, 2025|title=Why Does A.I. Write Like … That?|work=The New York Times|url=https://www.nytimes.com/2025/12/03/magazine/chatbot-writing-style.html|url-access=subscription|access-date=December 6, 2025}}</ref> ''emphasizing'',<ref name="Juzek" /><ref name="Kobak" /> ''enduring'',<ref name="Kobak" /> ''enhance'',<ref name="Kobak" /><ref name="Russell" /> ''fostering'',<ref name="Kobak" /><ref name="Russell"/> ''garner'',<ref name="Juzek" /><ref name="Kobak" /> ''highlight'' (as a verb),<ref name="Russell" /><ref name="Kriss"/> ''interplay'',<ref name="Kobak" /> ''intricate/intricacies'',<ref name="Juzek" /><ref name="Kobak" /><ref name="Reinhart" /><ref name="Kriss"/> ''landscape'' (as an abstract noun),<ref name="Russell" /> ''meticulous/meticulously'',<ref name="Juzek2">{{cite web |last1=Juzek |first1=Tom S. |last2=Ward |first2=Zina B. |title=Word Overuse and Alignment in Large Language Models: The Influence of Learning from Human Feedback |url=https://arxiv.org/pdf/2508.01930 |access-date=27 February 2026}}</ref><ref name="Kobak" /> ''pivotal'',<ref name="Kobak" /><ref name="Russell" /> ''robust'', ''showcase'',<ref name="Juzek" /><ref name="Kobak" /><ref name="Kriss"/> ''tapestry'' (as an abstract noun),<ref name="Russell" /><ref name="Reinhart /><ref name="Kriss"/> ''testament'',<ref name="Russell" /> ''underscore'' (as a verb),<ref name="Juzek" /><ref name="Kobak" /><ref name="Russell" /><ref name="Kriss"/> ''valuable'',<ref name="geng" /> ''vibrant''<ref name="Reinhart" /> }} }}
 
@@ -410,7 +380,7 @@ An {{highlight|enduring testament}} to the influence of [[Italian Somaliland|Ita
 {{shortcut|WP:AINOCOPULA|WP:AIREPRESENTS}}
 {{tmbox|image=none|text=Words to watch: {{strong|''serves as/stands as/marks/functions as/operates as/represents [a]'', ''boasts/features/maintains/offers [a]'', ''refers to''}}}}
 
-LLM-generated text often replaces simple constructions that use [[Copula (linguistics)|copula]]s such as ''is'' or ''are'' with constructions such as ''serves as a'' or ''mark the''. This pattern has been observed in GPT and Gemini models.<ref name="huang" /> One study documented an over 10% decrease in the usage of the words ''is'' and ''are'' in academic writing in 2023, with no major changes in their frequency before that.<ref name="geng2">{{cite web |last1=Geng |first1=Mingmeng |last2=Trotta |first2=Roberto |title=Is ChatGPT Transforming Academics' Writing Style? |url=https://arxiv.org/abs/2404.08627 |access-date=8 January 2026}}</ref> Similarly, LLMs prefer to use [[WP:BUZZ|marketing]]-related verbs like ''features'', ''offers'', and the like to their neutral synonym ''has''. (Note: Do not confuse this with ''has'' used in the [[present perfect]] form, as in ''has been featured''.) Sometimes--especially in more recent AI output--these constructions are more elaborate and link to [[WP:AICONNECT|vague expressions of connection or association]] between two topics, e.g., ''ventured into politics as a candidate'' versus ''was a candidate'', or ''began his career as'' versus ''was''.
+LLM-generated text often replaces simple constructions that use [[Copula (linguistics)|copula]]s such as ''is'' or ''are'' with constructions such as ''serves as a'' or ''mark the''. This pattern has been observed in GPT and Gemini models.<ref name="huang" /> One study documented an over 10% decrease in the usage of the words ''is'' and ''are'' in academic writing in 2023, with no major changes in their frequency before that.<ref name="geng2">{{cite web |last1=Geng |first1=Mingmeng |last2=Trotta |first2=Roberto |title=Is ChatGPT Transforming Academics' Writing Style? |url=https://arxiv.org/abs/2404.08627 |access-date=8 January 2026}}</ref> Similarly, LLMs prefer to use [[WP:BUZZ|marketing]]-related verbs like ''features'', ''offers'', and the like to their neutral synonym ''has''. (Note: Do not confuse this with ''has'' used in the [[present perfect]] form, as in ''has been featured''.) Sometimes—especially in more recent AI output—these constructions are more elaborate and link to [[WP:AICONNECT|vague expressions of connection or association]] between two topics, e.g., ''ventured into politics as a candidate'' versus ''was a candidate'', or ''began his career as'' versus ''was''.
 
 A similar decline in "is"/"are" constructions has been observed on Wikipedia, especially when controlling for lead paragraphs (which usually follow a formulaic structure of "[article subject] is...]" and thus skew the data).<ref name="huang">{{cite web |last1=Huang |first1=Siming |last2=Xu |first2=Yuliang |last3=Geng |first3=Mingmeng |last4=Wan |first4=Yao |last5=Chen |first5=Dongping |title=Wikipedia in the Era of LLMs: Evolution and Risks |url=https://openreview.net/pdf?id=ahVmnYkVLt |access-date=13 May 2026}}</ref> It is particularly visible in AI copyedits, which will often "improve" text in this way. The study above also demonstrated that when GPT-3.5 was prompted to "Revise the following sentence" in 10,000 abstracts, the words ''is'' and ''are'' appeared less often in the revised versions.<ref name="geng2" />
 
@@ -524,7 +494,8 @@ In AI-generated articles about topics with a title that is not a [[proper name]]
 
 ===Rule of three===
 {{shortcut|WP:RO3}}
-LLMs overuse the [[Rule of three (writing)|rule of three]]. This can take different forms, from "<var>adjective</var>, <var>adjective</var>, <var>adjective</var>" to "<var>short phrase</var>, <var>short phrase</var>, and <var>short phrase</var>".<ref name="Russell"/><ref name="Kriss"/><ref name="economistJul2026" /> LLMs often use this structure to make [[#Superficial analyses|superficial analyses]] appear more comprehensive.
+
+LLMs overuse the [[Rule of three (writing)|rule of three]]. This can take different forms, from "<var>adjective</var>, <var>adjective</var>, <var>adjective</var>" to "<var>short phrase</var>, <var>short phrase</var>, and <var>short phrase</var>".<ref name="Russell"/><ref name="economistJul2026" /><ref name="Kriss"/> LLMs often use this structure to make [[#Superficial analyses|superficial analyses]] appear more comprehensive.
 
 This sign is stronger when it appears in contexts where most people would not bother to include such stylistic flourishes, like [[Wikipedia:Signs_of_AI_writing#Edit_summaries|edit summaries]].
 
@@ -589,6 +560,7 @@ List the areas you want to contribute to. Example: “I enjoy creating and impro
 |From [[User talk:Iamnilesh0321#c-Iamnilesh0321-20250907081900-Hi Wikipedia User's|this September 2025 comment]] at [[User talk:Iamnilesh0321]]}}
 {{cob}}
 
+{{ctop|bg=white|Early 2026}}
 {{blockquote|
 Delete this section before submission. After pasting the article, convert as many items as possible in the citation list into inline references attached to the exact sentences they support. If a reviewer questions print-era sources, explain that the article relies on identifiable published books, journals and newspapers from the pre-internet period, several of which survive only as scans from original printed copies. 
 |From [[Special:Diff/1348412352|this April 2026 revision]] to [[Draft:Gurmukh Singh Jeet]]}}
@@ -611,6 +583,7 @@ Delete this section before submission. After pasting the article, convert as man
 <!-- 7. The diagram uploaded by the user (showing REA/TEA/Blockchain streams) would be excellent as a figure, but requires CC-BY-SA release by its creator before it can be uploaded to Wikimedia Commons. -->
 </syntaxhighlight>
 |From [[Wikipedia:Signs of AI writing/Examples/Triple Entry Accounting|Draft:Triple Entry Accounting]] in May 2026, incorrectly advising a user with a COI to self-report to COI/N "after submission"}}
+{{cbot}}
 
 {{blockquote|
 <syntaxhighlight lang="wikitext">
@@ -624,6 +597,25 @@ To have a good chance of acceptance, your channel should ideally have:
 </syntaxhighlight>
 |From [[Wikipedia:Signs of AI writing/Examples/Pixaroo|Draft:Pixaroo]] in August 2026, telling the user what to have before creating a Wikipedia page
 }}
+
+{{quote frame|{{font|font=Consolas|
+<nowiki><!--</nowiki> LEAD: {{highlight|expand to two short paragraphs once the body exists. No honorifics anywhere in this article. Do not use "Dr".}} -->
+
+<nowiki>==Early life==</nowiki><br>
+<nowiki><!--</nowiki> Trafficked to Lake Volta c. age six, escaped c. thirteen, educated himself. {{highlight|Attribute to his own accounts: "Annan has said that..."}} -->
+
+<nowiki>==Career==</nowiki><br>
+<nowiki><!--</nowiki> Barclays Bank Ghana; left in 2007 to work full time at Challenging Heights. {{highlight|The GTEC letter of 19 June 2025 goes HERE, as the last sentence. See note below.}} -->
+
+<nowiki>==Challenging Heights==</nowiki><br>
+<nowiki><!--</nowiki> Founding: sources give 2003, 2004 and 2005. {{highlight|Do not silently pick one — either write "in the mid-2000s" or attribute each date to its source.}} Rescue and rehabilitation work. FIFA Global Citizen Education Fund (2026). Governance reforms (2026). -->
+
+<nowiki>==Advocacy==</nowiki><br>
+<nowiki><!--</nowiki> US Senate Committee on Foreign Relations testimony, 4 February 2015. UN OHCHR panel statement, 2016. Both are primary — {{highlight|use them for what he said, not for why it matters.}} -->
+----
+<nowiki>==In media==</nowiki><br>
+<nowiki><!--</nowiki> Fisher of Kids (2013). {{highlight|One or two sentences.}} -->
+}}|From {{plink|url=https://en.wikipedia.org/w/index.php?title=Draft:James_Kofi_Annan&action=edit&oldid=1382974432 this October 2026 revision}} to [[Draft:James Kofi Annan]] (this links to the editing interface because the source text wouldn't be displayed in [[Special:Diff/1382974432|a Special:Diff link]])}}
 
 ===Hedging disclaimers about source availability and recommended usage ===
 {{shortcut|WP:AIDISCLAIMER}}
@@ -792,7 +784,7 @@ Historically, LLMs have used strings such as <code>INSERT_SOURCE_URL_##</code> o
 
 {{ctop|bg=white|Examples}}
 {{quote frame|
-{{font|font=Consolas|In November 2022, Kuznetsov created the program "Deputy Monitoring of Regional Assistance to Mobilized Soldiers"<nowiki><ref>{{cite web |url=</nowiki>{{highlight|INSERT_SOURCE_URL_30}} <nowiki>|title=Deputy Monitoring of Regional Assistance to Mobilized Soldiers |date=</nowiki>{{highlight|2022-11-XX|lavender}} <nowiki>|publisher=</nowiki>{{highlight|SOURCE_PUBLISHER}} <nowiki>|accessdate=2024-07-21}}</ref></nowiki> and the "Coordination Headquarters for Assistance to Mobilized Soldiers and Their Families".<nowiki><ref>{{cite web |url=</nowiki>{{highlight|INSERT_SOURCE_URL_31}} <nowiki>|title=Coordination Headquarters for Assistance to Mobilized Soldiers and Their Families |date=</nowiki>{{highlight|2022-11-XX|lavender}} <nowiki>|publisher=</nowiki>{{highlight|SOURCE_PUBLISHER}} <nowiki>|accessdate=2024-07-21}}</ref></nowiki></code>}}
+{{font|font=Consolas|In November 2022, Kuznetsov created the program "Deputy Monitoring of Regional Assistance to Mobilized Soldiers"<nowiki><ref>{{cite web |url=</nowiki>{{highlight|INSERT_SOURCE_URL_30}} <nowiki>|title=Deputy Monitoring of Regional Assistance to Mobilized Soldiers |date=</nowiki>{{highlight|2022-11-XX|lavender}} <nowiki>|publisher=</nowiki>{{highlight|SOURCE_PUBLISHER}} <nowiki>|accessdate=2024-07-21}}</ref></nowiki> and the "Coordination Headquarters for Assistance to Mobilized Soldiers and Their Families".<nowiki><ref>{{cite web |url=</nowiki>{{highlight|INSERT_SOURCE_URL_31}} <nowiki>|title=Coordination Headquarters for Assistance to Mobilized Soldiers and Their Families |date=</nowiki>{{highlight|2022-11-XX|lavender}} <nowiki>|publisher=</nowiki>{{highlight|SOURCE_PUBLISHER}} <nowiki>|accessdate=2024-07-21}}</ref></nowiki>}}
 |From [[Special:Diff/1330090335|this December 2025 revision]] to [[Dmitry Kuznetsov (politician)]]}}
 
 <syntaxhighlight lang=wikitext>
@@ -826,13 +818,13 @@ Although the URL <nowiki>example.com</nowiki> is used as a placeholder by {{plin
 }}
 |From [[Special:Diff/1290986608|this May 2025 revision]] to [[Draft:Lakshmi Priya]]}}
 
-{{quote frame|
+{{quote frame|quote=
 {{font|font=Consolas|<nowiki>'''Travomate''' is a logistics and technology company that provides cross-border package delivery and peer-to-peer courier services.<ref>{{cite web |title=Example Source Title |url=</nowiki>{{highlight|<nowiki>https://example.com/article</nowiki>}} <nowiki>|website=TechNews |access-date=2026-09-01}}</ref></nowiki>
 
 {{font|font=Consolas|<nowiki>== History ==</nowiki>}}
 
 {{font|font=Consolas|Travomate was founded in {{highlight|[Year]|lavender}} by {{highlight|[Founder Names]|lavender}}. The platform was developed to facilitate crowdshipping and peer-to-peer package delivery across borders.<nowiki><ref>{{cite web |title=Travomate Company Profile |url=</nowiki>{{highlight|<nowiki>https://example.com/news</nowiki>}} <nowiki>|website=Business Journal |access-date=2026-09-01}}</ref></nowiki>}}
-}}|From [[Special:Diff/1372474397|this August 2026 revision]] to [[Wikipedia:Signs of AI writing/Examples/Travomate|Draft:Travomate]]}}
+}}|source=From [[Special:Diff/1372474397|this August 2026 revision]] to [[Wikipedia:Signs of AI writing/Examples/Travomate|Draft:Travomate]]}}
 
 '''Links to searches'''
 
@@ -989,6 +981,7 @@ A common referencing error produced by LLMs involves sources in a <syntaxhighlig
 {{shortcut|WP:AICOMMENT}}
 {{further|Wikipedia:Signs of AI use in comments}}
 {{see also|Wikipedia:Identifying LLM unblock requests|Wikipedia:The LLM-written ANI report}}
+{{redirects here|WP:AICOMMENTS|hidden creator-facing comments in AI-generated articles|#Collaborative communication}}
 
 <nowiki>In many cases, some users have copy-pasted text from AI chatbots into their comments. Comments and nominations suspected of having been pasted from an LLM may be collapsed via {{</nowiki>[[Template:Collapse AI|collapse AI]]<nowiki>}} or closed entirely in accordance with </nowiki>{{Section link|Wikipedia:Talk page guidelines#LLM-generated}}. Asides from making any of the mistakes listed on this page, editors who use large language models or similar technology to write their comments are also likely to:
 * [[WP:AIFICTPOLICY|Misquote policies and guidelines]] and [[WP:AISHORTCUT|cite made-up shortcuts]] that don't lead to any existing project page. In rare cases, they might simply [[WP:AISHORTCUTFAIL|cite "WP"]].
@@ -1006,10 +999,6 @@ Many LLM-generated comments tend to sound like they're coming from a [[clerk]] o
 * Dear Wikipedia Editorial Team:
 ** {{plink|url=https://en.wikipedia.org/w/index.php?search=%22Dear+Wikipedia+Editorial+Team%22+%22I+am+writing+to%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns118=1 I am writing to ...}}
 ** {{plink|url=https://en.wikipedia.org/w/index.php?search=%22Dear+Wikipedia+Editorial+Team%22+%22this+message+finds+you+well%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns118=1 I hope/trust this message finds you well.}}
-Other users' responses:
-* {{plink|url=https://en.wikipedia.org/w/index.php?search=%22Fire+your+LLM%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 Fire your LLM}}
-* {{plink|url=https://en.wikipedia.org/w/index.php?search=%22Not+done%3A+your+request+appears+to+have+been+generated+by+a+large+language+model%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 Not done: your request appears to have been generated by a large language model}}
-* {{plink|url=https://en.wikipedia.org/w/index.php?search=%22Your+query+appears+to+have+been+generated%2C+in+whole+or+in+part%2C+by+some+kind+of+AI+chatbot+or+large+language+model.%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns1=1&ns3=1&ns4=1&ns5=1&ns119=1 Your query appears to have been generated, in whole or in part, by some kind of AI chatbot or large language model}}
 
 == <span class="anchor" id="Edit summaries"></span> Edit summaries ==
 {{Shortcut|WP:AISUMMARY|WP:AISUMM}}
@@ -1208,9 +1197,11 @@ For example, text from ChatGPT (circa GPT-4o-2024-08-06) and Grok (Grok-Beta, as
 ChatGPT is historically the most widely used chatbot for Wikipedia edits.<ref name="zhou">{{cite web |last1=Zhou |first1=Moyan |last2=Cho |first2=Soobin |last3=Terveen |first3=Loren |title=LLMs in Wikipedia: Investigating How LLMs Impact Participation in Knowledge Communities |url=https://arxiv.org/abs/2509.07819 |website=arxiv |access-date=30 June 2026}}</ref>
 
 === Biases in content ===
-
+{{shortcut|WP:AIBIAS|WP:LLMBIAS}}
+Bias occurs in LLMs based upon what the LLM was trained to do or the training data the LLM trained upon. One reason LLMs are biased is their training data (''e.g.'' an LLM's bias being skewed towards occidental countries due to training on data primarily originating from western sources). Many other factors play role, such as the manner the LLM model was designed in, or their systems of prioritization.<ref>{{Cite web |author=<!--Author note credited--> |date= |title=What is Bias (in AI)? |url=https://web.archive.org/web/20261027155444/https://hai.stanford.edu/ai-definitions/what-is-bias-in-ai |access-date=2026-10-27 |website=Stanford HAI |language=en}}</ref> Another factor may be AI hallucinations from less knowledge of a lesser-spoken and used vernacular (such as the Azerbaijani language).<ref>{{Cite web |last=M. Jafarov |first=Yedgar. |date=July 7, 2026 |title=The Azerbaijani Language in Artificial Intelligence: Challenges, Opportunities and Strategic Implications |url=https://web.archive.org/web/20260918010221/https://www.ijsshmr.com/v5i7/Doc/2.pdf |access-date=2026-09-18 |website= |language=en}}</ref>
 ==== Pro-authoritarian bias ====
-Even large American frontier AI models have for a number of prompts (as of 2026) a pro-authoritarian bias, due in part to how it is trained on the entirety of the internet (and does not exclude unreliable sources on political topics such as propaganda from state media). Model makers also cite safety for their users in authoritarian countries as another reason.<ref name=":0">{{Cite news |last=Woo |first=Stu |date=August 14, 2026 |title=Chinese Censorship Is Leaking Into Answers From American AI |url=https://www.wsj.com/tech/ai/chinese-censorship-is-leaking-into-answers-from-american-ai-62abeca5 |work=Wall Street Journal}}</ref><ref>{{Cite web |last=Osmonbekov |first=Mia |date=August 13, 2026 |title='Multi-part case study on China’s media' finds that AI models can't hallucinate away Chinese censorship |url=https://fortune.com/2026/08/13/chinese-censorship-ai-models-case-study/ |access-date=2026-08-14 |website=Fortune |language=en}}</ref> Chinese language responses are also more authoritarian than English-language ones, for example.<ref name=":0" /> Models were also more likely to criticize governments in freer countries than more repressive regimes, sometimes citing safety concerns.<ref name=":0" />
+{{shortcut|WP:AIPROAUTHBIAS}}
+Even large American frontier LLM models have for a number of prompts (as of 2026) a pro-authoritarian bias, due in part to how it is trained on the entirety of the internet (and does not exclude unreliable sources on political topics such as propaganda from state media). Model makers also cite safety for their users in authoritarian countries as another reason.<ref name=":0">{{Cite news |last=Woo |first=Stu |date=August 14, 2026 |title=Chinese Censorship Is Leaking Into Answers From American AI |url=https://www.wsj.com/tech/ai/chinese-censorship-is-leaking-into-answers-from-american-ai-62abeca5 |work=Wall Street Journal}}</ref><ref>{{Cite web |last=Osmonbekov |first=Mia |date=August 13, 2026 |title='Multi-part case study on China’s media' finds that AI models can't hallucinate away Chinese censorship |url=https://fortune.com/2026/08/13/chinese-censorship-ai-models-case-study/ |access-date=2026-08-14 |website=Fortune |language=en}}</ref> Chinese language responses are also more authoritarian than English-language ones, for example.<ref name=":0" /> Models were also more likely to criticize governments in freer countries than more repressive regimes, sometimes citing safety concerns.<ref name=":0" />
 
 == Signs of human writing ==
 {{shortcut|WP:HUMANSIGNS}}
@@ -1249,6 +1240,41 @@ False accusations of AI use can [[Wikipedia:BITE|drive away new editors]] and fo
 
 == Historical indicators ==
 The following indicators were common in text generated by older AI models, but are much less frequent in newer models. They may still be useful for finding older undetected AI-generated edits. Dates are approximate.
+
+===Promotional and advertisement-like language (2023–2025) ===
+{{Shortcut|WP:AIPUFFERY|WP:AIPEACOCK}}{{For|non-AI-specific guidance about this|Wikipedia:Manual of Style/Words to watch#Puffery}}
+{{see also|Wikipedia:Marketing buzzspeak#Marketing buzzspeak and artificial intelligence}}{{tmbox|image=none|text=Words to watch: {{strong|''boasts a'', ''vibrant'', ''rich'', ''profound'', ''enhancing'', ''showcasing'', ''exemplifies'', ''commitment to'', ''natural beauty'', ''nestled'', ''in the heart of'', ''groundbreaking'', ''renowned'', ''featuring'', ''diverse array'', &nbsp;...}}}}
+
+Older LLMs had serious problems keeping a neutral tone. Even when prompted to use an encyclopedic style, their output often tended toward press release-like writing, or like the prose of a travel guide.<ref name="rettberg">{{cite web |last1=Walker Rettberg |first1=Jill |title=Genre glitches and unexpected promotional phrases as a sign of AI writing |url=https://jilltxt.net/genre-glitches-and-unexpected-promotional-phrases-as-a-sign-of-ai-writing/ |website=jilltxt |access-date=13 May 2026}}</ref> While this did not apply to all promotional writing -- in particular, AI-generated articles tended to avoid superlative or obviously positive statements like "the best" -- the stylistic trend was noticeable.
+
+However, this blatant promotional tone became less common in AI output starting around 2024<ref name="sussman">{{cite web |last1=Sussman |first1=Kristen |last2=Carter |first2=Daniel |title=Detecting Effects of AI-Mediated Communication on Language Complexity and Sentiment |url=https://arxiv.org/abs/2504.19556 |website=Companion Proceedings of the ACM Web Conference 2025 |publisher=arXiv |access-date=13 May 2026}}</ref>, and is no longer common in newer LLM output unless a user specifically asks for it. While LLM-generated Wikipedia articles are often "promotional" in terms of [[WP:COI|conflict of interest]] or the information it includes (e.g., [[Wikipedia:Signs_of_AI_writing#"Awards_and_recognition"_section|focusing on awards]]), the prose itself is less likely to be.
+
+'''Examples'''
+
+{{cot|bg=#ffffff|From {{diff||1162718043|label=this June 2023 revision}} to [[Alamata (woreda)]]}}
+{{quote frame|
+{{highlight|Nestled}} within the {{highlight|breathtaking}} region of Gonder in Ethiopia, Alamata Raya Kobo {{highlight|stands as a vibrant town with a rich cultural heritage and a significant place}} within the Amhara region. {{highlight|From its scenic landscapes to its historical landmarks}}, Alamata Raya Kobo {{highlight|offers visitors a fascinating glimpse into the diverse tapestry}} of Ethiopia. In this article, we will explore the {{highlight|unique characteristics}} that make Alamata Raya Kobo {{highlight|a town worth visiting}} and shed light on {{highlight|its significance}} within the Amhara region.
+|From {{diff||1162718043|label=this June 2023 revision}} to [[Alamata (woreda)]]}}
+{{cob}}
+
+{{cot|bg=#ffffff|From {{diff||1299567515|label=this July 2025 revision}} to [[Tamil Nadu Tourism Development Corporation]]}}
+{{quote frame|
+TTDC {{highlight|acts as the gateway}} to Tamil Nadu’s {{highlight|diverse attractions}}, seamlessly connecting the beginning and end of {{highlight|every traveller's journey}}. It offers {{highlight|dependable, value-driven experiences}} that showcase the state’s {{highlight|rich history, spiritual heritage, and natural beauty}}.
+|From {{diff||1299567515|label=this July 2025 revision}} to [[Tamil Nadu Tourism Development Corporation]]}}
+{{cob}}
+
+{{cot|bg=#ffffff|From [[Special:Diff/1259548187|this November 2024 revision]] to [[Kenya Airways]]}}
+{{quote frame|
+These projects {{highlight|align with KQ's goals of reducing its environmental footprint, improving operational efficiency, and fostering community development through job creation.}} CEO Allan Kilavuka {{highlight|emphasized the airline's commitment to sustainability, customer focus, and Africa's prosperity through responsible corporate practices.}}
+|From [[Special:Diff/1259548187|this November 2024 revision]] to [[Kenya Airways]]}}
+{{cob}}
+
+{{cot|bg=#ffffff|From [[Special:Diff/1285549984|this April 2025 revision]] to [[Cadillac Sollei]]}}
+{{quote frame|
+The SOLLEI’s exterior design {{highlight|communicates a powerful emotional presence,
+staying true to Cadillac's signature bold proportions.}} Its low, elongated silhouette is highlighted by a wide stance and an extended coupe door, {{highlight|which enhances accessibility to the spacious rear cabin.}} Smooth, uninterrupted surfaces and a pronounced A-line {{highlight|accentuate the vehicle’s overall length,}} while a sleek, low tail {{highlight|imparts a sense of refined dynamism.}} A mid-body line runs seamlessly from the headlamps to the taillights, {{highlight|reinforcing the car’s cohesive and elegant design.}} Traditional door handles have been replaced with discrete buttons, {{highlight|preserving the vehicle’s clean and modern profile.}} In a nod to Cadillac’s legacy of bold color choices, the exterior is finished in "Manila Cream"—a distinctive hue originally offered in 1957 and 1958. This heritage color has been thoughtfully revived and hand-painted by Cadillac artisans, {{highlight|showcasing the brand’s dedication to craftsmanship and historical reverence.}}
+|From [[Special:Diff/1285549984|this April 2025 revision]] to [[Cadillac Sollei]]}}
+{{cob}}
 
 ===Statements about knowledge cutoffs (2022–2023) ===
 {{shortcut|WP:AICUTOFF}}
