@@ -262,9 +262,21 @@ AI-written notability arguments often pile up prestige labels around coverage in
 | "local/regional/national outlets, trade publications, and leading experts" | Source-category pileup masquerading as analysis |
 | "significant, substantial, secondary coverage" repeated as a slogan | Restates the test instead of proving the test is met |
 | "appearing in platforms like..." | Name-drops venues without saying what they contributed |
-| "was identified by" attached to a source category | Treats attribution itself as proof instead of naming the finding |
 
 **Instead:** Quote or summarize the exact claim from the source. If coverage matters, say what it established.
+
+## Identification by Primary or Tertiary Sources
+
+When a subject appears in official sites, databases, or historical records, AI text over-stresses the existence and contents of those sources. The emphasis falls on how the source *identifies* the subject or a fact about them.
+
+| Pattern | Problem |
+|---------|---------|
+| "His personal website identifies him as a retired officer" | Narrates the source instead of stating the fact |
+| "Records list the company as a manufacturer" | Treats a database entry as the event |
+| "was identified by [source] as [fact]" | Attribution stands in for the finding |
+| "is listed in" / "her professional profile lists" | Existence of an entry offered as significance |
+
+**Instead:** State the fact plainly and cite the source. Reserve "X says" for claims that need attribution.
 
 ## Heritage-to-Modernity Wrappers
 
@@ -438,3 +450,9 @@ Wikipedia now keeps the style list on a separate subpage and only summarizes it.
 - Curly quotation marks and apostrophes (“ ” ’) where straight ones belong
 
 **Instead:** Use sentence-case headings, bold only the rare term that needs it, and write list items as plain sentences.
+
+## Hidden Instructions Left in Drafts
+
+Draft text sometimes keeps the model's own working notes as HTML comments, such as `<!-- LEAD: expand to two short paragraphs once the body exists. Do not use "Dr". -->` or `<!-- Attribute to his own accounts -->`. These read as instructions to a writer, not content, and they often come with section outlines that list primary sources.
+
+**Instead:** Delete the comments. Write the section or leave it out.

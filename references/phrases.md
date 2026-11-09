@@ -219,9 +219,20 @@ These phrases try to prove importance by stacking source prestige instead of sta
 - "repeated national media coverage"
 - "other prominent media outlets"
 - "appearing in platforms like"
-- "was identified by"
 
 Replace these with the outlet names and the concrete fact each source establishes.
+
+## Identification by Primary Sources
+
+Since 2026, AI text over-stresses what databases, official sites, and records say about a subject, in a stilted, formulaic way. The sources are primary or tertiary, and the sentence is about the source instead of the fact.
+
+- "[Source] identifies him as"
+- "databases / records / listings / filings / materials identify / list / describe [subject] as"
+- "was identified by [source] as [fact]"
+- "is listed in"
+- "his / her professional profile lists"
+
+State the fact and cite the source. "He is a retired IAS officer.<ref>" beats "His personal website identifies him as a retired IAS officer."
 
 ## Compliance Theater
 

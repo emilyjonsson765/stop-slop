@@ -491,3 +491,15 @@ AI tools (especially retrieval-augmented ones) sometimes append source-count suf
 > "Travomate lets travelers carry packages across borders for other people. Founding details need a real source before they go in."
 
 **Changes:** Removed the bracketed slots and the invented example.com citation. Kept only what the writer can actually support.
+
+---
+
+## Example 42: Identification by Primary Source
+
+**Before:**
+> "His personal website identifies him as a retired civil servant of the 1982 batch. Records list him as a member of the state advisory board."
+
+**After:**
+> "He is a retired civil servant who joined in 1982 and sat on the state advisory board.<ref>personal website; state board roster</ref>"
+
+**Changes:** Stated the facts directly and moved the sources into citations.
